@@ -7,3 +7,6 @@
 [submodule "SW/LAB"]
 	path = SW/LAB
 	url = https://github.com/JuanCasado/SW.git
+[submodule "ALGORITMIA/LAB"]
+	path = ALGORITMIA/LAB
+	url = https://github.com/JuanCasado/Algoritmia.git
