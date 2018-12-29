@@ -1,0 +1,3 @@
+[submodule "BBDD/LAB"]
+	path = BBDD/LAB
+	url = https://github.com/JuanCasado/BBDD.git
