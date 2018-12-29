@@ -4,3 +4,6 @@
 [submodule "LENGUAJES/LAB/PEL2"]
 	path = LENGUAJES/LAB/PEL2
 	url = https://github.com/JuanCasado/Lenguajes.git
+[submodule "SW/LAB"]
+	path = SW/LAB
+	url = https://github.com/JuanCasado/SW.git
