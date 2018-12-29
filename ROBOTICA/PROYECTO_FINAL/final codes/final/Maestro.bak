@@ -1,0 +1,71 @@
+
+
+/*Bluuu*/
+#include "NXCDefs.h"
+
+#define BT_CONN_BASE 1 // BASE
+#define INBOX 1
+#define OUTBOX 5
+sub BTCheck(int conn){
+               if(!BluetoothStatus(conn)==NO_ERR){
+                 TextOut(5,LCD_LINE5,"Error");
+                 Wait(1000);
+                 Stop(true);
+                }
+}
+//Master
+int recibir(int bt_conn){
+     int in;
+     //BTCheck(bt_conn); //check master connection
+     ReceiveRemoteNumber(INBOX,true,in);
+     return in;
+}
+//Slave
+void mandar(int msg, int bt_conn){
+     BTCheck(bt_conn);
+     SendRemoteNumber(bt_conn, OUTBOX, msg);
+
+}
+
+int phase = 0;
+
+void nextPhase()
+{
+    //Acquire(sMovimiento);
+    mandar(phase, BT_CONN_BASE);
+    bool esperar = true;
+    while(esperar)
+     {
+        if (recibir(BT_CONN_BASE) == 0)
+        {
+         esperar = false;
+        }
+     }
+
+     phase++;
+     //Release(sMovimiento);
+}
+
+bool onTime()
+{
+     bool active = false;
+     
+     if (time < 0)
+     {
+        active = false;
+     }else
+     {
+        active = true;
+     }
+     return active
+}
+
+task main()
+{
+     while (onTime())
+     {
+      nextPhase();
+     
+     }
+
+}

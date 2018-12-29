@@ -1,0 +1,461 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__constValf0P07	10	0	0	4	1
+1	anguloBarrena	6	1	4	4	1
+2	__setAnguloBrazo_7qG2_angulo_7qG2_000	6	1	8	4	2
+3	__constValf0P001	10	0	12	4	2
+4	anguloPinza	6	1	16	4	1
+5	anguloActualPinza	6	1	20	4	3
+6	anguloActualBrazo	6	1	24	4	3
+7	anguloBrazo	6	1	28	4	2
+8	anguloActualBarrena	6	1	32	4	3
+9	__movimiento_7qG2_errorBarrena_7qG2_000	6	1	36	4	3
+10	__movimiento_7qG2_errorPinza_7qG2_000	6	1	40	4	3
+11	__movimiento_7qG2_integralPinza_7qG2_000	10	1	44	4	3
+12	__movimiento_7qG2_integralBrazo_7qG2_000	10	1	48	4	3
+13	__movimiento_7qG2_errorBrazo_7qG2_000	6	1	52	4	3
+14	__movimiento_7qG2_constantesPinza_7qG2_000	10	1	56	4	2
+15	__movimiento_7qG2_constantesBarrena_7qG2_000	10	1	60	4	2
+16	__movimiento_7qG2_integralBarrena_7qG2_000	10	1	64	4	3
+17	__movimiento_7qG2_constantesBrazo_7qG2_000	10	1	68	4	2
+18	semaforoBarrena	9	0	72	4	4
+19	__D0movimiento	6	1	76	4	10
+20	__D0constraint	6	1	80	4	14
+21	__Wait_7qG2_ms_7qG2_000_inline_test	5	1	84	4	2
+22	__DF0movimiento	10	1	88	4	6
+23	__TextOutMutex	9	0	92	4	6
+24	__Wait_7qG2_ms_7qG2_000_inline_movimiento	5	1	96	4	2
+25	__constValf0P055	10	0	100	4	1
+26	__constValf0P0001	10	0	104	4	1
+27	__constVal100000	6	0	108	4	1
+28	__signed_stack_002posicion	6	1	112	4	6
+29	__signed_stack_001posicion	6	1	116	4	6
+30	semaforoBrazo	9	0	120	4	6
+31	semaforoPinza	9	0	124	4	4
+32	__float_stack_001movimiento	10	1	128	4	4
+33	__D0posicion	6	1	132	4	13
+34	__signed_stack_001constraint	6	1	136	4	4
+35	__signed_stack_001movimiento	6	1	140	4	4
+36	__constValNeg400	4	0	144	2	1
+37	__movimiento_7qG2_velocidadBarrena_7qG2_000	4	1	146	2	2
+38	__movimiento_7qG2_velocidadPinza_7qG2_000	4	1	148	2	2
+39	__movimiento_7qG2_velocidadBrazo_7qG2_000	4	1	150	2	2
+40	__constraint_7qG2_max_7qG2_000	4	1	152	2	5
+41	__constraint_7qG2_min_7qG2_000	4	1	154	2	5
+42	timerC	4	1	156	2	6
+43	__constraint_7qG2_valor_7qG2_000	4	1	158	2	6
+44	__constVal3	2	0	160	1	3
+45	__constValNeg10	2	0	161	1	1
+46	____initialize_global_data_return	1	1	162	1	3
+47	__constVal32	2	0	163	1	9
+48	__constVal1	2	0	164	1	5
+49	__constVal0	2	1	165	1	11
+50	__constValNeg90	2	0	166	1	2
+51	__setAnguloBrazo_return	1	1	167	1	3
+52	__constraint_return	1	1	168	1	8
+53	__constVal2	2	0	169	1	2
+54	__constVal63	2	0	170	1	3
+55	__constVal96	2	0	171	1	3
+56	__TextOutArgs	8	0	4	16	18
+57	__TextOutArgs.Result	2	1	172	1	18
+58	__TextOutArgs.Location	8	0	2	4	18
+59	__TextOutArgs.Location.X	4	1	176	2	18
+60	__TextOutArgs.Location.Y	4	1	178	2	18
+61	__TextOutArgs.Text	7	0	180	4	18
+62	__TextOutArgs.Text.Text_type	1	0	0	1	0
+63	__TextOutArgs.Options	5	1	184	4	18
+#SOURCES
+Clump	Line	PC	Source
+0	394	0	#line 394 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+0	395	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	394	2	#line 394 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+0	395	2	#line 395 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+0	395	2	#line 395 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+0	396	2		exit 0, 2
+1	70	0	#line 70 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	71	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	70	2	#line 70 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	70	2	#line 70 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	71	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	70	4	#line 70 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	71	4		cmp 1, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	71	8	#line 71 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	72	8		brtst 4, __ASM_Label_606, __D0constraint
+1	72	11	#line 72 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	73	11		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	72	13	#line 72 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	73	13		subret __constraint_return
+1	72	15	#line 72 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	73	15	#line 73 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	73	15	#line 73 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	74	15		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	73	17	#line 73 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	74	17	#line 74 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	75	17		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	74	19	#line 74 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	75	19		cmp 0, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	75	23	#line 75 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	76	23		brtst 4, __ASM_Label_611, __D0constraint
+1	76	26	#line 76 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	77	26		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	76	28	#line 76 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	77	28		subret __constraint_return
+1	76	30	#line 76 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	77	30	#line 77 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	78	30	#line 78 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	79	30		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+1	78	32	#line 78 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	79	32		subret __constraint_return
+1	78	34	#line 78 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	82	34	#line 82 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+1	83	34		subret __constraint_return
+2	85	0	#line 85 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	86	0		acquire semaforoBrazo
+2	85	1	#line 85 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	86	1	#line 86 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	87	1		mov anguloBrazo, __setAnguloBrazo_7qG2_angulo_7qG2_000
+2	86	3	#line 86 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	86	3	#line 86 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	87	3	#line 87 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	88	3		release semaforoBrazo
+2	87	4	#line 87 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	89	4	#line 89 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+2	90	4		subret __setAnguloBrazo_return
+3	106	0	#line 106 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	107	0		set __D0posicion, 1
+3	107	3	#line 107 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	108	3		tst 5, __D0posicion, __D0posicion
+3	107	6	#line 107 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	108	6		brtst 4, __ASM_Label_623, __D0posicion
+3	108	9	#line 108 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	109	9		acquire semaforoBrazo
+3	108	10	#line 108 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	109	10	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	110	10		getout anguloActualBrazo, __constVal1, 14
+3	109	14	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	109	14	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	109	14	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	110	14		set __signed_stack_001posicion, 1
+3	109	17	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	109	17	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	110	17		set __signed_stack_002posicion, 56
+3	109	20	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	109	20	#line 109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	110	20		mov __D0posicion, anguloActualBrazo
+3	110	22	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	22		acquire __TextOutMutex
+3	110	23	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	23		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+3	110	25	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	25		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+3	110	27	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	27		set __TextOutArgs.Options, 0
+3	110	30	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	30		numtostr __TextOutArgs.Text, __D0posicion
+3	110	33	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	33		syscall 13, __TextOutArgs
+3	110	36	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	36		mov __D0posicion, __TextOutArgs.Result
+3	110	38	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	38		release __TextOutMutex
+3	110	39	#line 110 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	111	39	#line 111 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	112	39		release semaforoBrazo
+3	111	40	#line 111 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	112	40	#line 112 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	113	40		acquire semaforoPinza
+3	112	41	#line 112 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	113	41	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	114	41		getout anguloActualPinza, __constVal0, 14
+3	113	45	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	113	45	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	113	45	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	114	45		set __signed_stack_001posicion, 1
+3	113	48	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	113	48	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	114	48		set __signed_stack_002posicion, 48
+3	113	51	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	113	51	#line 113 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	114	51		mov __D0posicion, anguloActualPinza
+3	114	53	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	53		acquire __TextOutMutex
+3	114	54	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	54		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+3	114	56	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	56		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+3	114	58	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	58		set __TextOutArgs.Options, 0
+3	114	61	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	61		numtostr __TextOutArgs.Text, __D0posicion
+3	114	64	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	64		syscall 13, __TextOutArgs
+3	114	67	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	67		mov __D0posicion, __TextOutArgs.Result
+3	114	69	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	69		release __TextOutMutex
+3	114	70	#line 114 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	115	70	#line 115 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	116	70		release semaforoPinza
+3	115	71	#line 115 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	116	71	#line 116 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	117	71		acquire semaforoBarrena
+3	116	72	#line 116 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	117	72	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	118	72		getout anguloActualBarrena, __constVal2, 14
+3	117	76	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	117	76	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	117	76	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	118	76		set __signed_stack_001posicion, 1
+3	117	79	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	117	79	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	118	79		set __signed_stack_002posicion, 40
+3	117	82	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	117	82	#line 117 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	118	82		mov __D0posicion, anguloActualBarrena
+3	118	84	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	84		acquire __TextOutMutex
+3	118	85	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	85		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+3	118	87	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	87		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+3	118	89	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	89		set __TextOutArgs.Options, 0
+3	118	92	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	92		numtostr __TextOutArgs.Text, __D0posicion
+3	118	95	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	95		syscall 13, __TextOutArgs
+3	118	98	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	98		mov __D0posicion, __TextOutArgs.Result
+3	118	100	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	119	100		release __TextOutMutex
+3	118	101	#line 118 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	120	101	#line 120 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	121	101		release semaforoBarrena
+3	120	102	#line 120 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	123	102	#line 123 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	124	102		jmp __ASM_Label_622
+3	123	104	#line 123 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+3	124	104		exit -1, -1
+4	169	0	#line 169 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	170	0		set __D0movimiento, 1
+4	171	3	#line 171 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	172	3		tst 5, __D0movimiento, __D0movimiento
+4	171	6	#line 171 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	172	6		brtst 4, __ASM_Label_709, __D0movimiento
+4	172	9	#line 172 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	173	9		acquire semaforoBrazo
+4	172	10	#line 172 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	172	10	#line 172 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	172	10	#line 172 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	173	10	#line 173 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	173	10	#line 173 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	174	10		sub __movimiento_7qG2_errorBrazo_7qG2_000, anguloBrazo, anguloActualBrazo
+4	173	14	#line 173 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	173	14	#line 173 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	174	14	#line 174 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	175	14		add timerC, timerC, __constVal1
+4	174	18	#line 174 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	175	18	#line 175 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	18		release semaforoBrazo
+4	175	19	#line 175 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	175	19	#line 175 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	175	19	#line 175 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	19	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	19	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	177	19		add __movimiento_7qG2_integralBrazo_7qG2_000, __movimiento_7qG2_integralBrazo_7qG2_000, __movimiento_7qG2_errorBrazo_7qG2_000
+4	176	23	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	23	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	23	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	177	23		set __signed_stack_001movimiento, 1
+4	176	26	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	26	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	26	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	177	26		mul __signed_stack_001movimiento, __signed_stack_001movimiento, __movimiento_7qG2_errorBrazo_7qG2_000
+4	176	30	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	30	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	176	30	#line 176 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	177	30	#line 177 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	177	30	#line 177 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	178	30		mul __DF0movimiento, __constValf0P001, __movimiento_7qG2_integralBrazo_7qG2_000
+4	177	34	#line 177 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	178	34		add __movimiento_7qG2_constantesBrazo_7qG2_000, __signed_stack_001movimiento, __DF0movimiento
+4	177	38	#line 177 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	177	38	#line 177 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	179	38	#line 179 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	180	38		mov __movimiento_7qG2_velocidadBrazo_7qG2_000, __movimiento_7qG2_constantesBrazo_7qG2_000
+4	179	40	#line 179 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	179	40	#line 179 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	180	40	#line 180 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	181	40		acquire semaforoPinza
+4	180	41	#line 180 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	180	41	#line 180 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	180	41	#line 180 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	181	41	#line 181 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	181	41	#line 181 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	182	41		sub __movimiento_7qG2_errorPinza_7qG2_000, anguloPinza, anguloActualPinza
+4	181	45	#line 181 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	181	45	#line 181 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	182	45	#line 182 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	183	45		add timerC, timerC, __constVal1
+4	182	49	#line 182 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	183	49	#line 183 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	49		release semaforoPinza
+4	183	50	#line 183 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	183	50	#line 183 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	183	50	#line 183 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	50	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	50	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	185	50		add __movimiento_7qG2_integralPinza_7qG2_000, __movimiento_7qG2_integralPinza_7qG2_000, __movimiento_7qG2_errorPinza_7qG2_000
+4	184	54	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	54	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	54	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	54	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	54	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	54	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	185	54		mul __float_stack_001movimiento, __constValf0P07, __movimiento_7qG2_errorPinza_7qG2_000
+4	184	58	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	58	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	184	58	#line 184 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	185	58	#line 185 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	185	58	#line 185 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	186	58		mul __DF0movimiento, __constValf0P001, __movimiento_7qG2_integralPinza_7qG2_000
+4	185	62	#line 185 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	186	62		add __movimiento_7qG2_constantesPinza_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+4	185	66	#line 185 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	185	66	#line 185 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	187	66	#line 187 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	188	66		mov __movimiento_7qG2_velocidadPinza_7qG2_000, __movimiento_7qG2_constantesPinza_7qG2_000
+4	187	68	#line 187 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	187	68	#line 187 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	188	68	#line 188 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	189	68		acquire semaforoBarrena
+4	188	69	#line 188 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	188	69	#line 188 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	188	69	#line 188 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	189	69	#line 189 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	189	69	#line 189 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	190	69		sub __movimiento_7qG2_errorBarrena_7qG2_000, anguloBarrena, anguloActualBarrena
+4	189	73	#line 189 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	189	73	#line 189 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	190	73	#line 190 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	191	73		add timerC, timerC, __constVal1
+4	190	77	#line 190 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	191	77	#line 191 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	77		release semaforoBarrena
+4	191	78	#line 191 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	191	78	#line 191 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	191	78	#line 191 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	78	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	78	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	193	78		add __movimiento_7qG2_integralBarrena_7qG2_000, __movimiento_7qG2_integralBarrena_7qG2_000, __movimiento_7qG2_errorBarrena_7qG2_000
+4	192	82	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	82	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	82	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	82	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	82	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	82	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	193	82		mul __float_stack_001movimiento, __constValf0P055, __movimiento_7qG2_errorBarrena_7qG2_000
+4	192	86	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	86	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	192	86	#line 192 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	193	86	#line 193 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	193	86	#line 193 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	194	86		mul __DF0movimiento, __constValf0P0001, __movimiento_7qG2_integralBarrena_7qG2_000
+4	193	90	#line 193 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	194	90		add __movimiento_7qG2_constantesBarrena_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+4	193	94	#line 193 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	193	94	#line 193 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	195	94	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	94		mov __movimiento_7qG2_velocidadBarrena_7qG2_000, __movimiento_7qG2_constantesBarrena_7qG2_000
+4	195	96	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	195	96	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	195	96	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	96		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadBrazo_7qG2_000
+4	195	98	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	195	98	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	98		set __constraint_7qG2_max_7qG2_000, 90
+4	195	101	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	195	101	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	101		mov __constraint_7qG2_min_7qG2_000, __constValNeg90
+4	195	103	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	195	103	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	103		subcall constraint, __constraint_return
+4	195	105	#line 195 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	105		mov __D0movimiento, __D0constraint
+4	196	107	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	107	#pragma macro 7
+4	197	107		setout __constVal1, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	8063	130	#line 8063 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	130	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	130	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	130		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadPinza_7qG2_000
+4	196	132	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	132	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	132		set __constraint_7qG2_max_7qG2_000, 90
+4	196	135	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	135	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	135		mov __constraint_7qG2_min_7qG2_000, __constValNeg90
+4	196	137	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	196	137	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	137		subcall constraint, __constraint_return
+4	196	139	#line 196 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	139		mov __D0movimiento, __D0constraint
+4	197	141	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	198	141	#pragma macro 7
+4	198	141		setout __constVal0, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	8086	164	#line 8086 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	164	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	164	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	198	164		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadBarrena_7qG2_000
+4	197	166	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	166	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	198	166		set __constraint_7qG2_max_7qG2_000, 10
+4	197	169	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	169	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	198	169		mov __constraint_7qG2_min_7qG2_000, __constValNeg10
+4	197	171	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	197	171	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	198	171		subcall constraint, __constraint_return
+4	197	173	#line 197 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	198	173		mov __D0movimiento, __D0constraint
+4	200	175	#line 200 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	201	175	#pragma macro 7
+4	201	175		setout __constVal2, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	8109	198	#line 8109 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	200	198	#line 200 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	200	198	#line 200 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	201	198		set __Wait_7qG2_ms_7qG2_000_inline_movimiento, 50
+4	200	201	#line 200 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	8551	201	#line 8551 "NXCDefs.h"
+4	8552	201		waitv __Wait_7qG2_ms_7qG2_000_inline_movimiento
+4	8551	203	#line 8551 "NXCDefs.h"
+4	201	203	#line 201 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	221	203	#line 221 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	222	203		jmp __ASM_Label_708
+4	221	205	#line 221 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+4	222	205		exit -1, -1
+5	356	0	#line 356 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	357	0		mov __setAnguloBrazo_7qG2_angulo_7qG2_000, __constValNeg400
+5	356	2	#line 356 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	357	2	#line 357 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	358	2		subcall setAnguloBrazo, __setAnguloBrazo_return
+5	357	4	#line 357 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	357	4	#line 357 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	358	4		mov __Wait_7qG2_ms_7qG2_000_inline_test, __constVal100000
+5	357	6	#line 357 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	8551	6	#line 8551 "NXCDefs.h"
+5	8552	6		waitv __Wait_7qG2_ms_7qG2_000_inline_test
+5	8551	8	#line 8551 "NXCDefs.h"
+5	391	8	#line 391 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+5	392	8		exit -1, -1
+6	398	0	#line 398 "C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc"
+6	399	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc
+1	constraint	5	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc
+2	setAnguloBrazo	41	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc
+3	posicion	47	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc
+4	movimiento	154	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc
+5	test	362	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc
+6	__initialize_global_data	373	C:\Users\MRA48F~1.BLI\AppData\Local\Temp\temp.nxc

@@ -1,0 +1,404 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001BTCheck	6	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	28
+2	__D0main	6	1	8	4	12
+3	__DF0main	10	1	12	4	8
+4	__signed_stack_002main	6	1	16	4	16
+5	__main_7qG2_in3_7qG2_000	10	1	20	4	2
+6	__main_7qG2_in4_7qG2_000	10	1	24	4	2
+7	__main_7qG2_in1_7qG2_000	10	1	28	4	2
+8	__main_7qG2_in2_7qG2_000	10	1	32	4	2
+9	__D0BTCheck	6	1	36	4	3
+10	__constVal200	4	0	40	2	2
+11	__BTCheck_7qG2_conn_7qG2_000	4	1	42	2	3
+12	__zfmain	1	1	44	1	2
+13	__BTCheck_return	1	1	45	1	3
+14	____initialize_global_data_return	1	1	46	1	3
+15	__zfBTCheck	1	1	47	1	3
+16	__constVal1	2	0	48	1	3
+17	__MRArgs	8	0	4	8	5
+18	__MRArgs.Result	2	1	52	1	5
+19	__MRArgs.QueueID	1	1	53	1	5
+20	__MRArgs.Remove	1	1	54	1	5
+21	__MRArgs.Message	7	0	56	4	5
+22	__MRArgs.Message.Message_type	1	0	0	1	0
+23	__TextOutArgs	8	0	4	16	41
+24	__TextOutArgs.Result	2	1	60	1	41
+25	__TextOutArgs.Location	8	0	2	4	41
+26	__TextOutArgs.Location.X	4	1	64	2	41
+27	__TextOutArgs.Location.Y	4	1	66	2	41
+28	__TextOutArgs.Text	7	0	68	4	41
+29	__TextOutArgs.Text.Text_type	1	0	0	1	0
+30	__TextOutArgs.Options	5	1	72	4	41
+31	__PointOutArgs	8	0	3	12	4
+32	__PointOutArgs.Result	2	1	76	1	4
+33	__PointOutArgs.Location	8	0	2	4	4
+34	__PointOutArgs.Location.X	4	1	80	2	4
+35	__PointOutArgs.Location.Y	4	1	82	2	4
+36	__PointOutArgs.Options	5	1	84	4	4
+37	__CBTCSArgs	8	0	2	4	4
+38	__CBTCSArgs.Result	2	1	88	1	4
+39	__CBTCSArgs.Connection	1	1	89	1	4
+40	__BTCheck_7qG2_args_7qG2_000	8	0	4	12	5
+41	__BTCheck_7qG2_args_7qG2_000.Result	3	1	92	2	5
+42	__BTCheck_7qG2_args_7qG2_000.Action	1	1	94	1	5
+43	__BTCheck_7qG2_args_7qG2_000.Name	7	0	96	4	5
+44	__BTCheck_7qG2_args_7qG2_000.Name.Name_type	1	0	0	1	0
+45	__BTCheck_7qG2_args_7qG2_000.ConnectionSlot	1	1	98	1	5
+46	__constStr0012	7	0	100	4	1
+47	__constStr0012.__constStr0012_type	1	1	0	1	0
+48	__constStr0010	7	0	102	4	1
+49	__constStr0010.__constStr0010_type	1	1	0	1	0
+50	__constStr0013	7	0	104	4	1
+51	__constStr0013.__constStr0013_type	1	1	0	1	0
+52	__constStr0014	7	0	106	4	1
+53	__constStr0014.__constStr0014_type	1	1	0	1	0
+54	__constStr0011	7	0	108	4	1
+55	__constStr0011.__constStr0011_type	1	1	0	1	0
+56	__strbufmain	7	0	110	4	26
+57	__strbufmain.__strbufmain_type	1	0	0	1	0
+58	__strbufBTCheck	7	0	112	4	2
+59	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+60	__strretvalmain	7	0	114	4	8
+61	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+62	__main_7qG2_output_7qG2_000	7	0	116	4	6
+63	__main_7qG2_output_7qG2_000.__main_7qG2_output_7qG2_000_type	1	0	0	1	0
+64	__constStr0009	7	0	118	4	1
+65	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	16	0	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	17	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	16	2	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	18	2	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	19	2		strcat __strbufmain, __constStr0010
+0	18	6	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	19	6		mov __main_7qG2_output_7qG2_000, __strbufmain
+0	18	8	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	19	8		set __BTCheck_7qG2_conn_7qG2_000, 1
+0	18	11	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	28	11	#line 28 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	29	11		subcall BTCheck, __BTCheck_return
+0	28	13	#line 28 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	28	13	#line 28 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	29	13		set __D0main, 1
+0	29	16	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	16		tst 5, __zfmain, __D0main
+0	29	19	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	19		brtst 4, __NXC_Label_614, __zfmain
+0	29	22	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	22		set __signed_stack_001main, 10
+0	29	25	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	29	25	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	25		set __signed_stack_002main, 56
+0	29	28	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	29	28	#line 29 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	28		strcat __strbufmain, __constStr0011
+0	30	32	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	32	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	32		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	30	34	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	34		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	30	36	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	36		set __TextOutArgs.Options, 0
+0	30	39	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	39		mov __TextOutArgs.Text, __strbufmain
+0	30	41	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	41		syscall 13, __TextOutArgs
+0	30	44	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	44	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	44	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	44	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	44		set __signed_stack_001main, 10
+0	30	47	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	47	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	47		set __signed_stack_002main, 40
+0	30	50	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	30	50	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	50		strcat __strbufmain, __constStr0012
+0	31	54	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	54	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	54		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	31	56	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	56		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	31	58	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	58		set __TextOutArgs.Options, 0
+0	31	61	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	61		mov __TextOutArgs.Text, __strbufmain
+0	31	63	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	63		syscall 13, __TextOutArgs
+0	31	66	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	66	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	66	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	66	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	66		set __signed_stack_001main, 10
+0	31	69	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	69	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	69		set __signed_stack_002main, 24
+0	31	72	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	31	72	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	72		strcat __strbufmain, __constStr0013
+0	32	76	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	76	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	76		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	32	78	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	78		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	32	80	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	80		set __TextOutArgs.Options, 0
+0	32	83	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	83		mov __TextOutArgs.Text, __strbufmain
+0	32	85	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	85		syscall 13, __TextOutArgs
+0	32	88	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	88	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	88	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	88	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	88		set __signed_stack_001main, 10
+0	32	91	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	91	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	91		set __signed_stack_002main, 8
+0	32	94	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	32	94	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	33	94		strcat __strbufmain, __constStr0014
+0	34	98	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	34	98	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	98		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	100	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	100		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	102	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	102		set __TextOutArgs.Options, 0
+0	34	105	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	105		mov __TextOutArgs.Text, __strbufmain
+0	34	107	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	107		syscall 13, __TextOutArgs
+0	34	110	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	110		mov __D0main, __TextOutArgs.Result
+0	34	112	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	34	112	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	34	112	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	35	112	#pragma macro 7
+0	35	112		mov __MRArgs.QueueID, __constVal1
+0	35	114		mov __MRArgs.Remove, __constVal1
+0	35	116		syscall 27, __MRArgs
+0	35	119		mov __main_7qG2_output_7qG2_000, __MRArgs.Message
+0	35	121		mov __D0main, __MRArgs.Result
+0	6169	123	#line 6169 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	34	123	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	34	123	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	39	123	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	123		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	39	127	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	127		set __signed_stack_001main, 0
+0	39	130	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	39	130	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	130		set __D0main, 5
+0	39	133	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	133		strsubset __strretvalmain, __strbufmain, __signed_stack_001main, __D0main
+0	39	138	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	138		strcat __strbufmain, __strretvalmain
+0	40	142	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	142		strtonum __main_7qG2_in1_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	40	148	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	148	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	148	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	148		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	40	152	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	152		set __signed_stack_001main, 5
+0	40	155	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	40	155	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	155		set __D0main, 5
+0	40	158	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	158		strsubset __strretvalmain, __strbufmain, __signed_stack_001main, __D0main
+0	40	163	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	163		strcat __strbufmain, __strretvalmain
+0	41	167	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	167		strtonum __main_7qG2_in2_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	41	173	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	173	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	173	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	173		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	41	177	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	177		set __signed_stack_001main, 10
+0	41	180	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	41	180	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	180		set __D0main, 5
+0	41	183	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	183		strsubset __strretvalmain, __strbufmain, __signed_stack_001main, __D0main
+0	41	188	#line 41 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	188		strcat __strbufmain, __strretvalmain
+0	42	192	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	192		strtonum __main_7qG2_in3_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	42	198	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	198	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	198	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	198		strcat __strbufmain, __main_7qG2_output_7qG2_000
+0	42	202	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	202		set __signed_stack_001main, 15
+0	42	205	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	42	205	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	205		set __D0main, 5
+0	42	208	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	208		strsubset __strretvalmain, __strbufmain, __signed_stack_001main, __D0main
+0	42	213	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	213		strcat __strbufmain, __strretvalmain
+0	43	217	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	217		strtonum __main_7qG2_in4_7qG2_000, __signed_stack_001main, __strbufmain, 65535, 65535
+0	43	223	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	223	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	223	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	223		set __signed_stack_001main, 10
+0	43	226	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	226	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	226		set __signed_stack_002main, 48
+0	43	229	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	43	229	#line 43 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	229		mov __DF0main, __main_7qG2_in1_7qG2_000
+0	44	231	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	231	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	231		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	44	233	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	233		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	44	235	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	235		set __TextOutArgs.Options, 0
+0	44	238	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	238		numtostr __TextOutArgs.Text, __DF0main
+0	44	241	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	241		syscall 13, __TextOutArgs
+0	44	244	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	244	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	244	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	244	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	244		set __signed_stack_001main, 10
+0	44	247	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	247	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	247		set __signed_stack_002main, 32
+0	44	250	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	44	250	#line 44 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	250		mov __DF0main, __main_7qG2_in2_7qG2_000
+0	45	252	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	252	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	252		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	45	254	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	254		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	45	256	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	256		set __TextOutArgs.Options, 0
+0	45	259	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	259		numtostr __TextOutArgs.Text, __DF0main
+0	45	262	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	262		syscall 13, __TextOutArgs
+0	45	265	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	265	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	265	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	265	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	265		set __signed_stack_001main, 10
+0	45	268	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	268	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	268		set __signed_stack_002main, 16
+0	45	271	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	45	271	#line 45 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	271		mov __DF0main, __main_7qG2_in3_7qG2_000
+0	46	273	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	273	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	273		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	46	275	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	275		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	46	277	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	277		set __TextOutArgs.Options, 0
+0	46	280	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	280		numtostr __TextOutArgs.Text, __DF0main
+0	46	283	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	283		syscall 13, __TextOutArgs
+0	46	286	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	286	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	286	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	286	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	286		set __signed_stack_001main, 10
+0	46	289	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	289	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	289		set __signed_stack_002main, 0
+0	46	292	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	46	292	#line 46 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	292		mov __DF0main, __main_7qG2_in4_7qG2_000
+0	47	294	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	294	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	48	294		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	47	296	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	48	296		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	47	298	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	48	298		set __TextOutArgs.Options, 0
+0	47	301	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	48	301		numtostr __TextOutArgs.Text, __DF0main
+0	47	304	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	48	304		syscall 13, __TextOutArgs
+0	47	307	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	307	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	307	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	307	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	47	307	#line 47 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	7921	307	#line 7921 "NXCDefs.h"
+0	7922	307		wait 500
+0	7921	309	#line 7921 "NXCDefs.h"
+0	48	309	#line 48 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	6069	309	#line 6069 "NXCDefs.h"
+0	6070	309	#pragma macro 6
+0	6070	309		mov __PointOutArgs.Location.X, __constVal200
+0	6070	311		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	313		mov __PointOutArgs.Options, __constVal1
+0	6070	315		syscall 14, __PointOutArgs
+0	6411	318	#line 6411 "NXCDefs.h"
+0	6069	318	#line 6069 "NXCDefs.h"
+0	49	318	#line 49 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	52	318	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	53	318		jmp __NXC_Label_613
+0	52	320	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+0	53	320		exit -1, -1
+1	8	0	#line 8 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	9	0		strcat __strbufBTCheck, __constStr0009
+1	8	4	#line 8 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	9	4		mov __BTCheck_7qG2_args_7qG2_000.Name, __strbufBTCheck
+1	8	6	#line 8 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	9	6	#line 9 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	10	6		mov __BTCheck_7qG2_args_7qG2_000.ConnectionSlot, __BTCheck_7qG2_conn_7qG2_000
+1	9	8	#line 9 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	9	8	#line 9 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	10	8	#line 10 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	11	8		set __BTCheck_7qG2_args_7qG2_000.Action, 1
+1	10	11	#line 10 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	10	11	#line 10 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	10	11	#line 10 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	11	11	#pragma macro 5
+1	11	11		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+1	11	13		syscall 28, __CBTCSArgs
+1	5965	16	#line 5965 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	10	16	#line 10 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	11	16		not __signed_stack_001BTCheck, __CBTCSArgs.Result
+1	10	19	#line 10 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	11	19	#line 11 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	12	19		set __D0BTCheck, 0
+1	11	22	#line 11 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	12	22		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+1	11	26	#line 11 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	12	26		mov __D0BTCheck, __zfBTCheck
+1	12	28	#line 12 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	13	28		brtst 4, __NXC_Label_610, __zfBTCheck
+1	13	31	#line 13 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	14	31	#pragma macro 4
+1	14	31	#line 14 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	14	31		syscall 36, __BTCheck_7qG2_args_7qG2_000
+1	12	34	#line 12 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	12	34	#line 12 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	12	34	#line 12 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	12	34	#line 12 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	14	34	#line 14 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	13	34	#line 13 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	15	34	#line 15 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	15	34	#line 15 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+1	16	34		subret __BTCheck_return
+2	53	0	#line 53 "E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc"
+2	54	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc
+1	BTCheck	323	E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc
+2	__initialize_global_data	359	E:\robotica\final codes\UltrasonidosBluetooth\Master.nxc

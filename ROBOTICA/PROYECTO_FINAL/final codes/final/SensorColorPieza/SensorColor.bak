@@ -1,0 +1,245 @@
+#define MOTORSELECT OUT_B
+#define MOTORDISP1 OUT_A
+#define MOTORDISP2 OUT_C
+#define ANGULODER 50
+#define ANGULOIZQ -30
+#define ANGULODISP1 60
+#define ANGULODISP2 -45
+#define KP 1
+#define KI 0.001
+#define KPD 1
+#define KID 0.01
+
+#define MARGEN 5
+#define MAX 100
+#define TIME 100
+
+
+string color(){
+     int luz1=0;
+     int luz2=0;
+     float media=0;
+     bool datoLeido=false;
+     string color;
+
+     for (int i=0; i<8; i++){
+         luz1 += Sensor(IN_1);
+         luz2 += Sensor(IN_2);
+         Wait(50);
+     }
+     media = ((luz1/8) + (luz2/8))/2;
+     
+     if ((63 < media) && (media < 75)){
+        color = "R" ;
+     } else if ((50 < media) && (media < 62)){
+       color = "G" ;
+     } else if ((40 < media) && (media < 49)){
+         color = "B" ;
+     } else {
+       color="X" ;
+     }
+     return color;
+}
+mutex semaforoSel;
+mutex semaforoDisp1;
+mutex semaforoDisp2;
+long anguloActualSelect = 0;
+long anguloActualDisp1 = 0;
+long anguloActualDisp2 = 0;
+long anguloDeseadoSelect = 0;
+long anguloDeseadoDisp1 = 0;
+long anguloDeseadoDisp2 = 0;
+void completadoDisp1()
+{
+     bool active = true;
+     int count = 0;
+      while(active)
+      {
+      Wait(TIME);
+      ClearScreen();
+       Acquire(anguloActualDisp1);
+       NumOut(1, LCD_LINE1, anguloActualDisp1);
+       NumOut(1, LCD_LINE2, ANGULODISP1);
+      if(abs(anguloActualDisp1 - ANGULODISP1) < MARGEN)
+      {
+      active = false;
+      } else {
+       NumOut(1, LCD_LINE3, count);
+       count++;
+       if (count == MAX)
+       {
+        active= false;
+       }
+      }
+        Release(anguloActualDisp1);
+      }
+}
+
+void completadoDisp2()
+{
+     bool active = true;
+     int count = 0;
+      while(active)
+      {
+      Wait(TIME);
+       Acquire(anguloActualDisp2);
+       NumOut(1, LCD_LINE1, anguloActualDisp1);
+       NumOut(1, LCD_LINE2, ANGULODISP1);
+      if(abs(anguloActualDisp2 - ANGULODISP2) < MARGEN)
+      {
+      active = false;
+      } else {
+       count++;
+       if (count == MAX)
+       {
+        active= false;
+       }
+      }
+        Release(anguloActualDisp2);
+      }
+}
+
+void lanzarDisp1()
+{
+     Acquire(anguloActualDisp1);
+     anguloDeseadoDisp1 = ANGULODISP1;
+     Release(anguloActualDisp1);
+     completadoDisp1();
+     Acquire(anguloActualDisp1);
+     anguloDeseadoDisp1 = 0;
+     Release(anguloActualDisp1);
+
+}
+
+void lanzarDisp2()
+{
+     Acquire(anguloActualDisp2);
+     anguloDeseadoDisp2 = ANGULODISP2;
+     Release(anguloActualDisp2);
+     completadoDisp2();
+     Acquire(anguloActualDisp2);
+     anguloDeseadoDisp2 = 0;
+     Release(anguloActualDisp2);
+
+}
+void moverBrazoPosDeseada(int motor, long anguloDeseado, float kp, float ki, long anguloActual)
+{
+
+     float error = anguloDeseado - anguloActual ;
+     float integral = integral + error;
+     float constantes = kp*error + ki*integral;
+     int velocidad = constantes;
+     OnFwd(motor, velocidad);
+
+}
+
+void seleccionar(string col)
+{
+     long anguloD = 0;
+     //Leer color
+     switch(col)
+     {
+      case "R" :
+      anguloD = ANGULODER;
+      break;
+      case "G" :
+      anguloD = ANGULOIZQ;
+      break;
+      case "B" :
+      anguloD = ANGULOIZQ;
+      break;
+     }
+     if(anguloD != anguloDeseadoSelect)
+     {
+     Acquire(semaforoSel);
+     anguloDeseadoSelect = anguloD;
+     Release(semaforoSel);
+     }
+
+}
+
+void seleccionarINT(int col)
+{
+     long anguloD = 0;
+     //Leer color
+     switch(col)
+     {
+      case (50):
+      anguloD = ANGULODER;
+      break;
+     }
+     Acquire(semaforoSel);
+     anguloDeseadoSelect = anguloD;
+     Release(semaforoSel);
+
+
+}
+
+task accion()
+{
+     while(true)
+     {
+      Acquire(semaforoSel);
+      moverBrazoPosDeseada(MOTORSELECT, anguloDeseadoSelect, KP, KI, anguloActualSelect);
+      Release(semaforoSel);
+      Acquire(anguloActualDisp1);
+      moverBrazoPosDeseada(MOTORDISP1, anguloDeseadoDisp1, KPD, KID, anguloActualDisp1);
+      Release(anguloActualDisp1);
+      Acquire(anguloActualDisp2);
+      moverBrazoPosDeseada(MOTORDISP2, anguloDeseadoDisp2, KPD, KID, anguloActualDisp2);
+      Release(anguloActualDisp2);
+
+     }
+}
+task posicion()
+
+{
+     while(true)
+     {
+        Acquire(semaforoSel);
+        anguloActualSelect = MotorRotationCount(MOTORSELECT);
+        Release(semaforoSel);
+        Acquire(anguloActualDisp1);
+        anguloActualDisp1 = MotorRotationCount(MOTORDISP1);
+        Release(anguloActualDisp1);
+         Acquire(anguloActualDisp2);
+        anguloActualDisp2 = MotorRotationCount(MOTORDISP2);
+        Release(anguloActualDisp2);
+
+     }
+}
+
+task leerColor() {
+     string col;
+     int colINT;
+     SetSensor(IN_4,SENSOR_TOUCH);
+     SetSensorLight(IN_1);
+     SetSensorLight(IN_2);
+    while(true){
+                 until(SENSOR_4==0);
+                 until (SENSOR_4==1);
+                 col = color();
+                 colINT = 50;
+                 seleccionarINT(colINT);
+                 //TextOut(50,0,col);
+                 until(SENSOR_4==0);
+                 Wait(1500);
+                 Acquire(semaforoSel);
+                 anguloDeseadoSelect = 0;
+                 Release(semaforoSel);
+     }
+}
+
+task paralelo()
+{
+     while(true)
+     {
+           Wait(2000);
+           lanzarDisp1();
+     }
+}
+task main()
+{
+    Precedes(posicion, accion, leerColor, paralelo);
+}
+

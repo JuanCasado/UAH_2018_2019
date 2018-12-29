@@ -1,0 +1,1374 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__posicion_7qG2_d_anterior_7qG2_000	10	1	0	4	3
+1	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	4	4	6
+2	__signed_stack_002rutina	6	1	8	4	2
+3	__posicion_7qG2_d_inc_7qG2_000	10	1	12	4	4
+4	__constr_7qG2_min_7qG2_000	10	1	16	4	6
+5	__move_7qG2_timer_7qG2_000	5	1	20	4	7
+6	__constr_7qG2_valor_7qG2_000	10	1	24	4	7
+7	__constr_7qG2_max_7qG2_000	10	1	28	4	6
+8	__signed_stack_001rutina	6	1	32	4	2
+9	__signed_stack_002move	6	1	36	4	4
+10	__unsigned_stack_001move	5	1	40	4	2
+11	__signed_stack_001getArrayY	6	1	44	4	6
+12	__signed_stack_001move	6	1	48	4	14
+13	__signed_stack_001posicion	6	1	52	4	4
+14	__float_stack_001posicion	10	1	56	4	8
+15	__float_stack_001move	10	1	60	4	30
+16	__float_stack_002move	10	1	64	4	12
+17	semaforo	9	0	68	4	4
+18	__move_7qG2_error_anteriorY_7qG2_000	10	1	72	4	4
+19	__move_7qG2_errorY_7qG2_000	10	1	76	4	9
+20	__move_7qG2_to_doY_7qG2_000	10	1	80	4	7
+21	__move_7qG2_error_accY_7qG2_000	10	1	84	4	7
+22	__move_7qG2_error_anteriorX_7qG2_000	10	1	88	4	3
+23	__move_7qG2_errorX_7qG2_000	10	1	92	4	7
+24	__move_7qG2_to_doX_7qG2_000	10	1	96	4	5
+25	__move_7qG2_error_accX_7qG2_000	10	1	100	4	6
+26	__move_7qG2_posX_7qG2_000	10	1	104	4	3
+27	dist	10	1	108	4	3
+28	__move_7qG2_mB_7qG2_000	6	1	112	4	3
+29	sArray	9	0	116	4	10
+30	angle	10	1	120	4	2
+31	__move_7qG2_to_doA_7qG2_000	10	1	124	4	5
+32	__move_7qG2_posY_7qG2_000	10	1	128	4	3
+33	__move_7qG2_mA_7qG2_000	6	1	132	4	3
+34	__move_7qG2_to_doB_7qG2_000	10	1	136	4	5
+35	__signed_stack_001getArrayX	6	1	140	4	6
+36	__posicion_7qG2_distance_7qG2_000	10	1	144	4	5
+37	__posicion_7qG2_theta_7qG2_000	10	1	148	4	6
+38	__posicion_7qG2_new_y_7qG2_000	10	1	152	4	2
+39	__posicion_7qG2_new_x_7qG2_000	10	1	156	4	2
+40	__posicion_7qG2_i_anterior_7qG2_000	10	1	160	4	3
+41	__D0constr	6	1	164	4	4
+42	__posicion_7qG2_i_inc_7qG2_000	10	1	168	4	4
+43	__D0BTCheck	6	1	172	4	6
+44	__posicion_7qG2_constanteAngulo_7qG2_000	10	1	176	4	2
+45	__cos_7qG2_x_7qG2_000_inline_posicion	10	1	180	4	2
+46	__Wait_7qG2_ms_7qG2_000_inline_posicion	5	1	184	4	2
+47	__Wait_7qG2_ms_7qG2_000_inline_rutina	5	1	188	4	2
+48	__sin_7qG2_x_7qG2_000_inline_posicion	10	1	192	4	2
+49	__posicion_7qG2_constanteDistancia_7qG2_000	10	1	196	4	2
+50	__constValf0P0024302056	10	0	200	4	1
+51	__TextOutMutex	9	0	204	4	6
+52	__constValf0P0001919862	10	0	208	4	1
+53	__DF0constr	10	1	212	4	12
+54	__DF0move	10	1	216	4	50
+55	__D0posicion	6	1	220	4	20
+56	__D0move	6	1	224	4	76
+57	__DU0move	5	1	228	4	2
+58	__float_stack_001constr	10	1	232	4	4
+59	__signed_stack_001getArrayGiro	6	1	236	4	6
+60	__DF0posicion	10	1	240	4	6
+61	__signed_stack_001BTCheck	6	1	244	4	2
+62	__D0getArrayX	6	1	248	4	4
+63	__DF0getArrayX	10	1	252	4	5
+64	__D0getArrayGiro	6	1	256	4	4
+65	__DU0getArrayGiro	5	1	260	4	4
+66	__DF0getArrayY	10	1	264	4	5
+67	__D0getArrayY	6	1	268	4	4
+68	__D0getTam	6	1	272	4	8
+69	__move_7qG2_nextMovement_7qG2_000	4	1	276	2	15
+70	__getTam_7qG2_tam0_7qG2_000	4	1	278	2	2
+71	__getTam_7qG2_tam1_7qG2_000	4	1	280	2	2
+72	__getTam_7qG2_tam2_7qG2_000	4	1	282	2	2
+73	__move_7qG2_tam_7qG2_000	4	1	284	2	4
+74	__posicion_7qG2_i_7qG2_000	4	1	286	2	4
+75	__posicion_7qG2_d_7qG2_000	4	1	288	2	4
+76	__selectRuta_7qG2_f_7qG2_000	4	1	290	2	2
+77	__move_7qG2_timesInOk_7qG2_000	4	1	292	2	10
+78	__getTam_7qG2_num_7qG2_000	4	1	294	2	2
+79	__BTCheck_7qG2_conn_7qG2_000	4	1	296	2	3
+80	__getArrayX_7qG2_pos_7qG2_000	4	1	298	2	5
+81	__getArrayGiro_7qG2_pos_7qG2_000	4	1	300	2	4
+82	__getArrayX_7qG2_num_7qG2_000	4	1	302	2	2
+83	__getArrayY_7qG2_pos_7qG2_000	4	1	304	2	5
+84	__constVal200	4	0	306	2	2
+85	__getArrayY_7qG2_num_7qG2_000	4	1	308	2	2
+86	__getArrayGiro_7qG2_num_7qG2_000	4	1	310	2	2
+87	fase	4	1	312	2	5
+88	__constValNeg60	2	0	314	1	1
+89	__constVal60	2	0	315	1	1
+90	__constVal50	2	0	316	1	2
+91	__BTCheck_return	1	1	317	1	3
+92	__constVal63	2	0	318	1	2
+93	__constVal96	2	0	319	1	2
+94	__constVal1	2	0	320	1	13
+95	__constVal0	2	1	321	1	32
+96	__selectRuta_return	1	1	322	1	3
+97	____initialize_global_data_return	1	1	323	1	3
+98	__constVal32	2	0	324	1	6
+99	__constVal3	2	0	325	1	4
+100	__constVal100	2	0	326	1	2
+101	__constVal7	2	0	327	1	1
+102	__constVal10	2	0	328	1	1
+103	__constVal5	2	0	329	1	1
+104	__constVal2	2	0	330	1	7
+105	__constValNeg80	2	0	331	1	1
+106	__getArrayY_return	1	1	332	1	7
+107	__getArrayX_return	1	1	333	1	7
+108	__getArrayGiro_return	1	1	334	1	6
+109	__getTam_return	1	1	335	1	6
+110	__move_return	1	1	336	1	3
+111	__move_7qG2_action_7qG2_000	1	1	337	1	4
+112	__constValNeg50	2	0	338	1	2
+113	__constr_return	1	1	339	1	9
+114	__constVal80	2	0	340	1	1
+115	__CBTCSArgs	8	0	2	4	3
+116	__CBTCSArgs.Result	2	1	344	1	3
+117	__CBTCSArgs.Connection	1	1	345	1	3
+118	__TextOutArgs	8	0	4	16	17
+119	__TextOutArgs.Result	2	1	348	1	17
+120	__TextOutArgs.Location	8	0	2	4	17
+121	__TextOutArgs.Location.X	4	1	352	2	17
+122	__TextOutArgs.Location.Y	4	1	354	2	17
+123	__TextOutArgs.Text	7	0	356	4	17
+124	__TextOutArgs.Text.Text_type	1	0	0	1	0
+125	__TextOutArgs.Options	5	1	360	4	17
+126	__PointOutArgs	8	0	3	12	4
+127	__PointOutArgs.Result	2	1	364	1	4
+128	__PointOutArgs.Location	8	0	2	4	4
+129	__PointOutArgs.Location.X	4	1	368	2	4
+130	__PointOutArgs.Location.Y	4	1	370	2	4
+131	__PointOutArgs.Options	5	1	372	4	4
+132	__BTCheck_7qG2_args_7qG2_000	8	0	4	12	5
+133	__BTCheck_7qG2_args_7qG2_000.Result	3	1	376	2	5
+134	__BTCheck_7qG2_args_7qG2_000.Action	1	1	378	1	5
+135	__BTCheck_7qG2_args_7qG2_000.Name	7	0	380	4	5
+136	__BTCheck_7qG2_args_7qG2_000.Name.Name_type	1	0	0	1	0
+137	__BTCheck_7qG2_args_7qG2_000.ConnectionSlot	1	1	382	1	5
+138	__constStr0010	7	0	384	4	1
+139	__constStr0010.__constStr0010_type	1	1	0	1	0
+140	__getArrayGiro_7qG2_arrayG2_7qG2_000	7	0	386	4	2
+141	__getArrayGiro_7qG2_arrayG2_7qG2_000.__getArrayGiro_7qG2_arrayG2_7qG2_000_type	1	0	0	1	0
+142	__constStr0009	7	0	388	4	1
+143	__constStr0009.__constStr0009_type	1	1	0	1	0
+144	__getArrayGiro_7qG2_arrayG1_7qG2_000	7	0	390	4	2
+145	__getArrayGiro_7qG2_arrayG1_7qG2_000.__getArrayGiro_7qG2_arrayG1_7qG2_000_type	1	0	0	1	0
+146	__getArrayGiro_7qG2_arrayG0_7qG2_000	7	0	392	4	2
+147	__getArrayGiro_7qG2_arrayG0_7qG2_000.__getArrayGiro_7qG2_arrayG0_7qG2_000_type	1	0	0	1	0
+148	__getArrayY_7qG2_arrayY2_7qG2_000	7	0	394	4	2
+149	__getArrayY_7qG2_arrayY2_7qG2_000.__getArrayY_7qG2_arrayY2_7qG2_000_type	10	0	0	4	0
+150	__getArrayX_7qG2_arrayX0_7qG2_000	7	0	396	4	2
+151	__getArrayX_7qG2_arrayX0_7qG2_000.__getArrayX_7qG2_arrayX0_7qG2_000_type	10	0	0	4	0
+152	__strbufBTCheck	7	0	398	4	2
+153	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+154	__strbufrutina	7	0	400	4	2
+155	__strbufrutina.__strbufrutina_type	1	0	0	1	0
+156	__getArrayX_7qG2_arrayX1_7qG2_000	7	0	402	4	2
+157	__getArrayX_7qG2_arrayX1_7qG2_000.__getArrayX_7qG2_arrayX1_7qG2_000_type	10	0	0	4	0
+158	__getArrayY_7qG2_arrayY1_7qG2_000	7	0	404	4	2
+159	__getArrayY_7qG2_arrayY1_7qG2_000.__getArrayY_7qG2_arrayY1_7qG2_000_type	10	0	0	4	0
+160	__getArrayY_7qG2_arrayY0_7qG2_000	7	0	406	4	2
+161	__getArrayY_7qG2_arrayY0_7qG2_000.__getArrayY_7qG2_arrayY0_7qG2_000_type	10	0	0	4	0
+162	__getArrayX_7qG2_arrayX2_7qG2_000	7	0	408	4	2
+163	__getArrayX_7qG2_arrayX2_7qG2_000.__getArrayX_7qG2_arrayX2_7qG2_000_type	10	0	0	4	0
+#SOURCES
+Clump	Line	PC	Source
+0	484	0	#line 484 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	485	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	484	2	#line 484 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	484	2	#line 484 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	485	2		set __BTCheck_7qG2_conn_7qG2_000, 1
+0	484	5	#line 484 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	485	5	#line 485 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	486	5		subcall BTCheck, __BTCheck_return
+0	485	7	#line 485 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	486	7	#line 486 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	486	7	#line 486 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+0	487	7		exit 0, 1
+1	47	0	#line 47 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	48	0		strcat __strbufBTCheck, __constStr0009
+1	47	4	#line 47 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	48	4		mov __BTCheck_7qG2_args_7qG2_000.Name, __strbufBTCheck
+1	47	6	#line 47 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	48	6	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	49	6		mov __BTCheck_7qG2_args_7qG2_000.ConnectionSlot, __BTCheck_7qG2_conn_7qG2_000
+1	48	8	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	48	8	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	49	8	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	50	8		set __BTCheck_7qG2_args_7qG2_000.Action, 1
+1	49	11	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	49	11	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	49	11	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	50	11	#pragma macro 5
+1	50	11		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+1	50	13		syscall 28, __CBTCSArgs
+1	50	16		mov __D0BTCheck, __CBTCSArgs.Result
+1	7544	18	#line 7544 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	49	18	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	50	18		not __signed_stack_001BTCheck, __D0BTCheck
+1	49	21	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	50	21	#line 50 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	51	21		set __D0BTCheck, 0
+1	50	24	#line 50 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	51	24		cmp 4, __D0BTCheck, __signed_stack_001BTCheck, __D0BTCheck
+1	51	28	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	52	28		brtst 4, __ASM_Label_610, __D0BTCheck
+1	52	31	#line 52 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	53	31	#pragma macro 4
+1	53	31	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	53	31		syscall 36, __BTCheck_7qG2_args_7qG2_000
+1	51	34	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	51	34	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	51	34	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	51	34	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	53	34	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	52	34	#line 52 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	56	34	#line 56 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	56	34	#line 56 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+1	57	34		subret __BTCheck_return
+2	93	0	#line 93 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	94	0		mov __float_stack_001constr, __constr_7qG2_valor_7qG2_000
+2	93	2	#line 93 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	94	2	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	95	2		mov __DF0constr, __constr_7qG2_max_7qG2_000
+2	94	4	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	95	4		cmp 1, __D0constr, __float_stack_001constr, __DF0constr
+2	94	8	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	95	8		brtst 4, __ASM_Label_633, __D0constr
+2	95	11	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	96	11		mov __DF0constr, __constr_7qG2_max_7qG2_000
+2	95	13	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	96	13		subret __constr_return
+2	95	15	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	95	15	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	95	15	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	96	15		mov __float_stack_001constr, __constr_7qG2_valor_7qG2_000
+2	95	17	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	96	17	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	97	17		mov __DF0constr, __constr_7qG2_min_7qG2_000
+2	96	19	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	97	19		cmp 0, __D0constr, __float_stack_001constr, __DF0constr
+2	96	23	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	97	23		brtst 4, __ASM_Label_638, __D0constr
+2	97	26	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	98	26		mov __DF0constr, __constr_7qG2_min_7qG2_000
+2	97	28	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	98	28		subret __constr_return
+2	97	30	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	97	30	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	98	30	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	99	30		mov __DF0constr, __constr_7qG2_valor_7qG2_000
+2	98	32	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	99	32		subret __constr_return
+2	98	34	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	100	34	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+2	101	34		subret __constr_return
+3	130	0	#line 130 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	131	0		acquire sArray
+3	130	1	#line 130 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	131	1	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	132	1		mov __getArrayX_7qG2_num_7qG2_000, fase
+3	131	3	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	132	3	#line 132 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	133	3		release sArray
+3	132	4	#line 132 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	133	4	#line 133 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	134	4		arrbuild __getArrayX_7qG2_arrayX0_7qG2_000, __constVal0
+3	134	8	#line 134 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	135	8		arrinit __getArrayX_7qG2_arrayX1_7qG2_000, __constVal0, __constVal0
+3	135	12	#line 135 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	136	12		arrinit __getArrayX_7qG2_arrayX2_7qG2_000, __constVal0, __constVal0
+3	136	16	#line 136 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	137	16		mov __D0getArrayX, __getArrayX_7qG2_num_7qG2_000
+3	140	18		brcmp 4, __ASM_Label_648, __constVal0, __D0getArrayX
+3	141	22		brcmp 4, __ASM_Label_653, __constVal1, __D0getArrayX
+3	142	26		brcmp 4, __ASM_Label_658, __constVal2, __D0getArrayX
+3	143	30		jmp __ASM_Label_647
+3	138	32	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	138	32	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	139	32		mov __signed_stack_001getArrayX, __getArrayX_7qG2_pos_7qG2_000
+3	138	34	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	138	34	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	139	34		index __DF0getArrayX, __getArrayX_7qG2_arrayX0_7qG2_000, __signed_stack_001getArrayX
+3	138	38	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	139	38	#line 139 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	140	38		subret __getArrayX_return
+3	139	40	#line 139 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	140	40	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	141	40		jmp __ASM_Label_647
+3	140	42	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	141	42	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	141	42	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	142	42		mov __signed_stack_001getArrayX, __getArrayX_7qG2_pos_7qG2_000
+3	141	44	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	141	44	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	142	44		index __DF0getArrayX, __getArrayX_7qG2_arrayX1_7qG2_000, __signed_stack_001getArrayX
+3	141	48	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	142	48	#line 142 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	143	48		subret __getArrayX_return
+3	142	50	#line 142 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	143	50	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	144	50		jmp __ASM_Label_647
+3	143	52	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	144	52	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	144	52	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	145	52		mov __signed_stack_001getArrayX, __getArrayX_7qG2_pos_7qG2_000
+3	144	54	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	144	54	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	145	54		index __DF0getArrayX, __getArrayX_7qG2_arrayX2_7qG2_000, __signed_stack_001getArrayX
+3	144	58	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	145	58	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	146	58		subret __getArrayX_return
+3	145	60	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	146	60	#line 146 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	146	60	#line 146 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	149	60	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	149	60	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+3	150	60		subret __getArrayX_return
+4	152	0	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	153	0		acquire sArray
+4	152	1	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	153	1	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	154	1		mov __getArrayY_7qG2_num_7qG2_000, fase
+4	153	3	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	154	3	#line 154 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	155	3		release sArray
+4	154	4	#line 154 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	155	4	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	156	4		arrbuild __getArrayY_7qG2_arrayY0_7qG2_000, __constVal0
+4	156	8	#line 156 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	157	8		arrinit __getArrayY_7qG2_arrayY1_7qG2_000, __constVal0, __constVal0
+4	157	12	#line 157 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	158	12		arrinit __getArrayY_7qG2_arrayY2_7qG2_000, __constVal0, __constVal0
+4	158	16	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	159	16		mov __D0getArrayY, __getArrayY_7qG2_num_7qG2_000
+4	162	18		brcmp 4, __ASM_Label_668, __constVal0, __D0getArrayY
+4	163	22		brcmp 4, __ASM_Label_673, __constVal1, __D0getArrayY
+4	164	26		brcmp 4, __ASM_Label_678, __constVal2, __D0getArrayY
+4	165	30		jmp __ASM_Label_667
+4	160	32	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	160	32	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	161	32		mov __signed_stack_001getArrayY, __getArrayY_7qG2_pos_7qG2_000
+4	160	34	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	160	34	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	161	34		index __DF0getArrayY, __getArrayY_7qG2_arrayY0_7qG2_000, __signed_stack_001getArrayY
+4	160	38	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	161	38	#line 161 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	162	38		subret __getArrayY_return
+4	161	40	#line 161 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	162	40	#line 162 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	163	40		jmp __ASM_Label_667
+4	162	42	#line 162 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	163	42	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	163	42	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	164	42		mov __signed_stack_001getArrayY, __getArrayY_7qG2_pos_7qG2_000
+4	163	44	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	163	44	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	164	44		index __DF0getArrayY, __getArrayY_7qG2_arrayY1_7qG2_000, __signed_stack_001getArrayY
+4	163	48	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	164	48	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	165	48		subret __getArrayY_return
+4	164	50	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	165	50	#line 165 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	166	50		jmp __ASM_Label_667
+4	165	52	#line 165 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	166	52	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	166	52	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	167	52		mov __signed_stack_001getArrayY, __getArrayY_7qG2_pos_7qG2_000
+4	166	54	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	166	54	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	167	54		index __DF0getArrayY, __getArrayY_7qG2_arrayY2_7qG2_000, __signed_stack_001getArrayY
+4	166	58	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	167	58	#line 167 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	168	58		subret __getArrayY_return
+4	167	60	#line 167 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	168	60	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	168	60	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	171	60	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	171	60	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+4	172	60		subret __getArrayY_return
+5	174	0	#line 174 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	175	0		acquire sArray
+5	174	1	#line 174 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	175	1	#line 175 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	176	1		mov __getArrayGiro_7qG2_num_7qG2_000, fase
+5	175	3	#line 175 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	176	3	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	177	3		release sArray
+5	176	4	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	177	4	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	178	4		arrbuild __getArrayGiro_7qG2_arrayG0_7qG2_000, __constVal0
+5	178	8	#line 178 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	179	8		arrinit __getArrayGiro_7qG2_arrayG1_7qG2_000, __constVal0, __constVal0
+5	179	12	#line 179 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	180	12		arrinit __getArrayGiro_7qG2_arrayG2_7qG2_000, __constVal0, __constVal0
+5	180	16	#line 180 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	181	16		mov __D0getArrayGiro, __getArrayGiro_7qG2_num_7qG2_000
+5	184	18		brcmp 4, __ASM_Label_688, __constVal0, __D0getArrayGiro
+5	185	22		brcmp 4, __ASM_Label_693, __constVal1, __D0getArrayGiro
+5	186	26		brcmp 4, __ASM_Label_698, __constVal2, __D0getArrayGiro
+5	187	30		jmp __ASM_Label_687
+5	182	32	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	182	32	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	183	32		mov __signed_stack_001getArrayGiro, __getArrayGiro_7qG2_pos_7qG2_000
+5	182	34	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	182	34	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	183	34		index __DU0getArrayGiro, __getArrayGiro_7qG2_arrayG0_7qG2_000, __signed_stack_001getArrayGiro
+5	182	38	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	183	38	#line 183 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	184	38		subret __getArrayGiro_return
+5	183	40	#line 183 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	184	40	#line 184 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	185	40		jmp __ASM_Label_687
+5	184	42	#line 184 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	185	42	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	185	42	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	186	42		mov __signed_stack_001getArrayGiro, __getArrayGiro_7qG2_pos_7qG2_000
+5	185	44	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	185	44	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	186	44		index __DU0getArrayGiro, __getArrayGiro_7qG2_arrayG1_7qG2_000, __signed_stack_001getArrayGiro
+5	185	48	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	186	48	#line 186 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	187	48		subret __getArrayGiro_return
+5	186	50	#line 186 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	187	50	#line 187 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	188	50		jmp __ASM_Label_687
+5	187	52	#line 187 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	188	52	#line 188 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	188	52	#line 188 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	189	52		mov __signed_stack_001getArrayGiro, __getArrayGiro_7qG2_pos_7qG2_000
+5	188	54	#line 188 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	188	54	#line 188 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	189	54		index __DU0getArrayGiro, __getArrayGiro_7qG2_arrayG2_7qG2_000, __signed_stack_001getArrayGiro
+5	188	58	#line 188 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	189	58	#line 189 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	190	58		subret __getArrayGiro_return
+5	189	60	#line 189 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	190	60	#line 190 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	190	60	#line 190 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	193	60	#line 193 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	193	60	#line 193 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+5	194	60		subret __getArrayGiro_return
+6	196	0	#line 196 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	197	0		acquire sArray
+6	196	1	#line 196 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	197	1	#line 197 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	198	1		mov __getTam_7qG2_num_7qG2_000, fase
+6	197	3	#line 197 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	198	3	#line 198 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	199	3		release sArray
+6	198	4	#line 198 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	199	4	#line 199 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	200	4		set __getTam_7qG2_tam0_7qG2_000, 1
+6	199	7	#line 199 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	200	7	#line 200 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	201	7		set __getTam_7qG2_tam1_7qG2_000, 12
+6	200	10	#line 200 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	201	10	#line 201 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	202	10		set __getTam_7qG2_tam2_7qG2_000, 12
+6	201	13	#line 201 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	202	13	#line 202 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	203	13		mov __D0getTam, __getTam_7qG2_num_7qG2_000
+6	206	15		brcmp 4, __ASM_Label_714, __constVal0, __D0getTam
+6	207	19		brcmp 4, __ASM_Label_717, __constVal1, __D0getTam
+6	208	23		brcmp 4, __ASM_Label_720, __constVal2, __D0getTam
+6	209	27		jmp __ASM_Label_713
+6	204	29	#line 204 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	205	29	#line 205 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	206	29		mov __D0getTam, __getTam_7qG2_tam0_7qG2_000
+6	205	31	#line 205 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	206	31		subret __getTam_return
+6	205	33	#line 205 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	206	33	#line 206 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	207	33		jmp __ASM_Label_713
+6	206	35	#line 206 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	207	35	#line 207 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	208	35	#line 208 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	209	35		mov __D0getTam, __getTam_7qG2_tam1_7qG2_000
+6	208	37	#line 208 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	209	37		subret __getTam_return
+6	208	39	#line 208 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	209	39	#line 209 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	210	39		jmp __ASM_Label_713
+6	209	41	#line 209 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	210	41	#line 210 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	211	41	#line 211 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	212	41		mov __D0getTam, __getTam_7qG2_tam2_7qG2_000
+6	211	43	#line 211 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	212	43		subret __getTam_return
+6	211	45	#line 211 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	212	45	#line 212 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	212	45	#line 212 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	217	45	#line 217 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	217	45	#line 217 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+6	218	45		subret __getTam_return
+7	234	0	#line 234 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	235	0		set __move_7qG2_nextMovement_7qG2_000, 0
+7	234	3	#line 234 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	235	3	#line 235 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	236	3		subcall getTam, __getTam_return
+7	235	5	#line 235 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	236	5		mov __move_7qG2_tam_7qG2_000, __D0getTam
+7	235	7	#line 235 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	236	7	#line 236 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	237	7		set __D0move, 0
+7	236	10	#line 236 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	237	10		mov __move_7qG2_errorX_7qG2_000, __D0move
+7	237	12	#line 237 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	238	12		set __D0move, 0
+7	237	15	#line 237 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	238	15		mov __move_7qG2_error_anteriorX_7qG2_000, __D0move
+7	238	17	#line 238 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	239	17		set __D0move, 0
+7	238	20	#line 238 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	239	20		mov __move_7qG2_error_accX_7qG2_000, __D0move
+7	239	22	#line 239 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	240	22		set __D0move, 0
+7	239	25	#line 239 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	240	25		mov __move_7qG2_to_doX_7qG2_000, __D0move
+7	240	27	#line 240 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	241	27		set __D0move, 0
+7	240	30	#line 240 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	241	30		mov __move_7qG2_errorY_7qG2_000, __D0move
+7	241	32	#line 241 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	242	32		set __D0move, 0
+7	241	35	#line 241 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	242	35		mov __move_7qG2_error_anteriorY_7qG2_000, __D0move
+7	242	37	#line 242 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	243	37		set __D0move, 0
+7	242	40	#line 242 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	243	40		mov __move_7qG2_error_accY_7qG2_000, __D0move
+7	243	42	#line 243 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	244	42		set __D0move, 0
+7	243	45	#line 243 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	244	45		mov __move_7qG2_to_doY_7qG2_000, __D0move
+7	244	47	#line 244 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	245	47		set __move_7qG2_timesInOk_7qG2_000, 0
+7	244	50	#line 244 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	245	50	#line 245 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	246	50		set __D0move, 0
+7	245	53	#line 245 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	246	53		mov __move_7qG2_posX_7qG2_000, __D0move
+7	246	55	#line 246 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	247	55		set __D0move, 0
+7	246	58	#line 246 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	247	58		mov __move_7qG2_posY_7qG2_000, __D0move
+7	247	60	#line 247 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	248	60		set __D0move, 0
+7	247	63	#line 247 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	248	63		mov __move_7qG2_to_doA_7qG2_000, __D0move
+7	248	65	#line 248 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	249	65		set __D0move, 0
+7	248	68	#line 248 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	249	68		mov __move_7qG2_to_doB_7qG2_000, __D0move
+7	249	70	#line 249 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	250	70		set __move_7qG2_mA_7qG2_000, 0
+7	249	73	#line 249 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	250	73	#line 250 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	251	73		set __move_7qG2_mB_7qG2_000, 0
+7	250	76	#line 250 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	251	76	#line 251 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	252	76		set __move_7qG2_action_7qG2_000, 1
+7	251	79	#line 251 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	252	79	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	253	79		set __move_7qG2_timer_7qG2_000, 0
+7	252	82	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	253	82	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	254	82		set __D0move, 1
+7	255	85	#line 255 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	256	85		tst 5, __D0move, __D0move
+7	255	88	#line 255 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	256	88		brtst 4, __ASM_Label_762, __D0move
+7	256	91	#line 256 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	257	91		acquire semaforo
+7	256	92	#line 256 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	256	92	#line 256 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	257	92		mov __float_stack_001move, dist
+7	256	94	#line 256 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	257	94	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	258	94		mov __DF0move, __constVal100
+7	257	96	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	258	96		mul __move_7qG2_posX_7qG2_000, __float_stack_001move, __DF0move
+7	257	100	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	257	100	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	257	100	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	258	100		mov __float_stack_001move, angle
+7	257	102	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	260	102	#line 260 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	261	102		mov __DF0move, __constVal100
+7	260	104	#line 260 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	261	104		mul __move_7qG2_posY_7qG2_000, __float_stack_001move, __DF0move
+7	260	108	#line 260 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	260	108	#line 260 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	262	108	#line 262 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	263	108		release semaforo
+7	262	109	#line 262 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	262	109	#line 262 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	263	109		set __Wait_7qG2_ms_7qG2_000_inline_move, 1000
+7	262	112	#line 262 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	8551	112	#line 8551 "NXCDefs.h"
+7	8552	112		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+7	8551	114	#line 8551 "NXCDefs.h"
+7	266	114	#line 266 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	266	114	#line 266 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	114		mov __getArrayY_7qG2_pos_7qG2_000, __move_7qG2_nextMovement_7qG2_000
+7	266	116	#line 266 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	266	116	#line 266 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	116		subcall getArrayY, __getArrayY_return
+7	266	118	#line 266 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	266	118	#line 266 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	118	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	118	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	268	118		sub __move_7qG2_errorY_7qG2_000, __DF0getArrayY, __move_7qG2_posY_7qG2_000
+7	267	122	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	122	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	122	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	268	122		mov __getArrayX_7qG2_pos_7qG2_000, __move_7qG2_nextMovement_7qG2_000
+7	267	124	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	124	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	268	124		subcall getArrayX, __getArrayX_return
+7	267	126	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	267	126	#line 267 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	268	126	#line 268 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	268	126	#line 268 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	269	126		sub __move_7qG2_errorX_7qG2_000, __DF0getArrayX, __move_7qG2_posX_7qG2_000
+7	268	130	#line 268 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	268	130	#line 268 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	6678	130	#line 6678 "NXCDefs.h"
+7	6679	130	#pragma macro 6
+7	6679	130		mov __PointOutArgs.Location.X, __constVal200
+7	6679	132		mov __PointOutArgs.Location.Y, __constVal200
+7	6679	134		mov __PointOutArgs.Options, __constVal1
+7	6679	136		syscall 14, __PointOutArgs
+7	8559	139	#line 8559 "NXCDefs.h"
+7	6678	139	#line 6678 "NXCDefs.h"
+7	269	139	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	269	139	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	139		set __signed_stack_001move, 1
+7	269	142	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	269	142	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	142		set __signed_stack_002move, 40
+7	269	145	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	269	145	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	145		mov __getArrayY_7qG2_pos_7qG2_000, __move_7qG2_nextMovement_7qG2_000
+7	269	147	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	269	147	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	147		subcall getArrayY, __getArrayY_return
+7	269	149	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	149		mov __DF0move, __DF0getArrayY
+7	270	151	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	151		acquire __TextOutMutex
+7	270	152	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	152		mov __TextOutArgs.Location.X, __signed_stack_001move
+7	270	154	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	154		mov __TextOutArgs.Location.Y, __signed_stack_002move
+7	270	156	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	156		set __TextOutArgs.Options, 0
+7	270	159	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	159		numtostr __TextOutArgs.Text, __DF0move
+7	270	162	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	162		syscall 13, __TextOutArgs
+7	270	165	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	165		mov __D0move, __TextOutArgs.Result
+7	270	167	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	167		release __TextOutMutex
+7	270	168	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	168	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	168		set __signed_stack_001move, 1
+7	270	171	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	171	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	171		set __signed_stack_002move, 32
+7	270	174	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	174	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	174		mov __getArrayX_7qG2_pos_7qG2_000, __move_7qG2_nextMovement_7qG2_000
+7	270	176	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	270	176	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	176		subcall getArrayX, __getArrayX_return
+7	270	178	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	271	178		mov __DF0move, __DF0getArrayX
+7	277	180	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	180		acquire __TextOutMutex
+7	277	181	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	181		mov __TextOutArgs.Location.X, __signed_stack_001move
+7	277	183	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	183		mov __TextOutArgs.Location.Y, __signed_stack_002move
+7	277	185	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	185		set __TextOutArgs.Options, 0
+7	277	188	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	188		numtostr __TextOutArgs.Text, __DF0move
+7	277	191	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	191		syscall 13, __TextOutArgs
+7	277	194	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	194		mov __D0move, __TextOutArgs.Result
+7	277	196	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	196		release __TextOutMutex
+7	277	197	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	277	197	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	277	197	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	277	197	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	277	197	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	197		add __constr_7qG2_valor_7qG2_000, __move_7qG2_error_accY_7qG2_000, __move_7qG2_errorY_7qG2_000
+7	277	201	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	277	201	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	201		mov __constr_7qG2_max_7qG2_000, __constVal50
+7	277	203	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	277	203	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	203		mov __constr_7qG2_min_7qG2_000, __constValNeg50
+7	277	205	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	205	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	279	205		subcall constr, __constr_return
+7	278	207	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	279	207		mov __move_7qG2_error_accY_7qG2_000, __DF0constr
+7	278	209	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	209	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	209	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	209	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	209	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	209	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	279	209		add __constr_7qG2_valor_7qG2_000, __move_7qG2_error_accX_7qG2_000, __move_7qG2_errorX_7qG2_000
+7	278	213	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	213	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	279	213		mov __constr_7qG2_max_7qG2_000, __constVal50
+7	278	215	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	278	215	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	279	215		mov __constr_7qG2_min_7qG2_000, __constValNeg50
+7	278	217	#line 278 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	280	217	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	281	217		subcall constr, __constr_return
+7	280	219	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	281	219		mov __move_7qG2_error_accX_7qG2_000, __DF0constr
+7	280	221	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	280	221	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	280	221	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	281	221		mov __getArrayGiro_7qG2_pos_7qG2_000, __move_7qG2_nextMovement_7qG2_000
+7	280	223	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	281	223	#line 281 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	282	223		subcall getArrayGiro, __getArrayGiro_return
+7	281	225	#line 281 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	282	225		mov __DU0move, __DU0getArrayGiro
+7	282	227	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	227		tst 5, __D0move, __DU0move
+7	282	230	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	230		brtst 4, __ASM_Label_815, __D0move
+7	282	233	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	233		mov __DF0move, __move_7qG2_errorY_7qG2_000
+7	282	235	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	235		abs __float_stack_001move, __DF0move
+7	282	238	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	282	238	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	238		mov __DF0move, __constVal3
+7	282	240	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	240		cmp 0, __D0move, __float_stack_001move, __DF0move
+7	283	244	#line 283 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	284	244		brtst 4, __ASM_Label_820, __D0move
+7	283	247	#line 283 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	284	247		mov __signed_stack_001move, __move_7qG2_timesInOk_7qG2_000
+7	283	249	#line 283 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	283	249	#line 283 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	284	249		set __D0move, 3
+7	283	252	#line 283 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	284	252		cmp 0, __D0move, __signed_stack_001move, __D0move
+7	284	256	#line 284 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	285	256		brtst 4, __ASM_Label_823, __D0move
+7	285	259	#line 285 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	286	259		add __move_7qG2_timesInOk_7qG2_000, __move_7qG2_timesInOk_7qG2_000, __constVal1
+7	285	263	#line 285 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	286	263	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	287	263		jmp __ASM_Label_824
+7	286	265	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	287	265		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+7	286	267	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	286	267	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	287	267		mov __D0move, __move_7qG2_tam_7qG2_000
+7	286	269	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	287	269		cmp 0, __D0move, __signed_stack_001move, __D0move
+7	287	273	#line 287 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	288	273		brtst 4, __ASM_Label_827, __D0move
+7	289	276	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	290	276		add __move_7qG2_nextMovement_7qG2_000, __move_7qG2_nextMovement_7qG2_000, __constVal1
+7	289	280	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	290	280	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	291	280		set __move_7qG2_timer_7qG2_000, 0
+7	290	283	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	290	283	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	291	283	#line 291 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	292	283		set __D0move, 0
+7	291	286	#line 291 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	292	286		mov __move_7qG2_error_accX_7qG2_000, __D0move
+7	291	288	#line 291 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	292	288	#line 292 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	293	288		set __D0move, 0
+7	292	291	#line 292 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	293	291		mov __move_7qG2_error_accY_7qG2_000, __D0move
+7	292	293	#line 292 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	293	293	#line 293 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	294	293		jmp __ASM_Label_834
+7	294	295	#line 294 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	295	295		set __move_7qG2_action_7qG2_000, 0
+7	294	298	#line 294 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	294	298	#line 294 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	296	298	#line 296 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	296	298	#line 296 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	297	298	#line 297 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	298	298		jmp __ASM_Label_837
+7	298	300	#line 298 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	300		set __move_7qG2_timesInOk_7qG2_000, 0
+7	298	303	#line 298 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	298	303	#line 298 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	303	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	303	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	303		mov __float_stack_001move, __move_7qG2_errorY_7qG2_000
+7	299	305	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	305	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	305		mov __DF0move, __constVal10
+7	299	307	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	307		mul __float_stack_001move, __float_stack_001move, __DF0move
+7	299	311	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	311	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	311		mov __float_stack_002move, __move_7qG2_error_accY_7qG2_000
+7	299	313	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	313	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	313		mov __DF0move, __constVal1
+7	299	315	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	315		mul __DF0move, __float_stack_002move, __DF0move
+7	299	319	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	319		add __float_stack_001move, __float_stack_001move, __DF0move
+7	299	323	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	323	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	323	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	323	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	299	323	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	323		sub __float_stack_002move, __move_7qG2_errorY_7qG2_000, __move_7qG2_error_anteriorY_7qG2_000
+7	299	327	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	327	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	327		mov __DF0move, __constVal0
+7	300	329	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	329		mul __DF0move, __float_stack_002move, __DF0move
+7	300	333	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	333		add __move_7qG2_to_doY_7qG2_000, __float_stack_001move, __DF0move
+7	300	337	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	337	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	337	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	337		mov __constr_7qG2_valor_7qG2_000, __move_7qG2_to_doY_7qG2_000
+7	300	339	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	339	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	339		mov __constr_7qG2_max_7qG2_000, __constVal80
+7	300	341	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	300	341	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	341		mov __constr_7qG2_min_7qG2_000, __constValNeg80
+7	300	343	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	343	#line 301 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	302	343		subcall constr, __constr_return
+7	301	345	#line 301 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	302	345		mov __move_7qG2_to_doY_7qG2_000, __DF0constr
+7	301	347	#line 301 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	301	347	#line 301 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	302	347	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	303	347		jmp __ASM_Label_852
+7	302	349	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	303	349		mov __DF0move, __move_7qG2_errorX_7qG2_000
+7	302	351	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	303	351		abs __float_stack_001move, __DF0move
+7	302	354	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	302	354	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	303	354		mov __DF0move, __constVal3
+7	302	356	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	303	356		cmp 0, __D0move, __float_stack_001move, __DF0move
+7	303	360	#line 303 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	304	360		brtst 4, __ASM_Label_857, __D0move
+7	303	363	#line 303 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	304	363		mov __signed_stack_001move, __move_7qG2_timesInOk_7qG2_000
+7	303	365	#line 303 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	303	365	#line 303 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	304	365		set __D0move, 3
+7	303	368	#line 303 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	304	368		cmp 0, __D0move, __signed_stack_001move, __D0move
+7	304	372	#line 304 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	305	372		brtst 4, __ASM_Label_860, __D0move
+7	305	375	#line 305 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	306	375		add __move_7qG2_timesInOk_7qG2_000, __move_7qG2_timesInOk_7qG2_000, __constVal1
+7	305	379	#line 305 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	307	379	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	308	379		jmp __ASM_Label_861
+7	307	381	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	308	381		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+7	307	383	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	307	383	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	308	383		mov __D0move, __move_7qG2_tam_7qG2_000
+7	307	385	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	308	385		cmp 0, __D0move, __signed_stack_001move, __D0move
+7	308	389	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	309	389		brtst 4, __ASM_Label_864, __D0move
+7	309	392	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	310	392		add __move_7qG2_nextMovement_7qG2_000, __move_7qG2_nextMovement_7qG2_000, __constVal1
+7	309	396	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	310	396	#line 310 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	311	396		set __move_7qG2_timer_7qG2_000, 0
+7	310	399	#line 310 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	310	399	#line 310 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	311	399	#line 311 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	312	399		set __D0move, 0
+7	311	402	#line 311 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	312	402		mov __move_7qG2_error_accX_7qG2_000, __D0move
+7	311	404	#line 311 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	312	404	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	313	404		set __D0move, 0
+7	312	407	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	313	407		mov __move_7qG2_error_accY_7qG2_000, __D0move
+7	312	409	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	313	409	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	314	409		jmp __ASM_Label_871
+7	314	411	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	315	411		set __move_7qG2_action_7qG2_000, 0
+7	314	414	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	314	414	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	316	414	#line 316 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	317	414	#line 317 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	318	414		set __move_7qG2_timesInOk_7qG2_000, 0
+7	317	417	#line 317 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	317	417	#line 317 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	318	417	#line 318 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	319	417	#line 319 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	320	417		jmp __ASM_Label_876
+7	320	419	#line 320 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	419		set __move_7qG2_timesInOk_7qG2_000, 0
+7	320	422	#line 320 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	320	422	#line 320 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	422	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	422	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	422		mov __float_stack_001move, __move_7qG2_errorY_7qG2_000
+7	321	424	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	424	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	424		mov __DF0move, __constVal5
+7	321	426	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	426		mul __float_stack_001move, __float_stack_001move, __DF0move
+7	321	430	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	430	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	430		mov __float_stack_002move, __move_7qG2_error_accY_7qG2_000
+7	321	432	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	432	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	432		mov __DF0move, __constVal1
+7	321	434	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	434		mul __DF0move, __float_stack_002move, __DF0move
+7	321	438	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	438		add __float_stack_001move, __float_stack_001move, __DF0move
+7	321	442	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	442	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	442	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	442	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	321	442	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	442		sub __float_stack_002move, __move_7qG2_errorY_7qG2_000, __move_7qG2_error_anteriorY_7qG2_000
+7	321	446	#line 321 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	446	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	446		mov __DF0move, __constVal0
+7	322	448	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	448		mul __DF0move, __float_stack_002move, __DF0move
+7	322	452	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	452		add __move_7qG2_to_doY_7qG2_000, __float_stack_001move, __DF0move
+7	322	456	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	322	456	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	456	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	456	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	456		mov __float_stack_001move, __move_7qG2_errorX_7qG2_000
+7	323	458	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	458	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	458		mov __DF0move, __constVal7
+7	323	460	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	460		mul __float_stack_001move, __float_stack_001move, __DF0move
+7	323	464	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	464	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	464		mov __float_stack_002move, __move_7qG2_error_accX_7qG2_000
+7	323	466	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	466	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	466		mov __DF0move, __constVal2
+7	323	468	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	468		mul __DF0move, __float_stack_002move, __DF0move
+7	323	472	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	472		add __float_stack_001move, __float_stack_001move, __DF0move
+7	323	476	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	476	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	476	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	476	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	323	476	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	476		sub __float_stack_002move, __move_7qG2_errorX_7qG2_000, __move_7qG2_error_anteriorX_7qG2_000
+7	323	480	#line 323 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	480	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	480		mov __DF0move, __constVal0
+7	324	482	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	482		mul __DF0move, __float_stack_002move, __DF0move
+7	324	486	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	486		add __move_7qG2_to_doX_7qG2_000, __float_stack_001move, __DF0move
+7	324	490	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	490	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	490	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	490		mov __constr_7qG2_valor_7qG2_000, __move_7qG2_to_doX_7qG2_000
+7	324	492	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	492	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	492		mov __constr_7qG2_max_7qG2_000, __constVal60
+7	324	494	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	324	494	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	494		mov __constr_7qG2_min_7qG2_000, __constValNeg60
+7	324	496	#line 324 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	496	#line 325 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	496		subcall constr, __constr_return
+7	325	498	#line 325 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	498		mov __move_7qG2_to_doX_7qG2_000, __DF0constr
+7	325	500	#line 325 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	500	#line 325 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	500	#line 325 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	325	500	#line 325 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	500	#line 326 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	500	#line 326 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	327	500		add __move_7qG2_to_doA_7qG2_000, __DF0constr, __move_7qG2_to_doY_7qG2_000
+7	326	504	#line 326 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	504	#line 326 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	504	#line 326 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	326	504	#line 326 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	328	504	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	328	504	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	329	504		sub __move_7qG2_to_doB_7qG2_000, __move_7qG2_to_doX_7qG2_000, __move_7qG2_to_doY_7qG2_000
+7	328	508	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	328	508	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	328	508	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	329	508		mov __float_stack_001move, __move_7qG2_to_doA_7qG2_000
+7	328	510	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	328	510	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	329	510		mov __DF0move, __constVal0
+7	328	512	#line 328 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	329	512		cmp 1, __D0move, __float_stack_001move, __DF0move
+7	329	516	#line 329 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	330	516		brtst 4, __ASM_Label_901, __D0move
+7	331	519	#line 331 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	332	519		mov __move_7qG2_mA_7qG2_000, __move_7qG2_to_doA_7qG2_000
+7	331	521	#line 331 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	331	521	#line 331 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	332	521	#line 332 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	333	521		jmp __ASM_Label_904
+7	334	523	#line 334 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	335	523		mov __move_7qG2_mA_7qG2_000, __move_7qG2_to_doA_7qG2_000
+7	334	525	#line 334 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	334	525	#line 334 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	336	525	#line 336 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	336	525	#line 336 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	337	525		mov __float_stack_001move, __move_7qG2_to_doB_7qG2_000
+7	336	527	#line 336 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	337	527	#line 337 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	338	527		mov __DF0move, __constVal0
+7	337	529	#line 337 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	338	529		cmp 1, __D0move, __float_stack_001move, __DF0move
+7	338	533	#line 338 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	339	533		brtst 4, __ASM_Label_909, __D0move
+7	340	536	#line 340 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	341	536		mov __move_7qG2_mB_7qG2_000, __move_7qG2_to_doB_7qG2_000
+7	340	538	#line 340 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	340	538	#line 340 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	341	538	#line 341 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	342	538		jmp __ASM_Label_912
+7	343	540	#line 343 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	344	540		mov __move_7qG2_mB_7qG2_000, __move_7qG2_to_doB_7qG2_000
+7	343	542	#line 343 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	343	542	#line 343 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	345	542	#line 345 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	346	542	#line 346 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	347	542		mov __move_7qG2_error_anteriorY_7qG2_000, __move_7qG2_errorY_7qG2_000
+7	346	544	#line 346 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	346	544	#line 346 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	347	544	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	348	544		mov __move_7qG2_error_anteriorX_7qG2_000, __move_7qG2_errorX_7qG2_000
+7	347	546	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	347	546	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	347	546	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	348	546		mov __unsigned_stack_001move, __move_7qG2_timer_7qG2_000
+7	347	548	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	347	548	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	348	548		set __D0move, 300
+7	347	551	#line 347 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	348	551		cmp 1, __D0move, __unsigned_stack_001move, __D0move
+7	348	555	#line 348 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	349	555		brtst 4, __ASM_Label_921, __D0move
+7	350	558	#line 350 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	351	558		add __move_7qG2_nextMovement_7qG2_000, __move_7qG2_nextMovement_7qG2_000, __constVal1
+7	350	562	#line 350 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	351	562	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	352	562		set __move_7qG2_timer_7qG2_000, 0
+7	351	565	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	351	565	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	351	565	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	352	565		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+7	351	567	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	351	567	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	352	567		mov __D0move, __move_7qG2_tam_7qG2_000
+7	351	569	#line 351 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	352	569		cmp 3, __D0move, __signed_stack_001move, __D0move
+7	352	573	#line 352 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	353	573		brtst 4, __ASM_Label_926, __D0move
+7	353	576	#line 353 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	354	576		set __move_7qG2_action_7qG2_000, 0
+7	353	579	#line 353 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	353	579	#line 353 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	354	579	#line 354 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	355	579	#line 355 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	356	579		jmp __ASM_Label_929
+7	356	581	#line 356 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	357	581		add __move_7qG2_timer_7qG2_000, __move_7qG2_timer_7qG2_000, __constVal1
+7	356	585	#line 356 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	361	585	#line 361 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	361	585	#line 361 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	362	585		set __Wait_7qG2_ms_7qG2_000_inline_move, 20
+7	361	588	#line 361 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	8551	588	#line 8551 "NXCDefs.h"
+7	8552	588		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+7	8551	590	#line 8551 "NXCDefs.h"
+7	362	590	#line 362 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	363	590	#line 363 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	364	590		jmp __ASM_Label_761
+7	363	592	#line 363 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	363	592	#line 363 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	364	592		set __D0move, 0
+7	364	595	#line 364 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	365	595	#pragma macro 7
+7	365	595		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	9309	618	#line 9309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	364	618	#line 364 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	364	618	#line 364 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	365	618		set __D0move, 0
+7	367	621	#line 367 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	368	621	#pragma macro 7
+7	368	621		setout __constVal2, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	9314	644	#line 9314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	367	644	#line 367 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	367	644	#line 367 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	368	644		set __Wait_7qG2_ms_7qG2_000_inline_move, 20
+7	367	647	#line 367 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	8551	647	#line 8551 "NXCDefs.h"
+7	8552	647		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+7	8551	649	#line 8551 "NXCDefs.h"
+7	368	649	#line 368 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	372	649	#line 372 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+7	373	649		subret __move_return
+8	375	0	#line 375 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	376	0		set __posicion_7qG2_d_7qG2_000, 0
+8	375	3	#line 375 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	376	3	#line 376 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	377	3		set __D0posicion, 0
+8	376	6	#line 376 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	377	6		mov __posicion_7qG2_d_anterior_7qG2_000, __D0posicion
+8	377	8	#line 377 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	378	8		set __D0posicion, 0
+8	377	11	#line 377 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	378	11		mov __posicion_7qG2_d_inc_7qG2_000, __D0posicion
+8	378	13	#line 378 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	379	13		set __posicion_7qG2_i_7qG2_000, 0
+8	378	16	#line 378 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	379	16	#line 379 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	380	16		set __D0posicion, 0
+8	379	19	#line 379 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	380	19		mov __posicion_7qG2_i_anterior_7qG2_000, __D0posicion
+8	380	21	#line 380 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	381	21		set __D0posicion, 0
+8	380	24	#line 380 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	381	24		mov __posicion_7qG2_i_inc_7qG2_000, __D0posicion
+8	381	26	#line 381 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	382	26		set __D0posicion, 0
+8	381	29	#line 381 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	382	29		mov __posicion_7qG2_theta_7qG2_000, __D0posicion
+8	382	31	#line 382 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	383	31		set __D0posicion, 0
+8	382	34	#line 382 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	383	34		mov __posicion_7qG2_distance_7qG2_000, __D0posicion
+8	383	36	#line 383 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	384	36		set __D0posicion, 0
+8	383	39	#line 383 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	384	39		mov __posicion_7qG2_new_x_7qG2_000, __D0posicion
+8	384	41	#line 384 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	385	41		set __D0posicion, 0
+8	384	44	#line 384 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	385	44		mov __posicion_7qG2_new_y_7qG2_000, __D0posicion
+8	385	46	#line 385 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	386	46		mov __posicion_7qG2_constanteAngulo_7qG2_000, __constValf0P0024302056
+8	385	48	#line 385 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	386	48	#line 386 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	387	48		mov __posicion_7qG2_constanteDistancia_7qG2_000, __constValf0P0001919862
+8	386	50	#line 386 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	387	50	#line 387 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	388	50		set __D0posicion, 1
+8	388	53	#line 388 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	389	53		tst 5, __D0posicion, __D0posicion
+8	388	56	#line 388 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	389	56		brtst 4, __ASM_Label_971, __D0posicion
+8	388	59	#line 388 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	389	59		set __Wait_7qG2_ms_7qG2_000_inline_posicion, 20
+8	388	62	#line 388 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	8551	62	#line 8551 "NXCDefs.h"
+8	8552	62		waitv __Wait_7qG2_ms_7qG2_000_inline_posicion
+8	8551	64	#line 8551 "NXCDefs.h"
+8	389	64	#line 389 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	390	64	#line 390 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	391	64		getout __posicion_7qG2_d_7qG2_000, __constVal0, 14
+8	390	68	#line 390 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	390	68	#line 390 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	391	68	#line 391 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	392	68		getout __posicion_7qG2_i_7qG2_000, __constVal2, 14
+8	391	72	#line 391 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	391	72	#line 391 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	391	72	#line 391 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	392	72		mov __signed_stack_001posicion, __posicion_7qG2_d_7qG2_000
+8	391	74	#line 391 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	392	74	#line 392 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	392	74	#line 392 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	393	74		sub __posicion_7qG2_d_inc_7qG2_000, __signed_stack_001posicion, __posicion_7qG2_d_anterior_7qG2_000
+8	392	78	#line 392 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	392	78	#line 392 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	392	78	#line 392 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	393	78		mov __signed_stack_001posicion, __posicion_7qG2_i_7qG2_000
+8	392	80	#line 392 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	393	80	#line 393 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	393	80	#line 393 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	394	80		sub __posicion_7qG2_i_inc_7qG2_000, __signed_stack_001posicion, __posicion_7qG2_i_anterior_7qG2_000
+8	393	84	#line 393 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	393	84	#line 393 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	394	84	#line 394 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	84		mov __posicion_7qG2_d_anterior_7qG2_000, __posicion_7qG2_d_7qG2_000
+8	394	86	#line 394 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	394	86	#line 394 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	86	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	86		mov __posicion_7qG2_i_anterior_7qG2_000, __posicion_7qG2_i_7qG2_000
+8	395	88	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	88	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	88	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	88		mov __float_stack_001posicion, __posicion_7qG2_constanteAngulo_7qG2_000
+8	395	90	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	90	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	90	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	90	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	395	90	#line 395 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	90		sub __DF0posicion, __posicion_7qG2_d_inc_7qG2_000, __posicion_7qG2_i_inc_7qG2_000
+8	396	94	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	94		mul __DF0posicion, __float_stack_001posicion, __DF0posicion
+8	396	98	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	98		add __posicion_7qG2_theta_7qG2_000, __posicion_7qG2_theta_7qG2_000, __DF0posicion
+8	396	102	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	102	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	102		mov __float_stack_001posicion, __posicion_7qG2_constanteDistancia_7qG2_000
+8	396	104	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	104	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	104	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	104	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	396	104	#line 396 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	104		add __DF0posicion, __posicion_7qG2_d_inc_7qG2_000, __posicion_7qG2_i_inc_7qG2_000
+8	397	108	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	108		mul __posicion_7qG2_distance_7qG2_000, __float_stack_001posicion, __DF0posicion
+8	397	112	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	112	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	112	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	112		mov __cos_7qG2_x_7qG2_000_inline_posicion, __posicion_7qG2_theta_7qG2_000
+8	397	114	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	18739	114	#line 18739 "NXCDefs.h"
+8	18740	114		cos __float_stack_001posicion, __cos_7qG2_x_7qG2_000_inline_posicion
+8	18739	117	#line 18739 "NXCDefs.h"
+8	397	117	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	397	117	#line 397 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	117	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	117	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	399	117		mul __posicion_7qG2_new_x_7qG2_000, __float_stack_001posicion, __posicion_7qG2_distance_7qG2_000
+8	398	121	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	121	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	121	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	399	121		mov __sin_7qG2_x_7qG2_000_inline_posicion, __posicion_7qG2_theta_7qG2_000
+8	398	123	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	18750	123	#line 18750 "NXCDefs.h"
+8	18751	123		sin __float_stack_001posicion, __sin_7qG2_x_7qG2_000_inline_posicion
+8	18750	126	#line 18750 "NXCDefs.h"
+8	398	126	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	398	126	#line 398 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	399	126	#line 399 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	399	126	#line 399 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	400	126		mul __posicion_7qG2_new_y_7qG2_000, __float_stack_001posicion, __posicion_7qG2_distance_7qG2_000
+8	399	130	#line 399 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	399	130	#line 399 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	400	130	#line 400 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	401	130		acquire semaforo
+8	400	131	#line 400 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	401	131	#line 401 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	401	131	#line 401 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	401	131	#line 401 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	402	131	#line 402 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	402	131	#line 402 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	402	131	#line 402 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	403	131	#line 403 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	404	131		mov angle, __posicion_7qG2_theta_7qG2_000
+8	403	133	#line 403 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	403	133	#line 403 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	407	133	#line 407 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	407	133	#line 407 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	408	133		add dist, dist, __posicion_7qG2_distance_7qG2_000
+8	407	137	#line 407 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	408	137	#line 408 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	409	137		release semaforo
+8	408	138	#line 408 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	411	138	#line 411 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	412	138		jmp __ASM_Label_970
+8	411	140	#line 411 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+8	412	140		exit -1, -1
+9	414	0	#line 414 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	415	0		acquire sArray
+9	414	1	#line 414 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	415	1	#line 415 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	416	1		mov fase, __selectRuta_7qG2_f_7qG2_000
+9	415	3	#line 415 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	415	3	#line 415 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	416	3	#line 416 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	417	3		release sArray
+9	416	4	#line 416 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	417	4	#line 417 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	418	4		subcall move, __move_return
+9	417	6	#line 417 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	423	6	#line 423 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+9	424	6		subret __selectRuta_return
+10	443	0	#line 443 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	444	0		set __selectRuta_7qG2_f_7qG2_000, 0
+10	443	3	#line 443 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	444	3	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	445	3		subcall selectRuta, __selectRuta_return
+10	444	5	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	444	5	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	445	5		set __signed_stack_001rutina, 1
+10	444	8	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	444	8	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	445	8		set __signed_stack_002rutina, 16
+10	444	11	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	444	11	#line 444 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	445	11		strcat __strbufrutina, __constStr0010
+10	445	15	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	15		acquire __TextOutMutex
+10	445	16	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	16		mov __TextOutArgs.Location.X, __signed_stack_001rutina
+10	445	18	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	18		mov __TextOutArgs.Location.Y, __signed_stack_002rutina
+10	445	20	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	20		set __TextOutArgs.Options, 0
+10	445	23	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	23		mov __TextOutArgs.Text, __strbufrutina
+10	445	25	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	25		syscall 13, __TextOutArgs
+10	445	28	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	445	28	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	28		release __TextOutMutex
+10	445	29	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	445	29	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	446	29		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 10000
+10	445	32	#line 445 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	8551	32	#line 8551 "NXCDefs.h"
+10	8552	32		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+10	8551	34	#line 8551 "NXCDefs.h"
+10	466	34	#line 466 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+10	467	34		exit -1, -1
+11	489	0	#line 489 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc"
+11	490	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+1	BTCheck	10	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+2	constr	46	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+3	getArrayX	82	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+4	getArrayY	144	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+5	getArrayGiro	206	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+6	getTam	268	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+7	move	315	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+8	posicion	966	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+9	selectRuta	1109	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+10	rutina	1117	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc
+11	__initialize_global_data	1154	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\OdometriaBot - copia2.nxc

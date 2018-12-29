@@ -1,0 +1,855 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__setAnguloPinza_7qG2_angulo_7qG2_000	6	1	0	4	4
+1	__checkAngulo_7qG2_angulo1_7qG2_000	6	1	4	4	3
+2	bamperki	10	1	8	4	1
+3	__setAnguloBrazo_7qG2_angulo_7qG2_000	6	1	12	4	3
+4	__getbrazoki_7qG2_anguloBrazo_7qG2_000	10	1	16	4	3
+5	__getbrazoki_7qG2_anguloActualBrazo_7qG2_000	10	1	20	4	3
+6	__checkAngulo_7qG2_angulo2_7qG2_000	6	1	24	4	3
+7	__checkAngulo_7qG2_MARGEN_7qG2_000	6	1	28	4	3
+8	bamperkp	10	1	32	4	1
+9	anguloActualPinza	6	1	36	4	3
+10	anguloActualBamper	6	1	40	4	2
+11	semaforoBamper	9	0	44	4	4
+12	anguloActualBrazo	6	1	48	4	9
+13	anguloBamper	6	1	52	4	1
+14	pinzakp	10	1	56	4	2
+15	anguloBrazo	6	1	60	4	8
+16	anguloPinza	6	1	64	4	2
+17	__constValf0P08	10	0	68	4	1
+18	__movimiento_7qG2_integralPinza_7qG2_000	10	1	72	4	2
+19	__movimiento_7qG2_integralBamper_7qG2_000	10	1	76	4	4
+20	__movimiento_7qG2_errorBamper_7qG2_000	6	1	80	4	4
+21	__movimiento_7qG2_integralBrazo_7qG2_000	10	1	84	4	6
+22	__movimiento_7qG2_constantesBamper_7qG2_000	10	1	88	4	3
+23	__Wait_7qG2_ms_7qG2_000_inline_movimiento	5	1	92	4	2
+24	__movimiento_7qG2_constantesBrazo_7qG2_000	10	1	96	4	4
+25	__movimiento_7qG2_constantesPinza_7qG2_000	10	1	100	4	3
+26	__movimiento_7qG2_errorPinza_7qG2_000	6	1	104	4	3
+27	__getbrazokp_7qG2_anguloActualBrazo_7qG2_000	10	1	108	4	2
+28	__constValf0P07	10	0	112	4	3
+29	__constValf0P01	10	0	116	4	1
+30	__getbrazokp_7qG2_anguloBrazo_7qG2_000	10	1	120	4	2
+31	__getpinzakp_7qG2_anguloActualPinza_7qG2_000	10	1	124	4	2
+32	__movimiento_7qG2_errorBrazo_7qG2_000	6	1	128	4	5
+33	__constValf0P04	10	0	132	4	1
+34	__getpinzakp_7qG2_anguloPinza_7qG2_000	10	1	136	4	2
+35	semaforoBrazo	9	0	140	4	6
+36	__D0getpinzakp	6	1	144	4	2
+37	__DF0getpinzakp	10	1	148	4	3
+38	__D0getbrazokp	6	1	152	4	2
+39	__DF0getbrazokp	10	1	156	4	5
+40	__DF0movimiento	10	1	160	4	8
+41	__D0posicion	6	1	164	4	7
+42	__D0movimiento	6	1	168	4	22
+43	__DU0movimiento	5	1	172	4	4
+44	__D0checkAngulo	6	1	176	4	6
+45	__DU0checkAngulo	5	1	180	4	4
+46	__TextOutMutex	9	0	184	4	6
+47	__PointOutMutex	9	0	188	4	2
+48	__D0getbrazoki	6	1	192	4	2
+49	__DF0getbrazoki	10	1	196	4	6
+50	__D0constraint	6	1	200	4	16
+51	__D0ejecutar	6	1	204	4	5
+52	__signed_stack_001checkAngulo	6	1	208	4	2
+53	__signed_stack_002movimiento	6	1	212	4	4
+54	__signed_stack_001movimiento	6	1	216	4	6
+55	__float_stack_001getpinzakp	10	1	220	4	2
+56	__float_stack_001movimiento	10	1	224	4	6
+57	semaforoPinza	9	0	228	4	6
+58	__signed_stack_002posicion	6	1	232	4	2
+59	__signed_stack_001posicion	6	1	236	4	2
+60	__float_stack_001getbrazoki	10	1	240	4	2
+61	__float_stack_001getbrazokp	10	1	244	4	2
+62	__signed_stack_001constraint	6	1	248	4	4
+63	__constValNeg1000	4	0	252	2	2
+64	__movimiento_7qG2_velocidadBrazo_7qG2_000	4	1	254	2	2
+65	__ejecutar_7qG2_mensage_7qG2_000	4	1	256	2	2
+66	__constVal200	4	0	258	2	2
+67	__constVal1000	4	0	260	2	2
+68	__movimiento_7qG2_velocidadBamper_7qG2_000	4	1	262	2	2
+69	__constraint_7qG2_min_7qG2_000	4	1	264	2	7
+70	__constraint_7qG2_max_7qG2_000	4	1	266	2	7
+71	timerC	4	1	268	2	7
+72	__movimiento_7qG2_velocidadPinza_7qG2_000	4	1	270	2	2
+73	__constraint_7qG2_valor_7qG2_000	4	1	272	2	8
+74	__constVal63	2	0	274	1	3
+75	__constValNeg90	2	0	275	1	2
+76	__constVal96	2	0	276	1	3
+77	__abrirPinza_return	1	1	277	1	3
+78	__subirBrazo_return	1	1	278	1	3
+79	____initialize_global_data_return	1	1	279	1	3
+80	__constValNeg20	2	0	280	1	1
+81	__ejecutar_return	1	1	281	1	3
+82	__constVal32	2	0	282	1	9
+83	__constValNeg10	2	0	283	1	1
+84	__cerrarPinza_return	1	1	284	1	3
+85	__bajarBrazo_return	1	1	285	1	3
+86	__checkAngulo_return	1	1	286	1	6
+87	__getbrazoki_return	1	1	287	1	6
+88	__getbrazokp_return	1	1	288	1	5
+89	__constraint_return	1	1	289	1	10
+90	__setAnguloBrazo_return	1	1	290	1	4
+91	__setAnguloPinza_return	1	1	291	1	5
+92	__getpinzakp_return	1	1	292	1	3
+93	__constVal3	2	0	293	1	4
+94	__constVal0	2	1	294	1	21
+95	__constVal1	2	0	295	1	6
+96	__constVal2	2	0	296	1	3
+97	__BTCheck_7qG2_args_7qG2_000	8	0	4	12	1
+98	__BTCheck_7qG2_args_7qG2_000.Result	3	1	300	2	1
+99	__BTCheck_7qG2_args_7qG2_000.Action	1	1	302	1	1
+100	__BTCheck_7qG2_args_7qG2_000.Name	7	0	304	4	1
+101	__BTCheck_7qG2_args_7qG2_000.Name.Name_type	1	0	0	1	0
+102	__BTCheck_7qG2_args_7qG2_000.ConnectionSlot	1	1	306	1	1
+103	__TextOutArgs	8	0	4	16	18
+104	__TextOutArgs.Result	2	1	308	1	18
+105	__TextOutArgs.Location	8	0	2	4	18
+106	__TextOutArgs.Location.X	4	1	312	2	18
+107	__TextOutArgs.Location.Y	4	1	314	2	18
+108	__TextOutArgs.Text	7	0	316	4	18
+109	__TextOutArgs.Text.Text_type	1	0	0	1	0
+110	__TextOutArgs.Options	5	1	320	4	18
+111	__PointOutArgs	8	0	3	12	4
+112	__PointOutArgs.Result	2	1	324	1	4
+113	__PointOutArgs.Location	8	0	2	4	4
+114	__PointOutArgs.Location.X	4	1	328	2	4
+115	__PointOutArgs.Location.Y	4	1	330	2	4
+116	__PointOutArgs.Options	5	1	332	4	4
+#SOURCES
+Clump	Line	PC	Source
+0	532	0	#line 532 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+0	533	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	532	2	#line 532 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+0	533	2	#line 533 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+0	533	2	#line 533 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+0	534	2		exit 0, 2
+1	78	0	#line 78 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	79	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	78	2	#line 78 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	78	2	#line 78 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	79	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	78	4	#line 78 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	79	4		cmp 1, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	79	8	#line 79 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	80	8		brtst 4, __ASM_Label_606, __D0constraint
+1	80	11	#line 80 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	81	11		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	80	13	#line 80 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	81	13		subret __constraint_return
+1	80	15	#line 80 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	81	15	#line 81 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	81	15	#line 81 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	82	15		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	81	17	#line 81 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	82	17	#line 82 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	83	17		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	82	19	#line 82 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	83	19		cmp 0, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	83	23	#line 83 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	84	23		brtst 4, __ASM_Label_611, __D0constraint
+1	84	26	#line 84 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	85	26		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	84	28	#line 84 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	85	28		subret __constraint_return
+1	84	30	#line 84 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	85	30	#line 85 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	86	30	#line 86 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	87	30		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+1	86	32	#line 86 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	87	32		subret __constraint_return
+1	86	34	#line 86 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	93	34	#line 93 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+1	94	34		subret __constraint_return
+2	127	0	#line 127 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	128	0		acquire semaforoBrazo
+2	127	1	#line 127 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	128	1	#line 128 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	129	1		mov anguloBrazo, __setAnguloBrazo_7qG2_angulo_7qG2_000
+2	128	3	#line 128 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	128	3	#line 128 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	129	3	#line 129 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	130	3		set timerC, 0
+2	129	6	#line 129 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	129	6	#line 129 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	130	6	#line 130 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	131	6		release semaforoBrazo
+2	130	7	#line 130 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	132	7	#line 132 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+2	133	7		subret __setAnguloBrazo_return
+3	135	0	#line 135 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	136	0		acquire semaforoPinza
+3	135	1	#line 135 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	136	1	#line 136 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	137	1		mov anguloPinza, __setAnguloPinza_7qG2_angulo_7qG2_000
+3	136	3	#line 136 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	136	3	#line 136 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	137	3	#line 137 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	138	3		set timerC, 0
+3	137	6	#line 137 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	137	6	#line 137 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	138	6	#line 138 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	139	6		release semaforoPinza
+3	138	7	#line 138 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	140	7	#line 140 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+3	141	7		subret __setAnguloPinza_return
+4	159	0	#line 159 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	160	0		set __D0posicion, 1
+4	160	3	#line 160 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	161	3		tst 5, __D0posicion, __D0posicion
+4	160	6	#line 160 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	161	6		brtst 4, __ASM_Label_640, __D0posicion
+4	161	9	#line 161 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	162	9		acquire semaforoBrazo
+4	161	10	#line 161 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	162	10	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	163	10		getout anguloActualBrazo, __constVal1, 14
+4	162	14	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	162	14	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	162	14	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	163	14		set __signed_stack_001posicion, 1
+4	162	17	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	162	17	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	163	17		set __signed_stack_002posicion, 48
+4	162	20	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	162	20	#line 162 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	163	20		mov __D0posicion, anguloActualBrazo
+4	163	22	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	22		acquire __TextOutMutex
+4	163	23	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	23		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+4	163	25	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	25		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+4	163	27	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	27		set __TextOutArgs.Options, 0
+4	163	30	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	30		numtostr __TextOutArgs.Text, __D0posicion
+4	163	33	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	33		syscall 13, __TextOutArgs
+4	163	36	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	36		mov __D0posicion, __TextOutArgs.Result
+4	163	38	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	38		release __TextOutMutex
+4	163	39	#line 163 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	164	39	#line 164 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	165	39		release semaforoBrazo
+4	164	40	#line 164 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	165	40	#line 165 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	166	40		acquire semaforoPinza
+4	165	41	#line 165 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	166	41	#line 166 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	167	41		getout anguloActualPinza, __constVal0, 14
+4	166	45	#line 166 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	166	45	#line 166 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	167	45	#line 167 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	168	45		release semaforoPinza
+4	167	46	#line 167 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	168	46	#line 168 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	169	46		acquire semaforoBamper
+4	168	47	#line 168 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	169	47	#line 169 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	170	47		getout anguloActualBamper, __constVal2, 14
+4	169	51	#line 169 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	169	51	#line 169 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	170	51	#line 170 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	171	51		release semaforoBamper
+4	170	52	#line 170 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	177	52	#line 177 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	178	52		jmp __ASM_Label_639
+4	177	54	#line 177 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+4	178	54		exit -1, -1
+5	180	0	#line 180 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	180	0	#line 180 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	180	0	#line 180 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	180	0	#line 180 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	181	0		sub __D0checkAngulo, __checkAngulo_7qG2_angulo1_7qG2_000, __checkAngulo_7qG2_angulo2_7qG2_000
+5	180	4	#line 180 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	181	4		abs __signed_stack_001checkAngulo, __D0checkAngulo
+5	180	7	#line 180 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	181	7	#line 181 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	182	7		mov __D0checkAngulo, __checkAngulo_7qG2_MARGEN_7qG2_000
+5	181	9	#line 181 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	182	9		cmp 0, __D0checkAngulo, __signed_stack_001checkAngulo, __D0checkAngulo
+5	182	13	#line 182 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	183	13		brtst 4, __ASM_Label_659, __D0checkAngulo
+5	183	16	#line 183 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	184	16		set __DU0checkAngulo, 1
+5	183	19	#line 183 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	183	19	#line 183 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	184	19		subret __checkAngulo_return
+5	183	21	#line 183 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	184	21	#line 184 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	185	21		jmp __ASM_Label_662
+5	185	23	#line 185 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	186	23		set __DU0checkAngulo, 0
+5	185	26	#line 185 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	185	26	#line 185 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	186	26		subret __checkAngulo_return
+5	185	28	#line 185 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	190	28	#line 190 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	190	28	#line 190 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+5	191	28		subret __checkAngulo_return
+6	192	0	#line 192 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	193	0		mov __float_stack_001getbrazoki, __getbrazoki_7qG2_anguloBrazo_7qG2_000
+6	192	2	#line 192 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	193	2	#line 193 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	194	2		mov __DF0getbrazoki, __getbrazoki_7qG2_anguloActualBrazo_7qG2_000
+6	193	4	#line 193 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	194	4		cmp 1, __D0getbrazoki, __float_stack_001getbrazoki, __DF0getbrazoki
+6	195	8	#line 195 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	196	8		brtst 4, __ASM_Label_667, __D0getbrazoki
+6	196	11	#line 196 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	197	11		mov __DF0getbrazoki, __constValf0P08
+6	196	13	#line 196 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	197	13		subret __getbrazoki_return
+6	196	15	#line 196 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	198	15	#line 198 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	199	15		jmp __ASM_Label_670
+6	199	17	#line 199 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	200	17		mov __DF0getbrazoki, __constValf0P01
+6	199	19	#line 199 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	200	19		subret __getbrazoki_return
+6	199	21	#line 199 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	202	21	#line 202 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	202	21	#line 202 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+6	203	21		subret __getbrazoki_return
+7	204	0	#line 204 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	205	0		mov __float_stack_001getbrazokp, __getbrazokp_7qG2_anguloBrazo_7qG2_000
+7	204	2	#line 204 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	205	2	#line 205 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	206	2		mov __DF0getbrazokp, __getbrazokp_7qG2_anguloActualBrazo_7qG2_000
+7	205	4	#line 205 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	206	4		cmp 1, __D0getbrazokp, __float_stack_001getbrazokp, __DF0getbrazokp
+7	207	8	#line 207 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	208	8		brtst 4, __ASM_Label_675, __D0getbrazokp
+7	208	11	#line 208 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	209	11		mov __DF0getbrazokp, __constValf0P07
+7	208	13	#line 208 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	209	13		subret __getbrazokp_return
+7	208	15	#line 208 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	210	15	#line 210 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	211	15		jmp __ASM_Label_678
+7	211	17	#line 211 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	212	17		mov __DF0getbrazokp, __constValf0P04
+7	211	19	#line 211 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	212	19		subret __getbrazokp_return
+7	211	21	#line 211 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	214	21	#line 214 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	214	21	#line 214 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+7	215	21		subret __getbrazokp_return
+8	217	0	#line 217 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	218	0		mov __float_stack_001getpinzakp, __getpinzakp_7qG2_anguloPinza_7qG2_000
+8	217	2	#line 217 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	218	2	#line 218 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	219	2		mov __DF0getpinzakp, __getpinzakp_7qG2_anguloActualPinza_7qG2_000
+8	218	4	#line 218 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	219	4		cmp 1, __D0getpinzakp, __float_stack_001getpinzakp, __DF0getpinzakp
+8	220	8	#line 220 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	221	8		brtst 4, __ASM_Label_683, __D0getpinzakp
+8	222	11	#line 222 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	223	11		mov pinzakp, __constValf0P07
+8	222	13	#line 222 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	222	13	#line 222 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	224	13	#line 224 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	225	13		jmp __ASM_Label_686
+8	226	15	#line 226 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	227	15		mov pinzakp, __constValf0P07
+8	226	17	#line 226 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	226	17	#line 226 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	230	17	#line 230 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	230	17	#line 230 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+8	231	17		subret __getpinzakp_return
+9	249	0	#line 249 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	250	0		mov __movimiento_7qG2_errorBrazo_7qG2_000, __constVal0
+9	249	2	#line 249 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	249	2	#line 249 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	250	2		mov __movimiento_7qG2_errorPinza_7qG2_000, __constVal0
+9	249	4	#line 249 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	250	4	#line 250 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	251	4		mov __movimiento_7qG2_errorBamper_7qG2_000, __constVal0
+9	250	6	#line 250 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	250	6	#line 250 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	251	6		mov __movimiento_7qG2_integralBrazo_7qG2_000, __constVal0
+9	250	8	#line 250 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	250	8	#line 250 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	251	8		mov __movimiento_7qG2_integralPinza_7qG2_000, __constVal0
+9	250	10	#line 250 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	251	10	#line 251 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	252	10		mov __movimiento_7qG2_integralBamper_7qG2_000, __constVal0
+9	251	12	#line 251 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	251	12	#line 251 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	252	12		mov __movimiento_7qG2_constantesBrazo_7qG2_000, __constVal0
+9	251	14	#line 251 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	251	14	#line 251 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	252	14		mov __movimiento_7qG2_constantesPinza_7qG2_000, __constVal0
+9	251	16	#line 251 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	252	16	#line 252 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	253	16		mov __movimiento_7qG2_constantesBamper_7qG2_000, __constVal0
+9	252	18	#line 252 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	253	18	#line 253 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	253	18	#line 253 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	255	18	#line 255 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	256	18		set __D0movimiento, 1
+9	257	21	#line 257 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	258	21		tst 5, __D0movimiento, __D0movimiento
+9	257	24	#line 257 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	258	24		brtst 4, __ASM_Label_718, __D0movimiento
+9	6678	27	#line 6678 "NXCDefs.h"
+9	6679	27	#pragma macro 6
+9	6679	27		acquire __PointOutMutex
+9	6679	28		mov __PointOutArgs.Location.X, __constVal200
+9	6679	30		mov __PointOutArgs.Location.Y, __constVal200
+9	6679	32		mov __PointOutArgs.Options, __constVal1
+9	6679	34		syscall 14, __PointOutArgs
+9	6679	37		release __PointOutMutex
+9	8486	38	#line 8486 "NXCDefs.h"
+9	6678	38	#line 6678 "NXCDefs.h"
+9	258	38	#line 258 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	259	38	#line 259 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	260	38		acquire semaforoBrazo
+9	259	39	#line 259 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	259	39	#line 259 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	259	39	#line 259 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	39	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	39	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	264	39		sub __movimiento_7qG2_errorBrazo_7qG2_000, anguloBrazo, anguloActualBrazo
+9	263	43	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	43	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	43	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	264	43		mov __checkAngulo_7qG2_angulo1_7qG2_000, anguloBrazo
+9	263	45	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	45	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	264	45		mov __checkAngulo_7qG2_angulo2_7qG2_000, anguloActualBrazo
+9	263	47	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	47	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	264	47		set __checkAngulo_7qG2_MARGEN_7qG2_000, 15
+9	263	50	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	263	50	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	264	50		subcall checkAngulo, __checkAngulo_return
+9	263	52	#line 263 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	264	52		mov __DU0movimiento, __DU0checkAngulo
+9	266	54	#line 266 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	267	54		tst 5, __D0movimiento, __DU0movimiento
+9	266	57	#line 266 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	267	57		brtst 4, __ASM_Label_731, __D0movimiento
+9	267	60	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	60		jmp __ASM_Label_732
+9	267	62	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	62		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_integralBrazo_7qG2_000
+9	267	64	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	267	64	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	64		mov __constraint_7qG2_max_7qG2_000, __constVal1000
+9	267	66	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	267	66	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	66		mov __constraint_7qG2_min_7qG2_000, __constValNeg1000
+9	267	68	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	267	68	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	68		subcall constraint, __constraint_return
+9	267	70	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	267	70	#line 267 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	70	#line 268 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	70	#line 268 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	269	70		add __movimiento_7qG2_integralBrazo_7qG2_000, __D0constraint, __movimiento_7qG2_errorBrazo_7qG2_000
+9	268	74	#line 268 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	268	74	#line 268 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	74	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	74	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	74		mov __getbrazokp_7qG2_anguloBrazo_7qG2_000, anguloBrazo
+9	270	76	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	76	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	76		mov __getbrazokp_7qG2_anguloActualBrazo_7qG2_000, anguloActualBrazo
+9	270	78	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	78	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	78		subcall getbrazokp, __getbrazokp_return
+9	270	80	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	80	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	80	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	80	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	80		mul __float_stack_001movimiento, __DF0getbrazokp, __movimiento_7qG2_errorBrazo_7qG2_000
+9	270	84	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	84	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	84		mov __getbrazoki_7qG2_anguloBrazo_7qG2_000, anguloBrazo
+9	270	86	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	86	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	86		mov __getbrazoki_7qG2_anguloActualBrazo_7qG2_000, anguloActualBrazo
+9	270	88	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	88	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	271	88		subcall getbrazoki, __getbrazoki_return
+9	270	90	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	270	90	#line 270 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	274	90	#line 274 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	274	90	#line 274 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	275	90		mul __DF0movimiento, __DF0getbrazoki, __movimiento_7qG2_integralBrazo_7qG2_000
+9	274	94	#line 274 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	275	94		add __movimiento_7qG2_constantesBrazo_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+9	274	98	#line 274 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	274	98	#line 274 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	275	98	#line 275 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	276	98		release semaforoBrazo
+9	275	99	#line 275 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	276	99	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	277	99		mov __movimiento_7qG2_velocidadBrazo_7qG2_000, __movimiento_7qG2_constantesBrazo_7qG2_000
+9	276	101	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	276	101	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	276	101	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	277	101		set __signed_stack_001movimiento, 1
+9	276	104	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	276	104	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	277	104		set __signed_stack_002movimiento, 24
+9	276	107	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	276	107	#line 276 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	277	107		mov __DF0movimiento, __movimiento_7qG2_constantesBrazo_7qG2_000
+9	279	109	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	109		acquire __TextOutMutex
+9	279	110	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	110		mov __TextOutArgs.Location.X, __signed_stack_001movimiento
+9	279	112	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	112		mov __TextOutArgs.Location.Y, __signed_stack_002movimiento
+9	279	114	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	114		set __TextOutArgs.Options, 0
+9	279	117	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	117		numtostr __TextOutArgs.Text, __DF0movimiento
+9	279	120	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	120		syscall 13, __TextOutArgs
+9	279	123	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	123		mov __D0movimiento, __TextOutArgs.Result
+9	279	125	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	125		release __TextOutMutex
+9	279	126	#line 279 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	126	#line 280 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	281	126		acquire semaforoPinza
+9	280	127	#line 280 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	127	#line 280 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	280	127	#line 280 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	281	127	#line 281 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	281	127	#line 281 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	282	127		sub __movimiento_7qG2_errorPinza_7qG2_000, anguloPinza, anguloActualPinza
+9	281	131	#line 281 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	281	131	#line 281 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	283	131	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	131		add timerC, timerC, __constVal1
+9	283	135	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	283	135	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	135		mov __checkAngulo_7qG2_angulo1_7qG2_000, anguloBrazo
+9	283	137	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	283	137	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	137		mov __checkAngulo_7qG2_angulo2_7qG2_000, anguloActualBrazo
+9	283	139	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	283	139	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	139		set __checkAngulo_7qG2_MARGEN_7qG2_000, 15
+9	283	142	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	283	142	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	142		subcall checkAngulo, __checkAngulo_return
+9	283	144	#line 283 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	144		mov __DU0movimiento, __DU0checkAngulo
+9	284	146	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	285	146		tst 5, __D0movimiento, __DU0movimiento
+9	284	149	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	285	149		brtst 4, __ASM_Label_769, __D0movimiento
+9	284	152	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	285	152		set __signed_stack_001movimiento, 1
+9	284	155	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	155	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	285	155		set __signed_stack_002movimiento, 16
+9	284	158	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	284	158	#line 284 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	285	158		set __D0movimiento, 35
+9	286	161	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	161		acquire __TextOutMutex
+9	286	162	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	162		mov __TextOutArgs.Location.X, __signed_stack_001movimiento
+9	286	164	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	164		mov __TextOutArgs.Location.Y, __signed_stack_002movimiento
+9	286	166	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	166		set __TextOutArgs.Options, 0
+9	286	169	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	169		numtostr __TextOutArgs.Text, __D0movimiento
+9	286	172	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	172		syscall 13, __TextOutArgs
+9	286	175	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	175		mov __D0movimiento, __TextOutArgs.Result
+9	286	177	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	177		release __TextOutMutex
+9	286	178	#line 286 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	178	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	178		jmp __ASM_Label_776
+9	287	180	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	180		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_integralBrazo_7qG2_000
+9	287	182	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	182	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	182		mov __constraint_7qG2_max_7qG2_000, __constVal1000
+9	287	184	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	184	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	184		mov __constraint_7qG2_min_7qG2_000, __constValNeg1000
+9	287	186	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	186	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	186		subcall constraint, __constraint_return
+9	287	188	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	287	188	#line 287 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	188	#line 288 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	188	#line 288 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	289	188		add __movimiento_7qG2_integralBrazo_7qG2_000, __D0constraint, __movimiento_7qG2_errorBrazo_7qG2_000
+9	288	192	#line 288 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	288	192	#line 288 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	289	192	#line 289 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	289	192	#line 289 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	290	192		mov __signed_stack_001movimiento, timerC
+9	289	194	#line 289 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	290	194	#line 290 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	291	194		set __D0movimiento, 200
+9	290	197	#line 290 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	291	197		cmp 1, __D0movimiento, __signed_stack_001movimiento, __D0movimiento
+9	291	201	#line 291 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	292	201		brtst 4, __ASM_Label_787, __D0movimiento
+9	291	204	#line 291 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	292	204		mov __setAnguloPinza_7qG2_angulo_7qG2_000, anguloActualPinza
+9	291	206	#line 291 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	292	206	#line 292 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	293	206		subcall setAnguloPinza, __setAnguloPinza_return
+9	292	208	#line 292 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	294	208	#line 294 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	295	208		jmp __ASM_Label_790
+9	295	210	#line 295 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	210		add timerC, timerC, __constVal1
+9	295	214	#line 295 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	214	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	214	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	214		mov __getpinzakp_7qG2_anguloPinza_7qG2_000, anguloBrazo
+9	296	216	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	216	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	216		mov __getpinzakp_7qG2_anguloActualPinza_7qG2_000, anguloActualBrazo
+9	296	218	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	218	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	218		subcall getpinzakp, __getpinzakp_return
+9	296	220	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	220	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	220	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	220	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	220		mul __float_stack_001movimiento, __DF0getpinzakp, __movimiento_7qG2_errorPinza_7qG2_000
+9	296	224	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	224	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	224		mov __getbrazoki_7qG2_anguloBrazo_7qG2_000, anguloBrazo
+9	296	226	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	226	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	226		mov __getbrazoki_7qG2_anguloActualBrazo_7qG2_000, anguloActualBrazo
+9	296	228	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	228	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	228		subcall getbrazoki, __getbrazoki_return
+9	296	230	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	296	230	#line 296 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	230	#line 297 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	230	#line 297 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	298	230		mul __DF0movimiento, __DF0getbrazoki, __movimiento_7qG2_integralPinza_7qG2_000
+9	297	234	#line 297 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	298	234		add __movimiento_7qG2_constantesPinza_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+9	297	238	#line 297 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	297	238	#line 297 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	298	238	#line 298 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	299	238		release semaforoPinza
+9	298	239	#line 298 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	300	239	#line 300 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	301	239		mov __movimiento_7qG2_velocidadPinza_7qG2_000, __movimiento_7qG2_constantesPinza_7qG2_000
+9	300	241	#line 300 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	300	241	#line 300 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	301	241	#line 301 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	302	241		acquire semaforoBamper
+9	301	242	#line 301 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	301	242	#line 301 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	301	242	#line 301 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	303	242	#line 303 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	303	242	#line 303 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	242		sub __movimiento_7qG2_errorBamper_7qG2_000, anguloBamper, anguloActualBamper
+9	303	246	#line 303 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	303	246	#line 303 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	303	246	#line 303 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	303	246	#line 303 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	246	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	246	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	305	246		add __movimiento_7qG2_integralBamper_7qG2_000, __movimiento_7qG2_integralBamper_7qG2_000, __movimiento_7qG2_errorBamper_7qG2_000
+9	304	250	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	250	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	250	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	250	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	250	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	250	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	305	250		mul __float_stack_001movimiento, bamperkp, __movimiento_7qG2_errorBamper_7qG2_000
+9	304	254	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	254	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	304	254	#line 304 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	305	254	#line 305 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	305	254	#line 305 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	306	254		mul __DF0movimiento, bamperki, __movimiento_7qG2_integralBamper_7qG2_000
+9	305	258	#line 305 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	306	258		add __movimiento_7qG2_constantesBamper_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+9	305	262	#line 305 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	305	262	#line 305 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	306	262	#line 306 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	307	262		release semaforoBamper
+9	306	263	#line 306 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	308	263	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	263		mov __movimiento_7qG2_velocidadBamper_7qG2_000, __movimiento_7qG2_constantesBamper_7qG2_000
+9	308	265	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	308	265	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	308	265	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	265		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadBrazo_7qG2_000
+9	308	267	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	308	267	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	267		set __constraint_7qG2_max_7qG2_000, 90
+9	308	270	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	308	270	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	270		mov __constraint_7qG2_min_7qG2_000, __constValNeg90
+9	308	272	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	308	272	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	272		subcall constraint, __constraint_return
+9	308	274	#line 308 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	274		mov __D0movimiento, __D0constraint
+9	309	276	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	276	#pragma macro 7
+9	310	276		setout __constVal1, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	8980	299	#line 8980 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	299	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	299	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	299		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadPinza_7qG2_000
+9	309	301	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	301	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	301		set __constraint_7qG2_max_7qG2_000, 90
+9	309	304	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	304	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	304		mov __constraint_7qG2_min_7qG2_000, __constValNeg90
+9	309	306	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	309	306	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	306		subcall constraint, __constraint_return
+9	309	308	#line 309 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	308		mov __D0movimiento, __D0constraint
+9	310	310	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	310	#pragma macro 7
+9	311	310		setout __constVal0, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	9003	333	#line 9003 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	333	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	333	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	333		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadBamper_7qG2_000
+9	310	335	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	335	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	335		set __constraint_7qG2_max_7qG2_000, 10
+9	310	338	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	338	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	338		mov __constraint_7qG2_min_7qG2_000, __constValNeg10
+9	310	340	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	310	340	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	340		subcall constraint, __constraint_return
+9	310	342	#line 310 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	342		mov __D0movimiento, __D0constraint
+9	311	344	#line 311 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	312	344	#pragma macro 7
+9	312	344		setout __constVal2, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	9026	367	#line 9026 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	367	#line 311 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	311	367	#line 311 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	312	367		set __Wait_7qG2_ms_7qG2_000_inline_movimiento, 50
+9	311	370	#line 311 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	8551	370	#line 8551 "NXCDefs.h"
+9	8552	370		waitv __Wait_7qG2_ms_7qG2_000_inline_movimiento
+9	8551	372	#line 8551 "NXCDefs.h"
+9	312	372	#line 312 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	318	372	#line 318 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	319	372		jmp __ASM_Label_717
+9	318	374	#line 318 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+9	319	374		exit -1, -1
+10	453	0	#line 453 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+10	454	0		set __setAnguloBrazo_7qG2_angulo_7qG2_000, 333
+10	453	3	#line 453 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+10	454	3	#line 454 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+10	455	3		subcall setAnguloBrazo, __setAnguloBrazo_return
+10	454	5	#line 454 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+10	456	5	#line 456 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+10	457	5		subret __bajarBrazo_return
+11	458	0	#line 458 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+11	459	0		mov __setAnguloBrazo_7qG2_angulo_7qG2_000, __constValNeg20
+11	458	2	#line 458 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+11	461	2	#line 461 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+11	462	2		subcall setAnguloBrazo, __setAnguloBrazo_return
+11	461	4	#line 461 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+11	463	4	#line 463 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+11	464	4		subret __subirBrazo_return
+12	465	0	#line 465 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+12	466	0		set __setAnguloPinza_7qG2_angulo_7qG2_000, 0
+12	465	3	#line 465 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+12	467	3	#line 467 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+12	468	3		subcall setAnguloPinza, __setAnguloPinza_return
+12	467	5	#line 467 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+12	469	5	#line 469 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+12	470	5		subret __abrirPinza_return
+13	471	0	#line 471 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+13	472	0		set __setAnguloPinza_7qG2_angulo_7qG2_000, 2400
+13	471	3	#line 471 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+13	473	3	#line 473 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+13	474	3		subcall setAnguloPinza, __setAnguloPinza_return
+13	473	5	#line 473 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+13	478	5	#line 478 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+13	479	5		subret __cerrarPinza_return
+14	481	0	#line 481 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	482	0		mov __D0ejecutar, __ejecutar_7qG2_mensage_7qG2_000
+14	485	2		brcmp 4, __ASM_Label_981, __constVal0, __D0ejecutar
+14	486	6		brcmp 4, __ASM_Label_982, __constVal1, __D0ejecutar
+14	487	10		brcmp 4, __ASM_Label_983, __constVal2, __D0ejecutar
+14	488	14		brcmp 4, __ASM_Label_984, __constVal3, __D0ejecutar
+14	489	18		jmp __ASM_Label_980
+14	483	20	#line 483 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	484	20	#line 484 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	485	20		subcall bajarBrazo, __bajarBrazo_return
+14	484	22	#line 484 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	485	22	#line 485 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	486	22		jmp __ASM_Label_980
+14	485	24	#line 485 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	486	24	#line 486 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	487	24	#line 487 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	488	24		subcall subirBrazo, __subirBrazo_return
+14	487	26	#line 487 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	488	26	#line 488 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	489	26		jmp __ASM_Label_980
+14	488	28	#line 488 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	489	28	#line 489 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	490	28	#line 490 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	491	28		subcall cerrarPinza, __cerrarPinza_return
+14	490	30	#line 490 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	491	30	#line 491 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	492	30		jmp __ASM_Label_980
+14	491	32	#line 491 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	492	32	#line 492 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	493	32	#line 493 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	494	32		subcall abrirPinza, __abrirPinza_return
+14	493	34	#line 493 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	494	34	#line 494 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	494	34	#line 494 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	496	34	#line 496 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	496	34	#line 496 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+14	497	34		subret __ejecutar_return
+15	500	0	#line 500 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+15	501	0		set __ejecutar_7qG2_mensage_7qG2_000, 2
+15	500	3	#line 500 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+15	521	3	#line 521 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+15	522	3		subcall ejecutar, __ejecutar_return
+15	521	5	#line 521 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+15	522	5		exit -1, -1
+16	536	0	#line 536 "\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc"
+16	537	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+1	constraint	5	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+2	setAnguloBrazo	41	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+3	setAnguloPinza	50	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+4	posicion	59	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+5	checkAngulo	116	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+6	getbrazoki	146	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+7	getbrazokp	169	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+8	getpinzakp	192	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+9	movimiento	211	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+10	bajarBrazo	588	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+11	subirBrazo	595	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+12	abrirPinza	601	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+13	cerrarPinza	608	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+14	ejecutar	615	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+15	rutina	651	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc
+16	__initialize_global_data	659	\\Mac\Home\Desktop\SerbosSuperiores - copia.nxc

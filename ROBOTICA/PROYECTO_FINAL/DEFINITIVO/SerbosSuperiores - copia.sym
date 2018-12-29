@@ -1,0 +1,1061 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__checkAngulo_7qG2_MARGEN_7qG2_000	6	1	0	4	3
+1	__getbrazoki_7qG2_anguloBrazo_7qG2_000	10	1	4	4	2
+2	__checkAngulo_7qG2_angulo2_7qG2_000	6	1	8	4	3
+3	__setAnguloPinza_7qG2_angulo_7qG2_000	6	1	12	4	4
+4	__checkAngulo_7qG2_angulo1_7qG2_000	6	1	16	4	3
+5	__getbrazokp_7qG2_anguloBrazo_7qG2_000	10	1	20	4	2
+6	__getbrazokp_7qG2_anguloActualBrazo_7qG2_000	10	1	24	4	2
+7	__constValf0P01	10	0	28	4	3
+8	__getbrazoki_7qG2_anguloActualBrazo_7qG2_000	10	1	32	4	2
+9	__constValf0P08	10	0	36	4	1
+10	__setAnguloBrazo_7qG2_angulo_7qG2_000	6	1	40	4	3
+11	anguloActualPinza	6	1	44	4	6
+12	anguloActualBamper	6	1	48	4	2
+13	anguloActualBrazo	6	1	52	4	5
+14	semaforoBrazo	9	0	56	4	6
+15	semaforoBamper	9	0	60	4	4
+16	bamperkp	10	1	64	4	1
+17	bamperki	10	1	68	4	1
+18	anguloBamper	6	1	72	4	1
+19	anguloBrazo	6	1	76	4	7
+20	anguloPinza	6	1	80	4	5
+21	__movimiento_7qG2_constantesPinza_7qG2_000	10	1	84	4	3
+22	__movimiento_7qG2_constantesBamper_7qG2_000	10	1	88	4	3
+23	__movimiento_7qG2_constantesBrazo_7qG2_000	10	1	92	4	3
+24	__movimiento_7qG2_integralPinza_7qG2_000	10	1	96	4	4
+25	__movimiento_7qG2_integralBamper_7qG2_000	10	1	100	4	4
+26	__constVal50920	6	0	104	4	1
+27	__constVal71350	6	0	108	4	1
+28	__constVal34380	6	0	112	4	1
+29	__Wait_7qG2_ms_7qG2_000_inline_movimiento	5	1	116	4	2
+30	__Wait_7qG2_ms_7qG2_000_inline_rutina	5	1	120	4	12
+31	__movimiento_7qG2_integralBrazo_7qG2_000	10	1	124	4	4
+32	__getpinzakp_7qG2_anguloActualPinza_7qG2_000	10	1	128	4	2
+33	__constValf0P7	10	0	132	4	2
+34	__getpinzakp_7qG2_anguloPinza_7qG2_000	10	1	136	4	2
+35	__constValf0P07	10	0	140	4	1
+36	__constValf0P1	10	0	144	4	1
+37	__movimiento_7qG2_errorPinza_7qG2_000	6	1	148	4	4
+38	__movimiento_7qG2_errorBamper_7qG2_000	6	1	152	4	4
+39	__movimiento_7qG2_errorBrazo_7qG2_000	6	1	156	4	4
+40	__getpinzaki_7qG2_anguloPinza_7qG2_000	10	1	160	4	2
+41	__getpinzaki_7qG2_anguloActualPinza_7qG2_000	10	1	164	4	2
+42	__DU0millis	5	1	168	4	6
+43	__D0movimiento	6	1	172	4	18
+44	__DF0getpinzakp	10	1	176	4	5
+45	__DF0getpinzaki	10	1	180	4	5
+46	__D0getpinzakp	6	1	184	4	2
+47	__D0rutina	6	1	188	4	35
+48	__DU0rutina	5	1	192	4	10
+49	__D0posicion	6	1	196	4	4
+50	__DU0movimiento	5	1	200	4	4
+51	__DF0movimiento	10	1	204	4	6
+52	__DU0checkAngulo	5	1	208	4	4
+53	__D0constraint	6	1	212	4	16
+54	__D0checkAngulo	6	1	216	4	6
+55	__TextOutMutex	9	0	220	4	6
+56	__PointOutMutex	9	0	224	4	2
+57	__DF0getbrazokp	10	1	228	4	5
+58	__D0getpinzaki	6	1	232	4	2
+59	__D0getbrazokp	6	1	236	4	2
+60	__D0getbrazoki	6	1	240	4	2
+61	__DF0getbrazoki	10	1	244	4	5
+62	__signed_stack_001checkAngulo	6	1	248	4	2
+63	__signed_stack_001movimiento	6	1	252	4	2
+64	__float_stack_001movimiento	10	1	256	4	6
+65	__float_stack_001getpinzakp	10	1	260	4	2
+66	__unsigned_stack_001millis	5	1	264	4	2
+67	__unsigned_stack_001rutina	5	1	268	4	8
+68	semaforoPinza	9	0	272	4	6
+69	__signed_stack_001rutina	6	1	276	4	6
+70	__signed_stack_002rutina	6	1	280	4	6
+71	__float_stack_001getbrazoki	10	1	284	4	2
+72	__signed_stack_001constraint	6	1	288	4	4
+73	__float_stack_001getbrazokp	10	1	292	4	2
+74	__float_stack_001getpinzaki	10	1	296	4	2
+75	__constVal200	4	0	300	2	2
+76	__constVal1000	4	0	302	2	2
+77	__constValNeg1000	4	0	304	2	2
+78	__movimiento_7qG2_velocidadBamper_7qG2_000	4	1	306	2	2
+79	__movimiento_7qG2_velocidadBrazo_7qG2_000	4	1	308	2	2
+80	__movimiento_7qG2_velocidadPinza_7qG2_000	4	1	310	2	2
+81	__constraint_7qG2_valor_7qG2_000	4	1	312	2	8
+82	timerC	4	1	314	2	8
+83	__constraint_7qG2_max_7qG2_000	4	1	316	2	7
+84	__constraint_7qG2_min_7qG2_000	4	1	318	2	7
+85	__subirBrazo_return	1	1	320	1	5
+86	__bajarBrazo_return	1	1	321	1	5
+87	__setAnguloPinza_return	1	1	322	1	5
+88	__millis_return	1	1	323	1	8
+89	__abrirPinza_return	1	1	324	1	4
+90	__constValNeg20	2	0	325	1	1
+91	__cerrarPinza_return	1	1	326	1	5
+92	__constVal1	2	0	327	1	5
+93	__constVal0	2	1	328	1	20
+94	____initialize_global_data_return	1	1	329	1	3
+95	__constVal32	2	0	330	1	9
+96	__rutina_7qG2_cua_7qG2_000	1	1	331	1	3
+97	__rutina_7qG2_first_7qG2_000	1	1	332	1	3
+98	__constVal3	2	0	333	1	3
+99	__rutina_7qG2_tri_7qG2_000	1	1	334	1	3
+100	__rutina_7qG2_second_7qG2_000	1	1	335	1	3
+101	__getpinzakp_return	1	1	336	1	5
+102	__getpinzaki_return	1	1	337	1	5
+103	__getbrazokp_return	1	1	338	1	5
+104	__checkAngulo_return	1	1	339	1	6
+105	__setAnguloBrazo_return	1	1	340	1	4
+106	__constVal2	2	0	341	1	2
+107	__constVal96	2	0	342	1	3
+108	__constVal63	2	0	343	1	3
+109	__constValNeg10	2	0	344	1	1
+110	__constraint_return	1	1	345	1	10
+111	__getbrazoki_return	1	1	346	1	5
+112	__constValNeg90	2	0	347	1	2
+113	__TextOutArgs	8	0	4	16	18
+114	__TextOutArgs.Result	2	1	348	1	18
+115	__TextOutArgs.Location	8	0	2	4	18
+116	__TextOutArgs.Location.X	4	1	352	2	18
+117	__TextOutArgs.Location.Y	4	1	354	2	18
+118	__TextOutArgs.Text	7	0	356	4	18
+119	__TextOutArgs.Text.Text_type	1	0	0	1	0
+120	__TextOutArgs.Options	5	1	360	4	18
+121	__BTCheck_7qG2_args_7qG2_000	8	0	4	12	1
+122	__BTCheck_7qG2_args_7qG2_000.Result	3	1	364	2	1
+123	__BTCheck_7qG2_args_7qG2_000.Action	1	1	366	1	1
+124	__BTCheck_7qG2_args_7qG2_000.Name	7	0	368	4	1
+125	__BTCheck_7qG2_args_7qG2_000.Name.Name_type	1	0	0	1	0
+126	__BTCheck_7qG2_args_7qG2_000.ConnectionSlot	1	1	370	1	1
+127	__GSTArgs	8	0	1	4	2
+128	__GSTArgs.Result	5	1	372	4	2
+129	__PointOutArgs	8	0	3	12	4
+130	__PointOutArgs.Result	2	1	376	1	4
+131	__PointOutArgs.Location	8	0	2	4	4
+132	__PointOutArgs.Location.X	4	1	380	2	4
+133	__PointOutArgs.Location.Y	4	1	382	2	4
+134	__PointOutArgs.Options	5	1	384	4	4
+#SOURCES
+Clump	Line	PC	Source
+0	564	0	#line 564 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+0	565	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	564	2	#line 564 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+0	565	2	#line 565 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+0	565	2	#line 565 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+0	566	2		exit 0, 2
+1	80	0	#line 80 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	81	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	80	2	#line 80 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	80	2	#line 80 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	81	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	80	4	#line 80 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	81	4		cmp 1, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	81	8	#line 81 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	82	8		brtst 4, __ASM_Label_606, __D0constraint
+1	82	11	#line 82 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	83	11		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	82	13	#line 82 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	83	13		subret __constraint_return
+1	82	15	#line 82 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	83	15	#line 83 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	83	15	#line 83 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	84	15		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	83	17	#line 83 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	84	17	#line 84 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	85	17		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	84	19	#line 84 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	85	19		cmp 0, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	85	23	#line 85 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	86	23		brtst 4, __ASM_Label_611, __D0constraint
+1	86	26	#line 86 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	87	26		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	86	28	#line 86 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	87	28		subret __constraint_return
+1	86	30	#line 86 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	87	30	#line 87 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	88	30	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	89	30		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+1	88	32	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	89	32		subret __constraint_return
+1	88	34	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	95	34	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+1	96	34		subret __constraint_return
+2	130	0	#line 130 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	131	0		acquire semaforoBrazo
+2	130	1	#line 130 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	131	1	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	132	1		mov anguloBrazo, __setAnguloBrazo_7qG2_angulo_7qG2_000
+2	131	3	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	131	3	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	132	3	#line 132 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	133	3		set timerC, 0
+2	132	6	#line 132 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	132	6	#line 132 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	133	6	#line 133 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	134	6		release semaforoBrazo
+2	133	7	#line 133 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	135	7	#line 135 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+2	136	7		subret __setAnguloBrazo_return
+3	138	0	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	139	0		acquire semaforoPinza
+3	138	1	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	139	1	#line 139 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	140	1		mov anguloPinza, __setAnguloPinza_7qG2_angulo_7qG2_000
+3	139	3	#line 139 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	139	3	#line 139 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	140	3	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	141	3		set timerC, 0
+3	140	6	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	140	6	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	141	6	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	142	6		release semaforoPinza
+3	141	7	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	143	7	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+3	144	7		subret __setAnguloPinza_return
+4	162	0	#line 162 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	163	0		set __D0posicion, 1
+4	163	3	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	164	3		tst 5, __D0posicion, __D0posicion
+4	163	6	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	164	6		brtst 4, __ASM_Label_646, __D0posicion
+4	164	9	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	165	9		acquire semaforoBrazo
+4	164	10	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	165	10	#line 165 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	166	10		getout anguloActualBrazo, __constVal1, 14
+4	165	14	#line 165 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	165	14	#line 165 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	166	14	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	167	14		release semaforoBrazo
+4	166	15	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	167	15	#line 167 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	168	15		acquire semaforoPinza
+4	167	16	#line 167 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	168	16	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	169	16		getout anguloActualPinza, __constVal0, 14
+4	168	20	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	168	20	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	169	20	#line 169 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	170	20		release semaforoPinza
+4	169	21	#line 169 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	170	21	#line 170 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	171	21		acquire semaforoBamper
+4	170	22	#line 170 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	171	22	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	172	22		getout anguloActualBamper, __constVal2, 14
+4	171	26	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	171	26	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	172	26	#line 172 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	173	26		release semaforoBamper
+4	172	27	#line 172 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	179	27	#line 179 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	180	27		jmp __ASM_Label_645
+4	179	29	#line 179 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+4	180	29		exit -1, -1
+5	182	0	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	182	0	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	182	0	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	182	0	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	183	0		sub __D0checkAngulo, __checkAngulo_7qG2_angulo1_7qG2_000, __checkAngulo_7qG2_angulo2_7qG2_000
+5	182	4	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	183	4		abs __signed_stack_001checkAngulo, __D0checkAngulo
+5	182	7	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	183	7	#line 183 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	184	7		mov __D0checkAngulo, __checkAngulo_7qG2_MARGEN_7qG2_000
+5	183	9	#line 183 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	184	9		cmp 0, __D0checkAngulo, __signed_stack_001checkAngulo, __D0checkAngulo
+5	184	13	#line 184 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	185	13		brtst 4, __ASM_Label_659, __D0checkAngulo
+5	185	16	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	186	16		set __DU0checkAngulo, 1
+5	185	19	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	185	19	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	186	19		subret __checkAngulo_return
+5	185	21	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	186	21	#line 186 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	187	21		jmp __ASM_Label_662
+5	187	23	#line 187 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	188	23		set __DU0checkAngulo, 0
+5	187	26	#line 187 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	187	26	#line 187 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	188	26		subret __checkAngulo_return
+5	187	28	#line 187 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	192	28	#line 192 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	192	28	#line 192 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+5	193	28		subret __checkAngulo_return
+6	194	0	#line 194 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	195	0		mov __float_stack_001getbrazoki, __getbrazoki_7qG2_anguloBrazo_7qG2_000
+6	194	2	#line 194 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	195	2	#line 195 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	196	2		mov __DF0getbrazoki, __getbrazoki_7qG2_anguloActualBrazo_7qG2_000
+6	195	4	#line 195 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	196	4		cmp 1, __D0getbrazoki, __float_stack_001getbrazoki, __DF0getbrazoki
+6	197	8	#line 197 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	198	8		brtst 4, __ASM_Label_667, __D0getbrazoki
+6	198	11	#line 198 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	199	11		mov __DF0getbrazoki, __constValf0P08
+6	198	13	#line 198 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	199	13		subret __getbrazoki_return
+6	198	15	#line 198 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	200	15	#line 200 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	201	15		jmp __ASM_Label_670
+6	201	17	#line 201 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	202	17		mov __DF0getbrazoki, __constValf0P01
+6	201	19	#line 201 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	202	19		subret __getbrazoki_return
+6	201	21	#line 201 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	204	21	#line 204 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	204	21	#line 204 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+6	205	21		subret __getbrazoki_return
+7	206	0	#line 206 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	207	0		mov __float_stack_001getbrazokp, __getbrazokp_7qG2_anguloBrazo_7qG2_000
+7	206	2	#line 206 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	207	2	#line 207 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	208	2		mov __DF0getbrazokp, __getbrazokp_7qG2_anguloActualBrazo_7qG2_000
+7	207	4	#line 207 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	208	4		cmp 1, __D0getbrazokp, __float_stack_001getbrazokp, __DF0getbrazokp
+7	209	8	#line 209 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	210	8		brtst 4, __ASM_Label_675, __D0getbrazokp
+7	210	11	#line 210 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	211	11		mov __DF0getbrazokp, __constValf0P07
+7	210	13	#line 210 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	211	13		subret __getbrazokp_return
+7	210	15	#line 210 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	212	15	#line 212 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	213	15		jmp __ASM_Label_678
+7	213	17	#line 213 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	214	17		mov __DF0getbrazokp, __constValf0P1
+7	213	19	#line 213 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	214	19		subret __getbrazokp_return
+7	213	21	#line 213 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	216	21	#line 216 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	216	21	#line 216 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+7	217	21		subret __getbrazokp_return
+8	219	0	#line 219 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	220	0		mov __float_stack_001getpinzakp, __getpinzakp_7qG2_anguloPinza_7qG2_000
+8	219	2	#line 219 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	220	2	#line 220 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	221	2		mov __DF0getpinzakp, __getpinzakp_7qG2_anguloActualPinza_7qG2_000
+8	220	4	#line 220 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	221	4		cmp 1, __D0getpinzakp, __float_stack_001getpinzakp, __DF0getpinzakp
+8	222	8	#line 222 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	223	8		brtst 4, __ASM_Label_683, __D0getpinzakp
+8	224	11	#line 224 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	225	11		mov __DF0getpinzakp, __constValf0P7
+8	224	13	#line 224 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	225	13		subret __getpinzakp_return
+8	224	15	#line 224 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	226	15	#line 226 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	227	15		jmp __ASM_Label_686
+8	228	17	#line 228 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	229	17		mov __DF0getpinzakp, __constValf0P7
+8	228	19	#line 228 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	229	19		subret __getpinzakp_return
+8	228	21	#line 228 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	232	21	#line 232 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	232	21	#line 232 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+8	233	21		subret __getpinzakp_return
+9	235	0	#line 235 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	236	0		mov __float_stack_001getpinzaki, __getpinzaki_7qG2_anguloPinza_7qG2_000
+9	235	2	#line 235 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	236	2	#line 236 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	237	2		mov __DF0getpinzaki, __getpinzaki_7qG2_anguloActualPinza_7qG2_000
+9	236	4	#line 236 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	237	4		cmp 1, __D0getpinzaki, __float_stack_001getpinzaki, __DF0getpinzaki
+9	239	8	#line 239 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	240	8		brtst 4, __ASM_Label_691, __D0getpinzaki
+9	240	11	#line 240 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	241	11		mov __DF0getpinzaki, __constValf0P01
+9	240	13	#line 240 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	241	13		subret __getpinzaki_return
+9	240	15	#line 240 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	243	15	#line 243 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	244	15		jmp __ASM_Label_694
+9	244	17	#line 244 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	245	17		mov __DF0getpinzaki, __constValf0P01
+9	244	19	#line 244 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	245	19		subret __getpinzaki_return
+9	244	21	#line 244 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	248	21	#line 248 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	248	21	#line 248 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+9	249	21		subret __getpinzaki_return
+10	251	0	#line 251 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	252	0		mov __movimiento_7qG2_errorBrazo_7qG2_000, __constVal0
+10	251	2	#line 251 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	251	2	#line 251 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	252	2		mov __movimiento_7qG2_errorPinza_7qG2_000, __constVal0
+10	251	4	#line 251 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	252	4	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	253	4		mov __movimiento_7qG2_errorBamper_7qG2_000, __constVal0
+10	252	6	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	252	6	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	253	6		mov __movimiento_7qG2_integralBrazo_7qG2_000, __constVal0
+10	252	8	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	252	8	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	253	8		mov __movimiento_7qG2_integralPinza_7qG2_000, __constVal0
+10	252	10	#line 252 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	253	10	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	254	10		mov __movimiento_7qG2_integralBamper_7qG2_000, __constVal0
+10	253	12	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	253	12	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	254	12		mov __movimiento_7qG2_constantesBrazo_7qG2_000, __constVal0
+10	253	14	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	253	14	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	254	14		mov __movimiento_7qG2_constantesPinza_7qG2_000, __constVal0
+10	253	16	#line 253 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	254	16	#line 254 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	255	16		mov __movimiento_7qG2_constantesBamper_7qG2_000, __constVal0
+10	254	18	#line 254 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	255	18	#line 255 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	255	18	#line 255 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	257	18	#line 257 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	258	18		set __D0movimiento, 1
+10	260	21	#line 260 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	261	21		tst 5, __D0movimiento, __D0movimiento
+10	260	24	#line 260 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	261	24		brtst 4, __ASM_Label_718, __D0movimiento
+10	261	27	#line 261 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	262	27		acquire semaforoBrazo
+10	261	28	#line 261 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	261	28	#line 261 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	261	28	#line 261 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	28	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	28	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	266	28		sub __movimiento_7qG2_errorBrazo_7qG2_000, anguloBrazo, anguloActualBrazo
+10	265	32	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	32	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	32	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	266	32		mov __checkAngulo_7qG2_angulo1_7qG2_000, anguloBrazo
+10	265	34	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	34	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	266	34		mov __checkAngulo_7qG2_angulo2_7qG2_000, anguloActualBrazo
+10	265	36	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	36	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	266	36		set __checkAngulo_7qG2_MARGEN_7qG2_000, 15
+10	265	39	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	265	39	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	266	39		subcall checkAngulo, __checkAngulo_return
+10	265	41	#line 265 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	266	41		mov __DU0movimiento, __DU0checkAngulo
+10	268	43	#line 268 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	269	43		tst 5, __D0movimiento, __DU0movimiento
+10	268	46	#line 268 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	269	46		brtst 4, __ASM_Label_731, __D0movimiento
+10	269	49	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	49		jmp __ASM_Label_732
+10	269	51	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	51		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_integralBrazo_7qG2_000
+10	269	53	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	269	53	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	53		mov __constraint_7qG2_max_7qG2_000, __constVal1000
+10	269	55	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	269	55	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	55		mov __constraint_7qG2_min_7qG2_000, __constValNeg1000
+10	269	57	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	269	57	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	57		subcall constraint, __constraint_return
+10	269	59	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	269	59	#line 269 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	59	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	59	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	271	59		add __movimiento_7qG2_integralBrazo_7qG2_000, __D0constraint, __movimiento_7qG2_errorBrazo_7qG2_000
+10	270	63	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	270	63	#line 270 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	63	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	63	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	63		mov __getbrazokp_7qG2_anguloBrazo_7qG2_000, anguloBrazo
+10	272	65	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	65	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	65		mov __getbrazokp_7qG2_anguloActualBrazo_7qG2_000, anguloActualBrazo
+10	272	67	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	67	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	67		subcall getbrazokp, __getbrazokp_return
+10	272	69	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	69	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	69	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	69	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	69		mul __float_stack_001movimiento, __DF0getbrazokp, __movimiento_7qG2_errorBrazo_7qG2_000
+10	272	73	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	73	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	73		mov __getbrazoki_7qG2_anguloBrazo_7qG2_000, anguloBrazo
+10	272	75	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	75	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	75		mov __getbrazoki_7qG2_anguloActualBrazo_7qG2_000, anguloActualBrazo
+10	272	77	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	77	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	273	77		subcall getbrazoki, __getbrazoki_return
+10	272	79	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	272	79	#line 272 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	276	79	#line 276 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	276	79	#line 276 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	277	79		mul __DF0movimiento, __DF0getbrazoki, __movimiento_7qG2_integralBrazo_7qG2_000
+10	276	83	#line 276 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	277	83		add __movimiento_7qG2_constantesBrazo_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+10	276	87	#line 276 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	276	87	#line 276 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	277	87	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	278	87		release semaforoBrazo
+10	277	88	#line 277 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	280	88	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	281	88		mov __movimiento_7qG2_velocidadBrazo_7qG2_000, __movimiento_7qG2_constantesBrazo_7qG2_000
+10	280	90	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	280	90	#line 280 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	282	90	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	283	90		acquire semaforoPinza
+10	282	91	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	282	91	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	282	91	#line 282 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	284	91	#line 284 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	284	91	#line 284 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	285	91		sub __movimiento_7qG2_errorPinza_7qG2_000, anguloPinza, anguloActualPinza
+10	284	95	#line 284 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	284	95	#line 284 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	286	95	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	287	95		add timerC, timerC, __constVal1
+10	286	99	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	286	99	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	287	99		mov __checkAngulo_7qG2_angulo1_7qG2_000, anguloPinza
+10	286	101	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	286	101	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	287	101		mov __checkAngulo_7qG2_angulo2_7qG2_000, anguloActualPinza
+10	286	103	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	286	103	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	287	103		set __checkAngulo_7qG2_MARGEN_7qG2_000, 5
+10	286	106	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	286	106	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	287	106		subcall checkAngulo, __checkAngulo_return
+10	286	108	#line 286 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	287	108		mov __DU0movimiento, __DU0checkAngulo
+10	288	110	#line 288 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	289	110		tst 5, __D0movimiento, __DU0movimiento
+10	288	113	#line 288 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	289	113		brtst 4, __ASM_Label_763, __D0movimiento
+10	289	116	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	116		jmp __ASM_Label_764
+10	289	118	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	118		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_integralPinza_7qG2_000
+10	289	120	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	289	120	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	120		mov __constraint_7qG2_max_7qG2_000, __constVal1000
+10	289	122	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	289	122	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	122		mov __constraint_7qG2_min_7qG2_000, __constValNeg1000
+10	289	124	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	289	124	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	124		subcall constraint, __constraint_return
+10	289	126	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	289	126	#line 289 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	126	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	126	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	291	126		add __movimiento_7qG2_integralPinza_7qG2_000, __D0constraint, __movimiento_7qG2_errorPinza_7qG2_000
+10	290	130	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	290	130	#line 290 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	291	130	#line 291 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	291	130	#line 291 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	292	130		mov __signed_stack_001movimiento, timerC
+10	291	132	#line 291 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	292	132	#line 292 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	293	132		set __D0movimiento, 220
+10	292	135	#line 292 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	293	135		cmp 1, __D0movimiento, __signed_stack_001movimiento, __D0movimiento
+10	293	139	#line 293 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	294	139		brtst 4, __ASM_Label_775, __D0movimiento
+10	293	142	#line 293 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	294	142		mov __setAnguloPinza_7qG2_angulo_7qG2_000, anguloActualPinza
+10	293	144	#line 293 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	294	144	#line 294 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	295	144		subcall setAnguloPinza, __setAnguloPinza_return
+10	294	146	#line 294 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	295	146	#line 295 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	296	146		set timerC, 0
+10	295	149	#line 295 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	295	149	#line 295 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	297	149	#line 297 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	298	149		jmp __ASM_Label_780
+10	298	151	#line 298 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	151		add timerC, timerC, __constVal1
+10	298	155	#line 298 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	155	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	155	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	155		mov __getpinzakp_7qG2_anguloPinza_7qG2_000, anguloPinza
+10	299	157	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	157	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	157		mov __getpinzakp_7qG2_anguloActualPinza_7qG2_000, anguloActualPinza
+10	299	159	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	159	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	159		subcall getpinzakp, __getpinzakp_return
+10	299	161	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	161	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	161	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	161	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	161		mul __float_stack_001movimiento, __DF0getpinzakp, __movimiento_7qG2_errorPinza_7qG2_000
+10	299	165	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	165	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	165		mov __getpinzaki_7qG2_anguloPinza_7qG2_000, anguloPinza
+10	299	167	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	167	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	167		mov __getpinzaki_7qG2_anguloActualPinza_7qG2_000, anguloActualPinza
+10	299	169	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	169	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	169		subcall getpinzaki, __getpinzaki_return
+10	299	171	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	299	171	#line 299 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	171	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	171	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	301	171		mul __DF0movimiento, __DF0getpinzaki, __movimiento_7qG2_integralPinza_7qG2_000
+10	300	175	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	301	175		add __movimiento_7qG2_constantesPinza_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+10	300	179	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	300	179	#line 300 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	302	179	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	303	179		release semaforoPinza
+10	302	180	#line 302 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	304	180	#line 304 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	305	180		mov __movimiento_7qG2_velocidadPinza_7qG2_000, __movimiento_7qG2_constantesPinza_7qG2_000
+10	304	182	#line 304 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	304	182	#line 304 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	305	182	#line 305 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	306	182		acquire semaforoBamper
+10	305	183	#line 305 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	305	183	#line 305 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	305	183	#line 305 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	307	183	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	307	183	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	183		sub __movimiento_7qG2_errorBamper_7qG2_000, anguloBamper, anguloActualBamper
+10	307	187	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	307	187	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	307	187	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	307	187	#line 307 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	187	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	187	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	309	187		add __movimiento_7qG2_integralBamper_7qG2_000, __movimiento_7qG2_integralBamper_7qG2_000, __movimiento_7qG2_errorBamper_7qG2_000
+10	308	191	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	191	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	191	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	191	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	191	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	191	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	309	191		mul __float_stack_001movimiento, bamperkp, __movimiento_7qG2_errorBamper_7qG2_000
+10	308	195	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	195	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	308	195	#line 308 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	309	195	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	309	195	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	310	195		mul __DF0movimiento, bamperki, __movimiento_7qG2_integralBamper_7qG2_000
+10	309	199	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	310	199		add __movimiento_7qG2_constantesBamper_7qG2_000, __float_stack_001movimiento, __DF0movimiento
+10	309	203	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	309	203	#line 309 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	310	203	#line 310 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	311	203		release semaforoBamper
+10	310	204	#line 310 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	312	204	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	204		mov __movimiento_7qG2_velocidadBamper_7qG2_000, __movimiento_7qG2_constantesBamper_7qG2_000
+10	312	206	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	312	206	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	312	206	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	206		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadBrazo_7qG2_000
+10	312	208	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	312	208	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	208		set __constraint_7qG2_max_7qG2_000, 90
+10	312	211	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	312	211	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	211		mov __constraint_7qG2_min_7qG2_000, __constValNeg90
+10	312	213	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	312	213	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	213		subcall constraint, __constraint_return
+10	312	215	#line 312 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	215		mov __D0movimiento, __D0constraint
+10	313	217	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	217	#pragma macro 7
+10	314	217		setout __constVal1, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	9073	240	#line 9073 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	240	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	240	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	240		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadPinza_7qG2_000
+10	313	242	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	242	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	242		set __constraint_7qG2_max_7qG2_000, 90
+10	313	245	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	245	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	245		mov __constraint_7qG2_min_7qG2_000, __constValNeg90
+10	313	247	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	313	247	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	247		subcall constraint, __constraint_return
+10	313	249	#line 313 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	249		mov __D0movimiento, __D0constraint
+10	314	251	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	251	#pragma macro 7
+10	315	251		setout __constVal0, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	9096	274	#line 9096 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	274	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	274	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	274		mov __constraint_7qG2_valor_7qG2_000, __movimiento_7qG2_velocidadBamper_7qG2_000
+10	314	276	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	276	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	276		set __constraint_7qG2_max_7qG2_000, 10
+10	314	279	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	279	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	279		mov __constraint_7qG2_min_7qG2_000, __constValNeg10
+10	314	281	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	314	281	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	281		subcall constraint, __constraint_return
+10	314	283	#line 314 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	283		mov __D0movimiento, __D0constraint
+10	315	285	#line 315 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	316	285	#pragma macro 7
+10	316	285		setout __constVal2, 2, __D0movimiento, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	9119	308	#line 9119 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	308	#line 315 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	315	308	#line 315 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	316	308		set __Wait_7qG2_ms_7qG2_000_inline_movimiento, 50
+10	315	311	#line 315 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	8551	311	#line 8551 "NXCDefs.h"
+10	8552	311		waitv __Wait_7qG2_ms_7qG2_000_inline_movimiento
+10	8551	313	#line 8551 "NXCDefs.h"
+10	316	313	#line 316 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	322	313	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	323	313		jmp __ASM_Label_717
+10	322	315	#line 322 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+10	323	315		exit -1, -1
+11	457	0	#line 457 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+11	458	0		set __setAnguloBrazo_7qG2_angulo_7qG2_000, 365
+11	457	3	#line 457 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+11	458	3	#line 458 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+11	459	3		subcall setAnguloBrazo, __setAnguloBrazo_return
+11	458	5	#line 458 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+11	460	5	#line 460 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+11	461	5		subret __bajarBrazo_return
+12	462	0	#line 462 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+12	463	0		mov __setAnguloBrazo_7qG2_angulo_7qG2_000, __constValNeg20
+12	462	2	#line 462 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+12	465	2	#line 465 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+12	466	2		subcall setAnguloBrazo, __setAnguloBrazo_return
+12	465	4	#line 465 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+12	467	4	#line 467 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+12	468	4		subret __subirBrazo_return
+13	469	0	#line 469 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+13	470	0		set __setAnguloPinza_7qG2_angulo_7qG2_000, 0
+13	469	3	#line 469 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+13	471	3	#line 471 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+13	472	3		subcall setAnguloPinza, __setAnguloPinza_return
+13	471	5	#line 471 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+13	473	5	#line 473 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+13	474	5		subret __abrirPinza_return
+14	475	0	#line 475 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+14	476	0		set __setAnguloPinza_7qG2_angulo_7qG2_000, 3100
+14	475	3	#line 475 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+14	477	3	#line 477 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+14	478	3		subcall setAnguloPinza, __setAnguloPinza_return
+14	477	5	#line 477 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+14	482	5	#line 482 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+14	483	5		subret __cerrarPinza_return
+15	504	0	#line 504 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	505	0		gettick __unsigned_stack_001millis
+15	504	2	#line 504 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	504	2	#line 504 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	505	2	#pragma macro 5
+15	505	2		syscall 25, __GSTArgs
+15	9775	5	#line 9775 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	505	5	#line 505 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	506	5		sub __DU0millis, __unsigned_stack_001millis, __GSTArgs.Result
+15	505	9	#line 505 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	506	9		subret __millis_return
+15	505	11	#line 505 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	505	11	#line 505 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+15	506	11		subret __millis_return
+16	509	0	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	510	0		subcall bajarBrazo, __bajarBrazo_return
+16	509	2	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	509	2	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	510	2		set __signed_stack_001rutina, 1
+16	509	5	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	509	5	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	510	5		set __signed_stack_002rutina, 48
+16	509	8	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	509	8	#line 509 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	510	8		mov __D0rutina, anguloBrazo
+16	510	10	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	10		acquire __TextOutMutex
+16	510	11	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	11		mov __TextOutArgs.Location.X, __signed_stack_001rutina
+16	510	13	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	13		mov __TextOutArgs.Location.Y, __signed_stack_002rutina
+16	510	15	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	15		set __TextOutArgs.Options, 0
+16	510	18	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	18		numtostr __TextOutArgs.Text, __D0rutina
+16	510	21	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	21		syscall 13, __TextOutArgs
+16	510	24	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	24		mov __D0rutina, __TextOutArgs.Result
+16	510	26	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	26		release __TextOutMutex
+16	510	27	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	510	27	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	511	27		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 10000
+16	510	30	#line 510 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	8551	30	#line 8551 "NXCDefs.h"
+16	8552	30		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+16	8551	32	#line 8551 "NXCDefs.h"
+16	511	32	#line 511 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	512	32	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	513	32		subcall subirBrazo, __subirBrazo_return
+16	512	34	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	512	34	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	513	34		set __signed_stack_001rutina, 1
+16	512	37	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	512	37	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	513	37		set __signed_stack_002rutina, 48
+16	512	40	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	512	40	#line 512 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	513	40		mov __D0rutina, anguloBrazo
+16	513	42	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	42		acquire __TextOutMutex
+16	513	43	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	43		mov __TextOutArgs.Location.X, __signed_stack_001rutina
+16	513	45	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	45		mov __TextOutArgs.Location.Y, __signed_stack_002rutina
+16	513	47	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	47		set __TextOutArgs.Options, 0
+16	513	50	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	50		numtostr __TextOutArgs.Text, __D0rutina
+16	513	53	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	53		syscall 13, __TextOutArgs
+16	513	56	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	56		mov __D0rutina, __TextOutArgs.Result
+16	513	58	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	58		release __TextOutMutex
+16	513	59	#line 513 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	514	59	#line 514 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	515	59		set __rutina_7qG2_first_7qG2_000, 1
+16	514	62	#line 514 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	515	62	#line 515 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	516	62		set __rutina_7qG2_second_7qG2_000, 1
+16	515	65	#line 515 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	516	65	#line 516 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	517	65		set __rutina_7qG2_tri_7qG2_000, 1
+16	516	68	#line 516 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	517	68	#line 517 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	518	68		set __rutina_7qG2_cua_7qG2_000, 1
+16	517	71	#line 517 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	518	71	#line 518 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	519	71		set __D0rutina, 1
+16	519	74	#line 519 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	520	74		tst 5, __D0rutina, __D0rutina
+16	519	77	#line 519 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	520	77		brtst 4, __ASM_Label_1001, __D0rutina
+16	6678	80	#line 6678 "NXCDefs.h"
+16	6679	80	#pragma macro 6
+16	6679	80		acquire __PointOutMutex
+16	6679	81		mov __PointOutArgs.Location.X, __constVal200
+16	6679	83		mov __PointOutArgs.Location.Y, __constVal200
+16	6679	85		mov __PointOutArgs.Options, __constVal1
+16	6679	87		syscall 14, __PointOutArgs
+16	6679	90		release __PointOutMutex
+16	9913	91	#line 9913 "NXCDefs.h"
+16	6678	91	#line 6678 "NXCDefs.h"
+16	520	91	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	520	91	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	521	91		set __signed_stack_001rutina, 1
+16	520	94	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	520	94	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	521	94		set __signed_stack_002rutina, 56
+16	520	97	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	520	97	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	521	97		subcall millis, __millis_return
+16	520	99	#line 520 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	521	99		mov __DU0rutina, __DU0millis
+16	521	101	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	101		acquire __TextOutMutex
+16	521	102	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	102		mov __TextOutArgs.Location.X, __signed_stack_001rutina
+16	521	104	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	104		mov __TextOutArgs.Location.Y, __signed_stack_002rutina
+16	521	106	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	106		set __TextOutArgs.Options, 0
+16	521	109	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	109		numtostr __TextOutArgs.Text, __DU0rutina
+16	521	112	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	112		syscall 13, __TextOutArgs
+16	521	115	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	115		mov __D0rutina, __TextOutArgs.Result
+16	521	117	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	117		release __TextOutMutex
+16	521	118	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	521	118	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	118		subcall millis, __millis_return
+16	521	120	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	120		mov __unsigned_stack_001rutina, __DU0millis
+16	521	122	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	521	122	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	122		set __D0rutina, 28660
+16	521	125	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	125		cmp 1, __D0rutina, __unsigned_stack_001rutina, __D0rutina
+16	521	129	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	129		brtst 4, __ASM_Label_1011, __D0rutina
+16	521	132	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	132		mov __DU0rutina, __rutina_7qG2_first_7qG2_000
+16	521	134	#line 521 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	522	134		tst 5, __D0rutina, __DU0rutina
+16	522	137	#line 522 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	523	137		brtst 4, __ASM_Label_1014, __D0rutina
+16	523	140	#line 523 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	524	140		set __rutina_7qG2_first_7qG2_000, 0
+16	523	143	#line 523 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	523	143	#line 523 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	524	143	#line 524 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	525	143		subcall bajarBrazo, __bajarBrazo_return
+16	524	145	#line 524 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	524	145	#line 524 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	525	145		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 2000
+16	524	148	#line 524 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	8551	148	#line 8551 "NXCDefs.h"
+16	8552	148		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+16	8551	150	#line 8551 "NXCDefs.h"
+16	525	150	#line 525 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	526	150	#line 526 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	527	150		subcall cerrarPinza, __cerrarPinza_return
+16	526	152	#line 526 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	527	152	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	527	152	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	528	152		subcall millis, __millis_return
+16	527	154	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	528	154		mov __unsigned_stack_001rutina, __DU0millis
+16	527	156	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	527	156	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	528	156		mov __D0rutina, __constVal34380
+16	527	158	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	528	158		cmp 1, __D0rutina, __unsigned_stack_001rutina, __D0rutina
+16	527	162	#line 527 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	528	162		brtst 4, __ASM_Label_1020, __D0rutina
+16	528	165	#line 528 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	529	165		mov __DU0rutina, __rutina_7qG2_second_7qG2_000
+16	528	167	#line 528 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	529	167		tst 5, __D0rutina, __DU0rutina
+16	529	170	#line 529 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	530	170		brtst 4, __ASM_Label_1023, __D0rutina
+16	530	173	#line 530 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	531	173		set __rutina_7qG2_second_7qG2_000, 0
+16	530	176	#line 530 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	530	176	#line 530 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	531	176	#line 531 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	532	176		subcall abrirPinza, __abrirPinza_return
+16	531	178	#line 531 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	532	178	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	532	178	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	533	178		subcall millis, __millis_return
+16	532	180	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	533	180		mov __unsigned_stack_001rutina, __DU0millis
+16	532	182	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	532	182	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	533	182		mov __D0rutina, __constVal50920
+16	532	184	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	533	184		cmp 1, __D0rutina, __unsigned_stack_001rutina, __D0rutina
+16	532	188	#line 532 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	533	188		brtst 4, __ASM_Label_1027, __D0rutina
+16	533	191	#line 533 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	534	191		mov __DU0rutina, __rutina_7qG2_tri_7qG2_000
+16	533	193	#line 533 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	534	193		tst 5, __D0rutina, __DU0rutina
+16	534	196	#line 534 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	535	196		brtst 4, __ASM_Label_1030, __D0rutina
+16	535	199	#line 535 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	536	199		set __rutina_7qG2_tri_7qG2_000, 0
+16	535	202	#line 535 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	535	202	#line 535 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	536	202	#line 536 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	537	202		subcall cerrarPinza, __cerrarPinza_return
+16	536	204	#line 536 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	536	204	#line 536 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	537	204		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 2000
+16	536	207	#line 536 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	8551	207	#line 8551 "NXCDefs.h"
+16	8552	207		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+16	8551	209	#line 8551 "NXCDefs.h"
+16	537	209	#line 537 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	538	209	#line 538 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	539	209		subcall subirBrazo, __subirBrazo_return
+16	538	211	#line 538 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	539	211	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	539	211	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	540	211		subcall millis, __millis_return
+16	539	213	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	540	213		mov __unsigned_stack_001rutina, __DU0millis
+16	539	215	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	539	215	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	540	215		mov __D0rutina, __constVal71350
+16	539	217	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	540	217		cmp 1, __D0rutina, __unsigned_stack_001rutina, __D0rutina
+16	539	221	#line 539 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	540	221		brtst 4, __ASM_Label_1036, __D0rutina
+16	540	224	#line 540 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	541	224		mov __DU0rutina, __rutina_7qG2_cua_7qG2_000
+16	540	226	#line 540 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	541	226		tst 5, __D0rutina, __DU0rutina
+16	541	229	#line 541 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	542	229		brtst 4, __ASM_Label_1039, __D0rutina
+16	542	232	#line 542 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	543	232		set __rutina_7qG2_cua_7qG2_000, 0
+16	542	235	#line 542 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	542	235	#line 542 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	543	235	#line 543 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	544	235		subcall bajarBrazo, __bajarBrazo_return
+16	543	237	#line 543 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	543	237	#line 543 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	544	237		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 2000
+16	543	240	#line 543 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	8551	240	#line 8551 "NXCDefs.h"
+16	8552	240		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+16	8551	242	#line 8551 "NXCDefs.h"
+16	544	242	#line 544 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	545	242	#line 545 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	546	242		subcall abrirPinza, __abrirPinza_return
+16	545	244	#line 545 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	545	244	#line 545 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	546	244		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 2000
+16	545	247	#line 545 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	8551	247	#line 8551 "NXCDefs.h"
+16	8552	247		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+16	8551	249	#line 8551 "NXCDefs.h"
+16	546	249	#line 546 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	547	249	#line 547 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	548	249		subcall cerrarPinza, __cerrarPinza_return
+16	547	251	#line 547 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	547	251	#line 547 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	548	251		set __Wait_7qG2_ms_7qG2_000_inline_rutina, 2000
+16	547	254	#line 547 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	8551	254	#line 8551 "NXCDefs.h"
+16	8552	254		waitv __Wait_7qG2_ms_7qG2_000_inline_rutina
+16	8551	256	#line 8551 "NXCDefs.h"
+16	548	256	#line 548 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	549	256	#line 549 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	550	256		subcall subirBrazo, __subirBrazo_return
+16	549	258	#line 549 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	552	258	#line 552 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	558	258	#line 558 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	559	258		jmp __ASM_Label_1000
+16	558	260	#line 558 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+16	559	260		exit -1, -1
+17	568	0	#line 568 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc"
+17	569	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+1	constraint	5	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+2	setAnguloBrazo	41	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+3	setAnguloPinza	50	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+4	posicion	59	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+5	checkAngulo	91	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+6	getbrazoki	121	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+7	getbrazokp	144	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+8	getpinzakp	167	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+9	getpinzaki	190	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+10	movimiento	213	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+11	bajarBrazo	531	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+12	subirBrazo	538	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+13	abrirPinza	544	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+14	cerrarPinza	551	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+15	millis	558	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+16	rutina	571	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc
+17	__initialize_global_data	834	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\PROYECTO_FINAL\DEFINITIVO\SerbosSuperiores - copia.nxc

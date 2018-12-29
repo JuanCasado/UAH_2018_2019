@@ -1,0 +1,404 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_main	6	1	0	4	2
+1	__DU0SetSensorLight_inline_main	5	1	4	4	5
+2	__signed_stack_001constraint	6	1	8	4	4
+3	__D0constraint	6	1	12	4	14
+4	__D0main	6	1	16	4	41
+5	__DF0main	10	1	20	4	4
+6	__signed_stack_001main	6	1	24	4	16
+7	__constValf0P25	10	0	28	4	1
+8	__constValf2P7	10	0	32	4	1
+9	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	36	4	2
+10	__signed_stack_002main	6	1	40	4	8
+11	__float_stack_001main	10	1	44	4	6
+12	__constValf0P7	10	0	48	4	1
+13	__main_7qG2_error_acc_7qG2_000	4	1	52	2	6
+14	__main_7qG2_error_anterior_7qG2_000	4	1	54	2	3
+15	__main_7qG2_boost_7qG2_000	4	1	56	2	11
+16	__main_7qG2_to_do_7qG2_000	4	1	58	2	4
+17	__constraint_7qG2_min_7qG2_000	4	1	60	2	5
+18	__constraint_7qG2_max_7qG2_000	4	1	62	2	5
+19	__main_7qG2_error_7qG2_000	4	1	64	2	7
+20	__main_7qG2_acc_7qG2_000	4	1	66	2	3
+21	__constraint_7qG2_valor_7qG2_000	4	1	68	2	6
+22	__constVal200	4	0	70	2	2
+23	__ResetSensorTmp	1	1	72	1	2
+24	__ResetSensorPort	1	1	73	1	3
+25	____ResetSensorSubroutine_return	1	1	74	1	3
+26	__constVal32	2	0	75	1	6
+27	__constVal63	2	0	76	1	2
+28	__constVal1	2	0	77	1	4
+29	__constVal96	2	0	78	1	2
+30	__constVal0	2	1	79	1	7
+31	__constValNeg50	2	0	80	1	1
+32	__constVal3	2	0	81	1	2
+33	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	82	1	4
+34	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	83	1	2
+35	____initialize_global_data_return	1	1	84	1	3
+36	__constValNeg100	2	0	85	1	2
+37	__constraint_return	1	1	86	1	8
+38	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	87	1	2
+39	__constVal2	2	0	88	1	1
+40	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	89	1	2
+41	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	90	1	2
+42	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	91	1	2
+43	__PointOutArgs	8	0	3	12	4
+44	__PointOutArgs.Result	2	1	92	1	4
+45	__PointOutArgs.Location	8	0	2	4	4
+46	__PointOutArgs.Location.X	4	1	96	2	4
+47	__PointOutArgs.Location.Y	4	1	98	2	4
+48	__PointOutArgs.Options	5	1	100	4	4
+49	__TextOutArgs	8	0	4	16	6
+50	__TextOutArgs.Result	2	1	104	1	6
+51	__TextOutArgs.Location	8	0	2	4	6
+52	__TextOutArgs.Location.X	4	1	108	2	6
+53	__TextOutArgs.Location.Y	4	1	110	2	6
+54	__TextOutArgs.Text	7	0	112	4	6
+55	__TextOutArgs.Text.Text_type	1	0	0	1	0
+56	__TextOutArgs.Options	5	1	116	4	6
+#SOURCES
+Clump	Line	PC	Source
+0	27	0	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	28	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	27	2	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	27	2	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	28	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	27	5	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	28	5	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	29	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	7	#line 4313 "NXCDefs.h"
+0	4314	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	9	#line 4313 "NXCDefs.h"
+0	4313	9	#line 4313 "NXCDefs.h"
+0	4314	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	11	#line 4313 "NXCDefs.h"
+0	4314	11		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	14	#line 4313 "NXCDefs.h"
+0	4314	14		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	17	#line 4313 "NXCDefs.h"
+0	4314	17		set __DU0SetSensorLight_inline_main, 5
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4314	20		jmp __001__ASM_Label_5
+0	4313	22	#line 4313 "NXCDefs.h"
+0	4314	22		set __DU0SetSensorLight_inline_main, 6
+0	4313	25	#line 4313 "NXCDefs.h"
+0	4313	25	#line 4313 "NXCDefs.h"
+0	4314	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4314	31	#line 4314 "NXCDefs.h"
+0	4314	31	#line 4314 "NXCDefs.h"
+0	4315	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	33	#line 4314 "NXCDefs.h"
+0	4314	33	#line 4314 "NXCDefs.h"
+0	4315	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	36	#line 4314 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4315	40	#line 4315 "NXCDefs.h"
+0	4278	40	#line 4278 "NXCDefs.h"
+0	4279	40	#pragma macro 4
+0	4279	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6191	44	#line 6191 "NXCDefs.h"
+0	4278	44	#line 4278 "NXCDefs.h"
+0	4316	44	#line 4316 "NXCDefs.h"
+0	28	44	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	29	44	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	30	44		set __main_7qG2_acc_7qG2_000, 0
+0	29	47	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	30	47	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	31	47		set __main_7qG2_error_7qG2_000, 0
+0	30	50	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	31	50	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	32	50		set __main_7qG2_error_anterior_7qG2_000, 0
+0	31	53	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	32	53	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	33	53		set __main_7qG2_error_acc_7qG2_000, 0
+0	32	56	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	33	56	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	34	56		set __main_7qG2_to_do_7qG2_000, 0
+0	33	59	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	34	59	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	35	59		set __main_7qG2_boost_7qG2_000, 0
+0	34	62	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	34	62	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	35	62		set __D0main, 1
+0	35	65	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	36	65		tst 5, __D0main, __D0main
+0	35	68	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	36	68		brtst 4, __ASM_Label_631, __D0main
+0	35	71	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	36	71		getin __main_7qG2_acc_7qG2_000, __constVal2, 4
+0	35	75	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	35	75	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	35	75	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	36	75	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	37	75		mov __signed_stack_001main, __main_7qG2_acc_7qG2_000
+0	36	77	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	36	77	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	37	77		set __D0main, 46
+0	36	80	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	37	80		sub __main_7qG2_error_7qG2_000, __signed_stack_001main, __D0main
+0	37	84	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	37	84	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	38	84	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	84		mov __D0main, __main_7qG2_error_7qG2_000
+0	38	86	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	86		add __main_7qG2_error_acc_7qG2_000, __main_7qG2_error_acc_7qG2_000, __D0main
+0	38	90	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	38	90	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	90		mov __constraint_7qG2_valor_7qG2_000, __main_7qG2_error_acc_7qG2_000
+0	38	92	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	38	92	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	92		set __constraint_7qG2_max_7qG2_000, 50
+0	38	95	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	38	95	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	95		mov __constraint_7qG2_min_7qG2_000, __constValNeg50
+0	38	97	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	97	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	97		subcall constraint, __constraint_return
+0	39	99	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	99		mov __main_7qG2_error_acc_7qG2_000, __D0constraint
+0	39	101	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	101	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	101	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	101		mov __D0main, __main_7qG2_error_7qG2_000
+0	39	103	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	103		abs __signed_stack_001main, __D0main
+0	39	106	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	39	106	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	106		set __D0main, 0
+0	39	109	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	109		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	40	113	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	41	113		brtst 4, __ASM_Label_654, __D0main
+0	40	116	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	41	116		mov __signed_stack_001main, __main_7qG2_boost_7qG2_000
+0	40	118	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	40	118	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	41	118		set __D0main, 0
+0	40	121	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	41	121		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	41	125	#line 41 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	42	125		brtst 4, __ASM_Label_657, __D0main
+0	42	128	#line 42 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	43	128		set __D0main, 4
+0	42	131	#line 42 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	43	131		sub __main_7qG2_boost_7qG2_000, __main_7qG2_boost_7qG2_000, __D0main
+0	42	135	#line 42 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	43	135	#line 43 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	44	135		jmp __ASM_Label_660
+0	44	137	#line 44 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	45	137		set __main_7qG2_boost_7qG2_000, 0
+0	44	140	#line 44 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	44	140	#line 44 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	45	140	#line 45 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	46	140	#line 46 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	47	140		jmp __ASM_Label_663
+0	46	142	#line 46 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	47	142		mov __signed_stack_001main, __main_7qG2_boost_7qG2_000
+0	46	144	#line 46 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	46	144	#line 46 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	47	144		set __D0main, 20
+0	46	147	#line 46 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	47	147		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	47	151	#line 47 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	48	151		brtst 4, __ASM_Label_666, __D0main
+0	48	154	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	49	154		set __D0main, 2
+0	48	157	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	49	157		add __main_7qG2_boost_7qG2_000, __main_7qG2_boost_7qG2_000, __D0main
+0	48	161	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	50	161	#line 50 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	51	161		jmp __ASM_Label_669
+0	51	163	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	52	163		set __main_7qG2_boost_7qG2_000, 20
+0	51	166	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	51	166	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	166	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	166	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	166	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	166		mov __signed_stack_001main, __main_7qG2_error_7qG2_000
+0	53	168	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	168	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	168	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	168		mul __float_stack_001main, __signed_stack_001main, __constValf0P7
+0	53	172	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	172	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	172		mov __signed_stack_002main, __main_7qG2_error_acc_7qG2_000
+0	53	174	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	174	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	174	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	174		mul __DF0main, __signed_stack_002main, __constValf0P25
+0	53	178	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	178		add __float_stack_001main, __float_stack_001main, __DF0main
+0	53	182	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	182	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	182		mov __signed_stack_002main, __main_7qG2_error_7qG2_000
+0	53	184	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	184	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	184		mov __D0main, __main_7qG2_error_anterior_7qG2_000
+0	53	186	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	186		sub __signed_stack_002main, __signed_stack_002main, __D0main
+0	53	190	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	190	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	53	190	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	190		mul __DF0main, __signed_stack_002main, __constValf2P7
+0	53	194	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	194		add __float_stack_001main, __float_stack_001main, __DF0main
+0	53	198	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	198	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	198		mov __D0main, __main_7qG2_boost_7qG2_000
+0	54	200	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	200		add __main_7qG2_to_do_7qG2_000, __float_stack_001main, __D0main
+0	54	204	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	204	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	204	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	204		set __signed_stack_001main, 78
+0	54	207	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	207	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	207		mov __D0main, __main_7qG2_to_do_7qG2_000
+0	54	209	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	209		add __constraint_7qG2_valor_7qG2_000, __signed_stack_001main, __D0main
+0	54	213	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	213	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	213		set __constraint_7qG2_max_7qG2_000, 100
+0	54	216	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	216	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	216		mov __constraint_7qG2_min_7qG2_000, __constValNeg100
+0	54	218	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	54	218	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	218		subcall constraint, __constraint_return
+0	54	220	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	220		mov __D0main, __D0constraint
+0	55	222	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	222	#pragma macro 7
+0	56	222		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6480	245	#line 6480 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	245	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	245	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	245		set __signed_stack_001main, 78
+0	55	248	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	248	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	248		mov __D0main, __main_7qG2_to_do_7qG2_000
+0	55	250	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	250		sub __constraint_7qG2_valor_7qG2_000, __signed_stack_001main, __D0main
+0	55	254	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	254	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	254		set __constraint_7qG2_max_7qG2_000, 100
+0	55	257	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	257	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	257		mov __constraint_7qG2_min_7qG2_000, __constValNeg100
+0	55	259	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	55	259	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	259		subcall constraint, __constraint_return
+0	55	261	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	261		mov __D0main, __D0constraint
+0	56	263	#line 56 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	57	263	#pragma macro 7
+0	57	263		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6511	286	#line 6511 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	56	286	#line 56 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	57	286	#line 57 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	58	286		mov __main_7qG2_error_anterior_7qG2_000, __main_7qG2_error_7qG2_000
+0	57	288	#line 57 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	57	288	#line 57 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	6678	288	#line 6678 "NXCDefs.h"
+0	6679	288	#pragma macro 6
+0	6679	288		mov __PointOutArgs.Location.X, __constVal200
+0	6679	290		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	292		mov __PointOutArgs.Options, __constVal1
+0	6679	294		syscall 14, __PointOutArgs
+0	6521	297	#line 6521 "NXCDefs.h"
+0	6678	297	#line 6678 "NXCDefs.h"
+0	58	297	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	58	297	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	59	297		set __signed_stack_001main, 0
+0	58	300	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	58	300	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	59	300		set __signed_stack_002main, 40
+0	58	303	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	58	303	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	59	303		mov __D0main, __main_7qG2_boost_7qG2_000
+0	59	305	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	59	305	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	305		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	59	307	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	307		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	59	309	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	309		set __TextOutArgs.Options, 0
+0	59	312	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	312		numtostr __TextOutArgs.Text, __D0main
+0	59	315	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	315		syscall 13, __TextOutArgs
+0	59	318	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	318		mov __D0main, __TextOutArgs.Result
+0	59	320	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	59	320	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	59	320	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	60	320		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	59	323	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	8551	323	#line 8551 "NXCDefs.h"
+0	8552	323		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	325	#line 8551 "NXCDefs.h"
+0	60	325	#line 60 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	63	325	#line 63 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	64	325		jmp __ASM_Label_630
+0	63	327	#line 63 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+0	64	327		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	19	0	#line 19 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	20	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+2	19	2	#line 19 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	20	2	#line 20 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	21	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+2	20	4	#line 20 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	21	4		cmp 1, __D0constraint, __signed_stack_001constraint, __D0constraint
+2	20	8	#line 20 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	21	8		brtst 4, __ASM_Label_606, __D0constraint
+2	21	11	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	22	11		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+2	21	13	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	22	13		subret __constraint_return
+2	21	15	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	21	15	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	21	15	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	22	15		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+2	21	17	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	22	17	#line 22 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	23	17		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+2	22	19	#line 22 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	23	19		cmp 0, __D0constraint, __signed_stack_001constraint, __D0constraint
+2	22	23	#line 22 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	23	23		brtst 4, __ASM_Label_611, __D0constraint
+2	23	26	#line 23 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	24	26		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+2	23	28	#line 23 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	24	28		subret __constraint_return
+2	23	30	#line 23 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	23	30	#line 23 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	24	30	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	25	30		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+2	24	32	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	25	32		subret __constraint_return
+2	24	34	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	26	34	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+2	27	34		subret __constraint_return
+3	64	0	#line 64 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc"
+3	65	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc
+1	__ResetSensorSubroutine	330	NXTDefs.h
+2	constraint	343	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc
+3	__initialize_global_data	379	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\sigueLineas.nxc

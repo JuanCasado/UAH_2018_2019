@@ -1,0 +1,229 @@
+#define MOTORBRAZO OUT_B
+#define MOTORPINZA OUT_A
+#define ANGULOINICIAL 200
+#define BRAZOKP 1
+#define BRAZOKI 0.001
+#define PINZAKP 0.055
+#define PINZAKI 0.0001
+#define MAX_VEL 90
+//blu
+#include "NXCDefs.h"
+
+#define BT_CONN_BASE 0 // BASE
+#define INBOX 1
+#define OUTBOX 5
+/* Angulos pinza */
+#define ANGULOBRAZO90 333
+#define ANGULOPINZACERRAR 3400
+#define ANGULOPINZAMEDIOABIERTO 2800
+#define ANGULOBRAZO45 208
+#define MARGEN 5
+
+/*
+sub BTCheck(int conn){
+               if(!BluetoothStatus(conn)==NO_ERR){
+                 TextOut(5,LCD_LINE5,"Error");
+                 Wait(1000);
+                 Stop(true);
+                }
+}
+//Master
+int recibir(int bt_conn){
+     int in;
+     //BTCheck(bt_conn); //check master connection
+     ReceiveRemoteNumber(INBOX,true,in);
+     return in;
+}
+//Slave
+
+void mandar(int msg, int bt_conn){
+     BTCheck(bt_conn);
+     SendRemoteNumber(bt_conn, OUTBOX, msg);
+
+}
+  */
+//CODE
+
+mutex semaforoAccion;
+mutex semaforoPinza;
+mutex semaforoBrazo;
+
+long anguloActualBrazo = 0;
+long anguloActualPinza = 0;
+long anguloBrazo = 0;
+long anguloPinza = 0;
+float integral = 0;
+
+int constraint (int valor, int max, int min){
+    if(valor > max) {
+     return max;
+    }
+    if (valor < min)
+    {
+     return min;
+    }
+    return valor;
+}
+
+
+
+void setAnguloBrazo(long angulo)
+{
+        Acquire(semaforoBrazo);
+        anguloBrazo = angulo;
+        Release(semaforoBrazo);
+}
+
+void setAnguloPinza(long angulo)
+{
+        Acquire(semaforoPinza);
+        anguloPinza = angulo;
+        Release(semaforoPinza);
+}
+
+task posicion()
+{
+     float p = 0;
+     float anguloNew = 0;
+     float anguloOld = 0;
+     float pOld = 0;
+     while(true)
+     {
+        Acquire(semaforoBrazo);
+        anguloActualBrazo = MotorRotationCount(MOTORBRAZO);
+        NumOut(1, LCD_LINE1, anguloActualBrazo);
+        Release(semaforoBrazo);
+        Acquire(semaforoPinza);
+        anguloActualPinza = MotorRotationCount(MOTORPINZA);
+        NumOut(1, LCD_LINE2, anguloActualPinza);
+        Release(semaforoPinza);
+     }
+}
+
+void checkAngulo(long angulo1, long angulo2)
+{
+
+ if(abs(angulo1 - angulo2) < MARGEN)
+ {
+   Release(semaforoAccion);
+ }
+}
+void moverBrazoPosDeseada(int motor, long angulo, float kp, float ki, long anguloActual)
+{
+     float error = angulo- anguloActual ;
+     float integral = integral + error;
+     float constantes = kp*error + ki*integral;
+     int velocidad = constantes;
+     OnFwd(motor, constraint(velocidad, MAX_VEL, -MAX_VEL));
+     NumOut(1, LCD_LINE1, angulo);
+     NumOut(1, LCD_LINE2, anguloActual);
+     //checkAngulo(angulo, anguloActual);
+
+}
+
+void moverBrazo(int motor, long anguloDeseado,float kp,float ki, long anguloActual)
+{
+
+       Acquire(semaforoBrazo);
+       //moverBrazoPosDeseada(motor, ANGULOINICIAL-anguloDeseado, kp, ki, anguloActual);
+       moverBrazoPosDeseada(motor, anguloDeseado, kp, ki, anguloActual);
+       Release(semaforoBrazo);
+}
+
+void moverPinza(int motor, long anguloDeseado,float kp,float ki, long anguloActual)
+{
+       Acquire(semaforoPinza);
+       moverBrazoPosDeseada(motor, anguloDeseado, kp, ki, anguloActual);
+       Release(semaforoPinza);
+}
+
+task movimiento()
+{
+     while(true)
+     {
+     //moverBrazo(MOTORBRAZO, anguloBrazo, BRAZOKP, BRAZOKI,anguloActualBrazo);
+     //moverPinza(MOTORPINZA, anguloPinza, PINZAKP, PINZAKI,anguloActualPinza);
+     }
+}
+/*
+int phase = 1;
+void nextPhase()
+{
+    //Acquire(sMovimiento);
+    mandar(phase, BT_CONN_BASE);
+    bool esperar = true;
+    while(esperar)
+     {
+        if (recibir(BT_CONN_BASE) == 0)
+        {
+         esperar = false;
+        }
+     }
+
+     phase++;
+     //Release(sMovimiento);
+} */
+void recogerFicha()
+{
+     //Empieza arriba
+     //baja brazo 90
+     Acquire(semaforoAccion);
+     setAnguloBrazo(ANGULOBRAZO90);
+     //cierra pinza
+     Acquire(semaforoAccion);
+     setAnguloPinza(ANGULOPINZACERRAR);
+     //brazo sube
+     Acquire(semaforoAccion);
+     setAnguloBrazo(0);
+     //abrir pinza  mitad
+     Acquire(semaforoAccion);
+     setAnguloPinza(ANGULOPINZAMEDIOABIERTO);
+     //bajar brazo 45º
+     Acquire(semaforoAccion);
+     setAnguloBrazo(ANGULOBRAZO45);
+     //terminar abrir pinnza
+     Acquire(semaforoAccion);
+     setAnguloPinza(0);
+     //barrea delante
+     //subir brazo arriba
+     Acquire(semaforoAccion);
+     setAnguloBrazo(0);
+     //mover deslizador hacia atras
+     
+}
+
+task test()
+{
+       while(true)
+       
+       {}
+     //Wait(5000);
+     //recogerFicha();
+     //Wait(5000);
+     //setAnguloBrazo(250);
+     //Wait(5000);
+     /*setAnguloPinza(ANGULOPINZACERRAR);
+
+     Wait(10000);
+     setAnguloPinza(0);
+     Wait(10000);
+     //setAnguloBrazo(10);
+
+     Wait(10000); */
+     //nextPhase();
+     //setAnguloPinza(-1500);
+     //setAnguloBrazo(600);
+     //Wait(5000);
+     //setAnguloPinza(-200) ;
+     //setAnguloBrazo(50);
+     //Wait(2000);
+     //setAnguloPinza(-300);
+     //Wait(5000);
+     //setAnguloBrazo(0);
+
+}
+task main()
+{
+     Precedes(posicion, movimiento, test);
+}
+

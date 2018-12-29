@@ -1,0 +1,243 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0nextPhase	5	1	0	4	2
+1	__D0nextPhase	6	1	4	4	3
+2	__signed_stack_001BTCheck	6	1	8	4	4
+3	__D0recibir	6	1	12	4	2
+4	__D0main	6	1	16	4	2
+5	__D0BTCheck	6	1	20	4	5
+6	__SRSTmpLongVal	6	1	24	4	2
+7	__D0mandar	6	1	28	4	2
+8	__signed_stack_001nextPhase	6	1	32	4	2
+9	__signed_stack_002BTCheck	6	1	36	4	2
+10	__RRNTmpVal	6	1	40	4	4
+11	__mandar_7qG2_bt_conn_7qG2_000	4	1	44	2	4
+12	phase	4	1	46	2	3
+13	__mandar_7qG2_msg_7qG2_000	4	1	48	2	2
+14	__BTCheck_7qG2_conn_7qG2_000	4	1	50	2	2
+15	__recibir_return	1	1	52	1	4
+16	__mandar_return	1	1	53	1	3
+17	__zfnextPhase	1	1	54	1	5
+18	__BTCheck_return	1	1	55	1	3
+19	__zfmain	1	1	56	1	2
+20	__constVal4	2	0	57	1	2
+21	__constVal3	2	0	58	1	1
+22	__RRNErr	1	1	59	1	1
+23	__constVal2	2	0	60	1	1
+24	__constVal5	2	0	61	1	2
+25	____initialize_global_data_return	1	1	62	1	3
+26	__WFRRTmpByte	1	1	63	1	2
+27	__zfBTCheck	1	1	64	1	3
+28	__constVal1	2	0	65	1	3
+29	__nextPhase_7qG2_esperar_7qG2_000	1	1	66	1	3
+30	__nextPhase_return	1	1	67	1	3
+31	__TextOutArgs	8	0	4	16	5
+32	__TextOutArgs.Result	2	1	68	1	5
+33	__TextOutArgs.Location	8	0	2	4	5
+34	__TextOutArgs.Location.X	4	1	72	2	5
+35	__TextOutArgs.Location.Y	4	1	74	2	5
+36	__TextOutArgs.Text	7	0	76	4	5
+37	__TextOutArgs.Text.Text_type	1	0	0	1	0
+38	__TextOutArgs.Options	5	1	80	4	5
+39	__CBTWArgs	8	0	3	8	4
+40	__CBTWArgs.Result	2	1	84	1	4
+41	__CBTWArgs.Connection	1	1	85	1	4
+42	__CBTWArgs.Buffer	7	0	86	4	4
+43	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+44	__CHSWArgs	8	0	2	8	3
+45	__CHSWArgs.Status	2	1	88	1	3
+46	__CHSWArgs.Buffer	7	0	90	4	3
+47	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+48	__MRArgs	8	0	4	8	4
+49	__MRArgs.Result	2	1	92	1	4
+50	__MRArgs.QueueID	1	1	93	1	4
+51	__MRArgs.Remove	1	1	94	1	4
+52	__MRArgs.Message	7	0	96	4	4
+53	__MRArgs.Message.Message_type	1	0	0	1	0
+54	__CBTCSArgs	8	0	2	4	4
+55	__CBTCSArgs.Result	2	1	100	1	4
+56	__CBTCSArgs.Connection	1	1	101	1	4
+57	__SRSFlattenBuf	7	0	102	4	2
+58	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+59	__SRSSendBuf	7	0	104	4	3
+60	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+61	__SRSTmpBuf	7	0	106	4	6
+62	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+63	__constStr0009	7	0	108	4	1
+64	__constStr0009.__constStr0009_type	1	1	0	1	0
+65	__strbufBTCheck	7	0	110	4	2
+66	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+67	__DCMessageWritePacket	7	0	112	4	1
+68	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	51	0	#line 51 "E:\robotica\final\Maestro.nxc"
+0	52	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	51	2	#line 51 "E:\robotica\final\Maestro.nxc"
+0	52	2	#line 52 "E:\robotica\final\Maestro.nxc"
+0	53	2		set __D0main, 1
+0	53	5	#line 53 "E:\robotica\final\Maestro.nxc"
+0	54	5		tst 5, __zfmain, __D0main
+0	53	8	#line 53 "E:\robotica\final\Maestro.nxc"
+0	54	8		brtst 4, __NXC_Label_637, __zfmain
+0	55	11	#line 55 "E:\robotica\final\Maestro.nxc"
+0	56	11		subcall nextPhase, __nextPhase_return
+0	55	13	#line 55 "E:\robotica\final\Maestro.nxc"
+0	59	13	#line 59 "E:\robotica\final\Maestro.nxc"
+0	60	13		jmp __NXC_Label_636
+0	59	15	#line 59 "E:\robotica\final\Maestro.nxc"
+0	60	15		exit -1, -1
+1	9	0	#line 9 "E:\robotica\final\Maestro.nxc"
+1	10	0	#pragma macro 5
+1	10	0		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+1	10	2		syscall 28, __CBTCSArgs
+1	6098	5	#line 6098 "E:\robotica\final\Maestro.nxc"
+1	9	5	#line 9 "E:\robotica\final\Maestro.nxc"
+1	10	5		not __signed_stack_001BTCheck, __CBTCSArgs.Result
+1	9	8	#line 9 "E:\robotica\final\Maestro.nxc"
+1	9	8	#line 9 "E:\robotica\final\Maestro.nxc"
+1	10	8		set __D0BTCheck, 0
+1	9	11	#line 9 "E:\robotica\final\Maestro.nxc"
+1	10	11		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+1	9	15	#line 9 "E:\robotica\final\Maestro.nxc"
+1	10	15		mov __D0BTCheck, __zfBTCheck
+1	10	17	#line 10 "E:\robotica\final\Maestro.nxc"
+1	11	17		brtst 4, __NXC_Label_606, __zfBTCheck
+1	10	20	#line 10 "E:\robotica\final\Maestro.nxc"
+1	11	20		set __signed_stack_001BTCheck, 5
+1	10	23	#line 10 "E:\robotica\final\Maestro.nxc"
+1	10	23	#line 10 "E:\robotica\final\Maestro.nxc"
+1	11	23		set __signed_stack_002BTCheck, 24
+1	10	26	#line 10 "E:\robotica\final\Maestro.nxc"
+1	10	26	#line 10 "E:\robotica\final\Maestro.nxc"
+1	11	26		strcat __strbufBTCheck, __constStr0009
+1	11	30	#line 11 "E:\robotica\final\Maestro.nxc"
+1	11	30	#line 11 "E:\robotica\final\Maestro.nxc"
+1	12	30		mov __TextOutArgs.Location.X, __signed_stack_001BTCheck
+1	11	32	#line 11 "E:\robotica\final\Maestro.nxc"
+1	12	32		mov __TextOutArgs.Location.Y, __signed_stack_002BTCheck
+1	11	34	#line 11 "E:\robotica\final\Maestro.nxc"
+1	12	34		set __TextOutArgs.Options, 0
+1	11	37	#line 11 "E:\robotica\final\Maestro.nxc"
+1	12	37		mov __TextOutArgs.Text, __strbufBTCheck
+1	11	39	#line 11 "E:\robotica\final\Maestro.nxc"
+1	12	39		syscall 13, __TextOutArgs
+1	11	42	#line 11 "E:\robotica\final\Maestro.nxc"
+1	11	42	#line 11 "E:\robotica\final\Maestro.nxc"
+1	11	42	#line 11 "E:\robotica\final\Maestro.nxc"
+1	11	42	#line 11 "E:\robotica\final\Maestro.nxc"
+1	11	42	#line 11 "E:\robotica\final\Maestro.nxc"
+1	7921	42	#line 7921 "NXCDefs.h"
+1	7922	42		wait 1000
+1	7921	44	#line 7921 "NXCDefs.h"
+1	12	44	#line 12 "E:\robotica\final\Maestro.nxc"
+1	12	44	#line 12 "E:\robotica\final\Maestro.nxc"
+1	13	44		set __D0BTCheck, 1
+1	13	47	#line 13 "E:\robotica\final\Maestro.nxc"
+1	14	47		stop __D0BTCheck
+1	13	49	#line 13 "E:\robotica\final\Maestro.nxc"
+1	16	49	#line 16 "E:\robotica\final\Maestro.nxc"
+1	16	49	#line 16 "E:\robotica\final\Maestro.nxc"
+1	17	49		subret __BTCheck_return
+2	19	0	#line 19 "E:\robotica\final\Maestro.nxc"
+2	20	0	#pragma macro 9
+2	20	0		mov __MRArgs.QueueID, __constVal1
+2	20	2		mov __MRArgs.Remove, __constVal1
+2	20	4		set __RRNTmpVal, 0
+2	20	7		syscall 27, __MRArgs
+2	20	10		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+2	6181	15	#line 6181 "E:\robotica\final\Maestro.nxc"
+2	19	15	#line 19 "E:\robotica\final\Maestro.nxc"
+2	19	15	#line 19 "E:\robotica\final\Maestro.nxc"
+2	21	15	#line 21 "E:\robotica\final\Maestro.nxc"
+2	22	15		mov __D0recibir, __RRNTmpVal
+2	21	17	#line 21 "E:\robotica\final\Maestro.nxc"
+2	22	17		subret __recibir_return
+2	21	19	#line 21 "E:\robotica\final\Maestro.nxc"
+2	23	19	#line 23 "E:\robotica\final\Maestro.nxc"
+2	24	19		subret __recibir_return
+3	24	0	#line 24 "E:\robotica\final\Maestro.nxc"
+3	25	0	#pragma macro 25
+3	25	0		mov __SRSTmpBuf, __DCMessageWritePacket
+3	25	2		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+3	25	7		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+3	25	12		mov __SRSTmpLongVal, __mandar_7qG2_msg_7qG2_000
+3	25	14		flatten __SRSFlattenBuf, __SRSTmpLongVal
+3	25	17		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+3	25	22		brcmp 0, __ConnWrite_Else0, __mandar_7qG2_bt_conn_7qG2_000, __constVal4
+3	25	26		sub __WFRRTmpByte, __mandar_7qG2_bt_conn_7qG2_000, __constVal4
+3	25	30		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+3	25	35		syscall 37, __CHSWArgs
+3	25	38		mov __D0mandar, __CHSWArgs.Status
+3	25	40		jmp __ConnWrite_EndIf0
+3	25	42		mov __CBTWArgs.Connection, __mandar_7qG2_bt_conn_7qG2_000
+3	25	44		mov __CBTWArgs.Buffer, __SRSSendBuf
+3	25	46		syscall 29, __CBTWArgs
+3	25	49		mov __D0mandar, __CBTWArgs.Result
+3	6205	51	#line 6205 "E:\robotica\final\Maestro.nxc"
+3	24	51	#line 24 "E:\robotica\final\Maestro.nxc"
+3	24	51	#line 24 "E:\robotica\final\Maestro.nxc"
+3	28	51	#line 28 "E:\robotica\final\Maestro.nxc"
+3	29	51		subret __mandar_return
+4	33	0	#line 33 "E:\robotica\final\Maestro.nxc"
+4	34	0		set __BTCheck_7qG2_conn_7qG2_000, 1
+4	33	3	#line 33 "E:\robotica\final\Maestro.nxc"
+4	34	3	#line 34 "E:\robotica\final\Maestro.nxc"
+4	35	3		subcall BTCheck, __BTCheck_return
+4	34	5	#line 34 "E:\robotica\final\Maestro.nxc"
+4	34	5	#line 34 "E:\robotica\final\Maestro.nxc"
+4	35	5		mov __mandar_7qG2_msg_7qG2_000, phase
+4	34	7	#line 34 "E:\robotica\final\Maestro.nxc"
+4	34	7	#line 34 "E:\robotica\final\Maestro.nxc"
+4	35	7		set __mandar_7qG2_bt_conn_7qG2_000, 1
+4	34	10	#line 34 "E:\robotica\final\Maestro.nxc"
+4	35	10	#line 35 "E:\robotica\final\Maestro.nxc"
+4	36	10		subcall mandar, __mandar_return
+4	35	12	#line 35 "E:\robotica\final\Maestro.nxc"
+4	36	12	#line 36 "E:\robotica\final\Maestro.nxc"
+4	37	12		set __nextPhase_7qG2_esperar_7qG2_000, 1
+4	36	15	#line 36 "E:\robotica\final\Maestro.nxc"
+4	37	15	#line 37 "E:\robotica\final\Maestro.nxc"
+4	38	15		mov __DU0nextPhase, __nextPhase_7qG2_esperar_7qG2_000
+4	38	17	#line 38 "E:\robotica\final\Maestro.nxc"
+4	39	17		tst 5, __zfnextPhase, __DU0nextPhase
+4	38	20	#line 38 "E:\robotica\final\Maestro.nxc"
+4	39	20		brtst 4, __NXC_Label_626, __zfnextPhase
+4	38	23	#line 38 "E:\robotica\final\Maestro.nxc"
+4	38	23	#line 38 "E:\robotica\final\Maestro.nxc"
+4	38	23	#line 38 "E:\robotica\final\Maestro.nxc"
+4	39	23		subcall recibir, __recibir_return
+4	38	25	#line 38 "E:\robotica\final\Maestro.nxc"
+4	39	25		mov __signed_stack_001nextPhase, __D0recibir
+4	38	27	#line 38 "E:\robotica\final\Maestro.nxc"
+4	39	27	#line 39 "E:\robotica\final\Maestro.nxc"
+4	40	27		set __D0nextPhase, 0
+4	39	30	#line 39 "E:\robotica\final\Maestro.nxc"
+4	40	30		cmp 4, __zfnextPhase, __signed_stack_001nextPhase, __D0nextPhase
+4	39	34	#line 39 "E:\robotica\final\Maestro.nxc"
+4	40	34		mov __D0nextPhase, __zfnextPhase
+4	40	36	#line 40 "E:\robotica\final\Maestro.nxc"
+4	41	36		brtst 4, __NXC_Label_633, __zfnextPhase
+4	41	39	#line 41 "E:\robotica\final\Maestro.nxc"
+4	42	39		set __nextPhase_7qG2_esperar_7qG2_000, 0
+4	41	42	#line 41 "E:\robotica\final\Maestro.nxc"
+4	41	42	#line 41 "E:\robotica\final\Maestro.nxc"
+4	44	42	#line 44 "E:\robotica\final\Maestro.nxc"
+4	44	42	#line 44 "E:\robotica\final\Maestro.nxc"
+4	45	42		jmp __NXC_Label_625
+4	44	44	#line 44 "E:\robotica\final\Maestro.nxc"
+4	46	44	#line 46 "E:\robotica\final\Maestro.nxc"
+4	47	44		add phase, phase, __constVal1
+4	46	48	#line 46 "E:\robotica\final\Maestro.nxc"
+4	49	48	#line 49 "E:\robotica\final\Maestro.nxc"
+4	50	48		subret __nextPhase_return
+5	60	0	#line 60 "E:\robotica\final\Maestro.nxc"
+5	61	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\robotica\final\Maestro.nxc
+1	BTCheck	18	E:\robotica\final\Maestro.nxc
+2	recibir	69	E:\robotica\final\Maestro.nxc
+3	mandar	90	E:\robotica\final\Maestro.nxc
+4	nextPhase	143	E:\robotica\final\Maestro.nxc
+5	__initialize_global_data	193	E:\robotica\final\Maestro.nxc

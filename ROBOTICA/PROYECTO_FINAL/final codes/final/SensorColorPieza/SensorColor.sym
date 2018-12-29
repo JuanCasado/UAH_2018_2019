@@ -1,0 +1,923 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__color_7qG2_media_7qG2_000	10	1	0	4	8
+1	__float_stack_001moverBrazoPosDeseada	10	1	4	4	2
+2	__signed_stack_001leerColor	6	1	8	4	6
+3	semaforoSel	9	0	12	4	8
+4	anguloActualSelect	6	1	16	4	2
+5	semaforoDisp2	9	0	20	4	4
+6	semaforoDisp1	9	0	24	4	10
+7	__signed_stack_002completadoDisp1	6	1	28	4	6
+8	__D0SetSensorLight_inline_leerColor	6	1	32	4	6
+9	__D0seleccionarINT	6	1	36	4	2
+10	__D0posicion	6	1	40	4	2
+11	__DU0SetSensorLight_inline_leerColor	5	1	44	4	4
+12	__signed_stack_001completadoDisp1	6	1	48	4	10
+13	__float_stack_002color	10	1	52	4	6
+14	__signed_stack_001color	6	1	56	4	18
+15	__moverBrazoPosDeseada_7qG2_integral_7qG2_000	10	1	60	4	3
+16	__moverBrazoPosDeseada_7qG2_error_7qG2_000	10	1	64	4	3
+17	__moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000	6	1	68	4	4
+18	__moverBrazoPosDeseada_7qG2_constantes_7qG2_000	10	1	72	4	2
+19	__constValf0P01	10	0	76	4	2
+20	__constValf0P001	10	0	80	4	1
+21	__seleccionarINT_7qG2_anguloD_7qG2_000	6	1	84	4	3
+22	__moverBrazoPosDeseada_7qG2_ki_7qG2_000	10	1	88	4	4
+23	anguloDeseadoSelect	6	1	92	4	3
+24	anguloActualDisp2	6	1	96	4	2
+25	anguloActualDisp1	6	1	100	4	4
+26	anguloDeseadoDisp1	6	1	104	4	3
+27	__moverBrazoPosDeseada_7qG2_kp_7qG2_000	10	1	108	4	4
+28	__moverBrazoPosDeseada_7qG2_anguloDeseado_7qG2_000	6	1	112	4	4
+29	anguloDeseadoDisp2	6	1	116	4	1
+30	__DU0completadoDisp1	5	1	120	4	2
+31	__D0color	6	1	124	4	21
+32	__D0leerColor	6	1	128	4	14
+33	__D0completadoDisp1	6	1	132	4	17
+34	__ResetSensorMutex	9	0	136	4	6
+35	__D0accion	6	1	140	4	2
+36	__DF0color	10	1	144	4	12
+37	__DF0moverBrazoPosDeseada	10	1	148	4	2
+38	__TextOutMutex	9	0	152	4	6
+39	__D0paralelo	6	1	156	4	2
+40	__D0moverBrazoPosDeseada	6	1	160	4	2
+41	__constVal200	4	0	164	2	2
+42	__color_7qG2_luz2_7qG2_000	4	1	166	2	4
+43	__moverBrazoPosDeseada_7qG2_motor_7qG2_000	4	1	168	2	4
+44	__color_7qG2_luz1_7qG2_000	4	1	170	2	4
+45	__seleccionarINT_7qG2_col_7qG2_000	4	1	172	2	2
+46	__completadoDisp1_7qG2_count_7qG2_000	4	1	174	2	5
+47	__color_7qG2_i_7qG2_001	4	1	176	2	4
+48	__constVal63	2	0	178	1	1
+49	__constVal96	2	0	179	1	1
+50	__ResetSensorTmp	1	1	180	1	2
+51	____ResetSensorSubroutine_return	1	1	181	1	5
+52	__moverBrazoPosDeseada_return	1	1	182	1	5
+53	__constVal3	2	0	183	1	4
+54	__ResetSensorPort	1	1	184	1	5
+55	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor	1	1	185	1	4
+56	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_leerColor	1	1	186	1	4
+57	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor	1	1	187	1	4
+58	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_leerColor	1	1	188	1	4
+59	__constVal60	2	0	189	1	1
+60	____initialize_global_data_return	1	1	190	1	3
+61	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor	1	1	191	1	4
+62	__constVal1	2	0	192	1	12
+63	__constVal0	2	1	193	1	6
+64	__seleccionarINT_return	1	1	194	1	3
+65	__constVal32	2	0	195	1	4
+66	__SetSensorLight_7qG2_bActive_7qG2_000_inline_leerColor	1	1	196	1	4
+67	__SetSensorLight_7qG2_port_7qG2_000_inline_leerColor	1	1	197	1	8
+68	__SetSensor_7qG2_port_7qG2_000_inline_leerColor	1	1	198	1	4
+69	__zfcolor	1	1	199	1	24
+70	__color_return	1	1	200	1	4
+71	__constVal49	2	0	201	1	1
+72	__constVal62	2	0	202	1	1
+73	__zfcompletadoDisp1	1	1	203	1	8
+74	__zfposicion	1	1	204	1	2
+75	__zfparalelo	1	1	205	1	2
+76	__zfSetSensorLight_inline_leerColor	1	1	206	1	4
+77	__zfleerColor	1	1	207	1	17
+78	__zfaccion	1	1	208	1	2
+79	__constVal2	2	0	209	1	2
+80	__constVal8	2	0	210	1	2
+81	__completadoDisp1_return	1	1	211	1	3
+82	__lanzarDisp1_return	1	1	212	1	3
+83	__completadoDisp1_7qG2_active_7qG2_000	1	1	213	1	4
+84	__constVal75	2	0	214	1	1
+85	__constVal50	2	0	215	1	2
+86	__TextOutArgs	8	0	4	16	18
+87	__TextOutArgs.Result	2	1	216	1	18
+88	__TextOutArgs.Location	8	0	2	4	18
+89	__TextOutArgs.Location.X	4	1	220	2	18
+90	__TextOutArgs.Location.Y	4	1	222	2	18
+91	__TextOutArgs.Text	7	0	224	4	18
+92	__TextOutArgs.Text.Text_type	1	0	0	1	0
+93	__TextOutArgs.Options	5	1	228	4	18
+94	__PointOutArgs	8	0	3	12	4
+95	__PointOutArgs.Result	2	1	232	1	4
+96	__PointOutArgs.Location	8	0	2	4	4
+97	__PointOutArgs.Location.X	4	1	236	2	4
+98	__PointOutArgs.Location.Y	4	1	238	2	4
+99	__PointOutArgs.Options	5	1	240	4	4
+100	__constStr0012	7	0	244	4	1
+101	__constStr0012.__constStr0012_type	1	1	0	1	0
+102	__constStr0011	7	0	246	4	1
+103	__constStr0011.__constStr0011_type	1	1	0	1	0
+104	__color_7qG2_color_7qG2_000	7	0	248	4	5
+105	__color_7qG2_color_7qG2_000.__color_7qG2_color_7qG2_000_type	1	0	0	1	0
+106	__constStr0009	7	0	250	4	1
+107	__constStr0009.__constStr0009_type	1	1	0	1	0
+108	__strbufcolor	7	0	252	4	9
+109	__strbufcolor.__strbufcolor_type	1	0	0	1	0
+110	__constStr0010	7	0	254	4	1
+111	__constStr0010.__constStr0010_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	242	0	#line 242 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+0	243	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	242	2	#line 242 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+0	243	2	#line 243 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+0	243	2	#line 243 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+0	244	2		exit 0, 3
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	19	0	#line 19 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	20	0		set __color_7qG2_luz1_7qG2_000, 0
+2	19	3	#line 19 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	20	3	#line 20 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	21	3		set __color_7qG2_luz2_7qG2_000, 0
+2	20	6	#line 20 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	21	6	#line 21 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	21	6	#line 21 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	22	6		mov __color_7qG2_media_7qG2_000, __constVal0
+2	22	8	#line 22 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	22	8	#line 22 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	24	8	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	8		set __color_7qG2_i_7qG2_001, 0
+2	24	11	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	24	11	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	11		mov __signed_stack_001color, __color_7qG2_i_7qG2_001
+2	24	13	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	24	13	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	13		set __D0color, 8
+2	24	16	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	16		cmp 0, __zfcolor, __signed_stack_001color, __D0color
+2	24	20	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	20		mov __D0color, __zfcolor
+2	24	22	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	22		brtst 4, __NXC_Label_613, __zfcolor
+2	24	25	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	25		jmp __NXC_Label_614
+2	24	27	#line 24 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	27		add __color_7qG2_i_7qG2_001, __color_7qG2_i_7qG2_001, __constVal1
+2	25	31	#line 25 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	26	31		jmp __NXC_Label_612
+2	25	33	#line 25 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	26	33		getin __D0color, __constVal0, 4
+2	25	37	#line 25 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	26	37		add __color_7qG2_luz1_7qG2_000, __color_7qG2_luz1_7qG2_000, __D0color
+2	25	41	#line 25 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	25	41	#line 25 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	26	41	#line 26 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	27	41		getin __D0color, __constVal1, 4
+2	26	45	#line 26 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	27	45		add __color_7qG2_luz2_7qG2_000, __color_7qG2_luz2_7qG2_000, __D0color
+2	26	49	#line 26 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	26	49	#line 26 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	27	49	#line 27 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	27	49	#line 27 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	7921	49	#line 7921 "NXCDefs.h"
+2	7922	49		wait 50
+2	7921	51	#line 7921 "NXCDefs.h"
+2	28	51	#line 28 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	51	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	30	51		jmp __NXC_Label_615
+2	29	53	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	53	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	53	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	53	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	53	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	30	53		div __signed_stack_001color, __color_7qG2_luz1_7qG2_000, __constVal8
+2	29	57	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	57	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	57	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	57	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	29	57	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	30	57		div __D0color, __color_7qG2_luz2_7qG2_000, __constVal8
+2	29	61	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	30	61		add __signed_stack_001color, __signed_stack_001color, __D0color
+2	29	65	#line 29 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	65	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	65	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	65		div __color_7qG2_media_7qG2_000, __signed_stack_001color, __constVal2
+2	31	69	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	69	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	69	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	69		set __signed_stack_001color, 63
+2	31	72	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	72	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	72		mov __DF0color, __color_7qG2_media_7qG2_000
+2	31	74	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	74		cmp 0, __zfcolor, __signed_stack_001color, __DF0color
+2	31	78	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	78		mov __D0color, __zfcolor
+2	31	80	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	80		brtst 4, __NXC_Label_635, __zfcolor
+2	31	83	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	83		mov __signed_stack_001color, __D0color
+2	31	85	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	85		mov __float_stack_002color, __color_7qG2_media_7qG2_000
+2	31	87	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	87	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	87		mov __DF0color, __constVal75
+2	31	89	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	89		cmp 0, __zfcolor, __float_stack_002color, __DF0color
+2	31	93	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	31	93	#line 31 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	32	93		and __D0color, __signed_stack_001color, __zfcolor
+2	32	97	#line 32 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	33	97		tst 5, __zfcolor, __D0color
+2	32	100	#line 32 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	33	100		brtst 4, __NXC_Label_640, __zfcolor
+2	33	103	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	103		strcat __strbufcolor, __constStr0009
+2	33	107	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	107		mov __color_7qG2_color_7qG2_000, __strbufcolor
+2	33	109	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	33	109	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	109		jmp __NXC_Label_641
+2	33	111	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	111		set __signed_stack_001color, 50
+2	33	114	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	33	114	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	114		mov __DF0color, __color_7qG2_media_7qG2_000
+2	33	116	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	116		cmp 0, __zfcolor, __signed_stack_001color, __DF0color
+2	33	120	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	120		mov __D0color, __zfcolor
+2	33	122	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	122		brtst 4, __NXC_Label_643, __zfcolor
+2	33	125	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	125		mov __signed_stack_001color, __D0color
+2	33	127	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	127		mov __float_stack_002color, __color_7qG2_media_7qG2_000
+2	33	129	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	33	129	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	129		mov __DF0color, __constVal62
+2	33	131	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	131		cmp 0, __zfcolor, __float_stack_002color, __DF0color
+2	33	135	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	33	135	#line 33 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	34	135		and __D0color, __signed_stack_001color, __zfcolor
+2	34	139	#line 34 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	35	139		tst 5, __zfcolor, __D0color
+2	34	142	#line 34 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	35	142		brtst 4, __NXC_Label_648, __zfcolor
+2	35	145	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	145		strcat __strbufcolor, __constStr0010
+2	35	149	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	149		mov __color_7qG2_color_7qG2_000, __strbufcolor
+2	35	151	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	35	151	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	151		jmp __NXC_Label_649
+2	35	153	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	153		set __signed_stack_001color, 40
+2	35	156	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	35	156	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	156		mov __DF0color, __color_7qG2_media_7qG2_000
+2	35	158	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	158		cmp 0, __zfcolor, __signed_stack_001color, __DF0color
+2	35	162	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	162		mov __D0color, __zfcolor
+2	35	164	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	164		brtst 4, __NXC_Label_651, __zfcolor
+2	35	167	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	167		mov __signed_stack_001color, __D0color
+2	35	169	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	169		mov __float_stack_002color, __color_7qG2_media_7qG2_000
+2	35	171	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	35	171	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	171		mov __DF0color, __constVal49
+2	35	173	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	173		cmp 0, __zfcolor, __float_stack_002color, __DF0color
+2	35	177	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	35	177	#line 35 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	36	177		and __D0color, __signed_stack_001color, __zfcolor
+2	36	181	#line 36 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	37	181		tst 5, __zfcolor, __D0color
+2	36	184	#line 36 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	37	184		brtst 4, __NXC_Label_656, __zfcolor
+2	37	187	#line 37 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	38	187		strcat __strbufcolor, __constStr0011
+2	37	191	#line 37 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	38	191		mov __color_7qG2_color_7qG2_000, __strbufcolor
+2	37	193	#line 37 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	38	193	#line 38 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	39	193		jmp __NXC_Label_657
+2	39	195	#line 39 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	40	195		strcat __strbufcolor, __constStr0012
+2	39	199	#line 39 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	40	199		mov __color_7qG2_color_7qG2_000, __strbufcolor
+2	39	201	#line 39 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	40	201	#line 40 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	40	201	#line 40 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	40	201	#line 40 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	41	201	#line 41 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	42	201		strcat __strbufcolor, __color_7qG2_color_7qG2_000
+2	41	205	#line 41 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	42	205		subret __color_return
+2	41	207	#line 41 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	42	207	#line 42 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+2	43	207		subret __color_return
+3	54	0	#line 54 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	55	0		set __completadoDisp1_7qG2_active_7qG2_000, 1
+3	54	3	#line 54 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	55	3	#line 55 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	56	3		set __completadoDisp1_7qG2_count_7qG2_000, 0
+3	55	6	#line 55 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	56	6	#line 56 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	57	6		mov __DU0completadoDisp1, __completadoDisp1_7qG2_active_7qG2_000
+3	57	8	#line 57 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	58	8		tst 5, __zfcompletadoDisp1, __DU0completadoDisp1
+3	57	11	#line 57 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	58	11		brtst 4, __NXC_Label_663, __zfcompletadoDisp1
+3	57	14	#line 57 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	57	14	#line 57 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	7921	14	#line 7921 "NXCDefs.h"
+3	7922	14		wait 100
+3	7921	16	#line 7921 "NXCDefs.h"
+3	58	16	#line 58 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	6069	16	#line 6069 "NXCDefs.h"
+3	6070	16	#pragma macro 6
+3	6070	16		mov __PointOutArgs.Location.X, __constVal200
+3	6070	18		mov __PointOutArgs.Location.Y, __constVal200
+3	6070	20		mov __PointOutArgs.Options, __constVal1
+3	6070	22		syscall 14, __PointOutArgs
+3	7644	25	#line 7644 "NXCDefs.h"
+3	6069	25	#line 6069 "NXCDefs.h"
+3	59	25	#line 59 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	60	25	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	25		acquire semaforoDisp1
+3	60	26	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	60	26	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	26		set __signed_stack_001completadoDisp1, 1
+3	60	29	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	60	29	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	29		set __signed_stack_002completadoDisp1, 56
+3	60	32	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	60	32	#line 60 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	32		mov __D0completadoDisp1, anguloActualDisp1
+3	61	34	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	34		acquire __TextOutMutex
+3	61	35	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	35		mov __TextOutArgs.Location.X, __signed_stack_001completadoDisp1
+3	61	37	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	37		mov __TextOutArgs.Location.Y, __signed_stack_002completadoDisp1
+3	61	39	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	39		set __TextOutArgs.Options, 0
+3	61	42	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	42		numtostr __TextOutArgs.Text, __D0completadoDisp1
+3	61	45	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	45		syscall 13, __TextOutArgs
+3	61	48	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	48		mov __D0completadoDisp1, __TextOutArgs.Result
+3	61	50	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	50		release __TextOutMutex
+3	61	51	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	51	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	51		set __signed_stack_001completadoDisp1, 1
+3	61	54	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	54	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	54		set __signed_stack_002completadoDisp1, 48
+3	61	57	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	61	57	#line 61 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	57		set __D0completadoDisp1, 60
+3	62	60	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	60		acquire __TextOutMutex
+3	62	61	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	61		mov __TextOutArgs.Location.X, __signed_stack_001completadoDisp1
+3	62	63	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	63		mov __TextOutArgs.Location.Y, __signed_stack_002completadoDisp1
+3	62	65	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	65		set __TextOutArgs.Options, 0
+3	62	68	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	68		numtostr __TextOutArgs.Text, __D0completadoDisp1
+3	62	71	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	71		syscall 13, __TextOutArgs
+3	62	74	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	74		mov __D0completadoDisp1, __TextOutArgs.Result
+3	62	76	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	76		release __TextOutMutex
+3	62	77	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	77	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	77	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	77	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	62	77	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	77		sub __D0completadoDisp1, anguloActualDisp1, __constVal60
+3	62	81	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	81		abs __signed_stack_001completadoDisp1, __D0completadoDisp1
+3	62	84	#line 62 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	63	84	#line 63 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	64	84		set __D0completadoDisp1, 5
+3	63	87	#line 63 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	64	87		cmp 0, __zfcompletadoDisp1, __signed_stack_001completadoDisp1, __D0completadoDisp1
+3	63	91	#line 63 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	64	91		mov __D0completadoDisp1, __zfcompletadoDisp1
+3	64	93	#line 64 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	65	93		brtst 4, __NXC_Label_684, __zfcompletadoDisp1
+3	65	96	#line 65 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	66	96		set __completadoDisp1_7qG2_active_7qG2_000, 0
+3	65	99	#line 65 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	65	99	#line 65 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	66	99	#line 66 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	67	99		jmp __NXC_Label_687
+3	66	101	#line 66 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	67	101		set __signed_stack_001completadoDisp1, 1
+3	66	104	#line 66 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	66	104	#line 66 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	67	104		set __signed_stack_002completadoDisp1, 40
+3	66	107	#line 66 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	66	107	#line 66 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	67	107		mov __D0completadoDisp1, __completadoDisp1_7qG2_count_7qG2_000
+3	67	109	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	109		acquire __TextOutMutex
+3	67	110	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	110		mov __TextOutArgs.Location.X, __signed_stack_001completadoDisp1
+3	67	112	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	112		mov __TextOutArgs.Location.Y, __signed_stack_002completadoDisp1
+3	67	114	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	114		set __TextOutArgs.Options, 0
+3	67	117	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	117		numtostr __TextOutArgs.Text, __D0completadoDisp1
+3	67	120	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	120		syscall 13, __TextOutArgs
+3	67	123	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	123		mov __D0completadoDisp1, __TextOutArgs.Result
+3	67	125	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	125		release __TextOutMutex
+3	67	126	#line 67 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	126	#line 68 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	69	126		add __completadoDisp1_7qG2_count_7qG2_000, __completadoDisp1_7qG2_count_7qG2_000, __constVal1
+3	68	130	#line 68 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	68	130	#line 68 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	69	130		mov __signed_stack_001completadoDisp1, __completadoDisp1_7qG2_count_7qG2_000
+3	68	132	#line 68 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	69	132	#line 69 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	70	132		set __D0completadoDisp1, 100
+3	69	135	#line 69 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	70	135		cmp 4, __zfcompletadoDisp1, __signed_stack_001completadoDisp1, __D0completadoDisp1
+3	69	139	#line 69 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	70	139		mov __D0completadoDisp1, __zfcompletadoDisp1
+3	70	141	#line 70 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	71	141		brtst 4, __NXC_Label_696, __zfcompletadoDisp1
+3	71	144	#line 71 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	72	144		set __completadoDisp1_7qG2_active_7qG2_000, 0
+3	71	147	#line 71 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	71	147	#line 71 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	73	147	#line 73 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	73	147	#line 73 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	74	147	#line 74 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	75	147		release semaforoDisp1
+3	74	148	#line 74 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	77	148	#line 77 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	78	148		jmp __NXC_Label_662
+3	77	150	#line 77 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	77	150	#line 77 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+3	78	150		subret __completadoDisp1_return
+4	104	0	#line 104 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	105	0		acquire semaforoDisp1
+4	104	1	#line 104 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	105	1	#line 105 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	106	1		set anguloDeseadoDisp1, 60
+4	105	4	#line 105 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	105	4	#line 105 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	106	4	#line 106 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	107	4		release semaforoDisp1
+4	106	5	#line 106 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	107	5	#line 107 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	108	5		subcall completadoDisp1, __completadoDisp1_return
+4	107	7	#line 107 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	108	7	#line 108 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	109	7		acquire semaforoDisp1
+4	108	8	#line 108 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	109	8	#line 109 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	110	8		set anguloDeseadoDisp1, 0
+4	109	11	#line 109 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	109	11	#line 109 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	111	11	#line 111 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	112	11		release semaforoDisp1
+4	111	12	#line 111 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	113	12	#line 113 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+4	114	12		subret __lanzarDisp1_return
+5	127	0	#line 127 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	127	0	#line 127 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	128	0	#line 128 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	128	0	#line 128 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	0		sub __moverBrazoPosDeseada_7qG2_error_7qG2_000, __moverBrazoPosDeseada_7qG2_anguloDeseado_7qG2_000, __moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000
+5	128	4	#line 128 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	128	4	#line 128 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	128	4	#line 128 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	4	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	4	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	130	4		add __moverBrazoPosDeseada_7qG2_integral_7qG2_000, __moverBrazoPosDeseada_7qG2_integral_7qG2_000, __moverBrazoPosDeseada_7qG2_error_7qG2_000
+5	129	8	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	8	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	8	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	8	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	8	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	130	8		mul __float_stack_001moverBrazoPosDeseada, __moverBrazoPosDeseada_7qG2_kp_7qG2_000, __moverBrazoPosDeseada_7qG2_error_7qG2_000
+5	129	12	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	12	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	129	12	#line 129 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	130	12	#line 130 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	130	12	#line 130 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	131	12		mul __DF0moverBrazoPosDeseada, __moverBrazoPosDeseada_7qG2_ki_7qG2_000, __moverBrazoPosDeseada_7qG2_integral_7qG2_000
+5	130	16	#line 130 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	131	16		add __moverBrazoPosDeseada_7qG2_constantes_7qG2_000, __float_stack_001moverBrazoPosDeseada, __DF0moverBrazoPosDeseada
+5	130	20	#line 130 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	131	20	#line 131 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	131	20	#line 131 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	131	20	#line 131 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	132	20		mov __D0moverBrazoPosDeseada, __moverBrazoPosDeseada_7qG2_constantes_7qG2_000
+5	133	22	#line 133 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	134	22	#pragma macro 7
+5	134	22		setout __moverBrazoPosDeseada_7qG2_motor_7qG2_000, 2, __D0moverBrazoPosDeseada, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	8172	45	#line 8172 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	133	45	#line 133 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	135	45	#line 135 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+5	136	45		subret __moverBrazoPosDeseada_return
+6	164	0	#line 164 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	165	0		set __seleccionarINT_7qG2_anguloD_7qG2_000, 0
+6	164	3	#line 164 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	165	3	#line 165 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	166	3		mov __D0seleccionarINT, __seleccionarINT_7qG2_col_7qG2_000
+6	169	5		brcmp 4, __NXC_Label_774, __constVal50, __D0seleccionarINT
+6	170	9		jmp __NXC_Label_773
+6	167	11	#line 167 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	168	11	#line 168 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	169	11		set __seleccionarINT_7qG2_anguloD_7qG2_000, 50
+6	168	14	#line 168 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	168	14	#line 168 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	169	14	#line 169 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	169	14	#line 169 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	170	14	#line 170 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	171	14	#line 171 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	172	14		acquire semaforoSel
+6	171	15	#line 171 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	172	15	#line 172 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	173	15		mov anguloDeseadoSelect, __seleccionarINT_7qG2_anguloD_7qG2_000
+6	172	17	#line 172 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	172	17	#line 172 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	175	17	#line 175 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	176	17		release semaforoSel
+6	175	18	#line 175 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	177	18	#line 177 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+6	178	18		subret __seleccionarINT_return
+7	180	0	#line 180 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	181	0		set __D0accion, 1
+7	181	3	#line 181 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	3		tst 5, __zfaccion, __D0accion
+7	181	6	#line 181 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	6		brtst 4, __NXC_Label_780, __zfaccion
+7	182	9	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	9		acquire semaforoSel
+7	182	10	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	10	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	10		set __moverBrazoPosDeseada_7qG2_motor_7qG2_000, 1
+7	182	13	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	13	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	13		mov __moverBrazoPosDeseada_7qG2_anguloDeseado_7qG2_000, anguloDeseadoSelect
+7	182	15	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	15	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	15	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	15		mov __moverBrazoPosDeseada_7qG2_kp_7qG2_000, __constVal1
+7	182	17	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	17		mov __moverBrazoPosDeseada_7qG2_ki_7qG2_000, __constValf0P001
+7	182	19	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	182	19	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	19		mov __moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000, anguloActualSelect
+7	182	21	#line 182 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	183	21	#line 183 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	184	21		subcall moverBrazoPosDeseada, __moverBrazoPosDeseada_return
+7	183	23	#line 183 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	184	23	#line 184 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	23		release semaforoSel
+7	184	24	#line 184 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	24	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	24		acquire semaforoDisp1
+7	185	25	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	25	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	25		set __moverBrazoPosDeseada_7qG2_motor_7qG2_000, 0
+7	185	28	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	28	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	28		mov __moverBrazoPosDeseada_7qG2_anguloDeseado_7qG2_000, anguloDeseadoDisp1
+7	185	30	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	30	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	30	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	30		mov __moverBrazoPosDeseada_7qG2_kp_7qG2_000, __constVal1
+7	185	32	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	32		mov __moverBrazoPosDeseada_7qG2_ki_7qG2_000, __constValf0P01
+7	185	34	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	185	34	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	34		mov __moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000, anguloActualDisp1
+7	185	36	#line 185 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	186	36	#line 186 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	187	36		subcall moverBrazoPosDeseada, __moverBrazoPosDeseada_return
+7	186	38	#line 186 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	187	38	#line 187 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	38		release semaforoDisp1
+7	187	39	#line 187 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	39	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	39		acquire semaforoDisp2
+7	188	40	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	40	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	40		set __moverBrazoPosDeseada_7qG2_motor_7qG2_000, 2
+7	188	43	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	43	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	43		mov __moverBrazoPosDeseada_7qG2_anguloDeseado_7qG2_000, anguloDeseadoDisp2
+7	188	45	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	45	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	45	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	45		mov __moverBrazoPosDeseada_7qG2_kp_7qG2_000, __constVal1
+7	188	47	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	47		mov __moverBrazoPosDeseada_7qG2_ki_7qG2_000, __constValf0P01
+7	188	49	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	188	49	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	49		mov __moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000, anguloActualDisp2
+7	188	51	#line 188 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	189	51	#line 189 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	190	51		subcall moverBrazoPosDeseada, __moverBrazoPosDeseada_return
+7	189	53	#line 189 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	191	53	#line 191 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	192	53		release semaforoDisp2
+7	191	54	#line 191 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	193	54	#line 193 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	194	54		jmp __NXC_Label_779
+7	193	56	#line 193 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+7	194	56		exit -1, -1
+8	197	0	#line 197 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	198	0		set __D0posicion, 1
+8	198	3	#line 198 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	199	3		tst 5, __zfposicion, __D0posicion
+8	198	6	#line 198 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	199	6		brtst 4, __NXC_Label_814, __zfposicion
+8	199	9	#line 199 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	200	9		acquire semaforoSel
+8	199	10	#line 199 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	200	10	#line 200 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	201	10		getout anguloActualSelect, __constVal1, 14
+8	200	14	#line 200 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	200	14	#line 200 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	201	14	#line 201 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	202	14		release semaforoSel
+8	201	15	#line 201 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	202	15	#line 202 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	203	15		acquire semaforoDisp1
+8	202	16	#line 202 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	203	16	#line 203 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	204	16		getout anguloActualDisp1, __constVal0, 14
+8	203	20	#line 203 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	203	20	#line 203 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	204	20	#line 204 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	205	20		release semaforoDisp1
+8	204	21	#line 204 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	205	21	#line 205 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	206	21		acquire semaforoDisp2
+8	205	22	#line 205 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	206	22	#line 206 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	207	22		getout anguloActualDisp2, __constVal2, 14
+8	206	26	#line 206 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	206	26	#line 206 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	208	26	#line 208 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	209	26		release semaforoDisp2
+8	208	27	#line 208 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	211	27	#line 211 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	212	27		jmp __NXC_Label_813
+8	211	29	#line 211 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+8	212	29		exit -1, -1
+9	214	0	#line 214 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	215	0		set __SetSensor_7qG2_port_7qG2_000_inline_leerColor, 3
+9	214	3	#line 214 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	214	3	#line 214 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	3707	3	#line 3707 "NXCDefs.h"
+9	3708	3		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_leerColor, 0
+9	3709	7		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_leerColor, 1
+9	3710	11	#pragma macro 4
+9	3710	11		acquire __ResetSensorMutex
+9	3710	12		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_leerColor
+9	3710	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+9	3710	16		release __ResetSensorMutex
+9	8538	17	#line 8538 "NXCDefs.h"
+9	3711	17	#line 3711 "NXCDefs.h"
+9	215	17	#line 215 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	215	17	#line 215 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	216	17		set __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor, 0
+9	215	20	#line 215 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	216	20	#line 216 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	217	20		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_leerColor, __constVal1
+9	3729	22	#line 3729 "NXCDefs.h"
+9	3730	22		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor
+9	3729	24	#line 3729 "NXCDefs.h"
+9	3729	24	#line 3729 "NXCDefs.h"
+9	3730	24		mov __DU0SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_bActive_7qG2_000_inline_leerColor
+9	3729	26	#line 3729 "NXCDefs.h"
+9	3730	26		tst 5, __zfSetSensorLight_inline_leerColor, __DU0SetSensorLight_inline_leerColor
+9	3729	29	#line 3729 "NXCDefs.h"
+9	3730	29		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_leerColor
+9	3729	32	#line 3729 "NXCDefs.h"
+9	3730	32		set __D0SetSensorLight_inline_leerColor, 5
+9	3729	35	#line 3729 "NXCDefs.h"
+9	3730	35		jmp __001__NXC_Label_5
+9	3729	37	#line 3729 "NXCDefs.h"
+9	3730	37		set __D0SetSensorLight_inline_leerColor, 6
+9	3729	40	#line 3729 "NXCDefs.h"
+9	3730	40		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_leerColor, __D0SetSensorLight_inline_leerColor
+9	3663	42	#line 3663 "NXCDefs.h"
+9	3664	42		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, 0
+9	3663	46	#line 3663 "NXCDefs.h"
+9	3730	46	#line 3730 "NXCDefs.h"
+9	3730	46	#line 3730 "NXCDefs.h"
+9	3731	46		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor
+9	3730	48	#line 3730 "NXCDefs.h"
+9	3730	48	#line 3730 "NXCDefs.h"
+9	3731	48		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_leerColor, 128
+9	3730	51	#line 3730 "NXCDefs.h"
+9	3676	51	#line 3676 "NXCDefs.h"
+9	3677	51		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, 1
+9	3676	55	#line 3676 "NXCDefs.h"
+9	3731	55	#line 3731 "NXCDefs.h"
+9	3731	55	#line 3731 "NXCDefs.h"
+9	3732	55		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor
+9	3731	57	#line 3731 "NXCDefs.h"
+9	3694	57	#line 3694 "NXCDefs.h"
+9	3695	57	#pragma macro 4
+9	3695	57		acquire __ResetSensorMutex
+9	3695	58		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor
+9	3695	60		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+9	3695	62		release __ResetSensorMutex
+9	8632	63	#line 8632 "NXCDefs.h"
+9	3694	63	#line 3694 "NXCDefs.h"
+9	3732	63	#line 3732 "NXCDefs.h"
+9	216	63	#line 216 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	216	63	#line 216 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	217	63		set __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor, 1
+9	216	66	#line 216 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	217	66	#line 217 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	218	66		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_leerColor, __constVal1
+9	3729	68	#line 3729 "NXCDefs.h"
+9	3730	68		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor
+9	3729	70	#line 3729 "NXCDefs.h"
+9	3729	70	#line 3729 "NXCDefs.h"
+9	3730	70		mov __DU0SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_bActive_7qG2_000_inline_leerColor
+9	3729	72	#line 3729 "NXCDefs.h"
+9	3730	72		tst 5, __zfSetSensorLight_inline_leerColor, __DU0SetSensorLight_inline_leerColor
+9	3729	75	#line 3729 "NXCDefs.h"
+9	3730	75		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_leerColor
+9	3729	78	#line 3729 "NXCDefs.h"
+9	3730	78		set __D0SetSensorLight_inline_leerColor, 5
+9	3729	81	#line 3729 "NXCDefs.h"
+9	3730	81		jmp __002__NXC_Label_5
+9	3729	83	#line 3729 "NXCDefs.h"
+9	3730	83		set __D0SetSensorLight_inline_leerColor, 6
+9	3729	86	#line 3729 "NXCDefs.h"
+9	3730	86		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_leerColor, __D0SetSensorLight_inline_leerColor
+9	3663	88	#line 3663 "NXCDefs.h"
+9	3664	88		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, 0
+9	3663	92	#line 3663 "NXCDefs.h"
+9	3730	92	#line 3730 "NXCDefs.h"
+9	3730	92	#line 3730 "NXCDefs.h"
+9	3731	92		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor
+9	3730	94	#line 3730 "NXCDefs.h"
+9	3730	94	#line 3730 "NXCDefs.h"
+9	3731	94		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_leerColor, 128
+9	3730	97	#line 3730 "NXCDefs.h"
+9	3676	97	#line 3676 "NXCDefs.h"
+9	3677	97		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, 1
+9	3676	101	#line 3676 "NXCDefs.h"
+9	3731	101	#line 3731 "NXCDefs.h"
+9	3731	101	#line 3731 "NXCDefs.h"
+9	3732	101		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor, __SetSensorLight_7qG2_port_7qG2_000_inline_leerColor
+9	3731	103	#line 3731 "NXCDefs.h"
+9	3694	103	#line 3694 "NXCDefs.h"
+9	3695	103	#pragma macro 4
+9	3695	103		acquire __ResetSensorMutex
+9	3695	104		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_leerColor
+9	3695	106		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+9	3695	108		release __ResetSensorMutex
+9	8699	109	#line 8699 "NXCDefs.h"
+9	3694	109	#line 3694 "NXCDefs.h"
+9	3732	109	#line 3732 "NXCDefs.h"
+9	217	109	#line 217 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	217	109	#line 217 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	218	109		set __D0leerColor, 1
+9	218	112	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	112		tst 5, __zfleerColor, __D0leerColor
+9	218	115	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	115		brtst 4, __NXC_Label_830, __zfleerColor
+9	218	118	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	118		getin __signed_stack_001leerColor, __constVal3, 4
+9	218	122	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	218	122	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	122		set __D0leerColor, 0
+9	218	125	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	125		cmp 4, __zfleerColor, __signed_stack_001leerColor, __D0leerColor
+9	218	129	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	218	129	#line 218 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	129		not __D0leerColor, __zfleerColor
+9	219	132	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	132		tst 5, __zfleerColor, __D0leerColor
+9	219	135	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	135		brtst 4, __NXC_Label_834, __zfleerColor
+9	219	138	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	138	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	138		jmp __NXC_Label_833
+9	219	140	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	140	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	140		getin __signed_stack_001leerColor, __constVal3, 4
+9	219	144	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	144	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	144		set __D0leerColor, 1
+9	219	147	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	147		cmp 4, __zfleerColor, __signed_stack_001leerColor, __D0leerColor
+9	219	151	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	219	151	#line 219 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	151		not __D0leerColor, __zfleerColor
+9	220	154	#line 220 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	154		tst 5, __zfleerColor, __D0leerColor
+9	220	157	#line 220 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	157		brtst 4, __NXC_Label_840, __zfleerColor
+9	220	160	#line 220 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	220	160	#line 220 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	160		jmp __NXC_Label_839
+9	220	162	#line 220 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	162	#line 221 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	222	162		subcall color, __color_return
+9	221	164	#line 221 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	164	#line 221 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	164	#line 221 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	221	164	#line 221 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	222	164	#line 222 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	222	164	#line 222 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	222	164	#line 222 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	222	164	#line 222 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	223	164		mov __seleccionarINT_7qG2_col_7qG2_000, __constVal50
+9	222	166	#line 222 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	224	166	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	166		subcall seleccionarINT, __seleccionarINT_return
+9	224	168	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	224	168	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	168		getin __signed_stack_001leerColor, __constVal3, 4
+9	224	172	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	224	172	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	172		set __D0leerColor, 0
+9	224	175	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	175		cmp 4, __zfleerColor, __signed_stack_001leerColor, __D0leerColor
+9	224	179	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	224	179	#line 224 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	179		not __D0leerColor, __zfleerColor
+9	225	182	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	226	182		tst 5, __zfleerColor, __D0leerColor
+9	225	185	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	226	185		brtst 4, __NXC_Label_850, __zfleerColor
+9	225	188	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	188	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	226	188		jmp __NXC_Label_849
+9	225	190	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	190	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	225	190	#line 225 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	7921	190	#line 7921 "NXCDefs.h"
+9	7922	190		wait 1500
+9	7921	192	#line 7921 "NXCDefs.h"
+9	226	192	#line 226 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	227	192	#line 227 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	228	192		acquire semaforoSel
+9	227	193	#line 227 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	228	193	#line 228 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	229	193		set anguloDeseadoSelect, 0
+9	228	196	#line 228 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	228	196	#line 228 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	229	196	#line 229 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	230	196		release semaforoSel
+9	229	197	#line 229 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	232	197	#line 232 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	233	197		jmp __NXC_Label_829
+9	232	199	#line 232 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+9	233	199		exit -1, -1
+10	235	0	#line 235 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	236	0		set __D0paralelo, 1
+10	236	3	#line 236 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	237	3		tst 5, __zfparalelo, __D0paralelo
+10	236	6	#line 236 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	237	6		brtst 4, __NXC_Label_860, __zfparalelo
+10	236	9	#line 236 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	236	9	#line 236 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	7921	9	#line 7921 "NXCDefs.h"
+10	7922	9		wait 2000
+10	7921	11	#line 7921 "NXCDefs.h"
+10	237	11	#line 237 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	238	11	#line 238 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	239	11		subcall lanzarDisp1, __lanzarDisp1_return
+10	238	13	#line 238 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	240	13	#line 240 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	241	13		jmp __NXC_Label_859
+10	240	15	#line 240 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+10	241	15		exit -1, -1
+11	246	0	#line 246 "E:\robotica\final\SensorColorPieza\SensorColor.nxc"
+11	247	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+1	__ResetSensorSubroutine	5	NXTDefs.h
+2	color	18	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+3	completadoDisp1	227	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+4	lanzarDisp1	379	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+5	moverBrazoPosDeseada	393	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+6	seleccionarINT	440	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+7	accion	460	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+8	posicion	519	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+9	leerColor	551	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+10	paralelo	753	E:\robotica\final\SensorColorPieza\SensorColor.nxc
+11	__initialize_global_data	771	E:\robotica\final\SensorColorPieza\SensorColor.nxc

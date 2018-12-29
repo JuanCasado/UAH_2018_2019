@@ -1,0 +1,44 @@
+#define MOTOR OUT_B
+#define ANGULOINICIAL 200
+#define VELOCIDADGIRO 20
+mutex semaforo;
+
+
+float anguloDeseado = 0;
+
+void Motor1(float OldAngulo, float NewAngulo)
+{
+
+     while(true)
+     {
+
+             if (OldAngulo > NewAngulo)
+             {
+                OnRev(MOTOR, VELOCIDADGIRO);
+             }else if(OldAngulo<NewAngulo)
+             {
+                OnFwd(MOTOR, VELOCIDADGIRO);
+             }
+              else
+              {
+                   OnFwd(MOTOR, 0);
+              }
+
+
+     }
+}
+
+
+task main()
+{
+            Motor1(200,100);
+}
+
+
+
+
+
+
+
+
+

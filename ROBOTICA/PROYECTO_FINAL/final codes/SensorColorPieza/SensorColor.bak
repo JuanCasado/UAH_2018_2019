@@ -1,0 +1,41 @@
+string color(){
+     int luz1=0;
+     int luz2=0;
+     float media=0;
+     bool datoLeido=false;
+     string color;
+
+                     for (int i=0; i<8; i++){
+                         luz1 += Sensor(IN_1);
+                         luz2 += Sensor(IN_2);
+                         Wait(50);
+                     }
+                     media = ((luz1/8) + (luz2/8))/2;
+     }
+     
+     if ((63 < media) && (media < 75)){
+        color = "R" ;
+     } else if ((50 < media) && (media < 62)){
+       color = "G" ;
+     } else if ((40 < media) && (media < 49)){
+         color = "B" ;
+     } else {
+       color="X" ;
+     }
+     return color;
+}
+
+task main () {
+     string col;
+     SetSensor(IN_4,SENSOR_TOUCH);
+     SetSensorLight(IN_1);
+     SetSensorLight(IN_2);
+     while(true){
+                 until(SENSOR_4==0);
+                 until (SENSOR_4==1);
+                 col = color();
+                 TextOut(50,0,col);
+     }
+}
+
+

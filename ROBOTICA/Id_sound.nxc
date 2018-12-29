@@ -1,0 +1,39 @@
+#define TARGET 30
+#define MARGIN 2
+#define P 2
+#define I 0.4
+#define D 0.05
+
+int constraint (int valor, int max, int min){
+     if (valor > max)
+        return max;
+     if (valor < min)
+        return min;
+     return valor;
+}
+
+task main (){
+     SetSensorLowspeed(IN_4);
+     int acc = 0;
+     int error = 0;
+     int error_anterior = 0;
+     int error_acc = 0;
+     while (TRUE){
+           acc = 0;
+           repeat (4){
+                  acc += SensorUS(IN_4);
+                  Wait (50);
+           }
+           acc = acc >> 2;
+           error = (acc - TARGET);
+           if (abs(error)>MARGIN){
+              error_acc += error;
+              OnFwd(OUT_AB, constraint(error*P+error_acc*I+(error-error_anterior)*D,100,-100));
+              error_anterior = error;
+           }else{
+                 OnFwd(OUT_AB,0);
+           }
+           ClearScreen();
+           NumOut(0,LCD_LINE3,acc);
+     }
+}

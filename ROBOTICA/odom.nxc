@@ -1,0 +1,184 @@
+#define G 0.0043633259
+#define L 0.0001745329
+#define T 100
+#define ESCALE 25
+#define X_C 20
+#define Y_C 5
+
+#define TARGET 46
+#define MARGIN 5
+
+#define PX 1
+#define IX 0.2
+#define DX 0.1
+#define PY 0.5
+#define IY 0.2
+#define DY 0.05
+#define PG 0.15
+#define IG 0.18
+#define DG 0.05
+
+#define TIME 100
+#define MAX_ACC 50
+#define MAX_VEL 100
+#define MAX_GO 75
+
+int constraint (int valor, int max, int min){
+     if (valor > max)
+        return max;
+     if (valor < min)
+        return min;
+     return valor;
+}
+float constr (float valor, float max, float min){
+     if (valor > max)
+        return max;
+     if (valor < min)
+        return min;
+     return valor;
+}
+
+mutex semaphore;
+float x = 0;
+float y = 0;
+float angle = 0;
+float dist = 0;
+
+task odom(){
+     long int d = 0;
+     float d_anterior = 0;
+     float d_inc = 0;
+     long int i = 0;
+     float i_anterior = 0;
+     float i_inc = 0;
+     float theta = 0;
+     float distance = 0;
+     float new_x = 0;
+     float new_y = 0;
+     while (true){
+              Wait (T);
+              d = MotorRotationCount(OUT_B);
+              i = MotorRotationCount(OUT_A);
+              d_inc = d - d_anterior;
+              i_inc = i - i_anterior;
+              d_anterior = d;
+              i_anterior = i;
+              theta += G * (d_inc - i_inc);
+              distance = L * (d_inc + i_inc);
+              new_x = cos(theta)*distance;
+              new_y = sin(theta)*distance;
+              Acquire(semaphore);
+              x += new_x;
+              y += new_y;
+              angle = theta;
+              dist += distance;
+              Release(semaphore);
+     }
+}
+
+task move(){
+     int nextMovement = 0;
+     float movementsX [8] = {200, 200,     400,     400,     600,     600,     800,     800};
+     float movementsY [8] = {0,   157.08,  157.08,  314.159, 314.159, 471.239, 471.239, 628.319};
+     float errorX = 0;
+     float error_anteriorX = 0;
+     float error_accX = 0;
+     float to_doX = 0;
+     float errorY = 0;
+     float error_anteriorY = 0;
+     float error_accY = 0;
+     float to_doY = 0;
+     int timesInOk = 0;
+     float posX = 0;
+     float posY = 0;
+     float to_doA = 0;
+     float to_doB = 0;
+     bool action = true;
+     bool girar = false;
+     while (action){
+           Acquire(semaphore);
+           posX = dist * 100;
+           posY = angle * 100;
+           Release(semaphore);
+           errorY = movementsY[nextMovement] - posY;
+           errorX = movementsX[nextMovement] - posX;
+
+           error_accY = constr(error_accY+errorY, MAX_ACC, -MAX_ACC);
+           error_accX = constr(error_accX+errorX, MAX_ACC, -MAX_ACC);
+              
+           if (girar){
+              if (abs(errorY) < MARGIN){
+                 if (timesInOk < MARGIN){
+                    timesInOk ++;
+                 } else {
+                        if (nextMovement < 7){
+                           nextMovement ++;
+                           girar = false;
+                           error_accX = 0;
+                           error_accY = 0;
+                        } else {
+                          action = false;
+                        }
+                 }
+              }else{
+                  timesInOk = 0;
+              }
+              to_doY = errorY*PG+error_accY*IG+(errorY-error_anteriorY)*DG;
+           }else {
+              if (abs(errorX) < MARGIN){
+                 if (timesInOk < MARGIN){
+                    timesInOk ++;
+                 } else {
+                        if (nextMovement < 7){
+                           nextMovement ++;
+                           girar = true;
+                           error_accX = 0;
+                           error_accY = 0;
+                        } else {
+                          action = false;
+                        }
+                        timesInOk = 0;
+                 }
+              }else {
+                 timesInOk = 0;
+              }
+              to_doY = errorY*PY+error_accY*IY+(errorY-error_anteriorY)*DY;
+           }
+
+
+           to_doX = errorX*PX+error_accX*IX+(errorX-error_anteriorX)*DX;
+           to_doX = constr(to_doX, MAX_GO, -MAX_GO);
+           to_doA = to_doX - to_doY;
+           to_doB = to_doX + to_doY;
+           if (to_doA > 0){
+                 OnFwd(OUT_A, constr(to_doA, MAX_VEL, -MAX_VEL));
+           } else {
+                 OnRev(OUT_A, constr(-to_doA, MAX_VEL, -MAX_VEL));
+           }
+           if (to_doB > 0){
+                 OnFwd(OUT_B, constr(to_doB, MAX_VEL, -MAX_VEL));
+           } else {
+                 OnRev(OUT_B, constr(-to_doB, MAX_VEL, -MAX_VEL));
+           }
+           error_anteriorY = errorY;
+           error_anteriorX = errorX;
+           Wait (TIME);
+     }
+}
+
+task draw(){
+     float new_x = 0;
+     float new_y = 0;
+     while(true){
+           Acquire(semaphore);
+           new_x = x;
+           new_y = y;
+           Release(semaphore);
+           PointOut (constraint(new_x*ESCALE+X_C,99,0),constraint(new_y*ESCALE+Y_C,63,0));
+     }
+}
+
+task main(){
+     Precedes(odom,move,draw);
+}
+

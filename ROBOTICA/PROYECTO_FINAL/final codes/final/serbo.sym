@@ -1,0 +1,335 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	semaforo	9	0	0	4	6
+1	anguloActualBrazo	6	1	4	4	2
+2	anguloActualPinza	6	1	8	4	3
+3	__signed_stack_002posicion	6	1	12	4	4
+4	__signed_stack_001constraint	6	1	16	4	4
+5	__float_stack_001moverBrazoPosDeseada	10	1	20	4	2
+6	__signed_stack_001posicion	6	1	24	4	4
+7	__moverBrazoPosDeseada_7qG2_kp_7qG2_000	10	1	28	4	2
+8	__setAnguloPinza_7qG2_angulo_7qG2_000	6	1	32	4	3
+9	__moverBrazoPosDeseada_7qG2_angulo_7qG2_000	6	1	36	4	2
+10	__moverBrazoPosDeseada_7qG2_ki_7qG2_000	10	1	40	4	2
+11	anguloPinza	6	1	44	4	2
+12	__moverBrazoPosDeseada_7qG2_error_7qG2_000	10	1	48	4	3
+13	__moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000	6	1	52	4	2
+14	__moverBrazoPosDeseada_7qG2_integral_7qG2_000	10	1	56	4	3
+15	__TextOutMutex	9	0	60	4	4
+16	__moverPinza_7qG2_kp_7qG2_000	10	1	64	4	2
+17	__moverPinza_7qG2_anguloDeseado_7qG2_000	6	1	68	4	2
+18	__moverPinza_7qG2_ki_7qG2_000	10	1	72	4	2
+19	__constValf0P0001	10	0	76	4	1
+20	__constValf0P055	10	0	80	4	1
+21	__moverPinza_7qG2_anguloActual_7qG2_000	6	1	84	4	2
+22	__D0movimiento	6	1	88	4	2
+23	__moverBrazoPosDeseada_7qG2_constantes_7qG2_000	10	1	92	4	2
+24	__D0posicion	6	1	96	4	8
+25	__DF0moverBrazoPosDeseada	10	1	100	4	2
+26	__D0constraint	6	1	104	4	10
+27	__D0moverBrazoPosDeseada	6	1	108	4	2
+28	__moverPinza_7qG2_motor_7qG2_000	4	1	112	2	2
+29	__moverBrazoPosDeseada_7qG2_motor_7qG2_000	4	1	114	2	2
+30	__constraint_7qG2_max_7qG2_000	4	1	116	2	3
+31	__constraint_7qG2_valor_7qG2_000	4	1	118	2	4
+32	__constraint_7qG2_min_7qG2_000	4	1	120	2	3
+33	__constVal2	2	0	122	1	1
+34	__constVal0	2	1	123	1	3
+35	__constVal3	2	0	124	1	1
+36	__moverPinza_return	1	1	125	1	3
+37	____initialize_global_data_return	1	1	126	1	3
+38	__constVal32	2	0	127	1	3
+39	__constVal1	2	0	128	1	1
+40	__zfconstraint	1	1	129	1	6
+41	__moverBrazoPosDeseada_return	1	1	130	1	3
+42	__zfposicion	1	1	131	1	2
+43	__setAnguloPinza_return	1	1	132	1	4
+44	__constraint_return	1	1	133	1	6
+45	__constVal63	2	0	134	1	1
+46	__constVal96	2	0	135	1	1
+47	__zfmovimiento	1	1	136	1	2
+48	__TextOutArgs	8	0	4	16	12
+49	__TextOutArgs.Result	2	1	140	1	12
+50	__TextOutArgs.Location	8	0	2	4	12
+51	__TextOutArgs.Location.X	4	1	144	2	12
+52	__TextOutArgs.Location.Y	4	1	146	2	12
+53	__TextOutArgs.Text	7	0	148	4	12
+54	__TextOutArgs.Text.Text_type	1	0	0	1	0
+55	__TextOutArgs.Options	5	1	152	4	12
+#SOURCES
+Clump	Line	PC	Source
+0	158	0	#line 158 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+0	159	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	158	2	#line 158 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+0	159	2	#line 159 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+0	159	2	#line 159 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+0	160	2		exit 0, 2
+1	46	0	#line 46 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	47	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	46	2	#line 46 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	46	2	#line 46 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	47	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	46	4	#line 46 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	47	4		cmp 1, __zfconstraint, __signed_stack_001constraint, __D0constraint
+1	46	8	#line 46 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	47	8		mov __D0constraint, __zfconstraint
+1	47	10	#line 47 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	48	10		brtst 4, __NXC_Label_621, __zfconstraint
+1	48	13	#line 48 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	49	13		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	48	15	#line 48 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	49	15		subret __constraint_return
+1	48	17	#line 48 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	49	17	#line 49 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	49	17	#line 49 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	50	17		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	49	19	#line 49 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	50	19	#line 50 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	51	19		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	50	21	#line 50 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	51	21		cmp 0, __zfconstraint, __signed_stack_001constraint, __D0constraint
+1	50	25	#line 50 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	51	25		mov __D0constraint, __zfconstraint
+1	51	27	#line 51 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	52	27		brtst 4, __NXC_Label_626, __zfconstraint
+1	52	30	#line 52 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	53	30		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	52	32	#line 52 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	53	32		subret __constraint_return
+1	52	34	#line 52 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	53	34	#line 53 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	54	34	#line 54 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	55	34		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+1	54	36	#line 54 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	55	36		subret __constraint_return
+1	54	38	#line 54 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	58	38	#line 58 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+1	59	38		subret __constraint_return
+2	68	0	#line 68 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	69	0		acquire semaforo
+2	68	1	#line 68 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	69	1	#line 69 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	70	1		mov anguloPinza, __setAnguloPinza_7qG2_angulo_7qG2_000
+2	69	3	#line 69 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	69	3	#line 69 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	70	3	#line 70 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	71	3		release semaforo
+2	70	4	#line 70 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	72	4	#line 72 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+2	73	4		subret __setAnguloPinza_return
+3	75	0	#line 75 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	75	0	#line 75 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	76	0	#line 76 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	76	0	#line 76 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	77	0	#line 77 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	77	0	#line 77 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	78	0	#line 78 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	78	0	#line 78 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	79	0	#line 79 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	80	0		set __D0posicion, 1
+3	80	3	#line 80 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	81	3		tst 5, __zfposicion, __D0posicion
+3	80	6	#line 80 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	81	6		brtst 4, __NXC_Label_644, __zfposicion
+3	81	9	#line 81 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	82	9		acquire semaforo
+3	81	10	#line 81 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	82	10	#line 82 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	83	10		getout anguloActualBrazo, __constVal1, 14
+3	82	14	#line 82 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	82	14	#line 82 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	83	14	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	14		getout anguloActualPinza, __constVal2, 14
+3	83	18	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	83	18	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	83	18	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	18		set __signed_stack_001posicion, 1
+3	83	21	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	83	21	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	21		set __signed_stack_002posicion, 56
+3	83	24	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	83	24	#line 83 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	24		mov __D0posicion, anguloActualBrazo
+3	84	26	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	26		acquire __TextOutMutex
+3	84	27	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	27		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+3	84	29	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	29		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+3	84	31	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	31		set __TextOutArgs.Options, 0
+3	84	34	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	34		numtostr __TextOutArgs.Text, __D0posicion
+3	84	37	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	37		syscall 13, __TextOutArgs
+3	84	40	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	40		mov __D0posicion, __TextOutArgs.Result
+3	84	42	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	42		release __TextOutMutex
+3	84	43	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	43	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	43		set __signed_stack_001posicion, 1
+3	84	46	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	46	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	46		set __signed_stack_002posicion, 48
+3	84	49	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	84	49	#line 84 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	85	49		mov __D0posicion, anguloActualPinza
+3	85	51	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	51		acquire __TextOutMutex
+3	85	52	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	52		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+3	85	54	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	54		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+3	85	56	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	56		set __TextOutArgs.Options, 0
+3	85	59	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	59		numtostr __TextOutArgs.Text, __D0posicion
+3	85	62	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	62		syscall 13, __TextOutArgs
+3	85	65	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	65		mov __D0posicion, __TextOutArgs.Result
+3	85	67	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	86	67		release __TextOutMutex
+3	85	68	#line 85 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	87	68	#line 87 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	88	68		release semaforo
+3	87	69	#line 87 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	90	69	#line 90 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	91	69		jmp __NXC_Label_643
+3	90	71	#line 90 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+3	91	71		exit -1, -1
+4	92	0	#line 92 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	92	0	#line 92 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	93	0	#line 93 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	93	0	#line 93 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	0		sub __moverBrazoPosDeseada_7qG2_error_7qG2_000, __moverBrazoPosDeseada_7qG2_angulo_7qG2_000, __moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000
+4	93	4	#line 93 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	93	4	#line 93 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	93	4	#line 93 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	4	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	4	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	95	4		add __moverBrazoPosDeseada_7qG2_integral_7qG2_000, __moverBrazoPosDeseada_7qG2_integral_7qG2_000, __moverBrazoPosDeseada_7qG2_error_7qG2_000
+4	94	8	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	8	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	8	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	8	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	8	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	95	8		mul __float_stack_001moverBrazoPosDeseada, __moverBrazoPosDeseada_7qG2_kp_7qG2_000, __moverBrazoPosDeseada_7qG2_error_7qG2_000
+4	94	12	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	12	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	94	12	#line 94 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	95	12	#line 95 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	95	12	#line 95 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	12		mul __DF0moverBrazoPosDeseada, __moverBrazoPosDeseada_7qG2_ki_7qG2_000, __moverBrazoPosDeseada_7qG2_integral_7qG2_000
+4	95	16	#line 95 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	16		add __moverBrazoPosDeseada_7qG2_constantes_7qG2_000, __float_stack_001moverBrazoPosDeseada, __DF0moverBrazoPosDeseada
+4	95	20	#line 95 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	20	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	20	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	20	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	97	20		mov __constraint_7qG2_valor_7qG2_000, __moverBrazoPosDeseada_7qG2_constantes_7qG2_000
+4	96	22	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	22	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	97	22		set __constraint_7qG2_max_7qG2_000, 90
+4	96	25	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	25	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	97	25		set __constraint_7qG2_min_7qG2_000, -90
+4	96	28	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	96	28	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	97	28		subcall constraint, __constraint_return
+4	96	30	#line 96 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	97	30		mov __D0moverBrazoPosDeseada, __D0constraint
+4	98	32	#line 98 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	99	32	#pragma macro 7
+4	99	32		setout __moverBrazoPosDeseada_7qG2_motor_7qG2_000, 2, __D0moverBrazoPosDeseada, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7397	55	#line 7397 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	98	55	#line 98 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	100	55	#line 100 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+4	101	55		subret __moverBrazoPosDeseada_return
+5	110	0	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	0		acquire semaforo
+5	110	1	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	110	1	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	1		mov __moverBrazoPosDeseada_7qG2_motor_7qG2_000, __moverPinza_7qG2_motor_7qG2_000
+5	110	3	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	110	3	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	3		mov __moverBrazoPosDeseada_7qG2_angulo_7qG2_000, __moverPinza_7qG2_anguloDeseado_7qG2_000
+5	110	5	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	110	5	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	5		mov __moverBrazoPosDeseada_7qG2_kp_7qG2_000, __moverPinza_7qG2_kp_7qG2_000
+5	110	7	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	110	7	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	7		mov __moverBrazoPosDeseada_7qG2_ki_7qG2_000, __moverPinza_7qG2_ki_7qG2_000
+5	110	9	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	110	9	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	9		mov __moverBrazoPosDeseada_7qG2_anguloActual_7qG2_000, __moverPinza_7qG2_anguloActual_7qG2_000
+5	110	11	#line 110 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	111	11	#line 111 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	112	11		subcall moverBrazoPosDeseada, __moverBrazoPosDeseada_return
+5	111	13	#line 111 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	112	13	#line 112 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	113	13		release semaforo
+5	112	14	#line 112 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	114	14	#line 114 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+5	115	14		subret __moverPinza_return
+6	117	0	#line 117 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	118	0		set __D0movimiento, 1
+6	119	3	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	3		tst 5, __zfmovimiento, __D0movimiento
+6	119	6	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	6		brtst 4, __NXC_Label_700, __zfmovimiento
+6	119	9	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	9		set __moverPinza_7qG2_motor_7qG2_000, 2
+6	119	12	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	119	12	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	12		mov __moverPinza_7qG2_anguloDeseado_7qG2_000, anguloPinza
+6	119	14	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	119	14	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	14		mov __moverPinza_7qG2_kp_7qG2_000, __constValf0P055
+6	119	16	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	119	16	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	16		mov __moverPinza_7qG2_ki_7qG2_000, __constValf0P0001
+6	119	18	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	119	18	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	18		mov __moverPinza_7qG2_anguloActual_7qG2_000, anguloActualPinza
+6	119	20	#line 119 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	120	20	#line 120 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	121	20		subcall moverPinza, __moverPinza_return
+6	120	22	#line 120 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	123	22	#line 123 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	124	22		jmp __NXC_Label_699
+6	123	24	#line 123 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+6	124	24		exit -1, -1
+7	145	0	#line 145 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	146	0		set __setAnguloPinza_7qG2_angulo_7qG2_000, -1500
+7	145	3	#line 145 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	146	3	#line 146 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	147	3		subcall setAnguloPinza, __setAnguloPinza_return
+7	146	5	#line 146 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	146	5	#line 146 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	146	5	#line 146 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	7921	5	#line 7921 "NXCDefs.h"
+7	7922	5		wait 5000
+7	7921	7	#line 7921 "NXCDefs.h"
+7	147	7	#line 147 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	147	7	#line 147 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	148	7		set __setAnguloPinza_7qG2_angulo_7qG2_000, -200
+7	147	10	#line 147 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	154	10	#line 154 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	155	10		subcall setAnguloPinza, __setAnguloPinza_return
+7	154	12	#line 154 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+7	155	12		exit -1, -1
+8	162	0	#line 162 "E:\5.ProyectoFinal\Codigo\final\serbo.nxc"
+8	163	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+1	constraint	5	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+2	setAnguloPinza	45	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+3	posicion	51	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+4	moverBrazoPosDeseada	125	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+5	moverPinza	182	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+6	movimiento	198	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+7	test	225	E:\5.ProyectoFinal\Codigo\final\serbo.nxc
+8	__initialize_global_data	240	E:\5.ProyectoFinal\Codigo\final\serbo.nxc

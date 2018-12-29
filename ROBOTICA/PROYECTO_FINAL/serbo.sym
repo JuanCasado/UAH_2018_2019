@@ -1,0 +1,152 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	semaforoPinza	9	0	0	4	2
+1	__signed_stack_002posicion	6	1	4	4	4
+2	__signed_stack_001posicion	6	1	8	4	4
+3	anguloActualPinza	6	1	12	4	2
+4	anguloActualBrazo	6	1	16	4	2
+5	semaforoBrazo	9	0	20	4	2
+6	__D0test	6	1	24	4	4
+7	__TextOutMutex	9	0	28	4	4
+8	__D0movimiento	6	1	32	4	4
+9	__D0posicion	6	1	36	4	14
+10	__constVal0	2	1	40	1	1
+11	__constVal2	2	0	41	1	1
+12	____initialize_global_data_return	1	1	42	1	3
+13	__TextOutArgs	8	0	4	16	12
+14	__TextOutArgs.Result	2	1	44	1	12
+15	__TextOutArgs.Location	8	0	2	4	12
+16	__TextOutArgs.Location.X	4	1	48	2	12
+17	__TextOutArgs.Location.Y	4	1	50	2	12
+18	__TextOutArgs.Text	7	0	52	4	12
+19	__TextOutArgs.Text.Text_type	1	0	0	1	0
+20	__TextOutArgs.Options	5	1	56	4	12
+#SOURCES
+Clump	Line	PC	Source
+0	227	0	#line 227 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+0	228	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	227	2	#line 227 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+0	228	2	#line 228 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+0	228	2	#line 228 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+0	229	2		exit 0, 2
+1	87	0	#line 87 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	88	0		set __D0posicion, 0
+1	87	3	#line 87 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	88	3	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	89	3		set __D0posicion, 0
+1	88	6	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	89	6	#line 89 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	90	6		set __D0posicion, 0
+1	89	9	#line 89 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	90	9	#line 90 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	91	9		set __D0posicion, 0
+1	90	12	#line 90 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	91	12	#line 91 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	92	12		set __D0posicion, 1
+1	92	15	#line 92 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	93	15		tst 5, __D0posicion, __D0posicion
+1	92	18	#line 92 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	93	18		brtst 4, __ASM_Label_629, __D0posicion
+1	93	21	#line 93 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	94	21		acquire semaforoBrazo
+1	93	22	#line 93 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	94	22	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	95	22		getout anguloActualBrazo, __constVal2, 14
+1	94	26	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	94	26	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	94	26	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	95	26		set __signed_stack_001posicion, 1
+1	94	29	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	94	29	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	95	29		set __signed_stack_002posicion, 56
+1	94	32	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	94	32	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	95	32		mov __D0posicion, anguloActualBrazo
+1	95	34	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	34		acquire __TextOutMutex
+1	95	35	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	35		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+1	95	37	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	37		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+1	95	39	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	39		set __TextOutArgs.Options, 0
+1	95	42	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	42		numtostr __TextOutArgs.Text, __D0posicion
+1	95	45	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	45		syscall 13, __TextOutArgs
+1	95	48	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	48		mov __D0posicion, __TextOutArgs.Result
+1	95	50	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	50		release __TextOutMutex
+1	95	51	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	96	51	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	97	51		release semaforoBrazo
+1	96	52	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	97	52	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	98	52		acquire semaforoPinza
+1	97	53	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	98	53	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	99	53		getout anguloActualPinza, __constVal0, 14
+1	98	57	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	98	57	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	98	57	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	99	57		set __signed_stack_001posicion, 1
+1	98	60	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	98	60	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	99	60		set __signed_stack_002posicion, 48
+1	98	63	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	98	63	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	99	63		mov __D0posicion, anguloActualPinza
+1	99	65	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	65		acquire __TextOutMutex
+1	99	66	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	66		mov __TextOutArgs.Location.X, __signed_stack_001posicion
+1	99	68	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	68		mov __TextOutArgs.Location.Y, __signed_stack_002posicion
+1	99	70	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	70		set __TextOutArgs.Options, 0
+1	99	73	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	73		numtostr __TextOutArgs.Text, __D0posicion
+1	99	76	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	76		syscall 13, __TextOutArgs
+1	99	79	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	79		mov __D0posicion, __TextOutArgs.Result
+1	99	81	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	81		release __TextOutMutex
+1	99	82	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	100	82	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	101	82		release semaforoPinza
+1	100	83	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	103	83	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	104	83		jmp __ASM_Label_628
+1	103	85	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+1	104	85		exit -1, -1
+2	143	0	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+2	144	0		set __D0movimiento, 1
+2	146	3	#line 146 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+2	147	3		tst 5, __D0movimiento, __D0movimiento
+2	146	6	#line 146 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+2	147	6		brtst 4, __ASM_Label_702, __D0movimiento
+2	166	9	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+2	167	9		jmp __ASM_Label_701
+2	166	11	#line 166 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+2	167	11		exit -1, -1
+3	199	0	#line 199 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+3	200	0		set __D0test, 1
+3	199	3	#line 199 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+3	200	3		tst 5, __D0test, __D0test
+3	199	6	#line 199 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+3	200	6		brtst 4, __ASM_Label_720, __D0test
+3	225	9	#line 225 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+3	226	9		jmp __ASM_Label_719
+3	225	11	#line 225 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+3	226	11		exit -1, -1
+4	231	0	#line 231 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc"
+4	232	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc
+1	posicion	5	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc
+2	movimiento	93	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc
+3	test	107	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc
+4	__initialize_global_data	121	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\Nueva carpeta\serbo.nxc
