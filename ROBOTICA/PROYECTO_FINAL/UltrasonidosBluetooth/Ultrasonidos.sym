@@ -1,0 +1,1227 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0blue	6	1	0	4	9
+1	__DF0blue	10	1	4	4	8
+2	__D0actualizador_ultrasonido	6	1	8	4	13
+3	__DF0actualizador_ultrasonido	10	1	12	4	8
+4	__DF0convStr	10	1	16	4	8
+5	__D0SetSensorLowspeed_inline_actualizador_ultrasonido	6	1	20	4	12
+6	__D0BTCheck	6	1	24	4	3
+7	__D0convStr	6	1	28	4	3
+8	__ArrHelper__blue_79_0	10	1	32	4	8
+9	__RLSBmutex2	9	0	36	4	2
+10	__RLSBmutex3	9	0	40	4	2
+11	__RLSBmutex0	9	0	44	4	2
+12	__RLSBmutex1	9	0	48	4	2
+13	__RemoteMutex	9	0	52	4	2
+14	__CHSWMutex	9	0	56	4	2
+15	__CBTWMutex	9	0	60	4	2
+16	__SRSTmpLongVal	6	1	64	4	2
+17	__convStr_7qG2_v_7qG2_000	10	1	68	4	8
+18	__constValf999P9	10	0	72	4	1
+19	__actualizador_ultrasonido_7qG2_medidaAcumulada3_7qG2_000	10	1	76	4	5
+20	__actualizador_ultrasonido_7qG2_medidaAcumulada4_7qG2_000	10	1	80	4	5
+21	__blue_7qG2_valor3_7qG2_000	10	1	84	4	3
+22	__blue_7qG2_valor4_7qG2_000	10	1	88	4	3
+23	__blue_7qG2_valor1_7qG2_000	10	1	92	4	3
+24	__blue_7qG2_valor2_7qG2_000	10	1	96	4	3
+25	__actualizador_ultrasonido_7qG2_medidaAcumulada2_7qG2_000	10	1	100	4	5
+26	__signed_stack_001blue	6	1	104	4	18
+27	__signed_stack_002blue	6	1	108	4	10
+28	__DU0SetSensorLowspeed_inline_actualizador_ultrasonido	5	1	112	4	8
+29	__signed_stack_001actualizador_ultrasonido	6	1	116	4	10
+30	semaforo	9	0	120	4	10
+31	__actualizador_ultrasonido_7qG2_medidaAcumulada1_7qG2_000	10	1	124	4	5
+32	__signed_stack_001BTCheck	6	1	128	4	2
+33	__float_stack_001convStr	10	1	132	4	6
+34	__CLSWMutex3	9	0	136	4	2
+35	__CLSCSMutex3	9	0	140	4	2
+36	__CLSRMutex2	9	0	144	4	2
+37	__ResetSensorMutex	9	0	148	4	8
+38	__CLSRMutex3	9	0	152	4	2
+39	__CLSCSMutex0	9	0	156	4	2
+40	__CLSWMutex0	9	0	160	4	2
+41	__CLSCSMutex2	9	0	164	4	2
+42	__CLSRMutex1	9	0	168	4	2
+43	__CLSWMutex1	9	0	172	4	2
+44	__CLSWMutex2	9	0	176	4	2
+45	__CLSRMutex0	9	0	180	4	2
+46	__CLSCSMutex1	9	0	184	4	2
+47	__TextOutMutex	9	0	188	4	10
+48	__actualizador_ultrasonido_7qG2_i_7qG2_002	4	1	192	2	4
+49	__BTCheck_7qG2_conn_7qG2_000	4	1	194	2	3
+50	__constVal100	2	0	196	1	1
+51	__WFRRTmpByte	1	1	197	1	2
+52	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido	1	1	198	1	16
+53	__BTCheck_return	1	1	199	1	3
+54	__constVal3	2	0	200	1	1
+55	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido	1	1	201	1	8
+56	____ReadLSBytes1_return	1	1	202	1	3
+57	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido	1	1	203	1	8
+58	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido	1	1	204	1	8
+59	____initialize_global_data_return	1	1	205	1	3
+60	__zfconvStr	1	1	206	1	9
+61	__constVal0	2	1	207	1	16
+62	__zfblue	1	1	208	1	2
+63	__constVal1	2	0	209	1	11
+64	__zfBTCheck	1	1	210	1	3
+65	__zfSetSensorLowspeed_inline_actualizador_ultrasonido	1	1	211	1	8
+66	____ReadLSBytes0_return	1	1	212	1	3
+67	__RLSBIterations0	1	1	213	1	4
+68	__zfactualizador_ultrasonido	1	1	214	1	5
+69	__RLSBResult0	2	1	215	1	7
+70	__RLSBytesCount0	1	1	216	1	7
+71	____ReadLSBytes3_return	1	1	217	1	3
+72	__constVal2	2	0	218	1	1
+73	____ReadLSBytes2_return	1	1	219	1	3
+74	__RLSBytesCount1	1	1	220	1	7
+75	__ResetSensorTmp	1	1	221	1	2
+76	__ResetSensorPort	1	1	222	1	6
+77	__convStr_return	1	1	223	1	8
+78	__RLSBResult1	2	1	224	1	7
+79	__RLSBResult2	2	1	225	1	7
+80	__RLSBIterations2	1	1	226	1	4
+81	__RLSBytesCount2	1	1	227	1	7
+82	__constVal4	2	0	228	1	7
+83	__constVal10	2	0	229	1	1
+84	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido	1	1	230	1	8
+85	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido	1	1	231	1	8
+86	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido	1	1	232	1	8
+87	__RLSBIterations3	1	1	233	1	4
+88	__RLSBytesCount3	1	1	234	1	7
+89	__RLSBResult3	2	1	235	1	7
+90	__RLSBIterations1	1	1	236	1	4
+91	____ResetSensorSubroutine_return	1	1	237	1	6
+92	__CLSRArgs1	8	0	4	12	5
+93	__CLSRArgs1.Result	2	1	240	1	5
+94	__CLSRArgs1.Port	1	1	241	1	5
+95	__CLSRArgs1.Buffer	7	0	242	4	5
+96	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+97	__CLSRArgs1.BufferLen	1	1	244	1	5
+98	__CLSWArgs1	8	0	4	12	5
+99	__CLSWArgs1.Result	2	1	248	1	5
+100	__CLSWArgs1.Port	1	1	249	1	5
+101	__CLSWArgs1.Buffer	7	0	250	4	5
+102	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+103	__CLSWArgs1.ReturnLen	1	1	252	1	5
+104	__BTCheck_7qG2_args_7qG2_000	8	0	4	12	5
+105	__BTCheck_7qG2_args_7qG2_000.Result	3	1	256	2	5
+106	__BTCheck_7qG2_args_7qG2_000.Action	1	1	258	1	5
+107	__BTCheck_7qG2_args_7qG2_000.Name	7	0	260	4	5
+108	__BTCheck_7qG2_args_7qG2_000.Name.Name_type	1	0	0	1	0
+109	__BTCheck_7qG2_args_7qG2_000.ConnectionSlot	1	1	262	1	5
+110	__CLSCSArgs0	8	0	3	4	4
+111	__CLSCSArgs0.Result	2	1	264	1	4
+112	__CLSCSArgs0.Port	1	1	265	1	4
+113	__CLSCSArgs0.BytesReady	1	1	266	1	4
+114	__CLSWArgs0	8	0	4	12	5
+115	__CLSWArgs0.Result	2	1	268	1	5
+116	__CLSWArgs0.Port	1	1	269	1	5
+117	__CLSWArgs0.Buffer	7	0	270	4	5
+118	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+119	__CLSWArgs0.ReturnLen	1	1	272	1	5
+120	__CLSCSArgs1	8	0	3	4	4
+121	__CLSCSArgs1.Result	2	1	276	1	4
+122	__CLSCSArgs1.Port	1	1	277	1	4
+123	__CLSCSArgs1.BytesReady	1	1	278	1	4
+124	__CLSRArgs0	8	0	4	12	5
+125	__CLSRArgs0.Result	2	1	280	1	5
+126	__CLSRArgs0.Port	1	1	281	1	5
+127	__CLSRArgs0.Buffer	7	0	282	4	5
+128	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+129	__CLSRArgs0.BufferLen	1	1	284	1	5
+130	__CLSRArgs2	8	0	4	12	5
+131	__CLSRArgs2.Result	2	1	288	1	5
+132	__CLSRArgs2.Port	1	1	289	1	5
+133	__CLSRArgs2.Buffer	7	0	290	4	5
+134	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+135	__CLSRArgs2.BufferLen	1	1	292	1	5
+136	__CLSWArgs2	8	0	4	12	5
+137	__CLSWArgs2.Result	2	1	296	1	5
+138	__CLSWArgs2.Port	1	1	297	1	5
+139	__CLSWArgs2.Buffer	7	0	298	4	5
+140	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+141	__CLSWArgs2.ReturnLen	1	1	300	1	5
+142	__CLSWArgs3	8	0	4	12	5
+143	__CLSWArgs3.Result	2	1	304	1	5
+144	__CLSWArgs3.Port	1	1	305	1	5
+145	__CLSWArgs3.Buffer	7	0	306	4	5
+146	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+147	__CLSWArgs3.ReturnLen	1	1	308	1	5
+148	__CLSCSArgs3	8	0	3	4	4
+149	__CLSCSArgs3.Result	2	1	312	1	4
+150	__CLSCSArgs3.Port	1	1	313	1	4
+151	__CLSCSArgs3.BytesReady	1	1	314	1	4
+152	__CHSWArgs	8	0	2	8	3
+153	__CHSWArgs.Status	2	1	316	1	3
+154	__CHSWArgs.Buffer	7	0	318	4	3
+155	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+156	__CLSRArgs3	8	0	4	12	5
+157	__CLSRArgs3.Result	2	1	320	1	5
+158	__CLSRArgs3.Port	1	1	321	1	5
+159	__CLSRArgs3.Buffer	7	0	322	4	5
+160	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+161	__CLSRArgs3.BufferLen	1	1	324	1	5
+162	__CBTCSArgs	8	0	2	4	4
+163	__CBTCSArgs.Result	2	1	328	1	4
+164	__CBTCSArgs.Connection	1	1	329	1	4
+165	__TextOutArgs	8	0	4	16	30
+166	__TextOutArgs.Result	2	1	332	1	30
+167	__TextOutArgs.Location	8	0	2	4	30
+168	__TextOutArgs.Location.X	4	1	336	2	30
+169	__TextOutArgs.Location.Y	4	1	338	2	30
+170	__TextOutArgs.Text	7	0	340	4	30
+171	__TextOutArgs.Text.Text_type	1	0	0	1	0
+172	__TextOutArgs.Options	5	1	344	4	30
+173	__CBTWArgs	8	0	3	8	4
+174	__CBTWArgs.Result	2	1	348	1	4
+175	__CBTWArgs.Connection	1	1	349	1	4
+176	__CBTWArgs.Buffer	7	0	350	4	4
+177	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+178	__CLSCSArgs2	8	0	3	4	4
+179	__CLSCSArgs2.Result	2	1	352	1	4
+180	__CLSCSArgs2.Port	1	1	353	1	4
+181	__CLSCSArgs2.BytesReady	1	1	354	1	4
+182	__convStr_7qG2_aux_7qG2_000	7	0	356	4	4
+183	__convStr_7qG2_aux_7qG2_000.__convStr_7qG2_aux_7qG2_000_type	1	0	0	1	0
+184	__RLSLastGoodRead3	7	0	358	4	2
+185	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+186	__RLSReadBuf2	7	0	360	4	8
+187	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+188	__RLSLastGoodRead2	7	0	362	4	2
+189	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+190	__constStr0010	7	0	364	4	1
+191	__constStr0010.__constStr0010_type	1	1	0	1	0
+192	__RLSLastGoodRead1	7	0	366	4	2
+193	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+194	__blue_7qG2_envio_7qG2_000	7	0	368	4	4
+195	__blue_7qG2_envio_7qG2_000.__blue_7qG2_envio_7qG2_000_type	1	0	0	1	0
+196	__RLSReadBuf0	7	0	370	4	8
+197	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+198	__RLSBbufLSWrite1	7	0	372	4	4
+199	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+200	__RLSLastGoodRead0	7	0	374	4	2
+201	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+202	__constStr0011	7	0	376	4	1
+203	__constStr0011.__constStr0011_type	1	1	0	1	0
+204	__RLSReadBuf1	7	0	378	4	8
+205	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+206	__constStr0012	7	0	380	4	1
+207	__constStr0012.__constStr0012_type	1	1	0	1	0
+208	__constStr0014	7	0	382	4	1
+209	__constStr0014.__constStr0014_type	1	1	0	1	0
+210	__constStr0013	7	0	384	4	1
+211	__constStr0013.__constStr0013_type	1	1	0	1	0
+212	__ArrHelper__blue_244_3	7	0	386	4	2
+213	__ArrHelper__blue_244_3.__ArrHelper__blue_244_3_type	1	0	0	1	0
+214	__strbufblue	7	0	388	4	12
+215	__strbufblue.__strbufblue_type	1	0	0	1	0
+216	sensores	7	0	390	4	13
+217	sensores.sensores_type	10	0	0	4	0
+218	__ArrHelper__blue_244_2	7	0	392	4	2
+219	__ArrHelper__blue_244_2.__ArrHelper__blue_244_2_type	1	0	0	1	0
+220	__strbufconvStr	7	0	394	4	18
+221	__strbufconvStr.__strbufconvStr_type	1	0	0	1	0
+222	__strretvalconvStr	7	0	396	4	4
+223	__strretvalconvStr.__strretvalconvStr_type	1	0	0	1	0
+224	__strretvalblue	7	0	398	4	10
+225	__strretvalblue.__strretvalblue_type	1	0	0	1	0
+226	__strbufBTCheck	7	0	400	4	2
+227	__strbufBTCheck.__strbufBTCheck_type	1	0	0	1	0
+228	__ArrHelper__blue_244_1	7	0	402	4	2
+229	__ArrHelper__blue_244_1.__ArrHelper__blue_244_1_type	1	0	0	1	0
+230	__SRSSendBuf	7	0	404	4	3
+231	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+232	__DCMessageWritePacket	7	0	406	4	1
+233	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+234	__RLSReadBuf3	7	0	408	4	8
+235	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+236	__SRSTmpBuf	7	0	410	4	6
+237	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+238	__ArrHelper__convStr_244_1	7	0	412	4	2
+239	__ArrHelper__convStr_244_1.__ArrHelper__convStr_244_1_type	1	0	0	1	0
+240	__ArrHelper__blue_244_0	7	0	414	4	2
+241	__ArrHelper__blue_244_0.__ArrHelper__blue_244_0_type	1	0	0	1	0
+242	__ArrHelper__convStr_244_0	7	0	416	4	2
+243	__ArrHelper__convStr_244_0.__ArrHelper__convStr_244_0_type	1	0	0	1	0
+244	__constStr0009	7	0	418	4	1
+245	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	185	0	#line 185 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	186	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	185	2	#line 185 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	185	2	#line 185 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	186	2		set __BTCheck_7qG2_conn_7qG2_000, 0
+0	185	5	#line 185 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	186	5	#line 186 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	187	5		subcall BTCheck, __BTCheck_return
+0	186	7	#line 186 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	189	7	#line 189 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	189	7	#line 189 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+0	190	7		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5672	0	#pragma macro 25
+2	5672	0		acquire __CLSWMutex0
+2	5672	1		set __CLSWArgs0.Port, 0
+2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	5672	8		syscall 21, __CLSWArgs0
+2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+2	5672	13		release __CLSWMutex0
+2	5673	14	#line 5673 "NXTDefs.h"
+2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+2	5677	24		set __RLSBIterations0, 4
+2	5679	27	#pragma macro 23
+2	5679	27		acquire __CLSCSMutex0
+2	5679	28		set __CLSCSArgs0.Port, 0
+2	5679	31		syscall 23, __CLSCSArgs0
+2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+2	5679	38		release __CLSCSMutex0
+2	5679	39	#line 5679 "NXTDefs.h"
+2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	5685	52		wait 15
+2	5686	54		jmp __RLSBDoCheckStatus0
+2	5689	56	#pragma macro 25
+2	5689	56		acquire __CLSRMutex0
+2	5689	57		set __CLSRArgs0.Port, 0
+2	5689	60		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	5689	62		syscall 22, __CLSRArgs0
+2	5689	65		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	5689	67		mov __RLSBResult0, __CLSRArgs0.Result
+2	5689	69		release __CLSRMutex0
+2	5689	70	#line 5689 "NXTDefs.h"
+2	5690	70		brtst 5, __RLSBError0, __RLSBResult0
+2	5691	73		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	5692	75		jmp __RLSBDone0
+2	5694	77		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	5696	79		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	5698	82		subret ____ReadLSBytes0_return
+3	5710	0	#pragma macro 25
+3	5710	0		acquire __CLSWMutex1
+3	5710	1		set __CLSWArgs1.Port, 1
+3	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+3	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+3	5710	8		syscall 21, __CLSWArgs1
+3	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+3	5710	13		release __CLSWMutex1
+3	5710	14	#line 5710 "NXTDefs.h"
+3	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+3	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+3	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+3	5714	24		set __RLSBIterations1, 4
+3	5716	27	#pragma macro 23
+3	5716	27		acquire __CLSCSMutex1
+3	5716	28		set __CLSCSArgs1.Port, 1
+3	5716	31		syscall 23, __CLSCSArgs1
+3	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+3	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+3	5716	38		release __CLSCSMutex1
+3	5716	39	#line 5716 "NXTDefs.h"
+3	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+3	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+3	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+3	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+3	5722	52		wait 15
+3	5723	54		jmp __RLSBDoCheckStatus1
+3	5726	56	#pragma macro 25
+3	5726	56		acquire __CLSRMutex1
+3	5726	57		set __CLSRArgs1.Port, 1
+3	5726	60		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+3	5726	62		syscall 22, __CLSRArgs1
+3	5726	65		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+3	5726	67		mov __RLSBResult1, __CLSRArgs1.Result
+3	5726	69		release __CLSRMutex1
+3	5726	70	#line 5726 "NXTDefs.h"
+3	5727	70		brtst 5, __RLSBError1, __RLSBResult1
+3	5728	73		mov __RLSLastGoodRead1, __RLSReadBuf1
+3	5729	75		jmp __RLSBDone1
+3	5731	77		mov __RLSReadBuf1, __RLSLastGoodRead1
+3	5733	79		arrsize __RLSBytesCount1, __RLSReadBuf1
+3	5735	82		subret ____ReadLSBytes1_return
+4	5747	0	#pragma macro 25
+4	5747	0		acquire __CLSWMutex2
+4	5747	1		set __CLSWArgs2.Port, 2
+4	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+4	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+4	5747	8		syscall 21, __CLSWArgs2
+4	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+4	5747	13		release __CLSWMutex2
+4	5747	14	#line 5747 "NXTDefs.h"
+4	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+4	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+4	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+4	5751	24		set __RLSBIterations2, 4
+4	5753	27	#pragma macro 23
+4	5753	27		acquire __CLSCSMutex2
+4	5753	28		set __CLSCSArgs2.Port, 2
+4	5753	31		syscall 23, __CLSCSArgs2
+4	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+4	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+4	5753	38		release __CLSCSMutex2
+4	5753	39	#line 5753 "NXTDefs.h"
+4	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+4	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+4	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+4	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+4	5759	52		wait 15
+4	5760	54		jmp __RLSBDoCheckStatus2
+4	5763	56	#pragma macro 25
+4	5763	56		acquire __CLSRMutex2
+4	5763	57		set __CLSRArgs2.Port, 2
+4	5763	60		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+4	5763	62		syscall 22, __CLSRArgs2
+4	5763	65		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+4	5763	67		mov __RLSBResult2, __CLSRArgs2.Result
+4	5763	69		release __CLSRMutex2
+4	5763	70	#line 5763 "NXTDefs.h"
+4	5764	70		brtst 5, __RLSBError2, __RLSBResult2
+4	5765	73		mov __RLSLastGoodRead2, __RLSReadBuf2
+4	5766	75		jmp __RLSBDone2
+4	5768	77		mov __RLSReadBuf2, __RLSLastGoodRead2
+4	5770	79		arrsize __RLSBytesCount2, __RLSReadBuf2
+4	5772	82		subret ____ReadLSBytes2_return
+5	5784	0	#pragma macro 25
+5	5784	0		acquire __CLSWMutex3
+5	5784	1		set __CLSWArgs3.Port, 3
+5	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+5	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+5	5784	8		syscall 21, __CLSWArgs3
+5	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+5	5784	13		release __CLSWMutex3
+5	5784	14	#line 5784 "NXTDefs.h"
+5	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+5	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+5	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+5	5788	24		set __RLSBIterations3, 4
+5	5790	27	#pragma macro 23
+5	5790	27		acquire __CLSCSMutex3
+5	5790	28		set __CLSCSArgs3.Port, 3
+5	5790	31		syscall 23, __CLSCSArgs3
+5	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+5	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+5	5790	38		release __CLSCSMutex3
+5	5790	39	#line 5790 "NXTDefs.h"
+5	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+5	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+5	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+5	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+5	5796	52		wait 15
+5	5797	54		jmp __RLSBDoCheckStatus3
+5	5800	56	#pragma macro 25
+5	5800	56		acquire __CLSRMutex3
+5	5800	57		set __CLSRArgs3.Port, 3
+5	5800	60		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+5	5800	62		syscall 22, __CLSRArgs3
+5	5800	65		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+5	5800	67		mov __RLSBResult3, __CLSRArgs3.Result
+5	5800	69		release __CLSRMutex3
+5	5800	70	#line 5800 "NXTDefs.h"
+5	5801	70		brtst 5, __RLSBError3, __RLSBResult3
+5	5802	73		mov __RLSLastGoodRead3, __RLSReadBuf3
+5	5803	75		jmp __RLSBDone3
+5	5805	77		mov __RLSReadBuf3, __RLSLastGoodRead3
+5	5807	79		arrsize __RLSBytesCount3, __RLSReadBuf3
+5	5809	82		subret ____ReadLSBytes3_return
+6	14	0	#line 14 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	15	0		strcat __strbufBTCheck, __constStr0009
+6	14	4	#line 14 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	15	4		mov __BTCheck_7qG2_args_7qG2_000.Name, __strbufBTCheck
+6	14	6	#line 14 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	15	6	#line 15 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	16	6		mov __BTCheck_7qG2_args_7qG2_000.ConnectionSlot, __BTCheck_7qG2_conn_7qG2_000
+6	15	8	#line 15 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	15	8	#line 15 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	16	8	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	17	8		set __BTCheck_7qG2_args_7qG2_000.Action, 1
+6	16	11	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	16	11	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	16	11	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	17	11	#pragma macro 5
+6	17	11		mov __CBTCSArgs.Connection, __BTCheck_7qG2_conn_7qG2_000
+6	17	13		syscall 28, __CBTCSArgs
+6	6377	16	#line 6377 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	16	16	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	17	16		not __signed_stack_001BTCheck, __CBTCSArgs.Result
+6	16	19	#line 16 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	17	19	#line 17 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	18	19		set __D0BTCheck, 0
+6	17	22	#line 17 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	18	22		cmp 4, __zfBTCheck, __signed_stack_001BTCheck, __D0BTCheck
+6	17	26	#line 17 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	18	26		mov __D0BTCheck, __zfBTCheck
+6	18	28	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	19	28		brtst 4, __NXC_Label_610, __zfBTCheck
+6	19	31	#line 19 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	20	31	#pragma macro 4
+6	20	31	#line 20 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	20	31		syscall 36, __BTCheck_7qG2_args_7qG2_000
+6	18	34	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	18	34	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	18	34	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	18	34	#line 18 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	20	34	#line 20 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	19	34	#line 19 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	28	34	#line 28 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	28	34	#line 28 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+6	29	34		subret __BTCheck_return
+7	30	0	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	31	0		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido, 0
+7	30	3	#line 30 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	31	3	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	32	3		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido, __constVal1
+7	3758	5	#line 3758 "NXCDefs.h"
+7	3759	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3758	7	#line 3758 "NXCDefs.h"
+7	3758	7	#line 3758 "NXCDefs.h"
+7	3759	7		mov __DU0SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido
+7	3758	9	#line 3758 "NXCDefs.h"
+7	3759	9		tst 5, __zfSetSensorLowspeed_inline_actualizador_ultrasonido, __DU0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	12	#line 3758 "NXCDefs.h"
+7	3759	12		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	15	#line 3758 "NXCDefs.h"
+7	3759	15		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 11
+7	3758	18	#line 3758 "NXCDefs.h"
+7	3759	18		jmp __004__NXC_Label_37
+7	3758	20	#line 3758 "NXCDefs.h"
+7	3759	20		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 10
+7	3758	23	#line 3758 "NXCDefs.h"
+7	3759	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __D0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3663	25	#line 3663 "NXCDefs.h"
+7	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3663	29	#line 3663 "NXCDefs.h"
+7	3759	29	#line 3759 "NXCDefs.h"
+7	3759	29	#line 3759 "NXCDefs.h"
+7	3760	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3759	31	#line 3759 "NXCDefs.h"
+7	3759	31	#line 3759 "NXCDefs.h"
+7	3760	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3759	34	#line 3759 "NXCDefs.h"
+7	3676	34	#line 3676 "NXCDefs.h"
+7	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 1
+7	3676	38	#line 3676 "NXCDefs.h"
+7	3760	38	#line 3760 "NXCDefs.h"
+7	3760	38	#line 3760 "NXCDefs.h"
+7	3761	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3760	40	#line 3760 "NXCDefs.h"
+7	3694	40	#line 3694 "NXCDefs.h"
+7	3695	40	#pragma macro 4
+7	3695	40		acquire __ResetSensorMutex
+7	3695	41		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3695	43		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	3695	45		release __ResetSensorMutex
+7	6501	46	#line 6501 "NXCDefs.h"
+7	3694	46	#line 3694 "NXCDefs.h"
+7	3761	46	#line 3761 "NXCDefs.h"
+7	31	46	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	31	46	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	32	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido, 1
+7	31	49	#line 31 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	32	49	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	33	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido, __constVal1
+7	3758	51	#line 3758 "NXCDefs.h"
+7	3759	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3758	53	#line 3758 "NXCDefs.h"
+7	3758	53	#line 3758 "NXCDefs.h"
+7	3759	53		mov __DU0SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido
+7	3758	55	#line 3758 "NXCDefs.h"
+7	3759	55		tst 5, __zfSetSensorLowspeed_inline_actualizador_ultrasonido, __DU0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	58	#line 3758 "NXCDefs.h"
+7	3759	58		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	61	#line 3758 "NXCDefs.h"
+7	3759	61		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 11
+7	3758	64	#line 3758 "NXCDefs.h"
+7	3759	64		jmp __005__NXC_Label_37
+7	3758	66	#line 3758 "NXCDefs.h"
+7	3759	66		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 10
+7	3758	69	#line 3758 "NXCDefs.h"
+7	3759	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __D0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3663	71	#line 3663 "NXCDefs.h"
+7	3664	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3663	75	#line 3663 "NXCDefs.h"
+7	3759	75	#line 3759 "NXCDefs.h"
+7	3759	75	#line 3759 "NXCDefs.h"
+7	3760	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3759	77	#line 3759 "NXCDefs.h"
+7	3759	77	#line 3759 "NXCDefs.h"
+7	3760	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3759	80	#line 3759 "NXCDefs.h"
+7	3676	80	#line 3676 "NXCDefs.h"
+7	3677	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 1
+7	3676	84	#line 3676 "NXCDefs.h"
+7	3760	84	#line 3760 "NXCDefs.h"
+7	3760	84	#line 3760 "NXCDefs.h"
+7	3761	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3760	86	#line 3760 "NXCDefs.h"
+7	3694	86	#line 3694 "NXCDefs.h"
+7	3695	86	#pragma macro 4
+7	3695	86		acquire __ResetSensorMutex
+7	3695	87		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3695	89		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	3695	91		release __ResetSensorMutex
+7	6568	92	#line 6568 "NXCDefs.h"
+7	3694	92	#line 3694 "NXCDefs.h"
+7	3761	92	#line 3761 "NXCDefs.h"
+7	32	92	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	32	92	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	33	92		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido, 2
+7	32	95	#line 32 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	33	95	#line 33 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	34	95		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido, __constVal1
+7	3758	97	#line 3758 "NXCDefs.h"
+7	3759	97		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3758	99	#line 3758 "NXCDefs.h"
+7	3758	99	#line 3758 "NXCDefs.h"
+7	3759	99		mov __DU0SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido
+7	3758	101	#line 3758 "NXCDefs.h"
+7	3759	101		tst 5, __zfSetSensorLowspeed_inline_actualizador_ultrasonido, __DU0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	104	#line 3758 "NXCDefs.h"
+7	3759	104		brtst 4, __006__NXC_Label_36, __zfSetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	107	#line 3758 "NXCDefs.h"
+7	3759	107		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 11
+7	3758	110	#line 3758 "NXCDefs.h"
+7	3759	110		jmp __006__NXC_Label_37
+7	3758	112	#line 3758 "NXCDefs.h"
+7	3759	112		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 10
+7	3758	115	#line 3758 "NXCDefs.h"
+7	3759	115		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __D0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3663	117	#line 3663 "NXCDefs.h"
+7	3664	117		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3663	121	#line 3663 "NXCDefs.h"
+7	3759	121	#line 3759 "NXCDefs.h"
+7	3759	121	#line 3759 "NXCDefs.h"
+7	3760	121		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3759	123	#line 3759 "NXCDefs.h"
+7	3759	123	#line 3759 "NXCDefs.h"
+7	3760	123		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3759	126	#line 3759 "NXCDefs.h"
+7	3676	126	#line 3676 "NXCDefs.h"
+7	3677	126		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 1
+7	3676	130	#line 3676 "NXCDefs.h"
+7	3760	130	#line 3760 "NXCDefs.h"
+7	3760	130	#line 3760 "NXCDefs.h"
+7	3761	130		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3760	132	#line 3760 "NXCDefs.h"
+7	3694	132	#line 3694 "NXCDefs.h"
+7	3695	132	#pragma macro 4
+7	3695	132		acquire __ResetSensorMutex
+7	3695	133		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3695	135		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	3695	137		release __ResetSensorMutex
+7	6635	138	#line 6635 "NXCDefs.h"
+7	3694	138	#line 3694 "NXCDefs.h"
+7	3761	138	#line 3761 "NXCDefs.h"
+7	33	138	#line 33 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	33	138	#line 33 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	34	138		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido, 3
+7	33	141	#line 33 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	34	141	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	35	141		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido, __constVal1
+7	3758	143	#line 3758 "NXCDefs.h"
+7	3759	143		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3758	145	#line 3758 "NXCDefs.h"
+7	3758	145	#line 3758 "NXCDefs.h"
+7	3759	145		mov __DU0SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_actualizador_ultrasonido
+7	3758	147	#line 3758 "NXCDefs.h"
+7	3759	147		tst 5, __zfSetSensorLowspeed_inline_actualizador_ultrasonido, __DU0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	150	#line 3758 "NXCDefs.h"
+7	3759	150		brtst 4, __007__NXC_Label_36, __zfSetSensorLowspeed_inline_actualizador_ultrasonido
+7	3758	153	#line 3758 "NXCDefs.h"
+7	3759	153		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 11
+7	3758	156	#line 3758 "NXCDefs.h"
+7	3759	156		jmp __007__NXC_Label_37
+7	3758	158	#line 3758 "NXCDefs.h"
+7	3759	158		set __D0SetSensorLowspeed_inline_actualizador_ultrasonido, 10
+7	3758	161	#line 3758 "NXCDefs.h"
+7	3759	161		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __D0SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3663	163	#line 3663 "NXCDefs.h"
+7	3664	163		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3663	167	#line 3663 "NXCDefs.h"
+7	3759	167	#line 3759 "NXCDefs.h"
+7	3759	167	#line 3759 "NXCDefs.h"
+7	3760	167		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3759	169	#line 3759 "NXCDefs.h"
+7	3759	169	#line 3759 "NXCDefs.h"
+7	3760	169		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 0
+7	3759	172	#line 3759 "NXCDefs.h"
+7	3676	172	#line 3676 "NXCDefs.h"
+7	3677	172		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, 1
+7	3676	176	#line 3676 "NXCDefs.h"
+7	3760	176	#line 3760 "NXCDefs.h"
+7	3760	176	#line 3760 "NXCDefs.h"
+7	3761	176		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_actualizador_ultrasonido
+7	3760	178	#line 3760 "NXCDefs.h"
+7	3694	178	#line 3694 "NXCDefs.h"
+7	3695	178	#pragma macro 4
+7	3695	178		acquire __ResetSensorMutex
+7	3695	179		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_actualizador_ultrasonido
+7	3695	181		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	3695	183		release __ResetSensorMutex
+7	6702	184	#line 6702 "NXCDefs.h"
+7	3694	184	#line 3694 "NXCDefs.h"
+7	3761	184	#line 3761 "NXCDefs.h"
+7	34	184	#line 34 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	35	184	#line 35 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	35	184	#line 35 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	36	184	#line 36 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	36	184	#line 36 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	37	184		mov __actualizador_ultrasonido_7qG2_medidaAcumulada1_7qG2_000, __constVal0
+7	37	186	#line 37 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	37	186	#line 37 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	38	186		mov __actualizador_ultrasonido_7qG2_medidaAcumulada2_7qG2_000, __constVal0
+7	38	188	#line 38 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	38	188	#line 38 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	39	188		mov __actualizador_ultrasonido_7qG2_medidaAcumulada3_7qG2_000, __constVal0
+7	39	190	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	39	190	#line 39 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	40	190		mov __actualizador_ultrasonido_7qG2_medidaAcumulada4_7qG2_000, __constVal0
+7	40	192	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	40	192	#line 40 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	42	192	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	42	192	#line 42 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	48	192	#line 48 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	49	192		set __D0actualizador_ultrasonido, 1
+7	50	195	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	195		tst 5, __zfactualizador_ultrasonido, __D0actualizador_ultrasonido
+7	50	198	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	198		brtst 4, __NXC_Label_634, __zfactualizador_ultrasonido
+7	50	201	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	201		set __actualizador_ultrasonido_7qG2_i_7qG2_002, 0
+7	50	204	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	50	204	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	204		mov __signed_stack_001actualizador_ultrasonido, __actualizador_ultrasonido_7qG2_i_7qG2_002
+7	50	206	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	50	206	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	206		set __D0actualizador_ultrasonido, 4
+7	50	209	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	209		cmp 0, __zfactualizador_ultrasonido, __signed_stack_001actualizador_ultrasonido, __D0actualizador_ultrasonido
+7	50	213	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	213		mov __D0actualizador_ultrasonido, __zfactualizador_ultrasonido
+7	50	215	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	215		brtst 4, __NXC_Label_638, __zfactualizador_ultrasonido
+7	50	218	#line 50 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	51	218		jmp __NXC_Label_639
+7	51	220	#line 51 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	52	220		add __actualizador_ultrasonido_7qG2_i_7qG2_002, __actualizador_ultrasonido_7qG2_i_7qG2_002, __constVal1
+7	52	224	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	53	224		jmp __NXC_Label_637
+7	52	226	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	53	226	#pragma macro 26
+7	53	226		acquire __RLSBmutex0
+7	53	227		mov __RLSReadBuf0, __RLSBbufLSWrite1
+7	53	229		set __RLSBytesCount0, 1
+7	53	232		wait 15
+7	53	234		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+7	53	236		index __D0actualizador_ultrasonido, __RLSReadBuf0, 65535
+7	53	240		release __RLSBmutex0
+7	6851	241	#line 6851 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	52	241	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	53	241		add __actualizador_ultrasonido_7qG2_medidaAcumulada1_7qG2_000, __actualizador_ultrasonido_7qG2_medidaAcumulada1_7qG2_000, __D0actualizador_ultrasonido
+7	52	245	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	52	245	#line 52 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	53	245	#line 53 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	54	245	#pragma macro 26
+7	54	245		acquire __RLSBmutex1
+7	54	246		mov __RLSReadBuf1, __RLSBbufLSWrite1
+7	54	248		set __RLSBytesCount1, 1
+7	54	251		wait 15
+7	54	253		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+7	54	255		index __D0actualizador_ultrasonido, __RLSReadBuf1, 65535
+7	54	259		release __RLSBmutex1
+7	6859	260	#line 6859 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	53	260	#line 53 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	54	260		add __actualizador_ultrasonido_7qG2_medidaAcumulada2_7qG2_000, __actualizador_ultrasonido_7qG2_medidaAcumulada2_7qG2_000, __D0actualizador_ultrasonido
+7	53	264	#line 53 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	53	264	#line 53 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	54	264	#line 54 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	55	264	#pragma macro 26
+7	55	264		acquire __RLSBmutex2
+7	55	265		mov __RLSReadBuf2, __RLSBbufLSWrite1
+7	55	267		set __RLSBytesCount2, 1
+7	55	270		wait 15
+7	55	272		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+7	55	274		index __D0actualizador_ultrasonido, __RLSReadBuf2, 65535
+7	55	278		release __RLSBmutex2
+7	6867	279	#line 6867 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	54	279	#line 54 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	55	279		add __actualizador_ultrasonido_7qG2_medidaAcumulada3_7qG2_000, __actualizador_ultrasonido_7qG2_medidaAcumulada3_7qG2_000, __D0actualizador_ultrasonido
+7	54	283	#line 54 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	54	283	#line 54 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	55	283	#line 55 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	56	283	#pragma macro 26
+7	56	283		acquire __RLSBmutex3
+7	56	284		mov __RLSReadBuf3, __RLSBbufLSWrite1
+7	56	286		set __RLSBytesCount3, 1
+7	56	289		wait 15
+7	56	291		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+7	56	293		index __D0actualizador_ultrasonido, __RLSReadBuf3, 65535
+7	56	297		release __RLSBmutex3
+7	6875	298	#line 6875 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	55	298	#line 55 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	56	298		add __actualizador_ultrasonido_7qG2_medidaAcumulada4_7qG2_000, __actualizador_ultrasonido_7qG2_medidaAcumulada4_7qG2_000, __D0actualizador_ultrasonido
+7	55	302	#line 55 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	55	302	#line 55 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	57	302	#line 57 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	58	302		jmp __NXC_Label_640
+7	57	304	#line 57 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	58	304	#line 58 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	59	304		acquire semaforo
+7	58	305	#line 58 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	58	305	#line 58 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	59	305		set __signed_stack_001actualizador_ultrasonido, 0
+7	58	308	#line 58 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	58	308	#line 58 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	58	308	#line 58 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	59	308	#line 59 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	59	308	#line 59 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	60	308		div __DF0actualizador_ultrasonido, __actualizador_ultrasonido_7qG2_medidaAcumulada1_7qG2_000, __constVal4
+7	59	312	#line 59 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	60	312		replace sensores, sensores, __signed_stack_001actualizador_ultrasonido, __DF0actualizador_ultrasonido
+7	59	317	#line 59 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	60	317	#line 60 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	61	317		release semaforo
+7	60	318	#line 60 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	61	318	#line 61 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	62	318		acquire semaforo
+7	61	319	#line 61 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	61	319	#line 61 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	62	319		set __signed_stack_001actualizador_ultrasonido, 1
+7	61	322	#line 61 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	61	322	#line 61 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	61	322	#line 61 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	62	322	#line 62 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	62	322	#line 62 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	63	322		div __DF0actualizador_ultrasonido, __actualizador_ultrasonido_7qG2_medidaAcumulada2_7qG2_000, __constVal4
+7	62	326	#line 62 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	63	326		replace sensores, sensores, __signed_stack_001actualizador_ultrasonido, __DF0actualizador_ultrasonido
+7	62	331	#line 62 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	63	331	#line 63 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	64	331		release semaforo
+7	63	332	#line 63 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	64	332	#line 64 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	65	332		acquire semaforo
+7	64	333	#line 64 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	64	333	#line 64 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	65	333		set __signed_stack_001actualizador_ultrasonido, 2
+7	64	336	#line 64 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	64	336	#line 64 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	64	336	#line 64 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	65	336	#line 65 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	65	336	#line 65 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	66	336		div __DF0actualizador_ultrasonido, __actualizador_ultrasonido_7qG2_medidaAcumulada3_7qG2_000, __constVal4
+7	65	340	#line 65 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	66	340		replace sensores, sensores, __signed_stack_001actualizador_ultrasonido, __DF0actualizador_ultrasonido
+7	65	345	#line 65 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	66	345	#line 66 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	67	345		release semaforo
+7	66	346	#line 66 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	67	346	#line 67 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	68	346		acquire semaforo
+7	67	347	#line 67 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	67	347	#line 67 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	68	347		set __signed_stack_001actualizador_ultrasonido, 3
+7	67	350	#line 67 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	67	350	#line 67 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	67	350	#line 67 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	68	350	#line 68 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	68	350	#line 68 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	69	350		div __DF0actualizador_ultrasonido, __actualizador_ultrasonido_7qG2_medidaAcumulada4_7qG2_000, __constVal4
+7	68	354	#line 68 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	69	354		replace sensores, sensores, __signed_stack_001actualizador_ultrasonido, __DF0actualizador_ultrasonido
+7	68	359	#line 68 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	69	359	#line 69 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	70	359		release semaforo
+7	69	360	#line 69 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	70	360	#line 70 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	70	360	#line 70 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	71	360		mov __actualizador_ultrasonido_7qG2_medidaAcumulada1_7qG2_000, __constVal0
+7	70	362	#line 70 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	71	362	#line 71 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	71	362	#line 71 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	72	362		mov __actualizador_ultrasonido_7qG2_medidaAcumulada2_7qG2_000, __constVal0
+7	71	364	#line 71 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	72	364	#line 72 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	72	364	#line 72 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	73	364		mov __actualizador_ultrasonido_7qG2_medidaAcumulada3_7qG2_000, __constVal0
+7	72	366	#line 72 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	126	366	#line 126 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	126	366	#line 126 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	127	366		mov __actualizador_ultrasonido_7qG2_medidaAcumulada4_7qG2_000, __constVal0
+7	126	368	#line 126 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	126	368	#line 126 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	126	368	#line 126 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	7921	368	#line 7921 "NXCDefs.h"
+7	7922	368		wait 200
+7	7921	370	#line 7921 "NXCDefs.h"
+7	127	370	#line 127 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	130	370	#line 130 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	131	370		jmp __NXC_Label_633
+7	130	372	#line 130 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+7	131	372		exit -1, -1
+8	133	0	#line 133 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	134	0		strcat __strbufconvStr, __constStr0010
+8	133	4	#line 133 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	134	4		mov __convStr_7qG2_aux_7qG2_000, __strbufconvStr
+8	133	6	#line 133 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	134	6		mov __float_stack_001convStr, __convStr_7qG2_v_7qG2_000
+8	133	8	#line 133 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	134	8	#line 134 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	135	8		mov __DF0convStr, __constValf999P9
+8	134	10	#line 134 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	135	10		cmp 1, __zfconvStr, __float_stack_001convStr, __DF0convStr
+8	134	14	#line 134 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	135	14		mov __D0convStr, __zfconvStr
+8	135	16	#line 135 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	136	16		brtst 4, __NXC_Label_681, __zfconvStr
+8	136	19	#line 136 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	137	19		strcat __strbufconvStr, __constStr0011
+8	136	23	#line 136 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	137	23		subret __convStr_return
+8	136	25	#line 136 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	137	25	#line 137 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	138	25		jmp __NXC_Label_682
+8	137	27	#line 137 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	138	27		mov __float_stack_001convStr, __convStr_7qG2_v_7qG2_000
+8	137	29	#line 137 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	138	29	#line 138 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	139	29		mov __DF0convStr, __constVal10
+8	138	31	#line 138 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	139	31		cmp 0, __zfconvStr, __float_stack_001convStr, __DF0convStr
+8	138	35	#line 138 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	139	35		mov __D0convStr, __zfconvStr
+8	139	37	#line 139 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	140	37		brtst 4, __NXC_Label_685, __zfconvStr
+8	140	40	#line 140 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	141	40		strcat __strbufconvStr, __constStr0012
+8	140	44	#line 140 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	141	44		mov __convStr_7qG2_aux_7qG2_000, __strbufconvStr
+8	140	46	#line 140 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	140	46	#line 140 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	141	46		jmp __NXC_Label_686
+8	140	48	#line 140 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	141	48		mov __float_stack_001convStr, __convStr_7qG2_v_7qG2_000
+8	140	50	#line 140 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	141	50	#line 141 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	142	50		mov __DF0convStr, __constVal100
+8	141	52	#line 141 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	142	52		cmp 0, __zfconvStr, __float_stack_001convStr, __DF0convStr
+8	141	56	#line 141 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	142	56		mov __D0convStr, __zfconvStr
+8	142	58	#line 142 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	143	58		brtst 4, __NXC_Label_689, __zfconvStr
+8	143	61	#line 143 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	144	61		strcat __strbufconvStr, __constStr0013
+8	143	65	#line 143 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	144	65		mov __convStr_7qG2_aux_7qG2_000, __strbufconvStr
+8	143	67	#line 143 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	144	67	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	144	67	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	144	67	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	67		strcat __strbufconvStr, __convStr_7qG2_aux_7qG2_000
+8	144	71	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	71		mov __ArrHelper__convStr_244_0, __strbufconvStr
+8	144	73	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	73		strcat __strbufconvStr, __constStr0014
+8	144	77	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	77		mov __DF0convStr, __convStr_7qG2_v_7qG2_000
+8	144	79	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	79		fmtnum __strretvalconvStr, __strbufconvStr, __DF0convStr
+8	144	83	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	83		strcat __strbufconvStr, __strretvalconvStr
+8	144	87	#line 144 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	145	87		mov __ArrHelper__convStr_244_1, __strbufconvStr
+8	145	89	#line 145 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	146	89		strcat __strretvalconvStr, __ArrHelper__convStr_244_0, __ArrHelper__convStr_244_1
+8	145	94	#line 145 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	146	94		strcat __strbufconvStr, __strretvalconvStr
+8	145	98	#line 145 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	146	98		subret __convStr_return
+8	145	100	#line 145 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	149	100	#line 149 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	149	100	#line 149 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+8	150	100		subret __convStr_return
+9	164	0	#line 164 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	165	0		set __D0blue, 1
+9	166	3	#line 166 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	167	3		tst 5, __zfblue, __D0blue
+9	166	6	#line 166 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	167	6		brtst 4, __NXC_Label_695, __zfblue
+9	167	9	#line 167 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	9		acquire semaforo
+9	167	10	#line 167 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	167	10	#line 167 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	10		set __signed_stack_001blue, 0
+9	167	13	#line 167 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	167	13	#line 167 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	13		index __ArrHelper__blue_79_0, sensores, __signed_stack_001blue
+9	167	17	#line 167 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	17		mov __blue_7qG2_valor1_7qG2_000, __ArrHelper__blue_79_0
+9	168	19	#line 168 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	19	#line 168 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	19	#line 168 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	169	19		set __signed_stack_001blue, 1
+9	168	22	#line 168 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	168	22	#line 168 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	169	22		index __ArrHelper__blue_79_0, sensores, __signed_stack_001blue
+9	168	26	#line 168 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	169	26		mov __blue_7qG2_valor2_7qG2_000, __ArrHelper__blue_79_0
+9	169	28	#line 169 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	169	28	#line 169 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	169	28	#line 169 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	170	28		set __signed_stack_001blue, 2
+9	169	31	#line 169 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	169	31	#line 169 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	170	31		index __ArrHelper__blue_79_0, sensores, __signed_stack_001blue
+9	169	35	#line 169 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	170	35		mov __blue_7qG2_valor3_7qG2_000, __ArrHelper__blue_79_0
+9	170	37	#line 170 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	170	37	#line 170 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	170	37	#line 170 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	171	37		set __signed_stack_001blue, 3
+9	170	40	#line 170 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	170	40	#line 170 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	171	40		index __ArrHelper__blue_79_0, sensores, __signed_stack_001blue
+9	170	44	#line 170 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	171	44		mov __blue_7qG2_valor4_7qG2_000, __ArrHelper__blue_79_0
+9	171	46	#line 171 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	171	46	#line 171 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	172	46	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	46		release semaforo
+9	172	47	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	172	47	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	47		set __signed_stack_001blue, 1
+9	172	50	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	172	50	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	50		set __signed_stack_002blue, 56
+9	172	53	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	172	53	#line 172 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	53		mov __DF0blue, __blue_7qG2_valor1_7qG2_000
+9	173	55	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	55		acquire __TextOutMutex
+9	173	56	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	56		mov __TextOutArgs.Location.X, __signed_stack_001blue
+9	173	59	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	59		mov __TextOutArgs.Location.Y, __signed_stack_002blue
+9	173	62	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	62		set __TextOutArgs.Options, 0
+9	173	65	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	65		numtostr __TextOutArgs.Text, __DF0blue
+9	173	68	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	68		syscall 13, __TextOutArgs
+9	173	71	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	71		mov __D0blue, __TextOutArgs.Result
+9	173	74	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	74		release __TextOutMutex
+9	173	75	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	75	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	75		set __signed_stack_001blue, 1
+9	173	78	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	78	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	78		set __signed_stack_002blue, 48
+9	173	81	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	173	81	#line 173 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	81		mov __DF0blue, __blue_7qG2_valor2_7qG2_000
+9	174	83	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	83		acquire __TextOutMutex
+9	174	84	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	84		mov __TextOutArgs.Location.X, __signed_stack_001blue
+9	174	87	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	87		mov __TextOutArgs.Location.Y, __signed_stack_002blue
+9	174	90	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	90		set __TextOutArgs.Options, 0
+9	174	93	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	93		numtostr __TextOutArgs.Text, __DF0blue
+9	174	96	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	96		syscall 13, __TextOutArgs
+9	174	99	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	99		mov __D0blue, __TextOutArgs.Result
+9	174	102	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	102		release __TextOutMutex
+9	174	103	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	103	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	103		set __signed_stack_001blue, 1
+9	174	106	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	106	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	106		set __signed_stack_002blue, 40
+9	174	109	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	174	109	#line 174 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	109		mov __DF0blue, __blue_7qG2_valor3_7qG2_000
+9	175	111	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	111		acquire __TextOutMutex
+9	175	112	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	112		mov __TextOutArgs.Location.X, __signed_stack_001blue
+9	175	115	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	115		mov __TextOutArgs.Location.Y, __signed_stack_002blue
+9	175	118	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	118		set __TextOutArgs.Options, 0
+9	175	121	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	121		numtostr __TextOutArgs.Text, __DF0blue
+9	175	124	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	124		syscall 13, __TextOutArgs
+9	175	127	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	127		mov __D0blue, __TextOutArgs.Result
+9	175	130	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	130		release __TextOutMutex
+9	175	131	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	131	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	131		set __signed_stack_001blue, 1
+9	175	134	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	134	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	134		set __signed_stack_002blue, 32
+9	175	137	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	175	137	#line 175 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	137		mov __DF0blue, __blue_7qG2_valor4_7qG2_000
+9	176	139	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	139		acquire __TextOutMutex
+9	176	140	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	140		mov __TextOutArgs.Location.X, __signed_stack_001blue
+9	176	143	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	143		mov __TextOutArgs.Location.Y, __signed_stack_002blue
+9	176	146	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	146		set __TextOutArgs.Options, 0
+9	176	149	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	149		numtostr __TextOutArgs.Text, __DF0blue
+9	176	152	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	152		syscall 13, __TextOutArgs
+9	176	155	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	155		mov __D0blue, __TextOutArgs.Result
+9	176	158	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	158		release __TextOutMutex
+9	176	159	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	159	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	159		mov __convStr_7qG2_v_7qG2_000, __blue_7qG2_valor1_7qG2_000
+9	176	161	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	161	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	161		subcall convStr, __convStr_return
+9	176	163	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	163		mov __strretvalblue, __strbufconvStr
+9	176	165	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	165		strcat __strbufblue, __strretvalblue
+9	176	169	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	169		mov __ArrHelper__blue_244_0, __strbufblue
+9	176	171	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	171		mov __convStr_7qG2_v_7qG2_000, __blue_7qG2_valor2_7qG2_000
+9	176	173	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	173	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	173		subcall convStr, __convStr_return
+9	176	175	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	175		mov __strretvalblue, __strbufconvStr
+9	176	177	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	177		strcat __strbufblue, __strretvalblue
+9	176	181	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	181		mov __ArrHelper__blue_244_1, __strbufblue
+9	176	183	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	183		mov __convStr_7qG2_v_7qG2_000, __blue_7qG2_valor3_7qG2_000
+9	176	185	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	185	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	185		subcall convStr, __convStr_return
+9	176	187	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	187		mov __strretvalblue, __strbufconvStr
+9	176	189	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	189		strcat __strbufblue, __strretvalblue
+9	176	193	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	193		mov __ArrHelper__blue_244_2, __strbufblue
+9	176	195	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	195		mov __convStr_7qG2_v_7qG2_000, __blue_7qG2_valor4_7qG2_000
+9	176	197	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	176	197	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	197		subcall convStr, __convStr_return
+9	176	199	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	199		mov __strretvalblue, __strbufconvStr
+9	176	201	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	201		strcat __strbufblue, __strretvalblue
+9	176	205	#line 176 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	205		mov __ArrHelper__blue_244_3, __strbufblue
+9	177	207	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	207		strcat __strretvalblue, __ArrHelper__blue_244_0, __ArrHelper__blue_244_1, __ArrHelper__blue_244_2, __ArrHelper__blue_244_3
+9	177	214	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	214		strcat __strbufblue, __strretvalblue
+9	177	218	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	218		mov __blue_7qG2_envio_7qG2_000, __strbufblue
+9	177	220	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	220	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	220		set __signed_stack_001blue, 1
+9	177	223	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	223	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	223		set __signed_stack_002blue, 24
+9	177	226	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	177	226	#line 177 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	226		strcat __strbufblue, __blue_7qG2_envio_7qG2_000
+9	178	230	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	230		acquire __TextOutMutex
+9	178	231	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	231		mov __TextOutArgs.Location.X, __signed_stack_001blue
+9	178	234	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	234		mov __TextOutArgs.Location.Y, __signed_stack_002blue
+9	178	237	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	237		set __TextOutArgs.Options, 0
+9	178	240	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	240		mov __TextOutArgs.Text, __strbufblue
+9	178	242	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	242		syscall 13, __TextOutArgs
+9	178	245	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	245		mov __D0blue, __TextOutArgs.Result
+9	178	248	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	248		release __TextOutMutex
+9	178	249	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	178	249	#line 178 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	249	#pragma macro 24
+9	179	249		acquire __RemoteMutex
+9	179	250		mov __SRSTmpBuf, __DCMessageWritePacket
+9	179	252		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+9	179	257		arrsize __SRSTmpLongVal, __blue_7qG2_envio_7qG2_000
+9	179	260		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+9	179	265		arrbuild __SRSSendBuf, __SRSTmpBuf, __blue_7qG2_envio_7qG2_000
+9	179	270		brcmp 0, __ConnWrite_Else0, __constVal0, __constVal4
+9	179	274		acquire __CHSWMutex
+9	179	275		sub __WFRRTmpByte, __constVal0, __constVal4
+9	179	279		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+9	179	284		syscall 37, __CHSWArgs
+9	179	287		mov __D0blue, __CHSWArgs.Status
+9	179	290		release __CHSWMutex
+9	179	291		jmp __ConnWrite_EndIf0
+9	179	293		acquire __CBTWMutex
+9	179	294		mov __CBTWArgs.Connection, __constVal0
+9	179	296		mov __CBTWArgs.Buffer, __SRSSendBuf
+9	179	298		syscall 29, __CBTWArgs
+9	179	301		mov __D0blue, __CBTWArgs.Result
+9	179	304		release __CBTWMutex
+9	179	305		release __RemoteMutex
+9	7511	306	#line 7511 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	306	#line 179 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	306	#line 179 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	179	306	#line 179 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	7921	306	#line 7921 "NXCDefs.h"
+9	7922	306		wait 200
+9	7921	308	#line 7921 "NXCDefs.h"
+9	180	308	#line 180 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	183	308	#line 183 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	184	308		jmp __NXC_Label_694
+9	183	310	#line 183 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+9	184	310		exit -1, -1
+10	192	0	#line 192 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+10	193	0		arrinit sensores, __constVal0, __constVal4
+10	192	4	#line 192 "E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc"
+10	193	4		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc
+1	__ResetSensorSubroutine	10	NXTDefs.h
+2	__ReadLSBytes0	23	NXTDefs.h
+3	__ReadLSBytes1	107	NXTDefs.h
+4	__ReadLSBytes2	191	NXTDefs.h
+5	__ReadLSBytes3	275	NXTDefs.h
+6	BTCheck	359	E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc
+7	actualizador_ultrasonido	395	E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc
+8	convStr	770	E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc
+9	blue	872	E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc
+10	__initialize_global_data	1185	E:\robotica\final codes\UltrasonidosBluetooth\Ultrasonidos.nxc

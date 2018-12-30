@@ -1,0 +1,190 @@
+#define medidasTomadas 4
+//SLAVE
+#include "NXCDefs.h"
+#define BT_CONN 0
+#define INBOX 5
+#define OUTBOX 1
+
+
+mutex semaforo;
+float sensores[4] = {0,0,0,0};
+
+sub BTCheck(int conn){
+                  CommBTConnectionType args;
+                  args.Name = "NXT-uni2"; // whatever the slave NXT's name is
+                  args.ConnectionSlot = conn; // this is the desired connection slot (the above code uses 1)
+                  args.Action = TRUE; // could use some #define with a non-zero value to connect.  0 == disconnect
+                  if(!BluetoothStatus(conn)==NO_ERR)
+                  {
+                  SysCommBTConnection(args); // try to connect.
+                  }
+}
+//float medidaSensorUltrasonido(int nSensor)
+//{
+//     Acquire(semaforo);
+//     float valor = sensores[nSensor-1];
+//     Release(semaforo);
+//     return valor;
+//}
+task actualizador_ultrasonido()
+{
+     SetSensorLowspeed(IN_1);
+     SetSensorLowspeed(IN_2);
+     SetSensorLowspeed(IN_3);
+     SetSensorLowspeed(IN_4);
+     float prueba = 0;
+     float medidaAcumulada1 = 0;
+     float medidaAcumulada2 = 0;
+     float medidaAcumulada3 = 0;
+     float medidaAcumulada4 = 0;
+     int sensorAMirar = 1;
+     string str1,str2,str3,str4;
+     int i = 0;
+     float valor1;
+     float valor2;
+     float valor3;
+     float valor4;
+
+     while(true)
+     {
+
+         for(int i = 0; i<medidasTomadas; i++)
+         {
+         medidaAcumulada1+=SensorUS(IN_1);
+         medidaAcumulada2+=SensorUS(IN_2);
+         medidaAcumulada3+=SensorUS(IN_3);
+         medidaAcumulada4+=SensorUS(IN_4);
+         }
+         Acquire(semaforo);
+         sensores[0] = medidaAcumulada1/medidasTomadas;
+         Release(semaforo);
+         Acquire(semaforo);
+         sensores[1] = medidaAcumulada2/medidasTomadas;
+         Release(semaforo);
+         Acquire(semaforo);
+         sensores[2] = medidaAcumulada3/medidasTomadas;
+         Release(semaforo);
+         Acquire(semaforo);
+         sensores[3] = medidaAcumulada4/medidasTomadas;
+         Release(semaforo);
+         medidaAcumulada1 = 0;
+         medidaAcumulada2 = 0;
+         medidaAcumulada3 = 0;
+         medidaAcumulada4 = 0;
+         //switch(sensorAMirar)
+         //{
+         //Sensor 1  (delante)
+         // case 1:
+         //     for(int i = 0; i<medidasTomadas; i++)
+         //      {
+         //              medidaAcumulada+=SensorUS(IN_1);
+         //      }
+         //      Acquire(semaforo);
+         //      sensores[0] = medidaAcumulada/medidasTomadas;
+         //      Release(semaforo);
+         //      sensorAMirar++;
+         //
+         // break;
+         //
+          //Sensor 2 (izq)
+          //case 2:
+          //     for(int i = 0; i<medidasTomadas; i++)
+          //     {
+          //             medidaAcumulada+=SensorUS(IN_2);
+           //    }
+           //    Acquire(semaforo);
+           //    sensores[1] = medidaAcumulada/medidasTomadas;
+           //    Release(semaforo);
+           //    sensorAMirar++;
+          //break;
+
+          //Sensor 3 (atras)
+          //case 3:
+          /*     for(int i = 0; i<medidasTomadas; i++)
+               {
+                       medidaAcumulada+=SensorUS(IN_3);
+               }
+               Acquire(semaforo);
+               sensores[2] = medidaAcumulada/medidasTomadas;
+               Release(semaforo);
+               sensorAMirar++;
+          break;
+
+          //Sensor 4 (der)
+          case 4:
+               for(int i = 0; i<medidasTomadas; i++)
+               {
+                       medidaAcumulada+=SensorUS(IN_4);
+               }
+               Acquire(semaforo);
+               sensores[3] = medidaAcumulada/medidasTomadas;
+               Release(semaforo);
+               sensorAMirar = 1;
+          break;
+         }
+         medidaAcumulada = 0;
+          */
+         Wait(200);
+     }
+}
+
+string convStr(float v)
+{
+       string aux = "";
+       if (v > 999.9)
+       {
+           return "999.9";
+       }else{
+       if (v < 10)
+       {
+           aux = "00";
+       }else if(v < 100)
+       {
+             aux = "0";
+       }
+        return StrCat(aux, FormatNum("%.1f",v));
+       }
+}
+
+
+float medidasSensores()
+{
+     Acquire(semaforo);
+     float valor[4] = {0,0,0,0};
+     valor = sensores;
+     Release(semaforo);
+     return valor;
+}
+task blue(){
+     string str1,str2,str3,str4;
+     string envio;
+     float valor1;
+     float valor2;
+     float valor3;
+     float valor4;
+     while(true){
+                 
+                 Acquire(semaforo);
+                 valor1 = sensores[0];
+                 valor2 = sensores[1];
+                 valor3 = sensores[2];
+                 valor4 = sensores[3];
+                 Release(semaforo);
+                 NumOut(1,LCD_LINE1,valor1);
+                 NumOut(1,LCD_LINE2,valor2);
+                 NumOut(1,LCD_LINE3,valor3);
+                 NumOut(1,LCD_LINE4,valor4);
+                 envio = StrCat(convStr(valor1), convStr(valor2), convStr(valor3), convStr(valor4));
+                 TextOut(1, LCD_LINE5, envio);
+                 SendRemoteString(BT_CONN,OUTBOX, envio)
+                 Wait(200);
+   }
+
+}
+task main()
+{
+     BTCheck(BT_CONN); //check master connection
+     Precedes(actualizador_ultrasonido,blue);
+
+
+}

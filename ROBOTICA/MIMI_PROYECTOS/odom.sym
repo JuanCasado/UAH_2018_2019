@@ -1,0 +1,989 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__constValf0P0043633259	10	0	0	4	1
+1	__constValf0P0001745329	10	0	4	4	1
+2	__Wait_7qG2_ms_7qG2_000_inline_odom	5	1	8	4	2
+3	__odom_7qG2_new_x_7qG2_000	10	1	12	4	3
+4	__odom_7qG2_new_y_7qG2_000	10	1	16	4	3
+5	__constValf314P159	10	0	20	4	2
+6	__constValf471P239	10	0	24	4	2
+7	__constValf157P08	10	0	28	4	2
+8	__cos_7qG2_x_7qG2_000_inline_odom	10	1	32	4	2
+9	__sin_7qG2_x_7qG2_000_inline_odom	10	1	36	4	2
+10	__odom_7qG2_distance_7qG2_000	10	1	40	4	5
+11	__odom_7qG2_d_7qG2_000	6	1	44	4	4
+12	__odom_7qG2_d_anterior_7qG2_000	10	1	48	4	3
+13	dist	10	1	52	4	3
+14	y	10	1	56	4	3
+15	angle	10	1	60	4	2
+16	__odom_7qG2_i_inc_7qG2_000	10	1	64	4	4
+17	__odom_7qG2_theta_7qG2_000	10	1	68	4	6
+18	__odom_7qG2_i_anterior_7qG2_000	10	1	72	4	3
+19	__odom_7qG2_d_inc_7qG2_000	10	1	76	4	4
+20	__odom_7qG2_i_7qG2_000	6	1	80	4	4
+21	__constValf628P319	10	0	84	4	1
+22	__constValf0P05	10	0	88	4	2
+23	__constValf0P5	10	0	92	4	1
+24	__constValf0P18	10	0	96	4	1
+25	__move_7qG2_to_doB_7qG2_000	10	1	100	4	5
+26	__constValf0P15	10	0	104	4	1
+27	__draw_7qG2_new_x_7qG2_000	10	1	108	4	3
+28	__draw_7qG2_new_y_7qG2_000	10	1	112	4	3
+29	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	116	4	2
+30	__constValf0P2	10	0	120	4	2
+31	__constValf0P1	10	0	124	4	1
+32	__move_7qG2_to_doA_7qG2_000	10	1	128	4	5
+33	__move_7qG2_to_doX_7qG2_000	10	1	132	4	5
+34	__move_7qG2_errorY_7qG2_000	10	1	136	4	9
+35	__move_7qG2_error_accX_7qG2_000	10	1	140	4	6
+36	__move_7qG2_errorX_7qG2_000	10	1	144	4	7
+37	__move_7qG2_error_anteriorX_7qG2_000	10	1	148	4	3
+38	__move_7qG2_posX_7qG2_000	10	1	152	4	3
+39	__move_7qG2_posY_7qG2_000	10	1	156	4	3
+40	__move_7qG2_to_doY_7qG2_000	10	1	160	4	5
+41	__move_7qG2_error_anteriorY_7qG2_000	10	1	164	4	4
+42	__move_7qG2_error_accY_7qG2_000	10	1	168	4	7
+43	x	10	1	172	4	3
+44	__D0odom	6	1	176	4	4
+45	__DF0move	10	1	180	4	38
+46	__DU0move	5	1	184	4	4
+47	__DF0odom	10	1	188	4	6
+48	__signed_stack_001draw	6	1	192	4	2
+49	__signed_stack_001constraint	6	1	196	4	4
+50	__float_stack_001constr	10	1	200	4	4
+51	__D0move	6	1	204	4	60
+52	__D0constr	6	1	208	4	4
+53	__PointOutMutex	9	0	212	4	2
+54	__OnRevMutex	9	0	216	4	4
+55	__DF0constr	10	1	220	4	15
+56	__DF0draw	10	1	224	4	8
+57	__D0draw	6	1	228	4	11
+58	__D0constraint	6	1	232	4	13
+59	__constr_7qG2_valor_7qG2_000	10	1	236	4	10
+60	__constr_7qG2_max_7qG2_000	10	1	240	4	9
+61	__constr_7qG2_min_7qG2_000	10	1	244	4	9
+62	__float_stack_001odom	10	1	248	4	8
+63	__float_stack_002move	10	1	252	4	6
+64	__float_stack_001move	10	1	256	4	30
+65	__signed_stack_001move	6	1	260	4	16
+66	__float_stack_002draw	10	1	264	4	4
+67	__float_stack_001draw	10	1	268	4	4
+68	semaphore	9	0	272	4	6
+69	__constraint_7qG2_min_7qG2_000	4	1	276	2	4
+70	__constVal200	4	0	278	2	2
+71	__move_7qG2_timesInOk_7qG2_000	4	1	280	2	10
+72	__constraint_7qG2_max_7qG2_000	4	1	282	2	4
+73	__constVal600	4	0	284	2	2
+74	__constVal400	4	0	286	2	2
+75	__move_7qG2_nextMovement_7qG2_000	4	1	288	2	9
+76	__constVal800	4	0	290	2	2
+77	__constraint_7qG2_valor_7qG2_000	4	1	292	2	5
+78	__constValNeg75	2	0	294	1	1
+79	__constVal96	2	0	295	1	4
+80	__constVal1	2	0	296	1	8
+81	__constVal5	2	0	297	1	3
+82	__constVal3	2	0	298	1	4
+83	__constVal0	2	1	299	1	30
+84	__constVal25	2	0	300	1	2
+85	____initialize_global_data_return	1	1	301	1	3
+86	__constVal99	2	0	302	1	1
+87	__constVal63	2	0	303	1	5
+88	__constVal32	2	0	304	1	12
+89	__OnRev_Tmp	2	1	305	1	4
+90	__constVal20	2	0	306	1	1
+91	__constValNeg100	2	0	307	1	4
+92	__constVal75	2	0	308	1	1
+93	__constraint_return	1	1	309	1	7
+94	__constVal50	2	0	310	1	2
+95	__constVal100	2	0	311	1	6
+96	__constValNeg50	2	0	312	1	2
+97	__constr_return	1	1	313	1	12
+98	__move_7qG2_action_7qG2_000	1	1	314	1	4
+99	__move_7qG2_girar_7qG2_000	1	1	315	1	4
+100	__PointOutArgs	8	0	3	12	5
+101	__PointOutArgs.Result	2	1	316	1	5
+102	__PointOutArgs.Location	8	0	2	4	5
+103	__PointOutArgs.Location.X	4	1	320	2	5
+104	__PointOutArgs.Location.Y	4	1	322	2	5
+105	__PointOutArgs.Options	5	1	324	4	5
+106	__move_7qG2_movementsY_7qG2_000	7	0	328	4	2
+107	__move_7qG2_movementsY_7qG2_000.__move_7qG2_movementsY_7qG2_000_type	10	0	0	4	0
+108	__move_7qG2_movementsX_7qG2_000	7	0	330	4	2
+109	__move_7qG2_movementsX_7qG2_000.__move_7qG2_movementsX_7qG2_000_type	10	0	0	4	0
+#SOURCES
+Clump	Line	PC	Source
+0	181	0	#line 181 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+0	182	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	181	2	#line 181 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+0	182	2	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+0	182	2	#line 182 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+0	183	2		exit 0, 2
+1	26	0	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	27	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	26	2	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	27	2	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	28	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	27	4	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	28	4		cmp 1, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	27	8	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	28	8		brtst 4, __ASM_Label_606, __D0constraint
+1	28	11	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	29	11		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+1	28	13	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	29	13		subret __constraint_return
+1	28	15	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	28	15	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	28	15	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	29	15		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+1	28	17	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	29	17	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	30	17		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	29	19	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	30	19		cmp 0, __D0constraint, __signed_stack_001constraint, __D0constraint
+1	29	23	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	30	23		brtst 4, __ASM_Label_611, __D0constraint
+1	30	26	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	31	26		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+1	30	28	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	31	28		subret __constraint_return
+1	30	30	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	30	30	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	31	30	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	32	30		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+1	31	32	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	32	32		subret __constraint_return
+1	31	34	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	32	34	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+1	33	34		subret __constraint_return
+2	33	0	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	34	0		mov __float_stack_001constr, __constr_7qG2_valor_7qG2_000
+2	33	2	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	34	2	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	35	2		mov __DF0constr, __constr_7qG2_max_7qG2_000
+2	34	4	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	35	4		cmp 1, __D0constr, __float_stack_001constr, __DF0constr
+2	34	8	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	35	8		brtst 4, __ASM_Label_618, __D0constr
+2	35	11	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	36	11		mov __DF0constr, __constr_7qG2_max_7qG2_000
+2	35	13	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	36	13		subret __constr_return
+2	35	15	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	35	15	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	35	15	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	36	15		mov __float_stack_001constr, __constr_7qG2_valor_7qG2_000
+2	35	17	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	36	17	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	37	17		mov __DF0constr, __constr_7qG2_min_7qG2_000
+2	36	19	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	37	19		cmp 0, __D0constr, __float_stack_001constr, __DF0constr
+2	36	23	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	37	23		brtst 4, __ASM_Label_623, __D0constr
+2	37	26	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	38	26		mov __DF0constr, __constr_7qG2_min_7qG2_000
+2	37	28	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	38	28		subret __constr_return
+2	37	30	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	37	30	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	38	30	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	39	30		mov __DF0constr, __constr_7qG2_valor_7qG2_000
+2	38	32	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	39	32		subret __constr_return
+2	38	34	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	40	34	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+2	41	34		subret __constr_return
+3	48	0	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	49	0		mov __odom_7qG2_d_7qG2_000, __constVal0
+3	48	2	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	49	2	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	50	2		mov __odom_7qG2_d_anterior_7qG2_000, __constVal0
+3	49	4	#line 49 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	50	4	#line 50 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	51	4		mov __odom_7qG2_d_inc_7qG2_000, __constVal0
+3	50	6	#line 50 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	51	6	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	52	6		mov __odom_7qG2_i_7qG2_000, __constVal0
+3	51	8	#line 51 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	52	8	#line 52 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	53	8		mov __odom_7qG2_i_anterior_7qG2_000, __constVal0
+3	52	10	#line 52 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	53	10	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	54	10		mov __odom_7qG2_i_inc_7qG2_000, __constVal0
+3	53	12	#line 53 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	54	12	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	55	12		mov __odom_7qG2_theta_7qG2_000, __constVal0
+3	54	14	#line 54 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	55	14	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	56	14		mov __odom_7qG2_distance_7qG2_000, __constVal0
+3	55	16	#line 55 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	56	16	#line 56 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	57	16		mov __odom_7qG2_new_x_7qG2_000, __constVal0
+3	56	18	#line 56 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	57	18	#line 57 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	58	18		mov __odom_7qG2_new_y_7qG2_000, __constVal0
+3	57	20	#line 57 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	57	20	#line 57 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	58	20		set __D0odom, 1
+3	58	23	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	59	23		tst 5, __D0odom, __D0odom
+3	58	26	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	59	26		brtst 4, __ASM_Label_649, __D0odom
+3	58	29	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	59	29		set __Wait_7qG2_ms_7qG2_000_inline_odom, 100
+3	58	32	#line 58 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	8551	32	#line 8551 "NXCDefs.h"
+3	8552	32		waitv __Wait_7qG2_ms_7qG2_000_inline_odom
+3	8551	34	#line 8551 "NXCDefs.h"
+3	59	34	#line 59 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	60	34	#line 60 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	61	34		getout __odom_7qG2_d_7qG2_000, __constVal1, 14
+3	60	38	#line 60 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	60	38	#line 60 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	61	38	#line 61 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	62	38		getout __odom_7qG2_i_7qG2_000, __constVal0, 14
+3	61	42	#line 61 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	61	42	#line 61 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	61	42	#line 61 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	61	42	#line 61 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	62	42	#line 62 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	62	42	#line 62 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	63	42		sub __odom_7qG2_d_inc_7qG2_000, __odom_7qG2_d_7qG2_000, __odom_7qG2_d_anterior_7qG2_000
+3	62	46	#line 62 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	62	46	#line 62 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	62	46	#line 62 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	62	46	#line 62 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	63	46	#line 63 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	63	46	#line 63 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	64	46		sub __odom_7qG2_i_inc_7qG2_000, __odom_7qG2_i_7qG2_000, __odom_7qG2_i_anterior_7qG2_000
+3	63	50	#line 63 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	63	50	#line 63 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	64	50	#line 64 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	50		mov __odom_7qG2_d_anterior_7qG2_000, __odom_7qG2_d_7qG2_000
+3	64	52	#line 64 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	64	52	#line 64 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	52	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	52		mov __odom_7qG2_i_anterior_7qG2_000, __odom_7qG2_i_7qG2_000
+3	65	54	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	54	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	54	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	54		mov __float_stack_001odom, __constValf0P0043633259
+3	65	56	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	56	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	56	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	56	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	65	56	#line 65 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	56		sub __DF0odom, __odom_7qG2_d_inc_7qG2_000, __odom_7qG2_i_inc_7qG2_000
+3	66	60	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	60		mul __DF0odom, __float_stack_001odom, __DF0odom
+3	66	64	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	64		add __odom_7qG2_theta_7qG2_000, __odom_7qG2_theta_7qG2_000, __DF0odom
+3	66	68	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	68	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	68		mov __float_stack_001odom, __constValf0P0001745329
+3	66	70	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	70	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	70	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	70	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	66	70	#line 66 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	70		add __DF0odom, __odom_7qG2_d_inc_7qG2_000, __odom_7qG2_i_inc_7qG2_000
+3	67	74	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	74		mul __odom_7qG2_distance_7qG2_000, __float_stack_001odom, __DF0odom
+3	67	78	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	78	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	78	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	78		mov __cos_7qG2_x_7qG2_000_inline_odom, __odom_7qG2_theta_7qG2_000
+3	67	80	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	18739	80	#line 18739 "NXCDefs.h"
+3	18740	80		cos __float_stack_001odom, __cos_7qG2_x_7qG2_000_inline_odom
+3	18739	83	#line 18739 "NXCDefs.h"
+3	67	83	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	67	83	#line 67 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	83	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	83	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	69	83		mul __odom_7qG2_new_x_7qG2_000, __float_stack_001odom, __odom_7qG2_distance_7qG2_000
+3	68	87	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	87	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	87	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	69	87		mov __sin_7qG2_x_7qG2_000_inline_odom, __odom_7qG2_theta_7qG2_000
+3	68	89	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	18750	89	#line 18750 "NXCDefs.h"
+3	18751	89		sin __float_stack_001odom, __sin_7qG2_x_7qG2_000_inline_odom
+3	18750	92	#line 18750 "NXCDefs.h"
+3	68	92	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	68	92	#line 68 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	69	92	#line 69 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	69	92	#line 69 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	70	92		mul __odom_7qG2_new_y_7qG2_000, __float_stack_001odom, __odom_7qG2_distance_7qG2_000
+3	69	96	#line 69 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	69	96	#line 69 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	70	96	#line 70 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	71	96		acquire semaphore
+3	70	97	#line 70 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	71	97	#line 71 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	71	97	#line 71 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	72	97		add x, x, __odom_7qG2_new_x_7qG2_000
+3	71	101	#line 71 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	72	101	#line 72 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	72	101	#line 72 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	73	101		add y, y, __odom_7qG2_new_y_7qG2_000
+3	72	105	#line 72 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	73	105	#line 73 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	74	105		mov angle, __odom_7qG2_theta_7qG2_000
+3	73	107	#line 73 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	73	107	#line 73 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	74	107	#line 74 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	74	107	#line 74 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	75	107		add dist, dist, __odom_7qG2_distance_7qG2_000
+3	74	111	#line 74 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	75	111	#line 75 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	76	111		release semaphore
+3	75	112	#line 75 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	78	112	#line 78 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	79	112		jmp __ASM_Label_648
+3	78	114	#line 78 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+3	79	114		exit -1, -1
+4	80	0	#line 80 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	81	0		set __move_7qG2_nextMovement_7qG2_000, 0
+4	80	3	#line 80 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	81	3	#line 81 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	82	3		arrbuild __move_7qG2_movementsX_7qG2_000, __constVal200, __constVal200, __constVal400, __constVal400, __constVal600, __constVal600, __constVal800, __constVal800
+4	82	14	#line 82 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	83	14		arrbuild __move_7qG2_movementsY_7qG2_000, __constVal0, __constValf157P08, __constValf157P08, __constValf314P159, __constValf314P159, __constValf471P239, __constValf471P239, __constValf628P319
+4	83	25	#line 83 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	84	25		set __D0move, 0
+4	83	28	#line 83 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	84	28		mov __move_7qG2_errorX_7qG2_000, __D0move
+4	84	30	#line 84 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	85	30		set __D0move, 0
+4	84	33	#line 84 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	85	33		mov __move_7qG2_error_anteriorX_7qG2_000, __D0move
+4	85	35	#line 85 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	86	35		set __D0move, 0
+4	85	38	#line 85 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	86	38		mov __move_7qG2_error_accX_7qG2_000, __D0move
+4	86	40	#line 86 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	87	40		set __D0move, 0
+4	86	43	#line 86 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	87	43		mov __move_7qG2_to_doX_7qG2_000, __D0move
+4	87	45	#line 87 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	88	45		set __D0move, 0
+4	87	48	#line 87 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	88	48		mov __move_7qG2_errorY_7qG2_000, __D0move
+4	88	50	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	89	50		set __D0move, 0
+4	88	53	#line 88 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	89	53		mov __move_7qG2_error_anteriorY_7qG2_000, __D0move
+4	89	55	#line 89 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	90	55		set __D0move, 0
+4	89	58	#line 89 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	90	58		mov __move_7qG2_error_accY_7qG2_000, __D0move
+4	90	60	#line 90 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	91	60		set __D0move, 0
+4	90	63	#line 90 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	91	63		mov __move_7qG2_to_doY_7qG2_000, __D0move
+4	91	65	#line 91 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	92	65		set __move_7qG2_timesInOk_7qG2_000, 0
+4	91	68	#line 91 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	92	68	#line 92 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	93	68		set __D0move, 0
+4	92	71	#line 92 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	93	71		mov __move_7qG2_posX_7qG2_000, __D0move
+4	93	73	#line 93 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	94	73		set __D0move, 0
+4	93	76	#line 93 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	94	76		mov __move_7qG2_posY_7qG2_000, __D0move
+4	94	78	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	95	78		set __D0move, 0
+4	94	81	#line 94 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	95	81		mov __move_7qG2_to_doA_7qG2_000, __D0move
+4	95	83	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	96	83		set __D0move, 0
+4	95	86	#line 95 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	96	86		mov __move_7qG2_to_doB_7qG2_000, __D0move
+4	96	88	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	97	88		set __move_7qG2_action_7qG2_000, 1
+4	96	91	#line 96 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	97	91	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	98	91		set __move_7qG2_girar_7qG2_000, 0
+4	97	94	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	97	94	#line 97 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	98	94		mov __DU0move, __move_7qG2_action_7qG2_000
+4	98	96	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	99	96		tst 5, __D0move, __DU0move
+4	98	99	#line 98 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	99	99		brtst 4, __ASM_Label_723, __D0move
+4	99	102	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	100	102		acquire semaphore
+4	99	103	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	99	103	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	100	103		mov __float_stack_001move, dist
+4	99	105	#line 99 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	100	105	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	101	105		mov __DF0move, __constVal100
+4	100	107	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	101	107		mul __move_7qG2_posX_7qG2_000, __float_stack_001move, __DF0move
+4	100	111	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	100	111	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	100	111	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	101	111		mov __float_stack_001move, angle
+4	100	113	#line 100 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	101	113	#line 101 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	102	113		mov __DF0move, __constVal100
+4	101	115	#line 101 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	102	115		mul __move_7qG2_posY_7qG2_000, __float_stack_001move, __DF0move
+4	101	119	#line 101 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	101	119	#line 101 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	102	119	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	119		release semaphore
+4	102	120	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	102	120	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	120		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+4	102	122	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	102	122	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	122		index __float_stack_001move, __move_7qG2_movementsY_7qG2_000, __signed_stack_001move
+4	102	126	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	102	126	#line 102 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	126	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	126	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	104	126		sub __move_7qG2_errorY_7qG2_000, __float_stack_001move, __move_7qG2_posY_7qG2_000
+4	103	130	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	130	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	130	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	104	130		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+4	103	132	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	132	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	104	132		index __float_stack_001move, __move_7qG2_movementsX_7qG2_000, __signed_stack_001move
+4	103	136	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	103	136	#line 103 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	136	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	136	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	136		sub __move_7qG2_errorX_7qG2_000, __float_stack_001move, __move_7qG2_posX_7qG2_000
+4	105	140	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	140	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	140	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	140	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	140	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	140	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	140		add __constr_7qG2_valor_7qG2_000, __move_7qG2_error_accY_7qG2_000, __move_7qG2_errorY_7qG2_000
+4	105	144	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	144	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	144		mov __constr_7qG2_max_7qG2_000, __constVal50
+4	105	146	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	105	146	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	146		mov __constr_7qG2_min_7qG2_000, __constValNeg50
+4	105	148	#line 105 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	148	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	107	148		subcall constr, __constr_return
+4	106	150	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	107	150		mov __move_7qG2_error_accY_7qG2_000, __DF0constr
+4	106	152	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	152	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	152	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	152	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	152	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	152	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	107	152		add __constr_7qG2_valor_7qG2_000, __move_7qG2_error_accX_7qG2_000, __move_7qG2_errorX_7qG2_000
+4	106	156	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	156	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	107	156		mov __constr_7qG2_max_7qG2_000, __constVal50
+4	106	158	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	106	158	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	107	158		mov __constr_7qG2_min_7qG2_000, __constValNeg50
+4	106	160	#line 106 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	108	160	#line 108 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	109	160		subcall constr, __constr_return
+4	108	162	#line 108 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	109	162		mov __move_7qG2_error_accX_7qG2_000, __DF0constr
+4	108	164	#line 108 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	108	164	#line 108 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	108	164	#line 108 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	109	164		mov __DU0move, __move_7qG2_girar_7qG2_000
+4	109	166	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	166		tst 5, __D0move, __DU0move
+4	109	169	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	169		brtst 4, __ASM_Label_756, __D0move
+4	109	172	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	172		mov __DF0move, __move_7qG2_errorY_7qG2_000
+4	109	174	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	174		abs __float_stack_001move, __DF0move
+4	109	177	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	109	177	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	177		mov __DF0move, __constVal5
+4	109	179	#line 109 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	179		cmp 0, __D0move, __float_stack_001move, __DF0move
+4	110	183	#line 110 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	111	183		brtst 4, __ASM_Label_761, __D0move
+4	110	186	#line 110 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	111	186		mov __signed_stack_001move, __move_7qG2_timesInOk_7qG2_000
+4	110	188	#line 110 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	110	188	#line 110 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	111	188		set __D0move, 5
+4	110	191	#line 110 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	111	191		cmp 0, __D0move, __signed_stack_001move, __D0move
+4	111	195	#line 111 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	112	195		brtst 4, __ASM_Label_764, __D0move
+4	112	198	#line 112 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	113	198		add __move_7qG2_timesInOk_7qG2_000, __move_7qG2_timesInOk_7qG2_000, __constVal1
+4	112	202	#line 112 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	113	202	#line 113 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	114	202		jmp __ASM_Label_765
+4	113	204	#line 113 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	114	204		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+4	113	206	#line 113 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	113	206	#line 113 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	114	206		set __D0move, 7
+4	113	209	#line 113 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	114	209		cmp 0, __D0move, __signed_stack_001move, __D0move
+4	114	213	#line 114 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	115	213		brtst 4, __ASM_Label_768, __D0move
+4	115	216	#line 115 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	116	216		add __move_7qG2_nextMovement_7qG2_000, __move_7qG2_nextMovement_7qG2_000, __constVal1
+4	115	220	#line 115 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	116	220	#line 116 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	117	220		set __move_7qG2_girar_7qG2_000, 0
+4	116	223	#line 116 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	116	223	#line 116 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	117	223	#line 117 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	118	223		set __D0move, 0
+4	117	226	#line 117 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	118	226		mov __move_7qG2_error_accX_7qG2_000, __D0move
+4	117	228	#line 117 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	118	228	#line 118 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	119	228		set __D0move, 0
+4	118	231	#line 118 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	119	231		mov __move_7qG2_error_accY_7qG2_000, __D0move
+4	118	233	#line 118 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	119	233	#line 119 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	120	233		jmp __ASM_Label_775
+4	120	235	#line 120 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	121	235		set __move_7qG2_action_7qG2_000, 0
+4	120	238	#line 120 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	120	238	#line 120 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	122	238	#line 122 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	122	238	#line 122 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	123	238	#line 123 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	124	238		jmp __ASM_Label_778
+4	124	240	#line 124 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	240		set __move_7qG2_timesInOk_7qG2_000, 0
+4	124	243	#line 124 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	124	243	#line 124 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	243	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	243	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	243	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	243	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	243	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	243		mul __float_stack_001move, __move_7qG2_errorY_7qG2_000, __constValf0P15
+4	125	247	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	247	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	247	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	247	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	247	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	247		mul __DF0move, __move_7qG2_error_accY_7qG2_000, __constValf0P18
+4	125	251	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	251		add __float_stack_001move, __float_stack_001move, __DF0move
+4	125	255	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	255	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	255	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	255	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	125	255	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	255		sub __float_stack_002move, __move_7qG2_errorY_7qG2_000, __move_7qG2_error_anteriorY_7qG2_000
+4	125	259	#line 125 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	259	#line 126 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	259	#line 126 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	127	259		mul __DF0move, __float_stack_002move, __constValf0P05
+4	126	263	#line 126 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	127	263		add __move_7qG2_to_doY_7qG2_000, __float_stack_001move, __DF0move
+4	126	267	#line 126 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	126	267	#line 126 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	127	267	#line 127 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	128	267		jmp __ASM_Label_785
+4	127	269	#line 127 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	128	269		mov __DF0move, __move_7qG2_errorX_7qG2_000
+4	127	271	#line 127 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	128	271		abs __float_stack_001move, __DF0move
+4	127	274	#line 127 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	127	274	#line 127 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	128	274		mov __DF0move, __constVal5
+4	127	276	#line 127 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	128	276		cmp 0, __D0move, __float_stack_001move, __DF0move
+4	128	280	#line 128 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	129	280		brtst 4, __ASM_Label_790, __D0move
+4	128	283	#line 128 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	129	283		mov __signed_stack_001move, __move_7qG2_timesInOk_7qG2_000
+4	128	285	#line 128 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	128	285	#line 128 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	129	285		set __D0move, 5
+4	128	288	#line 128 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	129	288		cmp 0, __D0move, __signed_stack_001move, __D0move
+4	129	292	#line 129 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	130	292		brtst 4, __ASM_Label_793, __D0move
+4	130	295	#line 130 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	131	295		add __move_7qG2_timesInOk_7qG2_000, __move_7qG2_timesInOk_7qG2_000, __constVal1
+4	130	299	#line 130 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	131	299	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	132	299		jmp __ASM_Label_794
+4	131	301	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	132	301		mov __signed_stack_001move, __move_7qG2_nextMovement_7qG2_000
+4	131	303	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	131	303	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	132	303		set __D0move, 7
+4	131	306	#line 131 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	132	306		cmp 0, __D0move, __signed_stack_001move, __D0move
+4	132	310	#line 132 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	133	310		brtst 4, __ASM_Label_797, __D0move
+4	133	313	#line 133 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	134	313		add __move_7qG2_nextMovement_7qG2_000, __move_7qG2_nextMovement_7qG2_000, __constVal1
+4	133	317	#line 133 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	134	317	#line 134 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	135	317		set __move_7qG2_girar_7qG2_000, 1
+4	134	320	#line 134 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	134	320	#line 134 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	135	320	#line 135 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	136	320		set __D0move, 0
+4	135	323	#line 135 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	136	323		mov __move_7qG2_error_accX_7qG2_000, __D0move
+4	135	325	#line 135 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	136	325	#line 136 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	137	325		set __D0move, 0
+4	136	328	#line 136 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	137	328		mov __move_7qG2_error_accY_7qG2_000, __D0move
+4	136	330	#line 136 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	137	330	#line 137 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	138	330		jmp __ASM_Label_804
+4	138	332	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	139	332		set __move_7qG2_action_7qG2_000, 0
+4	138	335	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	138	335	#line 138 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	139	335	#line 139 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	140	335	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	141	335		set __move_7qG2_timesInOk_7qG2_000, 0
+4	140	338	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	140	338	#line 140 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	141	338	#line 141 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	142	338	#line 142 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	143	338		jmp __ASM_Label_809
+4	143	340	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	340		set __move_7qG2_timesInOk_7qG2_000, 0
+4	143	343	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	143	343	#line 143 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	343	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	343	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	343	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	343	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	343	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	343		mul __float_stack_001move, __move_7qG2_errorY_7qG2_000, __constValf0P5
+4	144	347	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	347	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	347	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	347	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	347	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	347		mul __DF0move, __move_7qG2_error_accY_7qG2_000, __constValf0P2
+4	144	351	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	351		add __float_stack_001move, __float_stack_001move, __DF0move
+4	144	355	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	355	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	355	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	355	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	144	355	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	355		sub __float_stack_002move, __move_7qG2_errorY_7qG2_000, __move_7qG2_error_anteriorY_7qG2_000
+4	144	359	#line 144 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	359	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	359	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	146	359		mul __DF0move, __float_stack_002move, __constValf0P05
+4	145	363	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	146	363		add __move_7qG2_to_doY_7qG2_000, __float_stack_001move, __DF0move
+4	145	367	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	145	367	#line 145 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	367	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	367	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	367		mov __float_stack_001move, __move_7qG2_errorX_7qG2_000
+4	148	369	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	369	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	369		mov __DF0move, __constVal1
+4	148	371	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	371		mul __float_stack_001move, __float_stack_001move, __DF0move
+4	148	375	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	375	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	375	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	375	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	375	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	375		mul __DF0move, __move_7qG2_error_accX_7qG2_000, __constValf0P2
+4	148	379	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	379		add __float_stack_001move, __float_stack_001move, __DF0move
+4	148	383	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	383	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	383	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	383	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	148	383	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	383		sub __float_stack_002move, __move_7qG2_errorX_7qG2_000, __move_7qG2_error_anteriorX_7qG2_000
+4	148	387	#line 148 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	387	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	387	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	387		mul __DF0move, __float_stack_002move, __constValf0P1
+4	149	391	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	391		add __move_7qG2_to_doX_7qG2_000, __float_stack_001move, __DF0move
+4	149	395	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	395	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	395	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	395		mov __constr_7qG2_valor_7qG2_000, __move_7qG2_to_doX_7qG2_000
+4	149	397	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	397	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	397		mov __constr_7qG2_max_7qG2_000, __constVal75
+4	149	399	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	149	399	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	399		mov __constr_7qG2_min_7qG2_000, __constValNeg75
+4	149	401	#line 149 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	401	#line 150 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	401		subcall constr, __constr_return
+4	150	403	#line 150 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	403		mov __move_7qG2_to_doX_7qG2_000, __DF0constr
+4	150	405	#line 150 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	405	#line 150 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	405	#line 150 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	150	405	#line 150 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	405	#line 151 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	405	#line 151 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	152	405		sub __move_7qG2_to_doA_7qG2_000, __DF0constr, __move_7qG2_to_doY_7qG2_000
+4	151	409	#line 151 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	409	#line 151 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	409	#line 151 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	151	409	#line 151 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	152	409	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	152	409	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	409		add __move_7qG2_to_doB_7qG2_000, __move_7qG2_to_doX_7qG2_000, __move_7qG2_to_doY_7qG2_000
+4	152	413	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	152	413	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	152	413	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	413		mov __float_stack_001move, __move_7qG2_to_doA_7qG2_000
+4	152	415	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	152	415	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	415		mov __DF0move, __constVal0
+4	152	417	#line 152 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	417		cmp 1, __D0move, __float_stack_001move, __DF0move
+4	153	421	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	421		brtst 4, __ASM_Label_834, __D0move
+4	153	424	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	424		mov __constr_7qG2_valor_7qG2_000, __move_7qG2_to_doA_7qG2_000
+4	153	426	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	426	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	426		mov __constr_7qG2_max_7qG2_000, __constVal100
+4	153	428	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	428	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	428		mov __constr_7qG2_min_7qG2_000, __constValNeg100
+4	153	430	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	153	430	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	430		subcall constr, __constr_return
+4	153	432	#line 153 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	432		mov __DF0move, __DF0constr
+4	154	434	#line 154 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	434	#pragma macro 7
+4	155	434		setout __constVal0, 2, __DF0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7648	457	#line 7648 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	154	457	#line 154 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	457	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	457		jmp __ASM_Label_843
+4	155	459	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	459		set __signed_stack_001move, 0
+4	155	462	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	462	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	462	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	462		sub __constr_7qG2_valor_7qG2_000, __signed_stack_001move, __move_7qG2_to_doA_7qG2_000
+4	155	466	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	466	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	466		mov __constr_7qG2_max_7qG2_000, __constVal100
+4	155	468	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	468	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	468		mov __constr_7qG2_min_7qG2_000, __constValNeg100
+4	155	470	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	155	470	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	470		subcall constr, __constr_return
+4	155	472	#line 155 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	472		mov __DF0move, __DF0constr
+4	156	474	#line 156 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	157	474	#pragma macro 10
+4	157	474		acquire __OnRevMutex
+4	157	475		neg __OnRev_Tmp, __DF0move
+4	157	478		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	157	501		release __OnRevMutex
+4	7682	502	#line 7682 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	156	502	#line 156 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	157	502	#line 157 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	157	502	#line 157 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	158	502		mov __float_stack_001move, __move_7qG2_to_doB_7qG2_000
+4	157	504	#line 157 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	157	504	#line 157 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	158	504		mov __DF0move, __constVal0
+4	157	506	#line 157 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	158	506		cmp 1, __D0move, __float_stack_001move, __DF0move
+4	158	510	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	510		brtst 4, __ASM_Label_854, __D0move
+4	158	513	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	513		mov __constr_7qG2_valor_7qG2_000, __move_7qG2_to_doB_7qG2_000
+4	158	515	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	158	515	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	515		mov __constr_7qG2_max_7qG2_000, __constVal100
+4	158	517	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	158	517	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	517		mov __constr_7qG2_min_7qG2_000, __constValNeg100
+4	158	519	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	158	519	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	519		subcall constr, __constr_return
+4	158	521	#line 158 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	521		mov __DF0move, __DF0constr
+4	159	523	#line 159 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	523	#pragma macro 7
+4	160	523		setout __constVal1, 2, __DF0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7721	546	#line 7721 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	159	546	#line 159 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	546	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	546		jmp __ASM_Label_863
+4	160	548	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	548		set __signed_stack_001move, 0
+4	160	551	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	551	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	551	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	551		sub __constr_7qG2_valor_7qG2_000, __signed_stack_001move, __move_7qG2_to_doB_7qG2_000
+4	160	555	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	555	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	555		mov __constr_7qG2_max_7qG2_000, __constVal100
+4	160	557	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	557	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	557		mov __constr_7qG2_min_7qG2_000, __constValNeg100
+4	160	559	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	160	559	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	559		subcall constr, __constr_return
+4	160	561	#line 160 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	561		mov __DF0move, __DF0constr
+4	161	563	#line 161 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	162	563	#pragma macro 10
+4	162	563		acquire __OnRevMutex
+4	162	564		neg __OnRev_Tmp, __DF0move
+4	162	567		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	162	590		release __OnRevMutex
+4	7755	591	#line 7755 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	161	591	#line 161 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	162	591	#line 162 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	163	591	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	164	591		mov __move_7qG2_error_anteriorY_7qG2_000, __move_7qG2_errorY_7qG2_000
+4	163	593	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	163	593	#line 163 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	164	593	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	165	593		mov __move_7qG2_error_anteriorX_7qG2_000, __move_7qG2_errorX_7qG2_000
+4	164	595	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	164	595	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	164	595	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	165	595		set __Wait_7qG2_ms_7qG2_000_inline_move, 100
+4	164	598	#line 164 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	8551	598	#line 8551 "NXCDefs.h"
+4	8552	598		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+4	8551	600	#line 8551 "NXCDefs.h"
+4	165	600	#line 165 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	168	600	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	169	600		jmp __ASM_Label_722
+4	168	602	#line 168 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+4	169	602		exit -1, -1
+5	170	0	#line 170 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	171	0		set __D0draw, 0
+5	170	3	#line 170 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	171	3		mov __draw_7qG2_new_x_7qG2_000, __D0draw
+5	171	5	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	172	5		set __D0draw, 0
+5	171	8	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	172	8		mov __draw_7qG2_new_y_7qG2_000, __D0draw
+5	171	10	#line 171 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	172	10		set __D0draw, 1
+5	172	13	#line 172 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	173	13		tst 5, __D0draw, __D0draw
+5	172	16	#line 172 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	173	16		brtst 4, __ASM_Label_883, __D0draw
+5	173	19	#line 173 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	174	19		acquire semaphore
+5	173	20	#line 173 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	174	20	#line 174 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	175	20		mov __draw_7qG2_new_x_7qG2_000, x
+5	174	22	#line 174 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	174	22	#line 174 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	175	22	#line 175 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	22		mov __draw_7qG2_new_y_7qG2_000, y
+5	175	24	#line 175 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	175	24	#line 175 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	24	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	24		release semaphore
+5	176	25	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	25	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	25		mov __float_stack_001draw, __draw_7qG2_new_x_7qG2_000
+5	176	27	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	27	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	27		mov __DF0draw, __constVal25
+5	176	29	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	29		mul __float_stack_001draw, __float_stack_001draw, __DF0draw
+5	176	33	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	33	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	33		mov __DF0draw, __constVal20
+5	176	35	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	35		add __constraint_7qG2_valor_7qG2_000, __float_stack_001draw, __DF0draw
+5	176	39	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	39	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	39		mov __constraint_7qG2_max_7qG2_000, __constVal99
+5	176	41	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	41	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	41		mov __constraint_7qG2_min_7qG2_000, __constVal0
+5	176	43	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	43	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	43		subcall constraint, __constraint_return
+5	176	45	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	45		mov __signed_stack_001draw, __D0constraint
+5	176	47	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	47	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	47		mov __float_stack_002draw, __draw_7qG2_new_y_7qG2_000
+5	176	49	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	49	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	49		mov __DF0draw, __constVal25
+5	176	51	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	51		mul __float_stack_002draw, __float_stack_002draw, __DF0draw
+5	176	55	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	55	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	55		mov __DF0draw, __constVal5
+5	176	57	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	57		add __constraint_7qG2_valor_7qG2_000, __float_stack_002draw, __DF0draw
+5	176	61	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	61	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	61		mov __constraint_7qG2_max_7qG2_000, __constVal63
+5	176	63	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	63	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	63		mov __constraint_7qG2_min_7qG2_000, __constVal0
+5	176	65	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	176	65	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	65		subcall constraint, __constraint_return
+5	176	67	#line 176 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	177	67		mov __D0draw, __D0constraint
+5	177	69	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	69		acquire __PointOutMutex
+5	177	70	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	70		mov __PointOutArgs.Location.X, __signed_stack_001draw
+5	177	72	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	72		mov __PointOutArgs.Location.Y, __D0draw
+5	177	74	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	74		set __PointOutArgs.Options, 0
+5	177	77	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	77		syscall 14, __PointOutArgs
+5	177	80	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	80		mov __D0draw, __PointOutArgs.Result
+5	177	82	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	178	82		release __PointOutMutex
+5	177	83	#line 177 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	180	83	#line 180 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	181	83		jmp __ASM_Label_882
+5	180	85	#line 180 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+5	181	85		exit -1, -1
+6	185	0	#line 185 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc"
+6	186	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc
+1	constraint	5	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc
+2	constr	41	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc
+3	odom	77	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc
+4	move	194	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc
+5	draw	799	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc
+6	__initialize_global_data	887	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\odom.nxc

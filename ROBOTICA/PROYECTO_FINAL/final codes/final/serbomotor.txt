@@ -1,3 +1,0 @@
-Hacer una tarea que controle todos los motores y una funcion para cada motor con sus propias variables.
-Utilizar pid a la hora de controlar los motores. Poner variables a ojo e ir ajustando.
-Hacer funcion para poner todos los motores en una posicion inicial adecuada.

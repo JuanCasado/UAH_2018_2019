@@ -1,0 +1,62 @@
+#define TARGET 46
+#define MARGIN 0
+#define FUERA 1
+#if FUERA
+#define P 0.7
+#define I 0.25 //0.25
+#define D 2.7 //2.6
+#define VEL_BASE 78
+#else
+#define P 0.6
+#define I 0.33
+#define D 1.15
+#define VEL_BASE 40
+#endif
+#define MAX_BOOST 20
+#define TIME 50
+#define MAX_ACC 50
+
+int constraint (int valor, int max, int min){
+     if (valor > max)
+        return max;
+     if (valor < min)
+        return min;
+     return valor;
+}
+
+task main (){
+     SetSensorLight(IN_3);
+     int acc = 0;
+     int error = 0;
+     int error_anterior = 0;
+     int error_acc = 0;
+     int to_do = 0;
+     int boost = 0;
+     while (TRUE){
+           acc = Sensor(IN_3);
+           error = (acc - TARGET);
+           error_acc += error;
+           error_acc = constraint(error_acc,MAX_ACC,-MAX_ACC );
+           if (abs(error)>MARGIN){
+                 if (boost > 0){
+                    boost -=4;
+                 }else{
+                    boost = 0;
+                 }
+           }else{
+                 if (boost < MAX_BOOST){
+                    boost +=2;
+                 }
+                 else{
+                      boost = MAX_BOOST;
+                 }
+           }
+           to_do = error*P+error_acc*I+(error-error_anterior)*D +boost;
+           OnFwd(OUT_A, constraint(VEL_BASE + to_do,100,-100));
+           OnFwd(OUT_B, constraint(VEL_BASE - to_do,100,-100));
+           error_anterior = error;
+           ClearScreen();
+           NumOut(0,LCD_LINE3,boost);
+           Wait (TIME);
+     }
+}
