@@ -1,0 +1,46 @@
+#define MARGIN 4
+#define VEL_BASE 50
+#define P 0
+#define D 2
+#define I 1
+#define TIME 50
+#define MAX_ACC 10
+
+int constraint (int valor, int max, int min){
+     if (valor > max)
+        return max;
+     if (valor < min)
+        return min;
+     return valor;
+}
+
+task main() {
+     SetSensorLowspeed(IN_1);
+     int acc = 0;
+     int error = 0;
+     int target =0;
+     int error_acc = 0;
+     int error_anterior = 0;
+     int to_do = 0;
+     Wait(500);
+     repeat (4){
+            acc += SensorUS(IN_1);
+            Wait(TIME);
+     }
+     acc = acc >>2;
+     target = acc;
+     while (TRUE) {
+           acc = SensorUS(IN_1);
+           error = (acc - target);
+           error_acc += error;
+           error_acc = constraint (error_acc, MAX_ACC, -MAX_ACC);
+           to_do = error * P + error_acc * I + (error-error_anterior) * D;
+           OnFwd(OUT_A, constraint (VEL_BASE + to_do,100,-100));
+           OnFwd(OUT_B, constraint (VEL_BASE - to_do,100,-100));
+           error_anterior = error;
+           Wait(TIME);
+     }
+}
+
+     
+     

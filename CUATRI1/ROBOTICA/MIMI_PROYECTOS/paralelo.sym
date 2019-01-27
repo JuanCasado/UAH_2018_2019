@@ -1,0 +1,425 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	34
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	2
+2	__D0constraint	6	1	8	4	14
+3	__CLSRMutex0	9	0	12	4	2
+4	__RLSBmutex0	9	0	16	4	4
+5	__signed_stack_002main	6	1	20	4	6
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	6
+7	__signed_stack_001main	6	1	28	4	18
+8	__DU0SetSensorLowspeed_inline_main	5	1	32	4	5
+9	__signed_stack_001constraint	6	1	36	4	4
+10	__CLSWMutex0	9	0	40	4	2
+11	__CLSCSMutex0	9	0	44	4	2
+12	__main_7qG2_acc_7qG2_000	4	1	48	2	8
+13	__constraint_7qG2_min_7qG2_000	4	1	50	2	5
+14	__constraint_7qG2_valor_7qG2_000	4	1	52	2	6
+15	__constraint_7qG2_max_7qG2_000	4	1	54	2	5
+16	__main_7qG2_error_anterior_7qG2_000	4	1	56	2	3
+17	__main_7qG2_to_do_7qG2_000	4	1	58	2	4
+18	__main_7qG2_error_acc_7qG2_000	4	1	60	2	6
+19	__main_7qG2_error_7qG2_000	4	1	62	2	6
+20	__main_7qG2_target_7qG2_000	4	1	64	2	3
+21	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	66	1	2
+22	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	67	1	2
+23	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	68	1	2
+24	____initialize_global_data_return	1	1	69	1	3
+25	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	70	1	4
+26	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	71	1	2
+27	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	72	1	2
+28	__constValNeg20	2	0	73	1	1
+29	__constVal96	2	0	74	1	2
+30	__constVal63	2	0	75	1	2
+31	____ReadLSBytes0_return	1	1	76	1	4
+32	__LSWriteOptions0	1	1	77	1	1
+33	__constVal32	2	0	78	1	6
+34	__ResetSensorPort	1	1	79	1	3
+35	__constVal3	2	0	80	1	2
+36	__ResetSensorTmp	1	1	81	1	2
+37	__constValNeg100	2	0	82	1	2
+38	____ResetSensorSubroutine_return	1	1	83	1	3
+39	__constVal0	2	1	84	1	9
+40	__RLSBytesCount0	1	1	85	1	8
+41	__RLSBResult0	2	1	86	1	7
+42	__RLSBIterations0	1	1	87	1	4
+43	__constVal1	2	0	88	1	5
+44	__constraint_return	1	1	89	1	8
+45	__CLSCSArgs0	8	0	3	4	4
+46	__CLSCSArgs0.Result	2	1	92	1	4
+47	__CLSCSArgs0.Port	1	1	93	1	4
+48	__CLSCSArgs0.BytesReady	1	1	94	1	4
+49	__CLSRArgs0	8	0	4	12	5
+50	__CLSRArgs0.Result	2	1	96	1	5
+51	__CLSRArgs0.Port	1	1	97	1	5
+52	__CLSRArgs0.Buffer	7	0	98	4	5
+53	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+54	__CLSRArgs0.BufferLen	1	1	100	1	5
+55	__CLSWArgs0	8	0	4	12	5
+56	__CLSWArgs0.Result	2	1	104	1	5
+57	__CLSWArgs0.Port	1	1	105	1	5
+58	__CLSWArgs0.Buffer	7	0	106	4	5
+59	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+60	__CLSWArgs0.ReturnLen	1	1	108	1	5
+61	__RLSReadBuf0	7	0	110	4	10
+62	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+63	__RLSLastGoodRead0	7	0	112	4	2
+64	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+65	__RLSBbufLSWrite1	7	0	114	4	2
+66	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	17	0	#line 17 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	18	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	17	2	#line 17 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	17	2	#line 17 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	18	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	17	5	#line 17 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	18	5	#line 18 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	19	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4278	40	#line 4278 "NXCDefs.h"
+0	4279	40	#pragma macro 4
+0	4279	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6113	44	#line 6113 "NXCDefs.h"
+0	4278	44	#line 4278 "NXCDefs.h"
+0	4345	44	#line 4345 "NXCDefs.h"
+0	18	44	#line 18 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	19	44	#line 19 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	20	44		set __main_7qG2_acc_7qG2_000, 0
+0	19	47	#line 19 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	20	47	#line 20 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	21	47		set __main_7qG2_error_7qG2_000, 0
+0	20	50	#line 20 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	21	50	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	22	50		set __main_7qG2_target_7qG2_000, 0
+0	21	53	#line 21 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	22	53	#line 22 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	23	53		set __main_7qG2_error_acc_7qG2_000, 0
+0	22	56	#line 22 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	23	56	#line 23 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	24	56		set __main_7qG2_error_anterior_7qG2_000, 0
+0	23	59	#line 23 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	24	59	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	25	59		set __main_7qG2_to_do_7qG2_000, 0
+0	24	62	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	24	62	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	25	62		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	24	65	#line 24 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	8551	65	#line 8551 "NXCDefs.h"
+0	8552	65		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	67	#line 8551 "NXCDefs.h"
+0	25	67	#line 25 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	25	67	#line 25 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	26	67		set __signed_stack_001main, 4
+0	26	70	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	26	70	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	27	70		sub __signed_stack_001main, __signed_stack_001main, __constVal1
+0	26	74	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	27	74	#pragma macro 26
+0	27	74		acquire __RLSBmutex0
+0	27	75		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	27	77		set __RLSBytesCount0, 1
+0	27	80		wait 15
+0	27	82		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	27	84		index __D0main, __RLSReadBuf0, 65535
+0	27	88		release __RLSBmutex0
+0	6186	89	#line 6186 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	26	89	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	27	89		add __main_7qG2_acc_7qG2_000, __main_7qG2_acc_7qG2_000, __D0main
+0	26	93	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	26	93	#line 26 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	27	93	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	28	93		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	27	96	#line 27 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	8551	96	#line 8551 "NXCDefs.h"
+0	8552	96		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	98	#line 8551 "NXCDefs.h"
+0	28	98	#line 28 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	29	98	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	30	98		brtst 1, __ASM_Label_632, __signed_stack_001main
+0	29	101	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	29	101	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	30	101		mov __signed_stack_001main, __main_7qG2_acc_7qG2_000
+0	29	103	#line 29 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	30	103	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	31	103		set __D0main, 2
+0	30	106	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	31	106		asr __main_7qG2_acc_7qG2_000, __signed_stack_001main, __D0main
+0	30	110	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	30	110	#line 30 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	31	110	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	32	110		mov __main_7qG2_target_7qG2_000, __main_7qG2_acc_7qG2_000
+0	31	112	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	31	112	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	31	112	#line 31 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	32	112		set __D0main, 1
+0	32	115	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	33	115		tst 5, __D0main, __D0main
+0	32	118	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	33	118		brtst 4, __ASM_Label_645, __D0main
+0	32	121	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	33	121	#pragma macro 26
+0	33	121		acquire __RLSBmutex0
+0	33	122		mov __RLSReadBuf0, __RLSBbufLSWrite1
+0	33	124		set __RLSBytesCount0, 1
+0	33	127		wait 15
+0	33	129		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+0	33	131		index __D0main, __RLSReadBuf0, 65535
+0	33	135		release __RLSBmutex0
+0	6236	136	#line 6236 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	32	136	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	33	136		mov __main_7qG2_acc_7qG2_000, __D0main
+0	32	138	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	32	138	#line 32 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	33	138	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	34	138		mov __signed_stack_001main, __main_7qG2_acc_7qG2_000
+0	33	140	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	33	140	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	34	140		mov __D0main, __main_7qG2_target_7qG2_000
+0	33	142	#line 33 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	34	142		sub __main_7qG2_error_7qG2_000, __signed_stack_001main, __D0main
+0	34	146	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	34	146	#line 34 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	35	146	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	146		mov __D0main, __main_7qG2_error_7qG2_000
+0	35	148	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	148		add __main_7qG2_error_acc_7qG2_000, __main_7qG2_error_acc_7qG2_000, __D0main
+0	35	152	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	35	152	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	152		mov __constraint_7qG2_valor_7qG2_000, __main_7qG2_error_acc_7qG2_000
+0	35	154	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	35	154	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	154		set __constraint_7qG2_max_7qG2_000, 20
+0	35	157	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	35	157	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	157		mov __constraint_7qG2_min_7qG2_000, __constValNeg20
+0	35	159	#line 35 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	159	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	159		subcall constraint, __constraint_return
+0	36	161	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	161		mov __main_7qG2_error_acc_7qG2_000, __D0constraint
+0	36	163	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	163	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	163	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	163		mov __signed_stack_001main, __main_7qG2_error_7qG2_000
+0	36	165	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	165	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	165		set __D0main, 0
+0	36	168	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	168		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	36	172	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	172	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	172		mov __signed_stack_002main, __main_7qG2_error_acc_7qG2_000
+0	36	174	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	174	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	174		set __D0main, 1
+0	36	177	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	177		mul __D0main, __signed_stack_002main, __D0main
+0	36	181	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	181		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	36	185	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	185	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	185		mov __signed_stack_002main, __main_7qG2_error_7qG2_000
+0	36	187	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	36	187	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	187		mov __D0main, __main_7qG2_error_anterior_7qG2_000
+0	36	189	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	189		sub __signed_stack_002main, __signed_stack_002main, __D0main
+0	36	193	#line 36 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	193	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	193		set __D0main, 0
+0	37	196	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	196		mul __D0main, __signed_stack_002main, __D0main
+0	37	200	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	200		add __main_7qG2_to_do_7qG2_000, __signed_stack_001main, __D0main
+0	37	204	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	204	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	204	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	204		set __signed_stack_001main, 50
+0	37	207	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	207	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	207		mov __D0main, __main_7qG2_to_do_7qG2_000
+0	37	209	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	209		add __constraint_7qG2_valor_7qG2_000, __signed_stack_001main, __D0main
+0	37	213	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	213	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	213		set __constraint_7qG2_max_7qG2_000, 100
+0	37	216	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	216	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	216		mov __constraint_7qG2_min_7qG2_000, __constValNeg100
+0	37	218	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	37	218	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	218		subcall constraint, __constraint_return
+0	37	220	#line 37 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	220		mov __D0main, __D0constraint
+0	38	222	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	222	#pragma macro 7
+0	39	222		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6376	245	#line 6376 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	245	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	245	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	245		set __signed_stack_001main, 50
+0	38	248	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	248	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	248		mov __D0main, __main_7qG2_to_do_7qG2_000
+0	38	250	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	250		sub __constraint_7qG2_valor_7qG2_000, __signed_stack_001main, __D0main
+0	38	254	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	254	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	254		set __constraint_7qG2_max_7qG2_000, 100
+0	38	257	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	257	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	257		mov __constraint_7qG2_min_7qG2_000, __constValNeg100
+0	38	259	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	38	259	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	259		subcall constraint, __constraint_return
+0	38	261	#line 38 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	261		mov __D0main, __D0constraint
+0	39	263	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	40	263	#pragma macro 7
+0	40	263		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6407	286	#line 6407 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	39	286	#line 39 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	40	286	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	41	286		mov __main_7qG2_error_anterior_7qG2_000, __main_7qG2_error_7qG2_000
+0	40	288	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	40	288	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	40	288	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	41	288		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	40	291	#line 40 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	8551	291	#line 8551 "NXCDefs.h"
+0	8552	291		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	293	#line 8551 "NXCDefs.h"
+0	41	293	#line 41 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	47	293	#line 47 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	48	293		jmp __ASM_Label_644
+0	47	295	#line 47 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+0	48	295		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6281	0	#pragma macro 25
+2	6281	0		acquire __CLSWMutex0
+2	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+2	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	6281	9		syscall 21, __CLSWArgs0
+2	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+2	6281	14		release __CLSWMutex0
+2	6282	15	#line 6282 "NXTDefs.h"
+2	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+2	6284	18		set __RLSBIterations0, 60
+2	6286	21	#pragma macro 23
+2	6286	21		acquire __CLSCSMutex0
+2	6286	22		set __CLSCSArgs0.Port, 0
+2	6286	25		syscall 23, __CLSCSArgs0
+2	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+2	6286	32		release __CLSCSMutex0
+2	6286	33	#line 6286 "NXTDefs.h"
+2	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+2	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+2	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	6292	46		wait 1
+2	6293	48		jmp __RLSBDoCheckStatus0
+2	6295	50		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	6296	53		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	6298	57	#pragma macro 25
+2	6298	57		acquire __CLSRMutex0
+2	6298	58		set __CLSRArgs0.Port, 0
+2	6298	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	6298	63		syscall 22, __CLSRArgs0
+2	6298	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	6298	68		mov __RLSBResult0, __CLSRArgs0.Result
+2	6298	70		release __CLSRMutex0
+2	6298	71	#line 6298 "NXTDefs.h"
+2	6299	71		brtst 5, __RLSBError0, __RLSBResult0
+2	6300	74		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	6301	76		jmp __RLSBDone0
+2	6303	78		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	6305	80		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	6307	83		subret ____ReadLSBytes0_return
+3	9	0	#line 9 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	10	0		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+3	9	2	#line 9 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	10	2	#line 10 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	11	2		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+3	10	4	#line 10 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	11	4		cmp 1, __D0constraint, __signed_stack_001constraint, __D0constraint
+3	10	8	#line 10 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	11	8		brtst 4, __ASM_Label_606, __D0constraint
+3	11	11	#line 11 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	12	11		mov __D0constraint, __constraint_7qG2_max_7qG2_000
+3	11	13	#line 11 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	12	13		subret __constraint_return
+3	11	15	#line 11 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	11	15	#line 11 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	11	15	#line 11 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	12	15		mov __signed_stack_001constraint, __constraint_7qG2_valor_7qG2_000
+3	11	17	#line 11 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	12	17	#line 12 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	13	17		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+3	12	19	#line 12 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	13	19		cmp 0, __D0constraint, __signed_stack_001constraint, __D0constraint
+3	12	23	#line 12 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	13	23		brtst 4, __ASM_Label_611, __D0constraint
+3	13	26	#line 13 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	14	26		mov __D0constraint, __constraint_7qG2_min_7qG2_000
+3	13	28	#line 13 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	14	28		subret __constraint_return
+3	13	30	#line 13 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	13	30	#line 13 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	14	30	#line 14 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	15	30		mov __D0constraint, __constraint_7qG2_valor_7qG2_000
+3	14	32	#line 14 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	15	32		subret __constraint_return
+3	14	34	#line 14 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	16	34	#line 16 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+3	17	34		subret __constraint_return
+4	48	0	#line 48 "\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc"
+4	49	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc
+1	__ResetSensorSubroutine	298	NXTDefs.h
+2	__ReadLSBytes0	311	NXTDefs.h
+3	constraint	396	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc
+4	__initialize_global_data	432	\\Mac\Home\Documents\UAH_2018_2019\ROBOTICA\paralelo.nxc

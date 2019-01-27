@@ -1,0 +1,47 @@
+#define MARGIN 4
+#define VEL_BASE 100
+#define P 1.2
+
+int constraint (int valor, int max, int min){
+     if (valor > max)
+        return max;
+     if (valor < min)
+        return min;
+     return valor;
+}
+
+task main() {
+     SetSensorLowspeed(IN_4);
+     int acc = 0;
+     int error = 0;
+     int target =0;
+     repeat (4){
+                  acc += SensorUS(IN_4);
+                  Wait(50);
+           }
+           
+     acc = acc >>2;
+     target = acc;
+     
+     while (TRUE) {
+           acc = 0;
+           repeat (4){
+                  acc += SensorUS(IN_4);
+                  Wait(50);
+           }
+           acc = acc >>2;
+           error = (acc - target) * P;
+
+           if (abs(error)>MARGIN){
+              OnFwd(OUT_A, constraint (VEL_BASE + error,100,-100));
+              OnFwd(OUT_B, constraint (VEL_BASE - error,100,-100));
+
+           }
+           else{
+              OnFwd(OUT_AB, VEL_BASE);
+           }
+     }
+}
+
+     
+     

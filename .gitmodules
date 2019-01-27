@@ -13,3 +13,6 @@
 [submodule "ROBOTICA/PROYECTO_FINAL"]
 	path = ROBOTICA/PROYECTO_FINAL
 	url = https://github.com/JuanCasado/ROBOTICA-PARA-TODOS.git
+[submodule "CUATRI1/ALGORITMIA/LAB"]
+	path = CUATRI1/ALGORITMIA/LAB
+	url = https://github.com/JuanCasado/Algoritmia.git

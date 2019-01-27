@@ -1,0 +1,20 @@
+// Prueba 2: movilidad de comentarios y terminadores
+include printflib; include testsim; include /****comt***/ libreria;
+include
+//algo
+
+libreria2;
+
+function /*declaracion*/ miFuncion01x /*parametros*/ /*par1, par2*/ 
+(numero param1
+,numero param2
+,numero param3 ,
+cadena valores)
+: void
+begin
+  texto:=222;
+  numeros:="hola //que cosas eh? ";
+  numero /* */ cosas :=" /* comentario */ en este lenguaje"
+  ;
+end
+

@@ -1,0 +1,16 @@
+// Probando funciones
+
+function ter2 (numero x, void y, cadena z):cadena
+                                                              begin
+                    end
+
+
+//debe fallar
+function a:=3(number x):void
+begin
+end
+
+//debe fallar
+function a(algo):cadena
+begin
+end
