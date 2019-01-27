@@ -1,7 +1,4 @@
-﻿// vector_multiplier.cpp: define el punto de entrada de la aplicación.
-//
-
-#include "vector_multiplier.h"
+﻿#include "vector_multiplier.h"
 
 int main(int argc, char **argv) {
 	//Generación aleatoria de datos en dos vectores
@@ -18,25 +15,25 @@ int main(int argc, char **argv) {
 	}
 
 	//Se muestran los datos sobre los que se va a operar
-	std::cout << string_vector<int>(vector_a, len_venctor_a) << std::endl;
-	std::cout << string_vector<int>(vector_b, len_venctor_b) << std::endl;
+	std::cout << "A = " << string_vector<int>(vector_a, len_venctor_a) << std::endl;
+	std::cout << "B = " << string_vector<int>(vector_b, len_venctor_b) << std::endl;
 
 	//Suma de los datos de posición común de los vectores
 	int sum_len = 0;
 	int *sum_result = nullptr;
 	sum_vectors<int>(vector_a, len_venctor_a, vector_b, len_venctor_b, &sum_result, &sum_len);
-	std::cout << string_vector<int>(sum_result, sum_len) << std::endl;
+	std::cout << "A + B= " << string_vector<int>(sum_result, sum_len) << std::endl;
 	//Multiplicación de los datos de posición común de los vectores
 	int *mul_result = nullptr;
 	int mul_len = 0;
 	sum_vectors<int>(vector_a, len_venctor_a, vector_b, len_venctor_b, &mul_result, &mul_len);
-	std::cout << string_vector<int>(mul_result, mul_len) << std::endl;
-	//Suma de los elementos de una vector
-	std::cout << sum_value<int>(vector_a, len_venctor_a) << std::endl;
-	std::cout << sum_value<int>(vector_b, len_venctor_b) << std::endl;
-	//Multiplicación de los elementos de una vector
-	std::cout << multiply_value<int>(vector_a, len_venctor_a) << std::endl;
-	std::cout << multiply_value<int>(vector_b, len_venctor_b) << std::endl;
+	std::cout << "A * B = " << string_vector<int>(mul_result, mul_len) << std::endl;
+	//Suma de los elementos de un vector
+	std::cout << "SUM(A) = " << sum_value<int>(vector_a, len_venctor_a) << std::endl;
+	std::cout << "SUM(B) = " << sum_value<int>(vector_b, len_venctor_b) << std::endl;
+	//Multiplicación de los elementos de un vector
+	std::cout << "MUL(A) = " << multiply_value<int>(vector_a, len_venctor_a) << std::endl;
+	std::cout << "MUL(B) = " << multiply_value<int>(vector_b, len_venctor_b) << std::endl;
 
 	system("pause");
 	return 0;
@@ -48,7 +45,7 @@ template <class T>
 std::string string_vector(const T *vector, int size, const std::string &separator) {
 	std::stringstream ss;
 	ss << "{";
-	for (long i = 0; i < size; ++i) {
+	for (int i = 0; i < size; ++i) {
 		ss << vector[i];
 		ss << separator;
 	}
