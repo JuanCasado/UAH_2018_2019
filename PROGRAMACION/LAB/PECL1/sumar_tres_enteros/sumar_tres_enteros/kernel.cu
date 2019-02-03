@@ -1,42 +1,42 @@
-
-#include "cuda_runtime.h"
-#include "device_launch_parameters.h"
+#include <cuda.h>
+#include <cuda_runtime.h>
 
 #include <stdio.h>
 
+/*
+Adds three templated classes, they must implement the + operator.
+Result is an I/O parameter.
+*/
 template <class T>
-__global__ T suma3 (const T a, const T b, const T c) {
-	return a + b + c;
+__global__ void add3 (T *result, const T *a, const T *b, const T *c) {
+	*result =  *a + *b + *c;
 }
 
-int main()
-{
+int main() {
 	int ha = 1;
 	int hb = 2;
 	int hc = 3;
-	int da;
-	int db;
-	int dc;
+	int *da;
+	int *db;
+	int *dc;
 	int hresult;
-	int dresult;
+	int *dresult;
 
-    // Add vectors in parallel.
-    cudaError_t cudaStatus = addWithCuda(c, a, b, arraySize);
-    if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "addWithCuda failed!");
-        return 1;
-    }
+	cudaMalloc((void**)&da, sizeof(int));
+	cudaMalloc((void**)&db, sizeof(int));
+	cudaMalloc((void**)&dc, sizeof(int));
+	cudaMalloc((void**)&dresult, sizeof(int));
 
-    printf("{1,2,3,4,5} + {10,20,30,40,50} = {%d,%d,%d,%d,%d}\n",
-        c[0], c[1], c[2], c[3], c[4]);
+	cudaMemcpy(da, &ha, sizeof(int), cudaMemcpyHostToDevice);
+	cudaMemcpy(db, &hb, sizeof(int), cudaMemcpyHostToDevice);
+	cudaMemcpy(dc, &hc, sizeof(int), cudaMemcpyHostToDevice);
+	cudaMemcpy(dresult, &hresult, sizeof(int), cudaMemcpyHostToDevice);
 
-    // cudaDeviceReset must be called before exiting in order for profiling and
-    // tracing tools such as Nsight and Visual Profiler to show complete traces.
-    cudaStatus = cudaDeviceReset();
-    if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "cudaDeviceReset failed!");
-        return 1;
-    }
+	add3<int><<<1, 1, 1>>>(dresult ,da, db, dc);
+
+	cudaMemcpy(&hresult, dresult, sizeof(int), cudaMemcpyDeviceToHost);
+
+	printf("%d + %d + %d = %d\n", ha, hb, hc, hresult);
 
     return 0;
 }
