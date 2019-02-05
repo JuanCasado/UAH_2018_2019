@@ -42,6 +42,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>C:\Users\jcb77\Documents\UAH_2018_2019\PROGRAMACION\LAB\CUDA_LIB\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Users\jcb77\Documents\UAH_2018_2019\PROGRAMACION\LAB\CUDA_LIB;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\jcb77\Documents\UAH_2018_2019\PROGRAMACION\LAB\CUDA_LIB\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
