@@ -1,0 +1,12 @@
+[submodule "RAZONAMIENTO/RAZONAMIENTO/LAB"]
+	path = RAZONAMIENTO/RAZONAMIENTO/LAB
+	url = https://github.com/JuanCasado/CONOCIMIENTO_Y_RAZONAMIENTO_AUTOMATIZADO.git
+[submodule "GESTION/LAB"]
+	path = GESTION/LAB
+	url = https://github.com/JuanCasado/GESTION_PROYECTOS.git
+[submodule "SISTEMAS/LAB"]
+	path = SISTEMAS/LAB
+	url = https://github.com/JuanCasado/SISTEMAS_EMPRESARIALES.git
+[submodule "IA/LAB"]
+	path = IA/LAB
+	url = https://github.com/JuanCasado/IA.git
