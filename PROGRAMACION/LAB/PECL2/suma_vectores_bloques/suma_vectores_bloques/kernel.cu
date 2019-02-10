@@ -35,18 +35,19 @@ std::string printOperation(const T *v1, const T *v2, const std::string &operatio
 
 int main() {
 	std::srand(static_cast<int>(time(0)));
+	//Definición de tamaños
+	int split_factor = 4;
+	int klenght = static_cast<int>(std::rand() % 10 + 1) * split_factor;
+	int num_blocks = klenght / split_factor;
+	int num_threads = split_factor;
+	std::cout << "Threads: " << num_threads << "  Blocks: " << num_blocks << std::endl;
+	
 	int *hv1;
 	int *hv2;
 	int *dv1;
 	int *dv2;
 	int *hresult;
 	int *dresult;
-
-	int split_factor = 4;
-	int klenght = static_cast<int>(std::rand() % 10 + 1) * split_factor;
-	int num_blocks = klenght / split_factor;
-	int num_threads = split_factor;
-
 	hv1 = static_cast<int *>(malloc(sizeof(int)*klenght));
 	hv2 = static_cast<int *>(malloc(sizeof(int)*klenght));
 	hresult = static_cast<int *>(malloc(sizeof(int)*klenght));
@@ -61,9 +62,7 @@ int main() {
 	cudaMemcpy(dv2, hv2, sizeof(int)*klenght, cudaMemcpyHostToDevice);
 
 	addVectors<int> <<< num_blocks, num_threads, 1>>> (dresult, dv1, dv2);
-
 	cudaMemcpy(hresult, dresult, sizeof(int)*klenght, cudaMemcpyDeviceToHost);
-
 	std::cout << printOperation(hv1, hv2, "+", hresult, klenght) << std::endl;
 
 	free(hv1);

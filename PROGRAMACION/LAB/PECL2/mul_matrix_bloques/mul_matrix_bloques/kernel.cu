@@ -75,11 +75,15 @@ __host__ void check_CUDA_Error(const char *mensaje) {
 
 int main(){
 	std::srand(static_cast<int>(time(0)));
+	//Definición de tamaños
 	int klenght = 16*16;
 	int kdim = static_cast<int>(sqrt(klenght));
 	int ktile = kdim/2;
 	dim3 dimGrid(kdim / ktile, kdim / ktile);
 	dim3 dimBlock(ktile, ktile);
+	std::cout << "Threads X: " << dimGrid.x << "  Blocks X: " << dimBlock.x << std::endl;
+	std::cout << "Threads Y: " << dimGrid.x << "  Blocks Y: " << dimBlock.x << std::endl;
+
 	int *hm1 = (int *)malloc(sizeof(int)*klenght);
 	int *hm2 = (int *)malloc(sizeof(int)*klenght);
 	int *hresult = (int *)malloc(sizeof(int)*klenght);
