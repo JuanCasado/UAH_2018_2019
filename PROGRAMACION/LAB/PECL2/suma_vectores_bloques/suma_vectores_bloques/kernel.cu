@@ -24,13 +24,11 @@ void fillVector(T *v, int size) {
 }
 
 template <class T>
-std::string printVector(const T *v, const int &size, const std::string &separator = ", ") {
+std::string printOperation(const T *v1, const T *v2, const std::string &operation, const T *result, const int &size) {
 	std::stringstream ss;
-	ss << "{";
 	for (int i = 0; i < size; ++i) {
-		ss << v[i] << separator;
+		ss << v1[i] << " " << operation << " " << v2[i] << " = "<< result[i] << "\n";
 	}
-	ss << "}";
 	return ss.str();
 }
 
@@ -44,8 +42,10 @@ int main() {
 	int *hresult;
 	int *dresult;
 
-	//int klenght = static_cast<int>(std::rand() % 10 + 1);
-	int klenght = 8;
+	int split_factor = 4;
+	int klenght = static_cast<int>(std::rand() % 10 + 1) * split_factor;
+	int num_blocks = klenght / split_factor;
+	int num_threads = split_factor;
 
 	hv1 = static_cast<int *>(malloc(sizeof(int)*klenght));
 	hv2 = static_cast<int *>(malloc(sizeof(int)*klenght));
@@ -60,19 +60,11 @@ int main() {
 	cudaMemcpy(dv1, hv1, sizeof(int)*klenght, cudaMemcpyHostToDevice);
 	cudaMemcpy(dv2, hv2, sizeof(int)*klenght, cudaMemcpyHostToDevice);
 
-	int split_factor = 4;
-	int num_blocks = klenght / split_factor;
-	int num_threads = split_factor;
 	addVectors<int> <<< num_blocks, num_threads, 1>>> (dresult, dv1, dv2);
 
 	cudaMemcpy(hresult, dresult, sizeof(int)*klenght, cudaMemcpyDeviceToHost);
 
-	std::cout << printVector<int>(hv1, klenght);
-	std::cout << " + ";
-	std::cout << printVector<int>(hv2, klenght);
-	std::cout << " = ";
-	std::cout << printVector<int>(hresult, klenght);
-	std::cout << std::endl;
+	std::cout << printOperation(hv1, hv2, "+", hresult, klenght) << std::endl;
 
 	free(hv1);
 	free(hv2);
