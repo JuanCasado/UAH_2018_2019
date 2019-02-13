@@ -36,10 +36,9 @@ std::string printOperation(const T *v1, const T *v2, const std::string &operatio
 int main() {
 	std::srand(static_cast<int>(time(0)));
 	//Definición de tamaños
-	int split_factor = 4;
-	int klenght = static_cast<int>(std::rand() % 10 + 1) * split_factor;
-	int num_blocks = klenght / split_factor;
-	int num_threads = split_factor;
+	int klenght = 24;
+	int num_blocks = 3;
+	int num_threads = 8;
 	std::cout << "Threads: " << num_threads << "  Blocks: " << num_blocks << std::endl;
 	
 	int *hv1;
