@@ -1,0 +1,4 @@
+Título del artículo: GPU Robot Motion Planning Using Semi-Infinite Nonlinear Programming.
+Revista: IEEE Transactions on Parallel and Distributed Systems. 
+JIF: 3.971
+Nombre del alumno: Juan Casado Ballesteros.

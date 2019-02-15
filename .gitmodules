@@ -10,3 +10,9 @@
 [submodule "IA/LAB"]
 	path = IA/LAB
 	url = https://github.com/JuanCasado/IA.git
+[submodule "BECA"]
+	path = BECA
+	url = https://github.com/JuanCasado/BECA_MAPA_GENETICO.git
+[submodule "PROGRAMACION/LAB/CUDA_2048"]
+	path = PROGRAMACION/LAB/CUDA_2048
+	url = https://github.com/JuanCasado/CUDA_2048.git
