@@ -44,6 +44,18 @@ __global__ void trapecios(float a, float b, float h, float* resultado) {
 	}
 }
 
+__host__ void check_CUDA_Error(const char *mensaje) {
+	cudaError_t error;
+	cudaDeviceSynchronize();
+	error = cudaGetLastError();
+	if (error != cudaSuccess) {
+		printf("ERROR %d: %s (%s)\n", error, cudaGetErrorString(error), mensaje); printf("\npulsa INTRO para finalizar...");
+		fflush(stdin);
+		char tecla = getchar();
+		exit(-1);
+	}
+}
+
 int main(int argc, char **argv) {
 	const float a = 1.5f;
 	const float b = 2.78f;
@@ -52,8 +64,11 @@ int main(int argc, char **argv) {
 	float *resultado_gpu;
 	resultado_cpu = (float*)malloc(bloquesPorGrid * sizeof(float));
 	cudaMalloc(&resultado_gpu, bloquesPorGrid * sizeof(float));
+	check_CUDA_Error("RESERVA DE MEMORIA");
 	trapecios << <bloquesPorGrid, numThreads >> > (a, b, h, resultado_gpu);
+	check_CUDA_Error("LLAMADA AL KERNELL");
 	cudaMemcpy(resultado_cpu, resultado_gpu, bloquesPorGrid * sizeof(float), cudaMemcpyDeviceToHost);
+	check_CUDA_Error("COPIADO DE MEMORIA");
 	float suma_parciales = (funcion_cpu(a) + funcion_cpu(b)) / 2.0f;
 	for (int i = 0; i < bloquesPorGrid; i++) {
 		suma_parciales += resultado_cpu[i];
@@ -67,6 +82,7 @@ int main(int argc, char **argv) {
 	suma_parciales *= h;
 	std::cout << "Resultado de integral con CPU: " << suma_parciales << std::endl;
 	cudaFree(resultado_gpu);
+	check_CUDA_Error("LIBERACION DE MEMORIA");
 	free(resultado_cpu);
 	return 0;
 }
