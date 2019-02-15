@@ -14,10 +14,10 @@ const int numThreads = 256;
 const int bloquesPorGrid = MIN(32, (N + numThreads - 1) / numThreads);
 
 __device__ float funcion_gpu(float x) {
-	return sin(1 / x)*pow(x, 3) / (x + 1)*(x + 2);
+	return (cos(1/x)+pow(x,2)*(pow(x,3)+9))/(x+3);
 }
 float funcion_cpu(float x) {
-	return sin(1 / x)*pow(x, 3) / (x + 1)*(x + 2);
+	return (cos(1 / x) + pow(x, 2)*(pow(x , 3) + 9)) / (x + 3);
 }
 __global__ void trapecios(float a, float b, float h, float* resultado) {
 	__shared__ float parcial[numThreads];

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mul_matrix_shared", "mul_matrix_shared\mul_matrix_shared.vcxproj", "{ABB015D8-D89E-4D8F-8730-72E8A70A0C92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB015D8-D89E-4D8F-8730-72E8A70A0C92}.Debug|x64.ActiveCfg = Debug|x64
+		{ABB015D8-D89E-4D8F-8730-72E8A70A0C92}.Debug|x64.Build.0 = Debug|x64
+		{ABB015D8-D89E-4D8F-8730-72E8A70A0C92}.Release|x64.ActiveCfg = Release|x64
+		{ABB015D8-D89E-4D8F-8730-72E8A70A0C92}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67B57D06-CCCF-4041-9534-0E4D9556CFF8}
+	EndGlobalSection
+EndGlobal
