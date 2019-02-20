@@ -28,20 +28,19 @@ __global__ void mulMatrixShared (T *Pd, T* Md, T* Nd, const int *width) {
 	int by = blockIdx.y;
 	int tx = threadIdx.x;
 	int ty = threadIdx.y;
-	// Identify the row and column of // the Pd element to work on
 	int row = by * TILE + ty;
 	int col = bx * TILE + tx;
-	float Pvalue = 0;
+	float value = 0;
 	for (int m = 0; m < *width / TILE; ++m) {
-		// Collaborative loading of Md and Nd
-		// tiles into shared memory
 		Mds[ty][tx] = Md[row * *width + (m * TILE + tx)];
 		Nds[ty][tx] = Nd[(m * TILE + ty) * *width + col];
 		__syncthreads();
-		for (int k = 0; k < TILE; ++k) Pvalue += Mds[ty][k] * Nds[k][tx];
+		for (int k = 0; k < TILE; ++k) {
+			value += Mds[ty][k] * Nds[k][tx];
+		}
 		__syncthreads();
 	}
-	Pd[row * *width + col] = Pvalue;
+	Pd[row * *width + col] = value;
 }
 
 
